@@ -64,7 +64,7 @@
         "FORMS-EMPTY": "プロセス定義にフォームがありません。",
         "TITLE": {
             "PROCESS-INSTANCES": "プロセスインスタンス",
-            "JOBS": "Jobs",
+            "JOBS": "ジョブ",
             "DECISION-TABLES": "意思決定表",
             "FORMS": "フォーム"
         },
@@ -219,7 +219,7 @@
             "PROCESS-DEFINITION": "プロセス定義",
             "ALL-PROCESS-DEFINITIONS": "すべてのプロセス定義",
             "BUSINESS-KEY": "ビジネスキー",
-            "SUPER-PROCESS-INSTANCE-ID": "Super プロセスインスタンス ID",
+            "SUPER-PROCESS-INSTANCE-ID": "スーパープロセスインスタンス ID",
             "STARTED-BEFORE": "開始前",
             "STARTED-AFTER": "開始後",
             "ENDED-BEFORE": "終了前",
@@ -232,7 +232,7 @@
         },
         "SORT": {
             "ID": "ID",
-            "START-TIME": "Time started"
+            "START-TIME": "開始時刻"
         },
         "HEADER": {
             "ID": "ID",
@@ -254,7 +254,7 @@
         "TASK-DEFINITION-KEY": "定義のキー:",
         "FORM-KEY": "フォームキー:",
         "PRIORITY": "優先度:",
-        "DELEGATION-STATE": "Delegation state:",
+        "DELEGATION-STATE": "デリゲーション状態:",
         "CATEGORY": "カテゴリ:",
         "TENANT-ID": "テナント:",
         "PARENT": "親タスク:",
@@ -262,20 +262,20 @@
         "OWNER": "所有者:",
         "START-DATE": "開始日:",
         "DUE-DATE": "期日:",
-        "END-DATE": "End date:",
+        "END-DATE": "終了日:",
         "DELETE-REASON": "削除理由:",
         "PROCESS-INSTANCE": "プロセスインスタンス",
         "PROCESS-DEFINITION": "プロセス定義",
-        "EXECUTION-ID": "Execution ID:",
-        "SUBTASKS-MESSAGE": "This task has {{total}} subtasks, showing {{size}}.",
-        "SUBTASKS-MESSAGE-EMPTY": "This task has no subtasks.",
-        "VARIABLES-MESSAGE": "This task has {{size}} variables.",
-        "VARIABLES-MESSAGE-EMPTY": "This task has no variables.",
-        "IDENTITY-LINKS-MESSAGE": "This task has {{size}} identity links.",
-        "IDENTITY-LINKS-MESSAGE-EMPTY": "This task has no identity links.",
+        "EXECUTION-ID": "実行 ID:",
+        "SUBTASKS-MESSAGE": "このタスクには{{total}}サブタスクがあり、{{size}}を示しています。",
+        "SUBTASKS-MESSAGE-EMPTY": "このタスクにはサブタスクはありません。",
+        "VARIABLES-MESSAGE": "このタスクには{{size}}変数があります。",
+        "VARIABLES-MESSAGE-EMPTY": "このタスクには変数がありません。",
+        "IDENTITY-LINKS-MESSAGE": "このタスクには{{size}}のアイデンティティリンクがあります。",
+        "IDENTITY-LINKS-MESSAGE-EMPTY": "このタスクにはアイデンティティリンクがありません。",
         "ACTION": {
             "EDIT": "タスクの編集",
-            "ASSIGN-CLAIM": "Assign/Claim task",
+            "ASSIGN-CLAIM": "割り当て/申し立てタスク",
             "DELEGATE": "デリゲートタスク",
             "RESOLVE": "タスクの解決",
             "COMPLETE": "タスクの完了",
@@ -285,14 +285,14 @@
         },
         "TITLE": {
             "SUBTASKS": "サブタスク",
-            "IDENTITY-LINKS": "Identity links",
+            "IDENTITY-LINKS": "アイデンティティリンク",
             "VARIABLES": "変数"
         },
         "POPUP": {
             "ASSIGN": {
                 "TITLE": "タスクの割り当て",
                 "MESSAGE": "タスクを割り当ててもよろしいですか",
-                "NEW-ASSIGNEE": "New assignee",
+                "NEW-ASSIGNEE": "新しい割り当て先",
                 "NEW-ASSIGNEE-HELP": "タスクを誰にも割り当てない場合は、割り当て先フィールドを空のままにします。",
                 "CONFIRM": "タスクの割り当て"
             },
@@ -302,10 +302,10 @@
                 "CONFIRM": "タスクの完了"
             },
             "DELEGATE": {
-                "TITLE": "Delegate task",
-                "MESSAGE": "タスクを委任してもよろしいですか",
-                "CONFIRM": "Delegate task",
-                "DELEGATE-TO": "User to delegate to"
+                "TITLE": "デリゲートタスク",
+                "MESSAGE": "タスクをデリゲートしてもよろしいですか",
+                "CONFIRM": "タスクをデリゲート",
+                "DELEGATE-TO": "デリゲート先のユーザー"
             },
             "RESOLVE": {
                 "TITLE": "タスクの解決",
@@ -332,52 +332,52 @@
     },
     "TASKS": {
         "TITLE": "タスク",
-        "LIST-MESSAGE": "Showing {{size}} results, from a total of {{total}} matching tasks.",
-        "LIST-MESSAGE-EMPTY": "No matching tasks.",
+        "LIST-MESSAGE": "合計{{total}}件の一致するタスクのうち、{{size}}件の結果を表示しています。",
+        "LIST-MESSAGE-EMPTY": "一致するタスクはありません。",
         "FILTER": {
-            "NAME": "Name (大文字小文字を区別)",
-            "ASSIGNEE": "担当者 (大文字小文字を区別)",
+            "NAME": "名前(大文字小文字を区別)",
+            "ASSIGNEE": "担当者(大文字小文字を区別)",
             "STATUS": "ステータス",
-            "STATUS-ANY": "Any status",
-            "STATUS-ACTIVE": "Active tasks",
-            "STATUS-COMPLETE": "Completed tasks",
+            "STATUS-ANY": "すべてのステータス",
+            "STATUS-ACTIVE": "アクティブなタスク",
+            "STATUS-COMPLETE": "完了したタスク",
             "PROCESS-INSTANCE-ID": "プロセスインスタンス ID",
-            "TENANT-ID": "テナント 識別子",
+            "TENANT-ID": "テナント識別子",
             "OWNER": "所有者 (大文字小文字を区別)",
-            "PARENT-TASK-ID": "Parent task ID",
-            "CREATED-BEFORE": "Created before",
-            "CREATED-AFTER": "Created after",
-            "ENDED-BEFORE": "Ended before",
-            "ENDED-AFTER": "Ended after",
-            "DUE-BEFORE": "Due before",
-            "DUE-AFTER": "Due after",
-            "TASK-VARIABLE": "Task local variable",
-            "PROCESS-VARIABLE": "Process variable",
-            "VARIABLE-NAME": "Variable name",
-            "VARIABLE-VALUE": "Variable value",
-            "VARIABLE-BOOLEAN-VALUE": "Boolean value: {{value}}"
+            "PARENT-TASK-ID": "親タスク ID",
+            "CREATED-BEFORE": "作成前",
+            "CREATED-AFTER": "作成後",
+            "ENDED-BEFORE": "終了前",
+            "ENDED-AFTER": "終了後",
+            "DUE-BEFORE": "期日前",
+            "DUE-AFTER": "期日後",
+            "TASK-VARIABLE": "タスクのローカル変数",
+            "PROCESS-VARIABLE": "プロセス変数",
+            "VARIABLE-NAME": "変数名",
+            "VARIABLE-VALUE": "変数の値",
+            "VARIABLE-BOOLEAN-VALUE": "真偽値: {{value}}"
         },
         "SORT": {
-            "NAME": "Name",
+            "NAME": "名前",
             "DUE-DATE": "期日",
-            "START-TIME": "Time started",
-            "END-TIME": "Time ended",
+            "START-TIME": "開始時刻",
+            "END-TIME": "終了時刻",
             "PRIORITY": "優先度"
         },
         "HEADER": {
             "ID": "ID",
-            "NAME": "Name",
+            "NAME": "名前",
             "ASSIGNEE": "担当者",
             "OWNER": "所有者",
-            "CREATE-TIME": "Created",
-            "END-TIME": "Ended",
+            "CREATE-TIME": "作成日時",
+            "END-TIME": "終了日時",
             "PRIORITY": "優先度"
         }
     },
     "DEPLOYMENTS": {
         "TITLE": "デプロイ",
-        "LIST-MESSAGE": "Showing {{size}} results, from a total of {{total}} matching deployments.",
-        "LIST-MESSAGE-EMPTY": "No matching deployments.",
+        "LIST-MESSAGE": "合計{{total}}件の一致するデプロイメントから、{{size}}の結果を表示しています。",
+        "LIST-MESSAGE-EMPTY": "一致するデプロイメントがありません。",
         "FILTER": {
             "NAME": "名前 (大文字小文字を区別)",
             "TENANTID": "テナント 識別子 (大文字小文字を区別)"
@@ -389,84 +389,84 @@
         "HEADER": {
             "ID": "ID",
             "NAME": "名前",
-            "DEPLOY-TIME": "Deploy time",
+            "DEPLOY-TIME": "デプロイ日時",
             "CATEGORY": "カテゴリ",
             "TENANT": "テナント"
         },
         "ACTION": {
-            "UPLOAD": "Upload process or package",
-            "DELETE": "Delete deployment"
+            "UPLOAD": "アップロードプロセスまたはパッケージ",
+            "DELETE": "デプロイメントの削除"
         },
         "POPUP": {
             "UPLOAD": {
-                "DESCRIPTION": "Select a .bpmn, .bpmn20.xml process file to deploy or upload a package of processes (with assets) contained in .zip or .bar file.",
-                "WARNING": "Uploading a process is only possible to an Activiti Core Engine, not to an Activiti 6 UI instance. Processes in the Activiti 6 UI should be deployed using an app that is shared with individuals or groups.",
-                "DROPZONE": "Or drop a file here",
-                "NO-DROP": "File drop is not supported by your browser",
-                "CANCEL-UPLOAD": "Cancel upload",
-                "ERROR": "Could not upload this file"
+                "DESCRIPTION": ".bpmn、.bpmn20.xml プロセスファイルを選択して、.zip または .bar ファイルに含まれているプロセスのパッケージ(アセットを含む)をデプロイまたはアップロードします。",
+                "WARNING": "プロセスのアップロードは Activiti 6 UI インスタンスではなく、Activiti Core Engine に対してのみ可能です。Activiti 6 UI のプロセスは、個人またはグループと共有されるアプリを使用してデプロイする必要があります。",
+                "DROPZONE": "ファイルをドロップする",
+                "NO-DROP": "ファイルドロップはご利用のブラウザではサポートされていません",
+                "CANCEL-UPLOAD": "アップロードのキャンセル",
+                "ERROR": "ファイルをアップロードできませんでした。"
             },
             "DELETE": {
-            	"CONFIRM-MESSAGE": "Delete deployment '{{name}}'?"
+            	"CONFIRM-MESSAGE": "デプロイメント'{{name}}'を削除しますか？"
             	}
         }
     },
     "DEPLOYMENT": {
         "ID": "ID:",
         "NAME": "名前:",
-        "TIME": "Deployment time:",
+        "TIME": "デプロイ日時:",
         "CATEGORY": "カテゴリ:",
-        "TENANTID": "テナント 識別子:",
-        "DEFINITIONS-MESSAGE": "This deployment has {{total}} プロセス定義, showing {{size}}.",
-        "DEFINITIONS-MESSAGE-EMPTY": "This deployment has no プロセス定義.",
+        "TENANTID": "テナント識別子:",
+        "DEFINITIONS-MESSAGE": "このデプロイメントには{{total}}プロセス定義があり、{{size}}が表示されます。",
+        "DEFINITIONS-MESSAGE-EMPTY": "このデプロイメントにはプロセス定義はありません。",
         "TITLE": {
             "DEFINITIONS": "プロセス定義",
-            "RESOURCES": "Resources"
+            "RESOURCES": "リソース"
         },
         "ACTION": {
-            "SHOW-ALL-DEFINITIONS": "Show all definitions"
+            "SHOW-ALL-DEFINITIONS": "すべての定義を参照"
         }
     },
     "JOB": {
         "TITLE": {
-            "MAIN": "Job {{id}}",
-            "EXCEPTION": "Exception"
+            "MAIN": "ジョブ {{id}}",
+            "EXCEPTION": "例外"
         },
         "ACTIONS": {
-            "EXECUTE": "Execute job",
-            "DELETE": "Delete job"
+            "EXECUTE": "ジョブの実行",
+            "DELETE": "ジョブの削除"
         },
         "POPUP": {
             "DELETE-JOB": {
-                "TITLE": "Delete job '{{id}}'",
-                "MESSAGE": "Are you sure you want to delete job {{id}}?",
-                "CONFIRM": "Delete job"
+                "TITLE": "ジョブ '{{id}}'の削除",
+                "MESSAGE": "ジョブ{{id}}を削除してもよろしいですか？",
+                "CONFIRM": "ジョブの削除"
             }
         },
         "ID": "ID:",
-        "EXECUTION-ID": "Execution ID:",
+        "EXECUTION-ID": "実行 ID:",
         "PROCESS-INSTANCE": "プロセスインスタンス:",
         "PROCESS-DEFINITION": "プロセス定義:",
         "DUEDATE": "期日:",
-        "RETRIES-LEFT": "Retries left:",
+        "RETRIES-LEFT": "残りの再試行:",
         "TENANT-ID": "テナント:"
     },
     "JOBS": {
-        "TITLE": "Jobs",
-        "LIST-MESSAGE": "Showing {{size}} results, from a total of {{total}} matching jobs.",
-        "LIST-MESSAGE-EMPTY": "No matching jobs.",
+        "TITLE": "ジョブ",
+        "LIST-MESSAGE": "合計{{total}}件の一致するジョブから{{size}}件の結果が表示されています。",
+        "LIST-MESSAGE-EMPTY": "該当するジョブはありません",
         "FILTER": {
             "PROCESS-DEFINITION": "プロセス定義",
-            "ALL-PROCESS-DEFINITIONS": "All プロセス定義",
+            "ALL-PROCESS-DEFINITIONS": "すべてのプロセス定義",
             "PROCESS-INSTANCE-ID": "プロセスインスタンス ID",
-            "TENANT-ID": "テナント 識別子",
-            "DUE-BEFORE": "Due before",
-            "DUE-AFTER": "Due after",
-            "EXCEPTION": "Exception",
-            "EXCEPTION-HELP": "Only show jobs with an exception"
+            "TENANT-ID": "テナント識別子",
+            "DUE-BEFORE": "期日前",
+            "DUE-AFTER": "期日後",
+            "EXCEPTION": "例外",
+            "EXCEPTION-HELP": "例外のあるジョブのみを表示する"
         },
         "SORT": {
-            "ID": "Job ID",
+            "ID": "ジョブ ID",
             "DUE-DATE": "期日",
             "PROCESS-INSTANCE-ID": "プロセスインスタンス ID"
         },
@@ -474,8 +474,8 @@
             "ID": "ID",
             "DUE-DATE": "期日",
             "PROCESS-DEFINITION": "プロセス定義",
-            "RETRIES": "Retries",
-            "EXCEPTION": "Exception"
+            "RETRIES": "再試行",
+            "EXCEPTION": "例外"
         }
     },
     "LOGIN": {
@@ -491,57 +491,57 @@
     "USER": {
         "POPUP": {
             "CHANGE-PASSWORD": {
-                "TITLE": "Change password for '{{login}}'",
-                "OLD-PASSWORD": "Old password",
-                "NEW-PASSWORD": "New password",
-                "CONFIRM": "Change password"
+                "TITLE": "'{{login}}'のパスワードの変更",
+                "OLD-PASSWORD": "以前のパスワード",
+                "NEW-PASSWORD": "新しいパスワード",
+                "CONFIRM": "パスワードの変更"
             },
             "DELETE": {
-                "TITLE": "Delete user {{login}}",
-                "MESSAGE": "Are you sure you want to delete user '{{login}}'?",
-                "CONFIRM": "Delete user"
+                "TITLE": "ユーザー{{login}}の削除",
+                "MESSAGE": "ユーザー'{{login}}'を削除してもよろしいですか？",
+                "CONFIRM": "ユーザーを削除"
             },
             "EDIT": {
-                "TITLE": "Edit user {{login}}",
-                "LOGIN": "Login",
-                "EMAIL": "Email",
-                "FIRSTNAME": "Firstname",
-                "LASTNAME": "Lastname",
-                "CONFIRM": "Update user"
+                "TITLE": "ユーザー{{login}}の編集",
+                "LOGIN": "ログイン",
+                "EMAIL": "メール",
+                "FIRSTNAME": "名",
+                "LASTNAME": "姓",
+                "CONFIRM": "ユーザーの更新"
             },
             "NEW": {
-                "TITLE": "Create new user",
-                "LOGIN": "Login",
-                "EMAIL": "Email",
-                "FIRSTNAME": "Firstname",
-                "LASTNAME": "Lastname",
-                "PASSWORD": "Password",
-                "ADMIN": "Has admin rights",
-                "CONFIRM": "Create user"
+                "TITLE": "新規ユーザの作成",
+                "LOGIN": "ログイン",
+                "EMAIL": "メール",
+                "FIRSTNAME": "名",
+                "LASTNAME": "姓",
+                "PASSWORD": "パスワード",
+                "ADMIN": "管理者権限を付与",
+                "CONFIRM": "ユーザーの作成"
             }
         }
     },
     "USERS": {
-        "TITLE": "Users",
+        "TITLE": "ユーザー",
         "ACTION": {
-            "EDIT": "Edit user",
-            "NEW": "Create new user",
-            "DELETE": "Delete user",
-            "CHANGE-PASSWORD": "Change password"
+            "EDIT": "ユーザーの編集",
+            "NEW": "新規ユーザーの作成",
+            "DELETE": "ユーザーの削除",
+            "CHANGE-PASSWORD": "パスワードの変更"
         },
         "HEADER": {
-            "LOGIN": "Login",
-            "FIRSTNAME": "Firstname",
-            "LASTNAME": "Lastname",
-            "EMAIL": "Email",
-            "CLUSTER_USER": "Cluster user"
+            "LOGIN": "ログイン",
+            "FIRSTNAME": "名",
+            "LASTNAME": "姓",
+            "EMAIL": "メール",
+            "CLUSTER_USER": "クラスターユーザー"
         }
     },
     "LICENSE": {
         "POPUP": {
             "TITLE": "ライセンス情報",
-            "HOLDER": "Holder",
-            "SUBJECT": "Subject",
+            "HOLDER": "所有者",
+            "SUBJECT": "内容",
             "PRODUCTKEY": "製品タイプ",
             "GOODAFTERDATE": "ライセンス開始日",
             "GOODBEFOREDATE": "ライセンス終了日",
@@ -622,8 +622,8 @@
             "DEPLOYMENT-ID": "プロセスのデプロイID",
             "DMN-DEPLOYMENT-ID": "DMN デプロイID",
             "NAME": "名前",
-            "DEPLOY-TIME": "Deploy time",
-            "DEPLOYED-BY": "Deployed by",
+            "DEPLOY-TIME": "デプロイ時刻",
+            "DEPLOYED-BY": "デプロイしたユーザー",
             "TENANT": "テナントID"
         },
         "ACTION": {
@@ -766,7 +766,7 @@
             "ID": "ID",
             "NAME": "名前",
             "VERSION": "バージョン",
-            "KEY": "Key",
+            "KEY": "キー",
             "DEPLOY-TIME": "Deploy time",
             "TENANT-ID": "テナント ID"
         }
