@@ -1,42 +1,42 @@
 {
     "COMMON" : {
-        "SELECT-FOLDER": "Select folder..."
+        "SELECT-FOLDER": "フォルダを選択..."
     },
     "GENERAL" : {
-        "MAIN-TITLE": "Activiti - Kickstart",
+        "MAIN-TITLE": "Activiti - キックスタート",
         "NAVIGATION" : {
-            "PROCESSES": "Processes",
-            "FORMS": "Forms",
-            "DECISION-TABLES": "Decision Tables",
-            "APPS": "Apps"
+            "PROCESSES": "プロセス",
+            "FORMS": "フォーム",
+            "DECISION-TABLES": "意思決定表",
+            "APPS": "アプリ"
         },
         "TITLE": {
-            "ADD-COMMENT": "Create new comment",
+            "ADD-COMMENT": "新規コメントを作成",
             "SELECT-PEOPLE": "Select person",
             "INVOLVE-PEOPLE": "Select person",
-            "SELECT-GROUP" :"Select group",
+            "SELECT-GROUP" :"グループを選択",
             "RECENT-PEOPLE": "Recent people",
             "MATCHING-PEOPLE": "Matching people",
-            "MATCHING-GROUPS": "Matching groups",
-            "FILTER": "Filter",
-            "COMMENTS": "Comments",
-            "HISTORY": "History"
+            "MATCHING-GROUPS": "一致するグループ",
+            "FILTER": "フィルター",
+            "COMMENTS": "コメント",
+            "HISTORY": "ヒストリー"
         },
         "ACTION": {
-            "LOGOUT": "Sign out",
-            "RETURN-TO-LIST": "Show all definitions",
-            "CANCEL": "Cancel",
-            "CLOSE": "Close",
-            "EDIT": "Edit",
-            "SAVE": "Save",
-            "OPEN": "Open",
+            "LOGOUT": "サインアウト",
+            "RETURN-TO-LIST": "すべての定義を表示",
+            "CANCEL": "キャンセル",
+            "CLOSE": "閉じる",
+            "EDIT": "編集",
+            "SAVE": "保存",
+            "OPEN": "開く",
             "OK": "Ok",
-            "CONFIRM": "Confirm",
-            "CONFIRM-AND-CLOSE": "Confirm and close",
-            "NEW-FORM": "New form",
-            "CREATE-FORM": "Create form",
-            "NEW-DECISION-TABLE": "New Decision Table",
-            "CREATE-DECISION-TABLE": "Create Decision Table"
+            "CONFIRM": "確認",
+            "CONFIRM-AND-CLOSE": "確認して閉じる",
+            "NEW-FORM": "新規フォーム",
+            "CREATE-FORM": "フォームを作成",
+            "NEW-DECISION-TABLE": "新規意思決定表",
+            "CREATE-DECISION-TABLE": "意思決定表を作成"
         },
         "MESSAGE": {
           "SELECT-PEOPLE-HELP": "Use &uparrow; and &downarrow; to select and press Enter to confirm",
@@ -74,39 +74,39 @@
     "EDITOR": {
       "POPUP": {
         "UNSAVED-CHANGES": {
-          "TITLE": "You have unsaved changes",
-          "DESCRIPTION": "What do you want to do with your unsaved changes?",
+          "TITLE": "未保存の変更があります",
+          "DESCRIPTION": "未保存の変更をどうしますか？",
           "ACTION": {
-            "SAVE": "Save changes",
-            "DISCARD": "Discard changes",
-            "CONTINUE": "Continue editing"
+            "SAVE": "変更を保存",
+            "DISCARD": "変更を破棄",
+            "CONTINUE": "編集を続ける"
           }
         }
       }
     },
 
     "PROCESS-LIST" : {
-        "TITLE" : "Business Process Models",
-        "SEARCH-PLACEHOLDER": "Search",
-        "LOADING": "Getting models...",
+        "TITLE" : "ビジネスプロセスモデル",
+        "SEARCH-PLACEHOLDER": "検索",
+        "LOADING": "モデルを取得しています...",
 
         "ACTION" : {
-            "CREATE": "Create Process",
-            "IMPORT": "Import Process",
-            "CREATE-INLINE": "Create a new business process model now!",
-            "SHOW-MORE": "Show more..."
+            "CREATE": "プロセスの作成",
+            "IMPORT": "プロセスのインポート",
+            "CREATE-INLINE": "今すぐ新しいビジネスプロセスモデルを作成しましょう!",
+            "SHOW-MORE": "さらに表示..."
         },
 
         "FILTER" : {
-            "MY-PROCESSES": "My processes",
-            "MY-PROCESSES-COUNT": "You have {{total}} business process models",
-            "MY-PROCESSES-ONE": "You have one business process model",
-            "MY-PROCESSES-EMPTY": "It looks like you have not created any business process models yet. You can design process models, user forms and then bundle them up into a process app to share with any colleagues. The first step is to create a process model:",
-            "MY-PROCESSES-BPMN-HINT": "Create a BPMN model using the BPMN Visual Editor.",
-            "MY-PROCESSES-BPMN-IMPORT-HINT": "You can also import existing BPMN models.",
-            "MY-PROCESSES-STEP-HINT": "If you are new to designing processes, you can use the Step Editor.",
+            "MY-PROCESSES": "マイプロセス",
+            "MY-PROCESSES-COUNT": "{{total}} のビジネスプロセスモデルがあります",
+            "MY-PROCESSES-ONE": "ビジネスプロセスモデルが1つあります",
+            "MY-PROCESSES-EMPTY": "ビジネスプロセスモデルをまだ作成していないようです。プロセスモデル、ユーザーフォームをデザインし、それらをプロセスアプリにまとめて同僚と共有できます。最初のステップはプロセスモデルを作成することです:",
+            "MY-PROCESSES-BPMN-HINT": "BPMN ビジュアルエディタを使用して BPMN モデルを作成します。",
+            "MY-PROCESSES-BPMN-IMPORT-HINT": "既存の BPMN モデルをインポートすることもできます。",
+            "MY-PROCESSES-STEP-HINT": "プロセスの設計に慣れていない場合は、ステップエディタを使用できます。",
             "FILTER-TEXT": ", matching \"{{filterText}}\"",
-            "FILTER-TEXT-EMPTY": "You have no business process models, matching \"{{filterText}}\"",
+            "FILTER-TEXT-EMPTY": "\"{{filterText}}\" に一致するビジネスプロセスモデルがありません",
             "RECENT": "Recent",
             "RECENT-COUNT": "{{total}} recently used models",
             "RECENT-ONE": "One recently used models",
@@ -122,21 +122,21 @@
     },
 
     "FORMS-LIST" : {
-        "TITLE" : "Forms",
-        "SEARCH-PLACEHOLDER": "Search",
-        "LOADING": "Getting forms...",
+        "TITLE" : "フォーム",
+        "SEARCH-PLACEHOLDER": "検索",
+        "LOADING": "フォームを取得しています...",
 
         "ACTION" : {
-            "CREATE": "Create Form",
-            "CREATE-INLINE": "Create a new form now!",
-            "SHOW-MORE": "Show more..."
+            "CREATE": "フォームの作成",
+            "CREATE-INLINE": "今すぐ新しいフォームを作成しましょう！",
+            "SHOW-MORE": "さらに表示..."
         },
 
         "FILTER" : {
-            "MY-REUSABLE-FORMS": "My reusable forms",
+            "MY-REUSABLE-FORMS": "再利用可能なフォーム",
             "MY-REUSABLE-FORMS-COUNT": "You have {{total}} reusable forms",
-            "MY-REUSABLE-FORMS-ONE": "You have one reusable form",
-            "MY-REUSABLE-FORMS-EMPTY": "You have no reusable forms.  To add one, click Create Form.",
+            "MY-REUSABLE-FORMS-ONE": "再利用可能なフォームが1つあります",
+            "MY-REUSABLE-FORMS-EMPTY": "再利用可能なフォームはありません。追加するには、フォームの作成をクリックします。",
             "FILTER-TEXT": ", matching \"{{filterText}}\"",
             "FILTER-TEXT-EMPTY": "You have no form, matching \"{{filterText}}\""
         },
@@ -150,22 +150,22 @@
     },
 
     "DECISION-TABLES-LIST": {
-        "TITLE": "Decision Tables",
+        "TITLE": "意思決定表",
         "SEARCH-PLACEHOLDER": "Search",
-        "LOADING": "Getting decision-tables...",
+        "LOADING": "意思決定表を取得しています...",
 
         "ACTION": {
-            "CREATE": "Create Decision Table",
-            "IMPORT": "Import Decision Table",
-            "CREATE-INLINE": "Create a new decision table now!",
-            "SHOW-MORE": "Show more..."
+            "CREATE": "意思決定表を作成",
+            "IMPORT": "意思決定表のインポート",
+            "CREATE-INLINE": "今すぐ新しい意思決定表を作成しましょう！",
+            "SHOW-MORE": "さらに表示..."
         },
 
         "FILTER": {
             "MY-REUSABLE-DECISION-TABLES": "My reusable decision tables",
             "MY-REUSABLE-DECISION-TABLES-COUNT": "You have {{total}} reusable decision tables",
             "MY-REUSABLE-DECISION-TABLES-ONE": "You have one reusable decision table",
-            "MY-REUSABLE-DECISION-TABLES-EMPTY": "You have no decision tables.  To add one, click Create Decision Table.",
+            "MY-REUSABLE-DECISION-TABLES-EMPTY": "You have no decision tables.  To add one, click 意思決定表を作成.",
             "FILTER-TEXT": ", matching \"{{filterText}}\"",
             "FILTER-TEXT-EMPTY": "You have no decision table, matching \"{{filterText}}\""
         },
@@ -187,7 +187,7 @@
             "CREATE": "Create App",
             "CREATE-INLINE": "Create a new app definition now!",
             "IMPORT": "Import App",
-            "SHOW-MORE": "Show more..."
+            "SHOW-MORE": "さらに表示..."
         },
 
         "FILTER" : {
@@ -795,7 +795,7 @@
             "VARIABLE-NAME": "Variable name:"
         },
         "LABEL" : {
-            "FUNCTIONAL-GROUP": "Select group..",
+            "FUNCTIONAL-GROUP": "グループを選択..",
             "PERSON": "Select person..",
             "SEARCH": "Search"
         },
