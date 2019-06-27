@@ -39,28 +39,28 @@
             "CREATE-DECISION-TABLE": "意思決定表を作成"
         },
         "MESSAGE": {
-          "SELECT-PEOPLE-HELP": "Use &uparrow; and &downarrow; to select and press Enter to confirm",
-          "SELECT-GROUP-HELP": "Use &uparrow; and &downarrow; to select and press Enter to confirm",
-          "ADD-COMMENT-PLACEHOLDER": "Enter a new comment",
-          "PEOPLE-NO-MATCHING-RESULTS": "No matching users were found",
-          "GROUP-NO-MATCHING-RESULTS": "No matching groups were found",
+          "SELECT-PEOPLE-HELP": "&uparrow; および &downarrow; を使用して選択し、Enter を押して確認します",
+          "SELECT-GROUP-HELP": "&uparrow; および &downarrow; を使用して選択し、Enter を押して確認します",
+          "ADD-COMMENT-PLACEHOLDER": "新しいコメントを入力",
+          "PEOPLE-NO-MATCHING-RESULTS": "一致するユーザーは見つかりませんでした",
+          "GROUP-NO-MATCHING-RESULTS": "一致するグループが見つかりませんでした",
           "GROUP-SOURCE-TYPE": "Group source",
           "GROUP-SOURCE-SEARCH-OPTION": "Group search",
-          "GROUP-SOURCE-FIELD-OPTION": "Form field"
+          "GROUP-SOURCE-FIELD-OPTION": "フォームフィールド"
         },
         "ERROR": {
-            "UNKNOWN": "Sorry, an error occured while performing the requested operation.",
-            "BAD_REQUEST": "An error occured while performing the requested operation",
-            "NOT_FOUND": "The resource you are trying to access does not exist",
-            "UNAUTHORIZED": "You should sign in in order to perform the requested operation.",
-            "FORBIDDEN": "You are not allowed to perform the requested operation",
-            "INTERNAL_SERVER_ERROR": "Sorry, an unexpected error occured while performing the requested operation.",
+            "UNKNOWN": "要求された操作を実行中にエラーが発生しました。",
+            "BAD_REQUEST": "要求された操作の実行中にエラーが発生しました",
+            "NOT_FOUND": "アクセスしようとしているリソースが存在しません",
+            "UNAUTHORIZED": "要求された操作を実行するにはサインインする必要があります。",
+            "FORBIDDEN": "要求された操作を実行することは許可されていません",
+            "INTERNAL_SERVER_ERROR": "要求された操作の実行中に、予期せぬエラーが発生しました。",
             "CAPTCHA": {
-                "EXPIRED":"The captcha has expired. Please solve the new challenge.",
-                "WRONG":"The captcha solution you provided did not match the challenge. Please solve the new challenge."
+                "EXPIRED":"CAPTCHA は期限切れです。新しい課題に回答してください。",
+                "WRONG":"提供した CAPTCHA ソリューションは回答と一致しませんでした。新しい課題に回答してください。"
             },
-            "QUOTA-EXCEEDED-APPS": "As a trial user, you can only have {{quota}} app definitions at the same time.",
-            "QUOTA-EXCEEDED-LICENSE-APPS": "The license only permits {{quota}} app definitions at the same time."
+            "QUOTA-EXCEEDED-APPS": "トライアルユーザーとして、同時に {{quota}} アプリ定義を持つことができます。",
+            "QUOTA-EXCEEDED-LICENSE-APPS": "ライセンスは同時に {{quota}} アプリ定義を許可します。"
         },
         "ABOUT": {
           "TYPE": "Type",
@@ -208,7 +208,7 @@
             "SHARED-WITH-OTHERS-ONE": "You have shared one app definition model with others",
             "SHARED-WITH-OTHERS-EMPTY": "You have not shared any app definitions with others",
 
-            "NO-APPS": "You can create a Process App by publishing a bundle of Process Models and sharing it with your colleagues. You can add any Process App that has been shared with you on your Activiti home page. You can even create a Process App with no processes if you just want to group simple collaborative tasks!",
+            "NO-APPS": "プロセスモデルのバンドルを公開して同僚と共有することで、プロセスアプリケーションを作成できます。Activiti ホームページ上で共有されている任意の Process App を追加することができます。単純な共同作業をグループ化するだけの場合は、プロセスなしで Process App を作成することもできます。",
             "NO-APPS-CALL-TO-ACTION": "You can create a Process App now.",
             "NO-APPS-NOTE": "Remember to Publish it when you are ready to use it."
         },
@@ -283,7 +283,7 @@
 
         "POPUP": {
           "ADD-COMMENT-TITLE": "Add Comment",
-          "ADD-COMMENT-DESCRIPTION" : "Enter a new comment below for \"{{name}}\"",
+          "ADD-COMMENT-DESCRIPTION" : "下に \"{{name}}\" の新しいコメントを入力してください",
           "ADD-COMMENT-SIZE-ERROR": "The comment cannot exceed 4000 characters",
           "CREATE-TITLE": "Create a new business process model",
           "DUPLICATE-TITLE": "Duplicate the business process model",
@@ -304,8 +304,8 @@
           "IMPORT-DESCRIPTION": "Please browse for or drop a BPMN XML definition with an .bpmn or .bpmn20.xml extension",
           "IMPORT-TITLE": "Import a process model",
           "USE-AS-NEW-TITLE": "Use as new version",
-          "USE-AS-NEW-DESCRIPTION": "Are you sure you want to use version {{version}} to create a new version of \"{{name}}\"?",
-          "USE-AS-NEW-UNRESOLVED-MODELS-ERROR": "Could not fully restore the app model to the chosen version: some referenced models are missing due to being deleted in the past. Please update the app model accordingly. Missing models:",
+          "USE-AS-NEW-DESCRIPTION": "新しいバージョンの \"{{name}}\" を作成するためにバージョン {{version}} を使用してよろしいですか？",
+          "USE-AS-NEW-UNRESOLVED-MODELS-ERROR": "アプリモデルを選択したバージョンに完全に復元できませんでした。過去に削除されたため、参照されているモデルの一部が失われています。それに応じてアプリのモデルを更新してください。存在しないモデル:",
           "USE-AS-NEW-UNRESOLVED-MODEL": "Model '{{name}}' with internal id {{id}}, created by {{createdBy}}",
           "SHARE-TITLE":"Share process model",
           "SHARE-DESCRIPTION": "You can decide who you wish to share this business process model with and if they can edit it.",
@@ -343,7 +343,7 @@
         },
         "POPUP": {
             "CREATE-TITLE": "Create a new sub process",
-            "CREATE-DESCRIPTION": "You need to give a name for the new sub process and you may want to add a description at the same time."
+            "CREATE-DESCRIPTION": "新しいサブプロセスの名前を付ける必要があります。同時に説明を追加することもできます。"
         },
         "POPOVER": {
             "SELECT-TITLE": "Select sub process",
@@ -397,21 +397,21 @@
 
         "POPUP": {
           "ADD-COMMENT-TITLE": "Add Comment",
-          "ADD-COMMENT-DESCRIPTION" : "Enter a new comment below for \"{{name}}\"",
+          "ADD-COMMENT-DESCRIPTION" : "下に \"{{name}}\" の新しいコメントを入力してください",
           "ADD-COMMENT-SIZE-ERROR": "The comment cannot exceed 4000 characters",
           "CREATE-TITLE": "Create a new form",
           "DUPLICATE-TITLE": "Duplicate form",
-          "CREATE-DESCRIPTION": "You need to give a name for the new form and you may want to add a description at the same time.",
-          "DUPLICATE-DESCRIPTION": "You need to give a name for the new form and you may want to add a description at the same time.",
+          "CREATE-DESCRIPTION": "新しいフォームの名前を付ける必要があります。同時に説明を追加することもできます。",
+          "DUPLICATE-DESCRIPTION": "新しいフォームの名前を付ける必要があります。同時に説明を追加することもできます。",
           "SAVE-FORM-TITLE": "Save form",
-          "EDIT-DESCRIPTION": "Change any of the form properties below and then press Save to update the form.",
+          "EDIT-DESCRIPTION": "以下のフォームのプロパティを変更し、[保存] 以下のフォームのプロパティを変更し、[保存]をクリックしてフォームを更新します。をクリックしてフォームを更新します。",
           "EDIT-TITLE":"Edit form details",
           "DELETE-TITLE": "Delete form",
           "DELETE-DESCRIPTION": "Are you sure you want to delete the form \"{{name}}\"?",
           "DELETE-CASCADE-FALSE": "Only delete the current version of this form (v{{version}})",
           "DELETE-CASCADE-TRUE": "Also delete all previous versions of this form",
           "USE-AS-NEW-TITLE": "Use as new version",
-          "USE-AS-NEW-DESCRIPTION": "Are you sure you want to use version {{version}} to create a new version of \"{{name}}\"?",
+          "USE-AS-NEW-DESCRIPTION": "新しいバージョンの \"{{name}}\" を作成するためにバージョン {{version}} を使用してよろしいですか？",
           "SHARE-TITLE":"Share form",
           "SHARE-DESCRIPTION": "You can decide who you wish to share this form with and if they can edit it.",
           "NOT-SHARED" : "This form is not shared with anyone."
@@ -477,13 +477,13 @@
         },
         "POPUP": {
             "ADD-COMMENT-TITLE": "Add Comment",
-            "ADD-COMMENT-DESCRIPTION": "Enter a new comment below for \"{{name}}\"",
+            "ADD-COMMENT-DESCRIPTION": "下に \"{{name}}\" の新しいコメントを入力してください",
             "ADD-COMMENT-SIZE-ERROR": "The comment cannot exceed 4000 characters",
             "CREATE-TITLE": "Create a new decision table",
             "DUPLICATE-TITLE": "Duplicate decision table",
-            "CREATE-DESCRIPTION": "You need to give a name for the new decision table and you may want to add a description at the same time.",
-            "SAVE-DESCRIPTION": "You need to give a name and a unique key for the new decision table and you may want to add a description at the same time.",
-            "DUPLICATE-DESCRIPTION": "You need to give a name for the new decision table and you may want to add a description at the same time.",
+            "CREATE-DESCRIPTION": "新しい意思決定表の名前を付ける必要があります。同時に説明を追加することもできます。",
+            "SAVE-DESCRIPTION": "新しい意思決定表に名前と一意のキーを付ける必要があります。同時に説明を追加することもできます。",
+            "DUPLICATE-DESCRIPTION": "新しい意思決定表の名前を付ける必要があります。同時に説明を追加することもできます。",
             "SAVE-DECISION-TABLE-TITLE": "Save decision table",
             "IMPORT-DESCRIPTION": "Browse for or drop a DMN XML definition with an .dmn or .dmn.xml extension",
             "IMPORT-TITLE": "Import a DMN model",
@@ -493,7 +493,7 @@
  	            "ERROR": "Error while processing the DMN XML file",
  	            "NO-DROP": "Drag and drop not supported"
  	        },
-            "EDIT-DESCRIPTION": "Change any of the decision table properties below and then click Save to update the decision table.",
+            "EDIT-DESCRIPTION": "以下の意思決定表プロパティを変更し、[保存] をクリックして意思決定表を更新します。",
             "EDIT-TITLE":"Edit decision table details",
 
             "DELETE-TITLE": "Delete decision table",
@@ -501,7 +501,7 @@
             "DELETE-CASCADE-FALSE": "Only delete the current version of this decision table (v{{version}})",
             "DELETE-CASCADE-TRUE": "Also delete all previous versions of this decision table",
             "USE-AS-NEW-TITLE": "Use as new version",
-            "USE-AS-NEW-DESCRIPTION": "Are you sure you want to use version {{version}} to create a new version of \"{{name}}\"?",
+            "USE-AS-NEW-DESCRIPTION": "新しいバージョンの \"{{name}}\" を作成するためにバージョン {{version}} を使用してよろしいですか？",
             "SHARE-TITLE": "Share decision table",
             "SHARE-DESCRIPTION": "You can decide who you wish to share this decision table with and if they can edit it.",
             "NOT-SHARED": "This decision table is not shared with anyone.",
@@ -511,7 +511,7 @@
             "IMPORT-ERROR": "Error while processing the decision table file",
             "REUSABLE": "Reusable decision table",
             "SAVE-EMBEDDED": "Embed this decision table within the current process model?",
-            "SAVE-EMBEDDED-COPY": "A copy of the decision table will be created since other processes are also using it"
+            "SAVE-EMBEDDED-COPY": "他のプロセスも使用しているため、決定表のコピーが作成されます。"
         },
         "ALERT": {
             "EDIT-CONFIRM": "Decision table updated",
@@ -585,21 +585,21 @@
         },
         "POPUP": {
           "ADD-COMMENT-TITLE": "Add Comment",
-          "ADD-COMMENT-DESCRIPTION" : "Enter a new comment below for \"{{name}}\"",
+          "ADD-COMMENT-DESCRIPTION" : "下に \"{{name}}\" の新しいコメントを入力してください",
           "ADD-COMMENT-SIZE-ERROR": "The comment cannot exceed 4000 characters",
           "CREATE-TITLE": "Create a new app definition",
           "DUPLICATE-TITLE": "Duplicate an app definition",
           "SAVE-APP-TITLE": "Save app definition",
           "SAVE-APP-SAVE-SUCCESS": "Saved app definition",
           "SAVE-APP-SAVE-FAIL": "App definition could not be saved",
-          "CREATE-DESCRIPTION": "You need to give a name for the new app definition and you may want to add a description at the same time.",
-          "DUPLICATE-DESCRIPTION": "You can give a name for the new app definition and you may want to change the description at the same time.",
-          "EDIT-DESCRIPTION": "Change any of the app definition properties below and then press Save to update the app definition.",
+          "CREATE-DESCRIPTION": "新しいアプリ定義の名前を付ける必要があります。同時に説明を追加することもできます。",
+          "DUPLICATE-DESCRIPTION": "新しいアプリ定義に名前を付けることができ、同時に説明を変更することもできます。",
+          "EDIT-DESCRIPTION": "以下のアプリ定義プロパティを変更してから、[保存] をクリックしてアプリ定義を更新します。",
           "EDIT-TITLE": "Edit app definition details",
           "PUBLISH-TITLE": "Publish app definition",
           "PUBLISH-DESCRIPTION": "Are you sure you want to publish the app definition \"{{name}}\"? Note that this app definition will be versioned and the workflow app will be updated if existing already.",
           "PUBLISH-FIELD": "Publish? Note that if publish is enabled, this app definition will be versioned and the workflow app will be updated if existing already.",
-          "PUBLISH-ERROR-PROCDEF-KEY-CONFLICT": "Your process model \"{{modelInAppName}}\" has the same identifier \"{{processDefinitionKey}}\" as the existing deployed process \"{{conflictingModelName}}\" of the app \"{{conflictingAppName}}\". Please change this \"id\" property of the process model to something different.",
+          "PUBLISH-ERROR-PROCDEF-KEY-CONFLICT": "プロセスモデル \"{{modelInAppName}}\" は、アプリケーションの既存のデプロイされたプロセス \"{{conflictingModelName}}\" と同じ識別子 \"{{processDefinitionKey}}\" を持っています \"{{conflictingAppName}}\"。プロセスモデルのこの \"id\" プロパティを別のものに変更してください。",
           "PUBLISH-ERROR-PROCESS-ALREADY-USED": "Following process models are already used in another app. Is this ok?",
           "PUBLISH-ERROR-PROCESS-ALREADY-USED-APP": "App",
           "PUBLISH-ERROR-PROCDEF-DUPLICATE-KEYS": "Invalid app: duplicate process identifiers found (change the \"id\" property of the offending process models):",
@@ -609,18 +609,18 @@
           "DELETE-CASCADE-FALSE": "Only delete the current version of this app definition (v{{version}})",
           "DELETE-CASCADE-TRUE": "Also delete all previous versions of this app definition",
           "USE-AS-NEW-TITLE": "Use as new version",
-          "USE-AS-NEW-DESCRIPTION": "Are you sure you want to use version {{version}} to create a new version of \"{{name}}\"?",
+          "USE-AS-NEW-DESCRIPTION": "新しいバージョンの \"{{name}}\" を作成するためにバージョン {{version}} を使用してよろしいですか？",
           "SHARE-TITLE":"Share app definition",
           "SHARE-DESCRIPTION": "You can decide who you wish to share this app definition with and if they can edit it.",
           "NOT-SHARED" : "This app definition is not shared with anyone.",
           "HAS-CUSTOM-STENCILITEM" : "Model \"{{modelName}}\" uses a stencil with custom stencil items. It is not possible to use this model in an app definition.",
-          "HAS-VALIDATIONERROR" : "Model \"{{modelName}}\" has validation errors and cannot be added to an app definition. Open the model in the editor to see more details about the validation error(s).",
+          "HAS-VALIDATIONERROR" : "モデル \"{{modelName}}\" に検証エラーがあり、アプリ定義に追加できません。検証エラーの詳細を確認するには、エディターでモデルを開きます。",
           "IMPORT-DESCRIPTION":"Please browse for or drop a app definition with a .zip extension",
           "IMPORT-TITLE":"Import an app definition model",
           "IMPORT": {
               "DROPZONE": "Drop a .zip app definition file",
               "CANCEL-UPLOAD": "Cancel the upload",
-              "RENEWIDM-IDS": "Renew the user and group identifiers when importing step and BPMN models. This is often required when importing the app definition into a different Activiti environment. It will try to link the human steps and user tasks to the right user and group in this target environment.",
+              "RENEWIDM-IDS": "ステップモデルと BPMN モデルをインポートするときにユーザーとグループの識別子を更新します。これは、アプリ定義を別の Activiti 環境にインポートするときによく必要になります。このターゲット環境では、ヒューマンステップとユーザータスクを適切なユーザーとグループにリンクしようとします。",
               "ERROR": "Error while processing the app definition file",
               "NO-DROP": "Drag and drop not supported"
           },
@@ -840,13 +840,13 @@
             "REST": "Rest service"
         },
         "OUTCOMES": {
-            "DESCRIPTION": "You can define multiple outcomes for this task. When completing a task, the users selects one of the available outcomes, which can be used in eg. a condition further on in the process.",
-            "NO-OUTCOMES-OPTION": "Don't use custom outcomes, only show a 'Complete' button.",
-            "OUTCOMES-OPTION": "Use custom outcomes for this form.",
-            "POSSIBLE-OUTCOMES": "Possible outcomes",
-            "NEW-OUTCOME-PLACEHOLDER": "Enter new outcome",
-            "ADD": "Add outcome",
-            "REMOVE": "Remove"
+            "DESCRIPTION": "このタスクに対して複数の結果を定義できます。タスクを完了するとき、ユーザーは利用可能な結果の1つを選択します。その過程でさらに条件が続く。",
+            "NO-OUTCOMES-OPTION": "カスタム結果を使用せず、[完了] ボタンを表示するだけです。",
+            "OUTCOMES-OPTION": "このフォームにカスタムの結果を使用してください。",
+            "POSSIBLE-OUTCOMES": "考えられる結果",
+            "NEW-OUTCOME-PLACEHOLDER": "新しい結果を入力",
+            "ADD": "結果を追加",
+            "REMOVE": "削除"
         },
         "VALIDATOR-POPUP": {
             "DESCRIPTION": "Description",
@@ -886,7 +886,7 @@
                 "EXPRESSION-VARIABLE-TYPE-DATE_EXECUTION": "Execution Date",
                 "EXPRESSION-VARIABLE-TYPE-NUMBER": "Number",
                 "EXPRESSION-VARIABLE-TYPE-STRING": "String",
-                "EXPRESSION-VARIABLE-TYPE-FORMFIELD": "Form field",
+                "EXPRESSION-VARIABLE-TYPE-FORMFIELD": "フォームフィールド",
                 "EXPRESSION-VARIABLE-TYPE-VARIABLE": "Variable",
                 "EXPRESSION-VARIABLE-TYPE-STATIC": "Static",
                 "EXPRESSION-VARIABLE-NAME": "Variable name:",
@@ -984,45 +984,45 @@
         "BUTTON-MOVE-RULE-DOWNWARDS-LABEL": "Move down",
         "BUTTON-REMOVE-RULE-LABEL": "Remove rule",
         "ALERT": {
-            "EXPRESSION-VARIABLE-REQUIRED-ERROR": "All input and output expressions must reference a form field or variable.",
-            "SAVE-CONFIRM": "Saved decision table '{{name}}'",
-            "SAVE-ERROR": "Decision table '{{name}}' could not be saved",
-            "VALIDATION-OK": "Decision table model contains no validation errors.",
-            "VALIDATION-ERROR": "Decision table model contains validation errors."
+            "EXPRESSION-VARIABLE-REQUIRED-ERROR": "すべての入力式と出力式はフォームフィールドまたは変数を参照する必要があります。",
+            "SAVE-CONFIRM": "保存された意思決定表 '{{name}}'",
+            "SAVE-ERROR": "意思決定表 '{{name}}' を保存できませんでした",
+            "VALIDATION-OK": "意思決定表モデルに検証エラーは含まれていません。",
+            "VALIDATION-ERROR": "意思決定表モデルに検証エラーが含まれています。"
         }
     },
 
     "RECAPTCHA": {
-        "RECAPTCHA-IMAGE": "Enter the words you read below",
-        "RECAPTCHA-AUDIO": "Enter the numbers you hear",
-        "RECAPTCHA-PLACEHOLDER": "Enter your response",
-        "RECAPTCHA-RELOAD": "Get another captcha",
-        "RECAPTCHA-GET-AUDIO": "Use audio captcha",
-        "RECAPTCHA-GET-IMAGE": "Show image captcha",
-        "RECAPTCHA-HELP": "Help"
+        "RECAPTCHA-IMAGE": "下に読む言葉を入力してください",
+        "RECAPTCHA-AUDIO": "聞こえる番号を入力してください",
+        "RECAPTCHA-PLACEHOLDER": "回答を入力してください",
+        "RECAPTCHA-RELOAD": "他のキャプチャを入手",
+        "RECAPTCHA-GET-AUDIO": "オーディオキャプチャを使用する",
+        "RECAPTCHA-GET-IMAGE": "画像のキャプチャを表示",
+        "RECAPTCHA-HELP": "ヘルプ"
     },
 
     "TOUR": {
-        "WELCOME-TITLE": "Welcome, {{userName}}",
-        "WELCOME-CONTENT": "This a short tour of the Alfresco Activiti Editor. The next few steps will guide you through the different sections of the application to get you started. Press the ESC key to stop at any time." ,
-        "PALETTE-TITLE": "The Palette",
-        "PALETTE-CONTENT": "All the available constructs to create a business process can be found here. They are arranged in logical groups. To open a group simply click on it:",
-        "CANVAS-TITLE": "The Canvas",
-        "CANVAS-CONTENT": "This is the work space on which you create your business process. Drag elements from the palette on the left and drop them on this canvas to start modeling.",
-        "DRAGDROP-TITLE": "Drag and Drop Example",
-        "DRAGDROP-CONTENT": "Here is an example how you get started with modeling:",
-        "PROPERTIES-TITLE": "Properties",
-        "PROPERTIES-CONTENT": "Here you can configure the properties of a business process construct. Simply select the item on the canvas and its properties will be shown. Click on the property if you want to edit it",
-        "TOOLBAR-TITLE": "The Toolbar",
-        "TOOLBAR-CONTENT": "All the actions can be found here: saving or validating a model, copy and pasting parts of a process, and so on. Hover over the buttons to get a description for an action.",
-        "END-TITLE": "The End",
-        "END-CONTENT": "That's it! You can now start modeling your processes. If you have any questions, feel free to ask them on the <a href=\"http://forums.activiti.org/\" target=\"_blank\">Alfresco Activiti Forum</a> "
+        "WELCOME-TITLE": "ようこそ、{{userName}}",
+        "WELCOME-CONTENT": "これは Alfresco Activiti エディタの短いツアーです。次のいくつかの手順では、アプリケーションのさまざまなセクションを案内して開始します。ESC キーを押すといつでも停止できます。" ,
+        "PALETTE-TITLE": "パレット",
+        "PALETTE-CONTENT": "ビジネスプロセスを作成するために利用可能なすべての構成要素はここにあります。それらは論理的なグループに配置されています。グループを開くには、単にそれをクリックします。",
+        "CANVAS-TITLE": "キャンバス",
+        "CANVAS-CONTENT": "これが、ビジネスプロセスを作成するワークスペースです。左側のパレットから要素をドラッグしてキャンバスにドロップすると、モデリングが開始されます。",
+        "DRAGDROP-TITLE": "ドラッグアンドドロップの例",
+        "DRAGDROP-CONTENT": "これがモデリングの開始方法の例です:",
+        "PROPERTIES-TITLE": "プロパティ",
+        "PROPERTIES-CONTENT": "ここでは、ビジネスプロセス構成のプロパティを設定できます。キャンバス上のアイテムを選択するだけで、そのプロパティが表示されます。プロパティを編集したい場合はクリックします",
+        "TOOLBAR-TITLE": "ツールバー",
+        "TOOLBAR-CONTENT": "モデルの保存や検証、プロセスの一部のコピーと貼り付けなど、すべてのアクションがここにあります。アクションの説明を取得するには、ボタンの上にカーソルを置きます。",
+        "END-TITLE": "おわり",
+        "END-CONTENT": "おわりです！ これでプロセスのモデリングを始めることができます。ご不明な点がございましたら、<a href=\"http://forums.activiti.org/\" target=\"_blank\">Alfresco Activiti フォーラム</a>でお気軽にお問い合わせください。"
     },
 
     "FEATURE-TOUR" : {
         "BENDPOINT" : {
-            "TITLE": "Bend point tutorial",
-            "DESCRIPTION" : "When you are connecting process steps with each other using sequence flow (those arrows between process steps), you might find that these sequence flow cross each other or you would like to arrange them differently. To do this, you can add or remove a bend point to or from a sequence flow.<br/><br/> As shown below in the picture, you first click the 'add bendpoint' and then click on a sequence flow to add it. Note that the sequence flow will show you a subtle indication in green to show the bendpoint can be added there.<br/><br/> Removing a bendpoint again follows a similar pattern: click the 'remove bendpoint' button and click on the bend point to remove it again."
+            "TITLE": "ベンドポイントチュートリアル",
+            "DESCRIPTION" : "シーケンスフロー (プロセスステップ間の矢印) を使用してプロセスステップを相互に接続している場合、これらのシーケンスフローが互いに交差していることや、それらを異なるように配置したいことがあります。これを行うには、シーケンスフローにベンドポイントを追加したり、シーケンスフローからベンドポイントを削除したりできます。<br/><br/>下図のように、まず「ベンドポイントの追加」をクリックしてからシーケンスフローをクリックします。それを追加してください。シーケンスフローでは、ベンドポイントを追加できることを示す微妙な表示が緑色で表示されます。<br/><br/>ベンドポイントを再度削除すると、同様のパターンが表示されます。「ベンドポイントの削除」ボタンをクリックして、再びそれを削除するには、ポイントを曲げます。"
         }
     },
 
@@ -1037,7 +1037,7 @@
       "SOURCE": {
           "TYPE": "Source",
           "SEARCH-OPTION": "User search",
-          "FIELD-OPTION": "Form field"
+          "FIELD-OPTION": "フォームフィールド"
       }
   },
 
@@ -1587,7 +1587,7 @@
     "PROPERTY.ASSIGNMENT.TYPE.STATIC" : "Fixed values",
     "PROPERTY.ASSIGNMENT.ASSIGNEE" : "Assignee",
     "PROPERTY.ASSIGNMENT.NO_ASSIGNEE" : "No assignee selected...",
-    "PROPERTY.ASSIGNMENT.MATCHING" : "Use &uparrow; and &downarrow; to select and press Enter to confirm or use the mouse",
+    "PROPERTY.ASSIGNMENT.MATCHING" : "&uparrow; および &downarrow; を使用して選択し、Enter を押して確認します or use the mouse",
     "PROPERTY.ASSIGNMENT.ASSIGNEE_PLACEHOLDER" : "Enter an assignee",
     "PROPERTY.ASSIGNMENT.EMPTY" : "No assignment selected",
     "PROPERTY.ASSIGNMENT.ASSIGNEE_DISPLAY" : "Assignee {{assignee}}",
