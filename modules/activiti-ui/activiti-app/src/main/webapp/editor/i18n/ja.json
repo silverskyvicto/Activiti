@@ -45,7 +45,7 @@
           "PEOPLE-NO-MATCHING-RESULTS": "一致するユーザーは見つかりませんでした",
           "GROUP-NO-MATCHING-RESULTS": "一致するグループが見つかりませんでした",
           "GROUP-SOURCE-TYPE": "Group source",
-          "GROUP-SOURCE-SEARCH-OPTION": "Group search",
+          "GROUP-SOURCE-SEARCH-OPTION": "グループを検索",
           "GROUP-SOURCE-FIELD-OPTION": "フォームフィールド"
         },
         "ERROR": {
@@ -105,12 +105,12 @@
             "MY-PROCESSES-BPMN-HINT": "BPMN ビジュアルエディタを使用して BPMN モデルを作成します。",
             "MY-PROCESSES-BPMN-IMPORT-HINT": "既存の BPMN モデルをインポートすることもできます。",
             "MY-PROCESSES-STEP-HINT": "プロセスの設計に慣れていない場合は、ステップエディタを使用できます。",
-            "FILTER-TEXT": ", matching \"{{filterText}}\"",
+            "FILTER-TEXT": ", \"{{filterText}}\" に一致",
             "FILTER-TEXT-EMPTY": "\"{{filterText}}\" に一致するビジネスプロセスモデルがありません",
             "RECENT": "Recent",
             "RECENT-COUNT": "{{total}} recently used models",
-            "RECENT-ONE": "One recently used models",
-            "RECENT-EMPTY": "No recently used models"
+            "RECENT-ONE": "最近使用されたモデル",
+            "RECENT-EMPTY": "最近使用されたモデルはありません"
         },
 
         "SORT": {
@@ -134,11 +134,11 @@
 
         "FILTER" : {
             "MY-REUSABLE-FORMS": "再利用可能なフォーム",
-            "MY-REUSABLE-FORMS-COUNT": "You have {{total}} reusable forms",
+            "MY-REUSABLE-FORMS-COUNT": "{{total}} の再利用可能なフォームがあります",
             "MY-REUSABLE-FORMS-ONE": "再利用可能なフォームが1つあります",
             "MY-REUSABLE-FORMS-EMPTY": "再利用可能なフォームはありません。追加するには、フォームの作成をクリックします。",
-            "FILTER-TEXT": ", matching \"{{filterText}}\"",
-            "FILTER-TEXT-EMPTY": "You have no form, matching \"{{filterText}}\""
+            "FILTER-TEXT": ", \"{{filterText}}\" に一致",
+            "FILTER-TEXT-EMPTY": "\"{{filterText}}\" に一致するフォームがありません"
         },
 
         "SORT": {
@@ -162,31 +162,31 @@
         },
 
         "FILTER": {
-            "MY-REUSABLE-DECISION-TABLES": "My reusable decision tables",
-            "MY-REUSABLE-DECISION-TABLES-COUNT": "You have {{total}} reusable decision tables",
-            "MY-REUSABLE-DECISION-TABLES-ONE": "You have one reusable decision table",
-            "MY-REUSABLE-DECISION-TABLES-EMPTY": "You have no decision tables.  To add one, click 意思決定表を作成.",
-            "FILTER-TEXT": ", matching \"{{filterText}}\"",
-            "FILTER-TEXT-EMPTY": "You have no decision table, matching \"{{filterText}}\""
+            "MY-REUSABLE-DECISION-TABLES": "私の再利用可能な意思決定表",
+            "MY-REUSABLE-DECISION-TABLES-COUNT": "{{total}} 個の再利用可能な決定表があります",
+            "MY-REUSABLE-DECISION-TABLES-ONE": "再利用可能な意思決定表が1つあります",
+            "MY-REUSABLE-DECISION-TABLES-EMPTY": "意思決定表がありません。追加するには、[意思決定表を作成] をクリックします。",
+            "FILTER-TEXT": ", \"{{filterText}}\" に一致",
+            "FILTER-TEXT-EMPTY": "\"{{filterText}}\"に一致するデシジョンテーブルがありません"
         },
 
         "SORT": {
-            "MODIFIED-ASC": "Oldest",
-            "MODIFIED-DESC": "Last modified",
-            "NAME-ASC": "Name, A-Z",
-            "NAME-DESC": "Name, Z-A"
+            "MODIFIED-ASC": "最も古い",
+            "MODIFIED-DESC": "最終更新日",
+            "NAME-ASC": "名前, A-Z",
+            "NAME-DESC": "名前, Z-A"
         }
     },
 
     "APPS-LIST" : {
-        "TITLE" : "App definitions",
-        "SEARCH-PLACEHOLDER": "Search",
-        "LOADING": "Getting app definitions...",
+        "TITLE" : "アプリ定義",
+        "SEARCH-PLACEHOLDER": "検索",
+        "LOADING": "アプリ定義を取得しています...",
 
         "ACTION" : {
-            "CREATE": "Create App",
-            "CREATE-INLINE": "Create a new app definition now!",
-            "IMPORT": "Import App",
+            "CREATE": "アプリを作成",
+            "CREATE-INLINE": "今すぐ新しいアプリ定義を作成しましょう。",
+            "IMPORT": "アプリのインポート",
             "SHOW-MORE": "さらに表示..."
         },
 
@@ -194,46 +194,46 @@
             "MY-APPS": "My app definitions",
             "MY-APPS-COUNT": "You have {{total}} app definitions",
             "MY-APPS-ONE": "You have one app definition",
-            "MY-APPS-EMPTY": "You have no app definitions.  To add one, click Create App Definition.",
+            "MY-APPS-EMPTY": "アプリの定義がありません。追加するには、[アプリ定義の作成] をクリックします。",
             "FILTER-TEXT": ", matching \"{{filterText}}\"",
             "FILTER-TEXT-EMPTY": "You have no app definitions, matching \"{{filterText}}\"",
 
             "SHARED-WITH-ME": "Shared with Me",
             "SHARED-WITH-ME-COUNT": "{{total}} app definitions have been shared with you",
-            "SHARED-WITH-ME-ONE": "One app definition has been shared with you",
-            "SHARED-WITH-ME-EMPTY": "There are no app definitions shared with you",
+            "SHARED-WITH-ME-ONE": "1つのアプリ定義があなたと共有されました",
+            "SHARED-WITH-ME-EMPTY": "あなたと共有するアプリ定義はありません",
 
             "SHARED-WITH-OTHERS": "Shared with others",
-            "SHARED-WITH-OTHERS-COUNT": "You have shared {{total}} app definitions with others",
-            "SHARED-WITH-OTHERS-ONE": "You have shared one app definition model with others",
-            "SHARED-WITH-OTHERS-EMPTY": "You have not shared any app definitions with others",
+            "SHARED-WITH-OTHERS-COUNT": "{{total}} アプリの定義を他のユーザーと共有しました",
+            "SHARED-WITH-OTHERS-ONE": "1つのアプリ定義モデルを他のユーザーと共有しました",
+            "SHARED-WITH-OTHERS-EMPTY": "アプリの定義を他のユーザーと共有していません",
 
             "NO-APPS": "プロセスモデルのバンドルを公開して同僚と共有することで、プロセスアプリケーションを作成できます。Activiti ホームページ上で共有されている任意の Process App を追加することができます。単純な共同作業をグループ化するだけの場合は、プロセスなしで Process App を作成することもできます。",
-            "NO-APPS-CALL-TO-ACTION": "You can create a Process App now.",
-            "NO-APPS-NOTE": "Remember to Publish it when you are ready to use it."
+            "NO-APPS-CALL-TO-ACTION": "これで Process App を作成できます。",
+            "NO-APPS-NOTE": "使用する準備ができたらそれを公開することを忘れないでください。"
         },
 
         "SORT": {
-            "MODIFIED-ASC": "Oldest",
-            "MODIFIED-DESC": "Last modified",
-            "NAME-ASC": "Name, A-Z",
-            "NAME-DESC": "Name, Z-A"
+            "MODIFIED-ASC": "最も古い",
+            "MODIFIED-DESC": "最終更新日",
+            "NAME-ASC": "名前, A-Z",
+            "NAME-DESC": "名前, Z-A"
         }
     },
 
     "LOGIN": {
-        "TITLE": "User Sign In",
+        "TITLE": "ユーザーサインイン",
         "FORM": {
-            "USERNAME": "Email address",
-            "USERNAME.PLACEHOLDER": "Enter your email",
-            "PASSWORD": "Password",
-            "PASSWORD.PLACEHOLDER": "Enter your password",
-            "REMEMBERME": "Automatic Login",
-            "BUTTON": "Sign in"
+            "USERNAME": "メールアドレス",
+            "USERNAME.PLACEHOLDER": "メールアドレスを入力",
+            "PASSWORD": "パスワード",
+            "PASSWORD.PLACEHOLDER": "パスワードを入力",
+            "REMEMBERME": "自動ログイン",
+            "BUTTON": "サインイン"
         },
         "MESSAGES": {
             "ERROR": {
-                "AUTHENTICATION": "Sign in failed! Please check your sign in details and try again."
+                "AUTHENTICATION": "サインインできませんでした。サインインの詳細を確認してもう一度やり直してください。"
             }
         }
     },
@@ -275,7 +275,7 @@
           "LAST-UPDATED-BY": "Last updated by {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
           "CREATED-BY": "Created by {{createdByFullName}}",
           "VERSION": "(Version {{version}})",
-          "NO-DESCRIPTION": "This model has no description. Modify the model properties to add one"
+          "NO-DESCRIPTION": "このモデルには説明がありません。モデルプロパティを変更して追加します"
         },
         "EDIT": {
           "TITLE": "Edit process"
@@ -284,32 +284,32 @@
         "POPUP": {
           "ADD-COMMENT-TITLE": "Add Comment",
           "ADD-COMMENT-DESCRIPTION" : "下に \"{{name}}\" の新しいコメントを入力してください",
-          "ADD-COMMENT-SIZE-ERROR": "The comment cannot exceed 4000 characters",
-          "CREATE-TITLE": "Create a new business process model",
-          "DUPLICATE-TITLE": "Duplicate the business process model",
-          "CREATE-DESCRIPTION": "You need to give a name for the new model and you may want to add a description at the same time.",
-          "DUPLICATE-DESCRIPTION": "You can change the name for the new model and you may want to change the description at the same time.",
-          "EDIT-DESCRIPTION": "Change any of the model properties below and then press Save to update the model.",
-          "EDIT-TITLE":"Edit model details",
-          "DELETE-TITLE": "Delete model",
-          "DELETE-DESCRIPTION": "Are you sure you want to delete the business process model \"{{name}}\"?",
-          "DELETE-CASCADE-FALSE": "Only delete the current version of this model (v{{version}})",
-          "DELETE-CASCADE-TRUE": "Also delete all previous versions of this model",
-          "DELETE-LOADING-RELATIONS": "Checking model usage...",
-          "DELETE-RELATIONS-DESCRIPTION-SINGLE": "This model cannot be deleted, because another model is using it:",
-          "DELETE-RELATIONS-DESCRIPTION": "This model cannot be deleted, because it is used by other models:",
-          "DELETE-PROCESS-RELATION": "Process model",
-          "DELETE-FORM-RELATION": "Form model",
-          "DELETE-APP-RELATION": "App model",
-          "IMPORT-DESCRIPTION": "Please browse for or drop a BPMN XML definition with an .bpmn or .bpmn20.xml extension",
-          "IMPORT-TITLE": "Import a process model",
-          "USE-AS-NEW-TITLE": "Use as new version",
+          "ADD-COMMENT-SIZE-ERROR": "コメントは 4000 文字を超えることはできません",
+          "CREATE-TITLE": "新しいビジネスプロセスモデルを作成する",
+          "DUPLICATE-TITLE": "ビジネスプロセスモデルを複製する",
+          "CREATE-DESCRIPTION": "新しいモデルの名前を付ける必要があります。同時に説明を追加することもできます。",
+          "DUPLICATE-DESCRIPTION": "新しいモデルの名前を変更することができ、同時に説明を変更することができます。",
+          "EDIT-DESCRIPTION": "以下のモデルプロパティを変更し、[保存] をクリックしてモデルを更新します。",
+          "EDIT-TITLE":"モデル詳細の編集",
+          "DELETE-TITLE": "モデルを削除",
+          "DELETE-DESCRIPTION": "ビジネスプロセスモデル \"{{name}}\" を削除してよろしいですか？",
+          "DELETE-CASCADE-FALSE": "このモデルの現在のバージョンのみを削除します (v{{version}})",
+          "DELETE-CASCADE-TRUE": "このモデルの以前のバージョンもすべて削除します",
+          "DELETE-LOADING-RELATIONS": "モデル使用状況を確認しています...",
+          "DELETE-RELATIONS-DESCRIPTION-SINGLE": "他のモデルが使用しているため、このモデルは削除できません。",
+          "DELETE-RELATIONS-DESCRIPTION": "このモデルは他のモデルで使用されているため削除できません。",
+          "DELETE-PROCESS-RELATION": "プロセスモデル",
+          "DELETE-FORM-RELATION": "フォームモデル",
+          "DELETE-APP-RELATION": "アプリモデル",
+          "IMPORT-DESCRIPTION": "拡張子が .bpmn または .bpmn20.xml の BPMN XML 定義を参照するかドロップしてください。",
+          "IMPORT-TITLE": "プロセスモデルをインポートする",
+          "USE-AS-NEW-TITLE": "新バージョンとして使用",
           "USE-AS-NEW-DESCRIPTION": "新しいバージョンの \"{{name}}\" を作成するためにバージョン {{version}} を使用してよろしいですか？",
           "USE-AS-NEW-UNRESOLVED-MODELS-ERROR": "アプリモデルを選択したバージョンに完全に復元できませんでした。過去に削除されたため、参照されているモデルの一部が失われています。それに応じてアプリのモデルを更新してください。存在しないモデル:",
           "USE-AS-NEW-UNRESOLVED-MODEL": "Model '{{name}}' with internal id {{id}}, created by {{createdBy}}",
-          "SHARE-TITLE":"Share process model",
-          "SHARE-DESCRIPTION": "You can decide who you wish to share this business process model with and if they can edit it.",
-          "NOT-SHARED" : "This business process model is not shared with anyone.",
+          "SHARE-TITLE":"プロセスモデルの共有",
+          "SHARE-DESCRIPTION": "このビジネスプロセスモデルを誰と共有するか、および編集できるかどうかを決定できます。",
+          "NOT-SHARED" : "このビジネスプロセスモデルは誰とも共有されていません。",
           "SHARED-WITH": "Shared with",
           "PERMISSION": "Permission",
           "ACTIONS": "Actions",
