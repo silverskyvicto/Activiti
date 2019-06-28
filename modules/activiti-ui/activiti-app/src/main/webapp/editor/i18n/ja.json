@@ -107,17 +107,17 @@
             "MY-PROCESSES-STEP-HINT": "プロセスの設計に慣れていない場合は、ステップエディタを使用できます。",
             "FILTER-TEXT": ", \"{{filterText}}\" に一致",
             "FILTER-TEXT-EMPTY": "\"{{filterText}}\" に一致するビジネスプロセスモデルがありません",
-            "RECENT": "Recent",
-            "RECENT-COUNT": "{{total}} recently used models",
+            "RECENT": "最近",
+            "RECENT-COUNT": "最近使用されたモデル {{total}} ",
             "RECENT-ONE": "最近使用されたモデル",
             "RECENT-EMPTY": "最近使用されたモデルはありません"
         },
 
         "SORT": {
-            "MODIFIED-ASC": "Oldest",
-            "MODIFIED-DESC": "Last modified",
-            "NAME-ASC": "Name, A-Z",
-            "NAME-DESC": "Name, Z-A"
+            "MODIFIED-ASC": "最も古い",
+            "MODIFIED-DESC": "最終更新日",
+            "NAME-ASC": "名前 (昇順)",
+            "NAME-DESC": "名前 (降順)"
         }
     },
 
@@ -142,16 +142,16 @@
         },
 
         "SORT": {
-            "MODIFIED-ASC": "Oldest",
-            "MODIFIED-DESC": "Last modified",
-            "NAME-ASC": "Name, A-Z",
-            "NAME-DESC": "Name, Z-A"
+            "MODIFIED-ASC": "最も古い",
+            "MODIFIED-DESC": "最終更新日",
+            "NAME-ASC": "名前 (昇順)",
+            "NAME-DESC": "名前 (降順)"
         }
     },
 
     "DECISION-TABLES-LIST": {
         "TITLE": "意思決定表",
-        "SEARCH-PLACEHOLDER": "Search",
+        "SEARCH-PLACEHOLDER": "検索",
         "LOADING": "意思決定表を取得しています...",
 
         "ACTION": {
@@ -173,8 +173,8 @@
         "SORT": {
             "MODIFIED-ASC": "最も古い",
             "MODIFIED-DESC": "最終更新日",
-            "NAME-ASC": "名前, A-Z",
-            "NAME-DESC": "名前, Z-A"
+            "NAME-ASC": "名前 (昇順)",
+            "NAME-DESC": "名前 (降順)"
         }
     },
 
@@ -191,19 +191,19 @@
         },
 
         "FILTER" : {
-            "MY-APPS": "My app definitions",
-            "MY-APPS-COUNT": "You have {{total}} app definitions",
-            "MY-APPS-ONE": "You have one app definition",
+            "MY-APPS": "私のアプリ定義",
+            "MY-APPS-COUNT": "{{total}} 種類のアプリ定義があります",
+            "MY-APPS-ONE": "アプリ定義が1つあります",
             "MY-APPS-EMPTY": "アプリの定義がありません。追加するには、[アプリ定義の作成] をクリックします。",
-            "FILTER-TEXT": ", matching \"{{filterText}}\"",
-            "FILTER-TEXT-EMPTY": "You have no app definitions, matching \"{{filterText}}\"",
+            "FILTER-TEXT": ", \"{{filterText}}\" に一致",
+            "FILTER-TEXT-EMPTY": "\"{{filterText}}\" に一致するアプリ定義がありません",
 
-            "SHARED-WITH-ME": "Shared with Me",
-            "SHARED-WITH-ME-COUNT": "{{total}} app definitions have been shared with you",
+            "SHARED-WITH-ME": "自分と共有している",
+            "SHARED-WITH-ME-COUNT": "{{total}} アプリの定義があなたと共有されています",
             "SHARED-WITH-ME-ONE": "1つのアプリ定義があなたと共有されました",
             "SHARED-WITH-ME-EMPTY": "あなたと共有するアプリ定義はありません",
 
-            "SHARED-WITH-OTHERS": "Shared with others",
+            "SHARED-WITH-OTHERS": "他の人と共有している",
             "SHARED-WITH-OTHERS-COUNT": "{{total}} アプリの定義を他のユーザーと共有しました",
             "SHARED-WITH-OTHERS-ONE": "1つのアプリ定義モデルを他のユーザーと共有しました",
             "SHARED-WITH-OTHERS-EMPTY": "アプリの定義を他のユーザーと共有していません",
@@ -216,8 +216,8 @@
         "SORT": {
             "MODIFIED-ASC": "最も古い",
             "MODIFIED-DESC": "最終更新日",
-            "NAME-ASC": "名前, A-Z",
-            "NAME-DESC": "名前, Z-A"
+            "NAME-ASC": "名前 (昇順)",
+            "NAME-DESC": "名前 (降順)"
         }
     },
 
@@ -239,50 +239,50 @@
     },
 
     "PROCESS": {
-      "NAME": "Model name",
-      "KEY": "Model key",
-      "DESCRIPTION": "Description",
-      "VERSION-COMMENT": "Version comment",
-      "EDITOR-TYPE": "Editor type",
-      "STENCIL": "Stencil",
+      "NAME": "モデル名",
+      "KEY": "モデルキー",
+      "DESCRIPTION": "説明",
+      "VERSION-COMMENT": "バージョンコメント",
+      "EDITOR-TYPE": "エディタータイプ",
+      "STENCIL": "ステンシル",
       "ACTION": {
-            "DETAILS": "Show details",
-            "EDIT": "Modify model properties",
-            "DUPLICATE": "Duplicate this model",
-            "COMPARE": "Compare with another version",
-            "SHARE": "Share this model",
-            "SHARE-CONFIRM": "Confirm changes",
-            "EXPORT_BPMN20": "Export to BPMN 2.0",
-            "DELETE": "Delete this model",
-            "ADD-COMMENT": "Add comment",
-            "ADD-COMMENT-CONFIRM": "Add comment",
-            "CREATE-CONFIRM": "Create new model",
-            "DUPLICATE-CONFIRM": "Duplicate the model",
-            "OPEN-IN-EDITOR": "Visual Editor",
-            "EDIT-CONFIRM": "Save",
-            "DELETE-CONFIRM": "Delete process model",
-            "USE-AS-NEW-VERSION": "Use as new version",
-            "USE-AS-NEW-VERSION-CONFIRM": "Use as new version",
-            "FAVORITE": "Favorite this model"
+            "DETAILS": "詳細を見る",
+            "EDIT": "モデルプロパティを変更する",
+            "DUPLICATE": "モデルを複製する",
+            "COMPARE": "他のバージョンと比較する",
+            "SHARE": "このモデルを共有",
+            "SHARE-CONFIRM": "変更を確認する",
+            "EXPORT_BPMN20": "BPMN 2.0 にエクスポート",
+            "DELETE": "このモデルを削除",
+            "ADD-COMMENT": "コメントを追加",
+            "ADD-COMMENT-CONFIRM": "コメントを追加",
+            "CREATE-CONFIRM": "新しいモデルを作成する",
+            "DUPLICATE-CONFIRM": "モデルを複製する",
+            "OPEN-IN-EDITOR": "ビジュアルエディター",
+            "EDIT-CONFIRM": "保存",
+            "DELETE-CONFIRM": "プロセスモデルを削除",
+            "USE-AS-NEW-VERSION": "新しいバージョンとして使用",
+            "USE-AS-NEW-VERSION-CONFIRM": "新しいバージョンとして使用",
+            "FAVORITE": "お気に入りに登録する"
 
         },
         "DETAILS": {
-          "TITLE": "Business process model details {{name}}",
-          "COMPARE-WITH-TITLE": "Compare with",
-          "STENCIL": "Stencil:",
-          "HISTORY-TITLE": "History",
-          "COMMENTS-TITLE": "Comments",
-          "LAST-UPDATED-BY": "Last updated by {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
-          "CREATED-BY": "Created by {{createdByFullName}}",
-          "VERSION": "(Version {{version}})",
+          "TITLE": "ビジネスプロセスモデルの詳細 {{name}}",
+          "COMPARE-WITH-TITLE": "比較",
+          "STENCIL": "ステンシル:",
+          "HISTORY-TITLE": "ヒストリー",
+          "COMMENTS-TITLE": "コメント",
+          "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
+          "CREATED-BY": "作成者 {{createdByFullName}}",
+          "VERSION": "(バージョン {{version}})",
           "NO-DESCRIPTION": "このモデルには説明がありません。モデルプロパティを変更して追加します"
         },
         "EDIT": {
-          "TITLE": "Edit process"
+          "TITLE": "プロセスの編集"
         },
 
         "POPUP": {
-          "ADD-COMMENT-TITLE": "Add Comment",
+          "ADD-COMMENT-TITLE": "コメントを追加",
           "ADD-COMMENT-DESCRIPTION" : "下に \"{{name}}\" の新しいコメントを入力してください",
           "ADD-COMMENT-SIZE-ERROR": "コメントは 4000 文字を超えることはできません",
           "CREATE-TITLE": "新しいビジネスプロセスモデルを作成する",
@@ -310,93 +310,93 @@
           "SHARE-TITLE":"プロセスモデルの共有",
           "SHARE-DESCRIPTION": "このビジネスプロセスモデルを誰と共有するか、および編集できるかどうかを決定できます。",
           "NOT-SHARED" : "このビジネスプロセスモデルは誰とも共有されていません。",
-          "SHARED-WITH": "Shared with",
-          "PERMISSION": "Permission",
-          "ACTIONS": "Actions",
+          "SHARED-WITH": "共有",
+          "PERMISSION": "権限",
+          "ACTIONS": "アクション",
           "IMPORT": {
-              "DROPZONE": "Drop a .bpmn or .bpmn20.xml BPMN XML file",
-              "CANCEL-UPLOAD": "Cancel the upload",
-              "ERROR": "Error while processing the BPMN XML file",
-              "NO-DROP": "Drag and drop not supported"
+              "DROPZONE": "拡張子が .bpmn または .bpmn20.xml の BPMN XML ファイルをドロップします。",
+              "CANCEL-UPLOAD": "アップロードをキャンセルする",
+              "ERROR": "BPMN XML ファイルの処理中にエラーが発生しました",
+              "NO-DROP": "ドラッグ アンド ドロップはサポートされていません"
           }
         },
         "ALERT": {
-          "EDIT-CONFIRM": "Model updated",
-          "FAVORITE-CONFIRM": "This model is now favorited",
-          "UN-FAVORITE-CONFIRM": "This model is no longer favorited",
-          "DELETE-CONFIRM": "Model deleted",
-          "SHARE-CONFIRM": "The model sharing options have been updated",
-          "NEW-VERSION-CONFIRM": "A new version of the business process model has been created",
-          "COMMENT-ADDED-CONFIRM": "A new comment was added to the model"
+          "EDIT-CONFIRM": "モデルを更新",
+          "FAVORITE-CONFIRM": "このモデルはお気に入りに登録されています",
+          "UN-FAVORITE-CONFIRM": "このモデルはお気に入りに登録されていません",
+          "DELETE-CONFIRM": "モデルを削除しました",
+          "SHARE-CONFIRM": "モデル共有オプションが更新されました",
+          "NEW-VERSION-CONFIRM": "ビジネスプロセスモデルの新しいバージョンが作成されました",
+          "COMMENT-ADDED-CONFIRM": "モデルに新しいコメントが追加されました"
         },
         "ERROR": {
-          "NOT-FOUND": "The requested model does not exist"
+          "NOT-FOUND": "要求されたモデルは存在しません"
         }
     },
 
     "SUBPROCESS": {
-        "NAME": "Sub process name",
-        "DESCRIPTION": "Description",
-        "TITLE": "Sub process",
+        "NAME": "サブプロセス名",
+        "DESCRIPTION": "説明",
+        "TITLE": "サブプロセス",
         "ACTION": {
-            "CREATE-CONFIRM": "Create new sub process"
+            "CREATE-CONFIRM": "新しいサブプロセスを作成する"
         },
         "POPUP": {
-            "CREATE-TITLE": "Create a new sub process",
+            "CREATE-TITLE": "新しいサブプロセスの作成",
             "CREATE-DESCRIPTION": "新しいサブプロセスの名前を付ける必要があります。同時に説明を追加することもできます。"
         },
         "POPOVER": {
-            "SELECT-TITLE": "Select sub process",
-            "NONE-SELECTED": "No sub process selected...",
-            "CREATE": "+ Create sub process",
-            "OPEN": "Open",
-            "CLEAR": "Clear",
-            "SEARCH-PLACEHOLDER": "Search sub process",
-            "MATCHING": "Matching sub processes",
-            "NONE-MATCHING": "No matching sub processes"
+            "SELECT-TITLE": "サブプロセスを選択",
+            "NONE-SELECTED": "サブプロセスが選択されていません...",
+            "CREATE": "+ サブプロセスを作成",
+            "OPEN": "開く",
+            "CLEAR": "クリア",
+            "SEARCH-PLACEHOLDER": "サブプロセスを検索",
+            "MATCHING": "一致するサブプロセス",
+            "NONE-MATCHING": "一致するサブプロセスがありません"
         }
     },
 
     "FORM": {
-      "NAME": "Form name",
-      "KEY": "Form key",
-      "DESCRIPTION": "Description",
-      "REUSABLE": "Reusable form",
-      "VERSION-COMMENT": "Version comment",
+      "NAME": "フォーム名",
+      "KEY": "フォームキー",
+      "DESCRIPTION": "説明",
+      "REUSABLE": "再利用可能なフォーム",
+      "VERSION-COMMENT": "バージョンコメント",
       "ACTION": {
-            "DETAILS": "Show details",
-            "EDIT": "Modify model properties",
-            "COMPARE": "Compare with another version",
-            "SHARE": "Share this form",
-            "SHARE-CONFIRM": "Confirm changes",
-            "DELETE": "Delete this form",
-            "ADD-COMMENT": "+ Add comment",
-            "ADD-COMMENT-CONFIRM": "Add comment",
-            "CREATE-CONFIRM": "Create new form",
-            "DUPLICATE-CONFIRM": "Duplicate the form",
-            "OPEN-IN-EDITOR": "Form Editor",
-            "EDIT-CONFIRM": "Save",
-            "DELETE-CONFIRM": "Delete form",
-            "USE-AS-NEW-VERSION": "Use as new version",
-            "USE-AS-NEW-VERSION-CONFIRM": "Use as new version",
-            "FAVORITE": "Favorite this form"
+            "DETAILS": "詳細を表示",
+            "EDIT": "モデルのプロパティを変更する",
+            "COMPARE": "他のバージョンと比較する",
+            "SHARE": "このフォームを共有する",
+            "SHARE-CONFIRM": "変更を確認する",
+            "DELETE": "このフォームを削除",
+            "ADD-COMMENT": "+ コメントを追加",
+            "ADD-COMMENT-CONFIRM": "コメントを追加",
+            "CREATE-CONFIRM": "新しいフォームを作成する",
+            "DUPLICATE-CONFIRM": "フォームを複製する",
+            "OPEN-IN-EDITOR": "フォームエディター",
+            "EDIT-CONFIRM": "保存",
+            "DELETE-CONFIRM": "フォームの削除",
+            "USE-AS-NEW-VERSION": "新しいバージョンとして使用",
+            "USE-AS-NEW-VERSION-CONFIRM": "新しいバージョンとして使用",
+            "FAVORITE": "お気に入りに登録"
 
         },
         "DETAILS": {
-          "TITLE": "Form details {{name}}",
-          "COMPARE-WITH-TITLE": "Compare with",
-          "HISTORY-TITLE": "History",
-          "COMMENTS-TITLE": "Comments",
-          "LAST-UPDATED-BY": "Last updated by {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
+          "TITLE": "フォーム {{name}} の詳細",
+          "COMPARE-WITH-TITLE": "と比較",
+          "HISTORY-TITLE": "ヒストリー",
+          "COMMENTS-TITLE": "コメント",
+          "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
           "CREATED-BY": "Created by {{createdByFullName}}",
-          "VERSION": "(Version {{version}})"
+          "VERSION": "(バージョン {{version}})"
         },
         "EDIT": {
-          "TITLE": "Edit form"
+          "TITLE": "フォームの編集"
         },
 
         "POPUP": {
-          "ADD-COMMENT-TITLE": "Add Comment",
+          "ADD-COMMENT-TITLE": "コメントを追加",
           "ADD-COMMENT-DESCRIPTION" : "下に \"{{name}}\" の新しいコメントを入力してください",
           "ADD-COMMENT-SIZE-ERROR": "The comment cannot exceed 4000 characters",
           "CREATE-TITLE": "Create a new form",
@@ -410,7 +410,7 @@
           "DELETE-DESCRIPTION": "Are you sure you want to delete the form \"{{name}}\"?",
           "DELETE-CASCADE-FALSE": "Only delete the current version of this form (v{{version}})",
           "DELETE-CASCADE-TRUE": "Also delete all previous versions of this form",
-          "USE-AS-NEW-TITLE": "Use as new version",
+          "USE-AS-NEW-TITLE": "新しいバージョンとして使用",
           "USE-AS-NEW-DESCRIPTION": "新しいバージョンの \"{{name}}\" を作成するためにバージョン {{version}} を使用してよろしいですか？",
           "SHARE-TITLE":"Share form",
           "SHARE-DESCRIPTION": "You can decide who you wish to share this form with and if they can edit it.",
@@ -444,8 +444,8 @@
             "SHARE": "Share this decision table",
             "SHARE-CONFIRM": "Confirm changes",
             "DELETE": "Delete this decision table",
-            "ADD-COMMENT": "+ Add comment",
-            "ADD-COMMENT-CONFIRM": "Add comment",
+            "ADD-COMMENT": "+ コメントを追加",
+            "ADD-COMMENT-CONFIRM": "コメントを追加",
             "CREATE-CONFIRM": "Create new decision table",
             "DUPLICATE-CONFIRM": "Duplicate the decision table",
             "CANCEL": "Cancel",
@@ -453,8 +453,8 @@
             "EXPORT": "Export decision table",
             "EDIT-CONFIRM": "Save",
             "DELETE-CONFIRM": "Delete decision table",
-            "USE-AS-NEW-VERSION": "Use as new version",
-            "USE-AS-NEW-VERSION-CONFIRM": "Use as new version",
+            "USE-AS-NEW-VERSION": "新しいバージョンとして使用",
+            "USE-AS-NEW-VERSION-CONFIRM": "新しいバージョンとして使用",
             "FAVORITE": "Favorite this decision table",
             "DUPLICATE": "Duplicate this decision table"
 
@@ -476,7 +476,7 @@
             "ANY": "Any (Single pass)"
         },
         "POPUP": {
-            "ADD-COMMENT-TITLE": "Add Comment",
+            "ADD-COMMENT-TITLE": "コメントを追加",
             "ADD-COMMENT-DESCRIPTION": "下に \"{{name}}\" の新しいコメントを入力してください",
             "ADD-COMMENT-SIZE-ERROR": "The comment cannot exceed 4000 characters",
             "CREATE-TITLE": "Create a new decision table",
@@ -500,7 +500,7 @@
             "DELETE-DESCRIPTION": "Are you sure you want to delete the decision table \"{{name}}\"?",
             "DELETE-CASCADE-FALSE": "Only delete the current version of this decision table (v{{version}})",
             "DELETE-CASCADE-TRUE": "Also delete all previous versions of this decision table",
-            "USE-AS-NEW-TITLE": "Use as new version",
+            "USE-AS-NEW-TITLE": "新しいバージョンとして使用",
             "USE-AS-NEW-DESCRIPTION": "新しいバージョンの \"{{name}}\" を作成するためにバージョン {{version}} を使用してよろしいですか？",
             "SHARE-TITLE": "Share decision table",
             "SHARE-DESCRIPTION": "You can decide who you wish to share this decision table with and if they can edit it.",
@@ -542,14 +542,14 @@
             "SHARE": "Share this app definition",
             "SHARE-CONFIRM": "Confirm changes",
             "DELETE": "Delete this app definition",
-            "ADD-COMMENT": "Add comment",
-            "ADD-COMMENT-CONFIRM": "Add comment",
+            "ADD-COMMENT": "コメントを追加",
+            "ADD-COMMENT-CONFIRM": "コメントを追加",
             "CREATE-CONFIRM": "Create new app definition",
             "DUPLICATE-CONFIRM": "Duplicate the app definition",
             "EDIT-CONFIRM": "Save",
             "DELETE-CONFIRM": "Delete app definition",
-            "USE-AS-NEW-VERSION": "Use as new version",
-            "USE-AS-NEW-VERSION-CONFIRM": "Use as new version",
+            "USE-AS-NEW-VERSION": "新しいバージョンとして使用",
+            "USE-AS-NEW-VERSION-CONFIRM": "新しいバージョンとして使用",
             "FAVORITE": "Favorite this app definition",
             "OPEN-IN-EDITOR": "App Editor",
             "PUBLISH": "Publish",
@@ -584,7 +584,7 @@
 
         },
         "POPUP": {
-          "ADD-COMMENT-TITLE": "Add Comment",
+          "ADD-COMMENT-TITLE": "コメントを追加",
           "ADD-COMMENT-DESCRIPTION" : "下に \"{{name}}\" の新しいコメントを入力してください",
           "ADD-COMMENT-SIZE-ERROR": "The comment cannot exceed 4000 characters",
           "CREATE-TITLE": "Create a new app definition",
@@ -608,7 +608,7 @@
           "DELETE-DESCRIPTION-WITH-RUNTIME": "Are you sure you want to delete the app definition \"{{name}}\"? Note that this app definition has been deployed to the task landing page and by confirming, the app will be removed from the task app landing page.",
           "DELETE-CASCADE-FALSE": "Only delete the current version of this app definition (v{{version}})",
           "DELETE-CASCADE-TRUE": "Also delete all previous versions of this app definition",
-          "USE-AS-NEW-TITLE": "Use as new version",
+          "USE-AS-NEW-TITLE": "新しいバージョンとして使用",
           "USE-AS-NEW-DESCRIPTION": "新しいバージョンの \"{{name}}\" を作成するためにバージョン {{version}} を使用してよろしいですか？",
           "SHARE-TITLE":"Share app definition",
           "SHARE-DESCRIPTION": "You can decide who you wish to share this app definition with and if they can edit it.",
@@ -826,7 +826,6 @@
             "HEADER-NAME" : "Property name",
             "PLACEHOLDER-NAME" : "Enter a property name",
             "HEADER-TYPE": "Property type",
-            "REQUIRED" : "Required",
             "EDITABLE" : "Editable",
             "SORTABLE" : "Sortable",
             "VISIBLE" : "Show in table",
@@ -1031,7 +1030,7 @@
       "SEARCH-PLACEHOLDER": "Search user",
       "USE-EMAIL": "select someone using an email address",
       "EMAIL-PLACEHOLDER": "Enter an email address",
-      "EMAIL-HELP": "Press Enter or click the button to continue. This person will be notified by email or invited to sign up",
+      "EMAIL-HELP": "Enter キーを押すかボタンをクリックして続行します。この人は E メールで通知を受け取るか、登録するよう招待されます",
       "BACK-TO-SEARCH": "Back to search",
       "ACTION-SELECT": "Select",
       "SOURCE": {
