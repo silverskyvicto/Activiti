@@ -528,41 +528,41 @@
     },
 
     "APP": {
-        "NAME": "App definition name",
-        "KEY": "App definition key",
-        "DESCRIPTION": "Description",
+        "NAME": "アプリ定義名",
+        "KEY": "アプリ定義キー",
+        "DESCRIPTION": "説明",
         "VERSION-COMMENT": "バージョンコメント",
-        "ICON": "Icon",
-        "THEME": "Theme",
+        "ICON": "アイコン",
+        "THEME": "テーマ",
         "ACTION": {
             "DETAILS": "詳細を表示",
-            "EDIT": "Modify app definition properties",
-            "DUPLICATE": "Duplicate this application",
+            "EDIT": "アプリ定義のプロパティを変更する",
+            "DUPLICATE": "アプリを複製する",
             "COMPARE": "他のバージョンと比較する",
-            "SHARE": "Share this app definition",
+            "SHARE": "このアプリの定義を共有する",
             "SHARE-CONFIRM": "変更を確認する",
-            "DELETE": "Delete this app definition",
+            "DELETE": "アプリ定義を削除する",
             "ADD-COMMENT": "コメントを追加",
             "ADD-COMMENT-CONFIRM": "コメントを追加",
-            "CREATE-CONFIRM": "Create new app definition",
-            "DUPLICATE-CONFIRM": "Duplicate the app definition",
-            "EDIT-CONFIRM": "Save",
-            "DELETE-CONFIRM": "Delete app definition",
+            "CREATE-CONFIRM": "新しいアプリ定義を作成する",
+            "DUPLICATE-CONFIRM": "アプリ定義を複製する",
+            "EDIT-CONFIRM": "保存",
+            "DELETE-CONFIRM": "アプリ定義を削除",
             "USE-AS-NEW-VERSION": "新しいバージョンとして使用",
             "USE-AS-NEW-VERSION-CONFIRM": "新しいバージョンとして使用",
-            "FAVORITE": "Favorite this app definition",
-            "OPEN-IN-EDITOR": "App Editor",
-            "PUBLISH": "Publish",
-            "PUBLISH-CONFIRM": "Publish app definition",
-            "SELECT-ICON": "Change icon...",
-            "SELECT-THEME": "Change theme...",
-            "EDIT-MODELS": "Edit included models",
-            "EXPORT-ZIP": "Export app definition as a zip file"
+            "FAVORITE": "アプリ定義をお気に入りに追加",
+            "OPEN-IN-EDITOR": "アプリエディタ",
+            "PUBLISH": "公開",
+            "PUBLISH-CONFIRM": "アプリ定義を公開する",
+            "SELECT-ICON": "アイコンを変更",
+            "SELECT-THEME": "テーマを変更",
+            "EDIT-MODELS": "含まれているモデルを編集する",
+            "EXPORT-ZIP": "アプリ定義を zip ファイルとしてエクスポートする"
 
         },
         "DETAILS": {
           "TITLE": "アプリ定義の詳細: {{name}}",
-          "COMPARE-WITH-TITLE": "Compare with",
+          "COMPARE-WITH-TITLE": "比較",
           "HISTORY-TITLE": "ヒストリー",
           "COMMENTS-TITLE": "コメント",
           "MODELS-TITLE": "アプリ定義に含まれるモデル",
@@ -578,154 +578,154 @@
         },
 
         "TITLE": {
-          "SELECT-ICON": "Select app icon",
-          "SELECT-THEME": "Select app colors",
-          "PREVIEW": "Preview"
+          "SELECT-ICON": "アプリのアイコンを選択",
+          "SELECT-THEME": "アプリの色を選択",
+          "PREVIEW": "プレビュー"
 
         },
         "POPUP": {
           "ADD-COMMENT-TITLE": "コメントを追加",
           "ADD-COMMENT-DESCRIPTION" : "下に \"{{name}}\" の新しいコメントを入力してください",
-          "ADD-COMMENT-SIZE-ERROR": "The comment cannot exceed 4000 characters",
-          "CREATE-TITLE": "Create a new app definition",
-          "DUPLICATE-TITLE": "Duplicate an app definition",
-          "SAVE-APP-TITLE": "Save app definition",
-          "SAVE-APP-SAVE-SUCCESS": "Saved app definition",
-          "SAVE-APP-SAVE-FAIL": "App definition could not be saved",
+          "ADD-COMMENT-SIZE-ERROR": "コメントは 4000 文字を超えることはできません",
+          "CREATE-TITLE": "新しいアプリ定義を作成する",
+          "DUPLICATE-TITLE": "アプリ定義を複製する",
+          "SAVE-APP-TITLE": "アプリ定義を保存",
+          "SAVE-APP-SAVE-SUCCESS": "保存したアプリの定義",
+          "SAVE-APP-SAVE-FAIL": "アプリ定義を保存できませんでした",
           "CREATE-DESCRIPTION": "新しいアプリ定義の名前を付ける必要があります。同時に説明を追加することもできます。",
           "DUPLICATE-DESCRIPTION": "新しいアプリ定義に名前を付けることができ、同時に説明を変更することもできます。",
           "EDIT-DESCRIPTION": "以下のアプリ定義プロパティを変更してから、[保存] をクリックしてアプリ定義を更新します。",
-          "EDIT-TITLE": "Edit app definition details",
-          "PUBLISH-TITLE": "Publish app definition",
+          "EDIT-TITLE": "アプリ定義の詳細を編集する",
+          "PUBLISH-TITLE": "アプリ定義を公開する",
           "PUBLISH-DESCRIPTION": "アプリ定義 \"{{name}}\" を公開してよろしいですか？ このアプリ定義はバージョン管理され、ワークフローアプリは既に存在する場合は更新されます。",
           "PUBLISH-FIELD": "公開しますか？ 公開が有効になっている場合、このアプリ定義はバージョン管理され、ワークフローアプリは既に存在する場合は更新されます。",
           "PUBLISH-ERROR-PROCDEF-KEY-CONFLICT": "プロセスモデル \"{{modelInAppName}}\" は、アプリケーションの既存のデプロイされたプロセス \"{{conflictingModelName}}\" と同じ識別子 \"{{processDefinitionKey}}\" を持っています \"{{conflictingAppName}}\"。プロセスモデルのこの \"id\" プロパティを別のものに変更してください。",
           "PUBLISH-ERROR-PROCESS-ALREADY-USED": "以下のプロセスモデルはすでに他のアプリで使用されています。これでいいですか？",
-          "PUBLISH-ERROR-PROCESS-ALREADY-USED-APP": "App",
+          "PUBLISH-ERROR-PROCESS-ALREADY-USED-APP": "アプリ",
           "PUBLISH-ERROR-PROCDEF-DUPLICATE-KEYS": "無効なアプリ: 重複するプロセス識別子が見つかりました (問題のあるプロセスモデルの \"id\" プロパティを変更してください):",
-          "DELETE-TITLE": "Delete app definition",
-          "DELETE-DESCRIPTION": "Are you sure you want to delete the app definition \"{{name}}\"?",
+          "DELETE-TITLE": "アプリ定義を削除",
+          "DELETE-DESCRIPTION": "アプリ定義 \"{{name}}\" を削除してよろしいですか？",
           "DELETE-DESCRIPTION-WITH-RUNTIME": "アプリ定義 \"{{name}}\" を削除してよろしいですか？ このアプリ定義はタスクランディングページにデプロイされていることを確認することで、アプリがタスクアプリランディングページから削除されます。",
-          "DELETE-CASCADE-FALSE": "Only delete the current version of this app definition (v{{version}})",
-          "DELETE-CASCADE-TRUE": "Also delete all previous versions of this app definition",
+          "DELETE-CASCADE-FALSE": "アプリ定義の現在のバージョン (v{{version}}) のみを削除します",
+          "DELETE-CASCADE-TRUE": "アプリ定義の以前のバージョンもすべて削除します",
           "USE-AS-NEW-TITLE": "新しいバージョンとして使用",
           "USE-AS-NEW-DESCRIPTION": "新しいバージョンの \"{{name}}\" を作成するためにバージョン {{version}} を使用してよろしいですか？",
-          "SHARE-TITLE":"Share app definition",
+          "SHARE-TITLE":"アプリ定義を共有する",
           "SHARE-DESCRIPTION": "このアプリ定義を誰と共有したいか、また編集できるかどうかを決めることができます。",
-          "NOT-SHARED" : "This app definition is not shared with anyone.",
+          "NOT-SHARED" : "このアプリの定義は誰とも共有されていません。",
           "HAS-CUSTOM-STENCILITEM" : "Model  \"{{modelName}}\" は、ステンシルとカスタムステンシルアイテムを使用します。 このモデルをアプリ定義で使用することはできません。",
           "HAS-VALIDATIONERROR" : "モデル \"{{modelName}}\" に検証エラーがあり、アプリ定義に追加できません。検証エラーの詳細を確認するには、エディターでモデルを開きます。",
-          "IMPORT-DESCRIPTION":"Please browse for or drop a app definition with a .zip extension",
-          "IMPORT-TITLE":"Import an app definition model",
+          "IMPORT-DESCRIPTION":"拡張子が .zip のアプリ定義を参照するかドロップしてください。",
+          "IMPORT-TITLE":"アプリ定義モデルをインポートする",
           "IMPORT": {
-              "DROPZONE": "Drop a .zip app definition file",
+              "DROPZONE": ".zip アプリ定義ファイルをドロップします",
               "CANCEL-UPLOAD": "アップロードをキャンセルする",
               "RENEWIDM-IDS": "ステップモデルと BPMN モデルをインポートするときにユーザーとグループの識別子を更新します。これは、アプリ定義を別の Activiti 環境にインポートするときによく必要になります。このターゲット環境では、ヒューマンステップとユーザータスクを適切なユーザーとグループにリンクしようとします。",
-              "ERROR": "Error while processing the app definition file",
-              "NO-DROP": "Drag and drop not supported"
+              "ERROR": "アプリ定義ファイルの処理中にエラーが発生しました",
+              "NO-DROP": "ドラッグ & ドロップはサポートされていません"
           },
-          "INCLUDE-MODELS-TITLE": "Models included in the app definition"
+          "INCLUDE-MODELS-TITLE": "アプリ定義に含まれるモデル"
         },
         "ALERT": {
           "EDIT-CONFIRM": "アプリ定義を更新しました",
-          "FAVORITE-CONFIRM": "このアプリの定義は現在お気に入りに登録されています",
-          "UN-FAVORITE-CONFIRM": "This app definition is no longer favorited",
-          "DELETE-CONFIRM": "App definition deleted",
-          "SHARE-CONFIRM": "The app definition sharing options have been updated",
-          "NEW-VERSION-CONFIRM": "A new version of the app definition has been created",
-          "COMMENT-ADDED-CONFIRM": "A new comment was added to the app definition",
+          "FAVORITE-CONFIRM": "アプリの定義は現在お気に入りに登録されています",
+          "UN-FAVORITE-CONFIRM": "アプリの定義はお気に入りに登録されていません",
+          "DELETE-CONFIRM": "アプリ定義を削除しました",
+          "SHARE-CONFIRM": "アプリ定義共有オプションが更新されました",
+          "NEW-VERSION-CONFIRM": "アプリ定義の新しいバージョンが作成されました",
+          "COMMENT-ADDED-CONFIRM": "アプリの定義に新しいコメントが追加されました",
           "PUBLISH-ERROR": "アプリ定義を公開できませんでした。参照されているプロセスモデルの妥当性を確認してください"
         },
         "ERROR": {
-          "NOT-FOUND": "The requested app definition does not exist"
+          "NOT-FOUND": "要求されたアプリ定義は存在しません"
         },
         "KICKSTART": {
-          "TITLE": "Kickstart App",
-          "TITLE-PROCESSES": "Process models",
-          "TITLE-FORMS": "Form models",
-          "TITLE-APPS": "App models",
-          "TITLE-STENCILS": "Stencils"
+          "TITLE": "キックスタートアプリ",
+          "TITLE-PROCESSES": "プロセスモデル",
+          "TITLE-FORMS": "フォームモデル",
+          "TITLE-APPS": "アプリモデル",
+          "TITLE-STENCILS": "ステンシル"
         },
         "ADMINISTRATOR": {
-          "TITLE": "Admin App"
+          "TITLE": "管理アプリ"
         },
         "TASKS": {
-          "TITLE": "Task App",
-          "TITLE-TASKS": "Tasks",
-          "TITLE-PROCESSES": "Processes"
+          "TITLE": "タスクアプリ",
+          "TITLE-TASKS": "タスク",
+          "TITLE-PROCESSES": "プロセス"
         },
         "IDENTITY-MANAGEMENT": {
-          "TITLE": "Profile",
-          "TITLE-TENANT-ADMIN": "Identity management",
-          "TITLE-TENANT-ADMIN-TENANT-MGMT": "Tenants",
-          "TITLE-TENANT-ADMIN-USER-MGMT": "Users",
+          "TITLE": "プロファイル",
+          "TITLE-TENANT-ADMIN": "アイデンティティ管理",
+          "TITLE-TENANT-ADMIN-TENANT-MGMT": "テナント",
+          "TITLE-TENANT-ADMIN-USER-MGMT": "ユーザー",
           "TITLE-TENANT-ADMIN-SYSTEM-GROUP-MGMT": "Capabilities",
-          "TITLE-TENANT-ADMIN-FUNCTIONAL-GROUP-MGMT": "Organization",
-          "TITLE-TENANT-ADMIN-PROFILE": "Profile",
-          "TITLE-PROFILE": "Profile"
+          "TITLE-TENANT-ADMIN-FUNCTIONAL-GROUP-MGMT": "組織",
+          "TITLE-TENANT-ADMIN-PROFILE": "プロファイル",
+          "TITLE-PROFILE": "プロファイル"
         },
         "ANALYTICS": {
-          "TITLE": "Analytics App"
+          "TITLE": "分析アプリ"
         },
         "CUSTOM-APP" : {
-           "TITLE-TASKS": "tasks",
-           "TITLE-PROCESSES": "processes"
+           "TITLE-TASKS": "タスク",
+           "TITLE-PROCESSES": "プロセス"
         }
     },
 
     "SHARE-INFO": {
-        "PERMISSION": "Permission",
-        "PERMISSION-READ": "View model",
-        "PERMISSION-WRITE": "Edit model",
-        "PERMISSION-REMOVE": "Stop sharing this model",
-        "STENCIL-PERMISSION-READ": "View stencil",
-        "STENCIL-PERMISSION-WRITE": "Edit stencil",
-        "STENCIL-PERMISSION-REMOVE": "Stop sharing this stencil",
-        "ADD-PERSON": "Add person",
-        "ADD-PERSON-PLACEHOLDER": "Email address of who you wish to share with",
-        "ADD-PERSON-PLACEHOLDER-ON-PREM": "Search for users to share with",
+        "PERMISSION": "権限",
+        "PERMISSION-READ": "モデルの参照",
+        "PERMISSION-WRITE": "モデルの編集",
+        "PERMISSION-REMOVE": "モデルの共有を中止",
+        "STENCIL-PERMISSION-READ": "ステンシルの参照",
+        "STENCIL-PERMISSION-WRITE": "ステンシルの編集",
+        "STENCIL-PERMISSION-REMOVE": "ステンシルの共有を中止",
+        "ADD-PERSON": "ユーザーを追加",
+        "ADD-PERSON-PLACEHOLDER": "共有したいユーザーのメールアドレス",
+        "ADD-PERSON-PLACEHOLDER-ON-PREM": "共有するユーザーの検索",
         "ACTION": {
-          "ADD": "Add another person",
-          "ADD-GROUP": "Add another group"
+          "ADD": "他のユーザーを追加",
+          "ADD-GROUP": "他のグループを追加"
         }
     },
 
     "ACCOUNT": {
       "POPUP": {
           "EDIT": {
-            "TITLE": "Edit account",
-            "FIRSTNAME": "First name",
-            "LASTNAME": "Last name",
-            "FIRSTNAME-PLACEHOLDER": "Enter first name",
-            "LASTNAME-PLACEHOLDER": "Enter last name",
-            "COMPANY": "Company (optional)",
-            "COMPANY-PLACEHOLDER": "Enter your company",
-            "CONFIRM": "Save profile"
+            "TITLE": "アカウントの編集",
+            "FIRSTNAME": "名",
+            "LASTNAME": "姓",
+            "FIRSTNAME-PLACEHOLDER": "名を入力",
+            "LASTNAME-PLACEHOLDER": "姓を入力",
+            "COMPANY": "会社 (オプション)",
+            "COMPANY-PLACEHOLDER": "会社を入力",
+            "CONFIRM": "プロファイルの保存"
           },
           "CHANGE-PASSWORD": {
-            "TITLE": "Edit your password",
-            "OLD-PASSWORD": "Current password",
-            "OLD-PASSWORD-PLACEHOLDER": "Enter your current password",
-            "NEW-PASSWORD": "New password",
-            "NEW-PASSWORD-PLACEHOLDER": "Enter your new password",
-            "NEW-PASSWORD-REPEAT": "Repeat password",
-            "NEW-PASSWORD-STRENGTH": "Password strength:",
-            "CONFIRM": "Change password",
-            "UNKNOWN-ERROR": "Your password is not changed, an error occured while updating.",
-            "OLD_PASSWORD-ERROR": "The current password you provided is not correct.",
-            "PASSWORDS-NOT-EQUAL": "Passwords don\"t match"
+            "TITLE": "パスワードを編集",
+            "OLD-PASSWORD": "現在のパスワード",
+            "OLD-PASSWORD-PLACEHOLDER": "現在のパスワードを入力",
+            "NEW-PASSWORD": "新しいパスワード",
+            "NEW-PASSWORD-PLACEHOLDER": "新しいパスワードを入力",
+            "NEW-PASSWORD-REPEAT": "パスワードを再度入力",
+            "NEW-PASSWORD-STRENGTH": "パスワードの長さ:",
+            "CONFIRM": "パスワードを変更",
+            "UNKNOWN-ERROR": "パスワードは変更されません。更新中にエラーが発生しました。",
+            "OLD_PASSWORD-ERROR": "指定した現在のパスワードが正しくありません。",
+            "PASSWORDS-NOT-EQUAL": "パスワードが一致しません"
           }
       },
       "ALERT": {
-          "UPDATED": "Your profile has been updated.",
-          "PASSWORD-CHANGED": "Your password has been changed."
+          "UPDATED": "プロフィールが更新されました。",
+          "PASSWORD-CHANGED": "パスワードは変更されました。"
       }
     },
 
     "MODELER": {
         "ALERT": {
-              "VALIDATION-OK": "Process model contains no validation errors.",
-              "VALIDATION-ERROR": "Process model contains validation errors."
+              "VALIDATION-OK": "プロセスモデルに検証エラーはありません。",
+              "VALIDATION-ERROR": "プロセスモデルに検証エラーがあります。"
         }
     },
 
@@ -733,110 +733,110 @@
         "VERSION": "バージョン {{version}}",
         "LAST-UPDATED": "最終更新者 {{lastUpdatedByFullName}}, {{lastUpdated | dateformat}}",
         "ALERT": {
-            "SAVED": "The model has been saved",
-            "ERROR-SAVE": "The model could not be saved due to an unexpected error",
-            "DEPLOYED": "The model has been deployed successfully",
-            "DELETED": "The model has been deleted successfully"
+            "SAVED": "モデルは保存されました",
+            "ERROR-SAVE": "予期しないエラーのためモデルを保存できませんでした",
+            "DEPLOYED": "モデルは正常にデプロイされました",
+            "DELETED": "モデルは正常に削除されました"
         }
     },
 
     "FORM-BUILDER": {
         "PALLETTE": {
-            "TEXT": "Text",
-            "CONTAINER": "Container",
-            "MULTILINE-TEXT": "Multiline text",
-            "NUMBER": "Number",
-            "CHECKBOX": "Checkbox",
-            "DATE": "Date",
-            "DROPDOWN": "Dropdown",
-            "RADIO": "Radio buttons",
-            "PEOPLE": "People",
-            "GROUP-OF-PEOPLE": "Group of people",
-            "TABLE": "Dynamic table",
-            "HEADER": "Header",
-            "UPLOAD": "Upload",
-            "EXPRESSION": "Expression",
-            "DISPLAY-VALUE": "Display value",
-            "DISPLAY-TEXT": "Display text"
+            "TEXT": "テキスト",
+            "CONTAINER": "コンテナー",
+            "MULTILINE-TEXT": "複数行テキスト",
+            "NUMBER": "数値",
+            "CHECKBOX": "チェックボックス",
+            "DATE": "日付",
+            "DROPDOWN": "ドロップダウン",
+            "RADIO": "ラジオボタン",
+            "PEOPLE": "ユーザー",
+            "GROUP-OF-PEOPLE": "ユーザーのグループ",
+            "TABLE": "ダイナミックテーブル",
+            "HEADER": "ヘッダー",
+            "UPLOAD": "アップロード",
+            "EXPRESSION": "式",
+            "DISPLAY-VALUE": "読み取り専用の値",
+            "DISPLAY-TEXT": "読み取り専用テキスト"
         },
         "TABS": {
-            "GENERAL": "General",
-            "OPTIONS": "Options",
-            "UPLOAD-OPTIONS": "Upload options",
-            "TABLE-COLUMNS": "Table columns",
-            "URL-OPTIONS": "Url options",
-            "GROUP-RESTRICTIONS": "Group restrictions",
-            "VISIBILITY": "Visibility"
+            "GENERAL": "一般",
+            "OPTIONS": "オプション",
+            "UPLOAD-OPTIONS": "アップロードオプション",
+            "TABLE-COLUMNS": "テーブルの列",
+            "URL-OPTIONS": "URL オプション",
+            "GROUP-RESTRICTIONS": "グループ制限",
+            "VISIBILITY": "表示"
         },
         "VERSION": "バージョン {{version}}",
         "LAST-UPDATED": "最終更新者 {{lastUpdatedByFullName}}, {{lastUpdated | dateformat}}",
         "TITLE": {
-            "PREVIEW": "Preview",
-            "DESIGN": "Design",
-            "DETAILS": "Details",
-            "OUTCOME": "Outcomes",
-            "COMPONENTS": "Form components",
-            "EDIT-COMPONENT": "Edit form component"
+            "PREVIEW": "プレビュー",
+            "DESIGN": "デザイン",
+            "DETAILS": "詳細",
+            "OUTCOME": "結果",
+            "COMPONENTS": "フォームコンポーネント",
+            "EDIT-COMPONENT": "フォームコンポーネントを編集する"
         },
         "POPUP": {
-            "EDIT-TITLE": "Edit field '{{name}}'",
-            "EXPRESSION-TITLE": "Edit expression"
+            "EDIT-TITLE": "フィールド '{{name}}' を編集",
+            "EXPRESSION-TITLE": "式を編集"
         },
         "MESSAGE": {
             "EMPTY-CANVAS": "フォームは現在空です。左側のリストから目的のコンポーネントをドラッグして、フォームにコンポーネントを追加します。キャンバス上のコンポーネントをクリックしてラベルやその他のプロパティを変更します...",
-            "SELECT-FIELD": "(No field selected)",
-            "EMPTY-EXPRESSION": "(No expression value)",
-            "FIELD-VALUE": "Show value of field \"{{field}}\"",
-            "SELECT-READONLY-FIELD": "Field:",
+            "SELECT-FIELD": "(フィールドが選択されていません)",
+            "EMPTY-EXPRESSION": "(式の値なし)",
+            "FIELD-VALUE": "フィールド \"{{field}}\" の値を表示",
+            "SELECT-READONLY-FIELD": "フィールド:",
             "EXPRESSION-HELP": "また、${myFieldId} のように表記を使用して参照することで、以前に送信した値をテキストの一部として任意の形式で表示できます。",
             "HYPERLINK-HELP": "HYPERLINK URL の一部として、以前に送信された値を任意の形式で表示することもできます。下のフィールドを選択してカーソルの位置に挿入します。",
             "HYPERLINK-HELP-RESPONSE-VARIABLE": "HYPERLINK URL の一部として REST レスポンス変数を表示することもできます。下のフィールドを選択してカーソルの位置に挿入します。",
             "DISPLAY-TEXT-HELP": "DISPLAY TEXT の一部として、以前に任意の形式で送信された値を表示することもできます。下のフィールドを選択してカーソルの位置に挿入します。",
-            "VARIABLE-NAME": "Variable name:"
+            "VARIABLE-NAME": "変数名:"
         },
         "LABEL" : {
-            "FUNCTIONAL-GROUP": "グループを選択..",
-            "PERSON": "Select person..",
-            "SEARCH": "Search"
+            "FUNCTIONAL-GROUP": "グループを選択",
+            "PERSON": "ユーザーを選択",
+            "SEARCH": "検索"
         },
         "COMPONENT": {
-            "LABEL": "Label:",
-            "NAME": "Name:",
-            "OVERRIDEID": "Override id?",
+            "LABEL": "ラベル:",
+            "NAME": "名前:",
+            "OVERRIDEID": "ID を上書きしますか？",
             "ID": "Id:",
-            "PLACEHOLDER": "Placeholder:",
-            "OPTIONS-TYPE": "Options type:",
-            "OPTIONS": "Options",
-            "RADIO-BUTTON-DEFAULT": "Option 1",
-            "DROPDOWN-DEFAULT-EMPTY-SELECTION": "Please choose one...",
+            "PLACEHOLDER": "プレースホルダー:",
+            "OPTIONS-TYPE": "オプションタイプ:",
+            "OPTIONS": "オプション",
+            "RADIO-BUTTON-DEFAULT": "オプション 1",
+            "DROPDOWN-DEFAULT-EMPTY-SELECTION": "一つ選んでください",
             "DROPDOWN-EMPTY-VALUE-HELP": "これは「空の値」オプションです。実行時にこれを選択することは、「値なし」または「空」を意味すると解釈されます。これはオプションのフィールドでは許可されていますが、必須のフィールドでは許可されていません。",
-            "DISPLAY-TEXT-DEFAULT": "Display text as part of the form",
-            "BASE-ENDPOINT": "Base endpoint",
-            "REQUIRED": "Required",
-            "EXPRESSION": "Expression",
-            "READONLY": "Read only",
-            "ADD-OPTION": "+ Add a new option",
-            "UPLOAD-ALLOW-MULTIPLE": "Allow uploading multiple files",
-            "DOCUMENTS-EDITABLE": "Allow editing documents in Office",
-            "READONLY-TEXT": "Text to display",
-            "ONLY-LINKS": "Only link selected content, don't copy",
+            "DISPLAY-TEXT-DEFAULT": "フォームの一部としてテキストを表示する",
+            "BASE-ENDPOINT": "ベースエンドポイント",
+            "REQUIRED": "必須",
+            "EXPRESSION": "式",
+            "READONLY": "読み取り専用",
+            "ADD-OPTION": "+ 新しいオプションを追加",
+            "UPLOAD-ALLOW-MULTIPLE": "複数ファイルのアップロードを許可",
+            "DOCUMENTS-EDITABLE": "Office でドキュメントの編集を許可する",
+            "READONLY-TEXT": "表示するテキスト",
+            "ONLY-LINKS": "選択したコンテンツのみをリンクし、コピーしないでください",
             "ONLY-LINKS-HELP": "ユーザーは自分のデバイスからファイルをアップロードすることを許可されません。むしろコンテンツは、コピーする代わりにリンクされる外部のソースから選択することができます。",
-            "HEADER-ID" : "Property id",
-            "PLACEHOLDER-ID" : "Enter a property id",
-            "HEADER-NAME" : "Property name",
-            "PLACEHOLDER-NAME" : "Enter a property name",
-            "HEADER-TYPE": "Property type",
-            "EDITABLE" : "Editable",
-            "SORTABLE" : "Sortable",
-            "VISIBLE" : "Show in table",
-            "PROPERTY-UNSELECTED" : "No property selected",
-            "DISPLAY-TEXT": "Display text",
-            "AMOUNT-CURRENCY-PROPERTY": "Currency",
-            "AMOUNT-ENABLE-FRACTIONS": "Enable fractions"
+            "HEADER-ID" : "プロパティ ID",
+            "PLACEHOLDER-ID" : "プロパティ ID を入力",
+            "HEADER-NAME" : "プロパティ名",
+            "PLACEHOLDER-NAME" : "プロパティ名を入力",
+            "HEADER-TYPE": "プロパティタイプ",
+            "EDITABLE" : "編集可能",
+            "SORTABLE" : "ソート可能",
+            "VISIBLE" : "表に表示する",
+            "PROPERTY-UNSELECTED" : "プロパティが選択されていません",
+            "DISPLAY-TEXT": "表示テキスト",
+            "AMOUNT-CURRENCY-PROPERTY": "通貨",
+            "AMOUNT-ENABLE-FRACTIONS": "分数を有効にする"
         },
         "OPTIONS": {
-            "MANUAL": "Manual",
-            "REST": "Rest service"
+            "MANUAL": "マニュアル",
+            "REST": "Rest サービス"
         },
         "OUTCOMES": {
             "DESCRIPTION": "このタスクに対して複数の結果を定義できます。タスクを完了するとき、ユーザーは利用可能な結果の1つを選択します。その過程でさらに条件が続く。",
@@ -848,16 +848,16 @@
             "REMOVE": "削除"
         },
         "VALIDATOR-POPUP": {
-            "DESCRIPTION": "Description",
-            "WARNING": "Warning",
-            "VALIDATOR-SET": "Validator set"
+            "DESCRIPTION": "説明",
+            "WARNING": "警告",
+            "VALIDATOR-SET": "バリデータセット"
         },
         "GROUP-RESTRICTION": {
-            "LABEL": "Restricted by group"
+            "LABEL": "グループによる制限"
         },
         "ALERT": {
-          "VALIDATION-OK": "Form contains no validation errors.",
-          "VALIDATION-ERROR": "Form contains validation errors."
+          "VALIDATION-OK": "フォームに検証エラーはありません。",
+          "VALIDATION-ERROR": "フォームに検証エラーがあります。"
         }
     },
 
@@ -866,122 +866,122 @@
             "NO-COLUMN": "テーブルに決定行を追加する前に、少なくとも1つの条件と1つのアクション列を作成する必要があります。",
             "NO-CONDITION-COLUMN": "すばらしい！ これで '{{variable}}' のアクション列ができました。次に進み、条件列を作成します...",
             "NO-ACTION-COLUMN": "すばらしいです！ これで '{{variable}}' の条件列ができました。次に進み、アクション列を作成します...",
-            "NO-VARIABLE-SELECTED": "Undefined"
+            "NO-VARIABLE-SELECTED": "未定義"
         },
         "POPUP": {
             "EXPRESSION-EDITOR": {
-                "INPUT-TITLE": "Edit input column",
-                "INPUT-DESCRIPTION": "Select input variable as input for the column",
-                "OUTPUT-TITLE": "Edit output column",
-                "OUTPUT-DESCRIPTION": "Select an existing output variable or create a new one",
-                "EXPRESSION-LABEL": "Column label:",
-                "EXPRESSION-PLACEHOLDER": "Enter an optional label",
-                "EXPRESSION-TYPE-LABEL": "Column type:",
-                "EXPRESSION-TYPE-VARIABLE": "Expression",
-                "EXPRESSION-TYPE-SCRIPT": "Script",
-                "EXPRESSION-VARIABLE-TYPE-LABEL": "Variable type:",
-                "EXPRESSION-VARIABLE-TYPE-BOOLEAN": "Boolean",
-                "EXPRESSION-VARIABLE-TYPE-DATE": "Date",
-                "EXPRESSION-VARIABLE-TYPE-DATE_EXECUTION": "Execution Date",
-                "EXPRESSION-VARIABLE-TYPE-NUMBER": "Number",
-                "EXPRESSION-VARIABLE-TYPE-STRING": "String",
+                "INPUT-TITLE": "入力列を編集する",
+                "INPUT-DESCRIPTION": "列の入力として入力変数を選択",
+                "OUTPUT-TITLE": "出力列を編集する",
+                "OUTPUT-DESCRIPTION": "既存の出力変数を選択するか、新しいものを作成してください。",
+                "EXPRESSION-LABEL": "列のラベル:",
+                "EXPRESSION-PLACEHOLDER": "オプションのラベルを入力してください",
+                "EXPRESSION-TYPE-LABEL": "列のタイプ:",
+                "EXPRESSION-TYPE-VARIABLE": "式",
+                "EXPRESSION-TYPE-SCRIPT": "スクリプト",
+                "EXPRESSION-VARIABLE-TYPE-LABEL": "変数の型:",
+                "EXPRESSION-VARIABLE-TYPE-BOOLEAN": "真偽値",
+                "EXPRESSION-VARIABLE-TYPE-DATE": "日付",
+                "EXPRESSION-VARIABLE-TYPE-DATE_EXECUTION": "実行日",
+                "EXPRESSION-VARIABLE-TYPE-NUMBER": "数値",
+                "EXPRESSION-VARIABLE-TYPE-STRING": "文字列",
                 "EXPRESSION-VARIABLE-TYPE-FORMFIELD": "フォームフィールド",
-                "EXPRESSION-VARIABLE-TYPE-VARIABLE": "Variable",
-                "EXPRESSION-VARIABLE-TYPE-STATIC": "Static",
-                "EXPRESSION-VARIABLE-NAME": "Variable name:",
-                "EXPRESSION-VARIABLE-NAME-PLACEHOLDER": "Enter a variable name",
-                "INPUT-EXISTING-VARIABLE": "Existing",
-                "INPUT-NEW-VARIABLE": "Create new",
-                "OUTPUT-EXISTING-VARIABLE": "Existing",
-                "OUTPUT-NEW-VARIABLE": "Create new",
-                "OUTPUT-NEW-VARIABLE-ID": "Variable ID:",
-                "OUTPUT-NEW-VARIABLE-TYPE": "Variable type:"
+                "EXPRESSION-VARIABLE-TYPE-VARIABLE": "変数",
+                "EXPRESSION-VARIABLE-TYPE-STATIC": "静的",
+                "EXPRESSION-VARIABLE-NAME": "変数名:",
+                "EXPRESSION-VARIABLE-NAME-PLACEHOLDER": "変数名を入力",
+                "INPUT-EXISTING-VARIABLE": "既存の",
+                "INPUT-NEW-VARIABLE": "新規作成",
+                "OUTPUT-EXISTING-VARIABLE": "既存の",
+                "OUTPUT-NEW-VARIABLE": "新規作成",
+                "OUTPUT-NEW-VARIABLE-ID": "変数 ID:",
+                "OUTPUT-NEW-VARIABLE-TYPE": "変数の型:"
             },
             "RULE-EDITOR": {
-                "TITLE": "Edit rule expression for column \"{{name }}\"",
-                "DESCRIPTION": "Compose the \"{{columnType}}\" expression",
-                "OPERATOR-LABEL": "Operator:",
-                "DATE-TYPE-LABEL": "Date type:",
-                "DATE-LABEL": "Date:",
-                "METHOD-LABEL": "Method:",
-                "YEARS-LABEL": "Years:",
-                "MONTHS-LABEL": "Months:",
-                "DAYS-LABEL": "Days:",
-                "DATE-TYPE-FIXED": "Fixed",
-                "DATE-TYPE-DYNAMIC": "Dynamic",
-                "NUMBER-LABEL": "Number:",
+                "TITLE": "列 \"{{name }}\" の編集ルール式",
+                "DESCRIPTION": "\"{{columnType}}\" 式を作成してください",
+                "OPERATOR-LABEL": "演算子:",
+                "DATE-TYPE-LABEL": "日付のタイプ:",
+                "DATE-LABEL": "日付:",
+                "METHOD-LABEL": "方法:",
+                "YEARS-LABEL": "年:",
+                "MONTHS-LABEL": "月:",
+                "DAYS-LABEL": "日:",
+                "DATE-TYPE-FIXED": "固定",
+                "DATE-TYPE-DYNAMIC": "変動",
+                "NUMBER-LABEL": "数値:",
                 "NUMBER-FORMAT-MESSAGE": "123.45",
-                "BOOLEAN-LABEL": "Boolean:",
-                "STRING-LABEL": "String:",
-                "SELECT-VALUE": "Select value...",
-                "DATE_CALCULATION-LABEL": "Calculation:",
-                "DATE_EXECUTION-LABEL": "Execution Date:",
-                "DATE_EXECUTION-TEXT": "The date when the decision table is being executed will be used",
+                "BOOLEAN-LABEL": "真偽値:",
+                "STRING-LABEL": "文字列:",
+                "SELECT-VALUE": "値を選択",
+                "DATE_CALCULATION-LABEL": "計算:",
+                "DATE_EXECUTION-LABEL": "実行日:",
+                "DATE_EXECUTION-TEXT": "意思決定表が実行されている日付が使用されます",
                 "ERROR": "セルの式がグラフィカルエディタで解釈できませんでした。これは、式が無効であることを意味するのではありません。<br/>式を維持するには、\"Cancel\" をクリックしてください。新しい式を作成するには、フォームに入力して \"OK\" をクリックしてください。",
-                "NUMBER_CALCULATION-LABEL": "Calculation:",
-                "NUMBER_CALCULATION-PARAM1-LABEL": "Number:"
+                "NUMBER_CALCULATION-LABEL": "計算:",
+                "NUMBER_CALCULATION-PARAM1-LABEL": "数値:"
             }
         },
         "OPERATOR": {
             "STRING": {
-                "==": "Equals",
-                "!=": "Not equals",
-                ".startsWith": "Starts with",
-                ".endsWith": "Ends with",
-                ".contains": "Contains",
-                "__isEmpty__": "Is empty",
-                "__isNotEmpty__": "Is Not empty"
+                "==": "等しい",
+                "!=": "等しくない",
+                ".startsWith": "で始まる",
+                ".endsWith": "で終わる",
+                ".contains": "含む",
+                "__isEmpty__": "空",
+                "__isNotEmpty__": "空でない"
             },
             "BOOLEAN": {
-                "==": "Equals",
-                "!=": "Not equals",
-                "__isEmpty__": "Is empty",
-                "__isNotEmpty__": "Is Not empty"
+                "==": "等しい",
+                "!=": "等しくない",
+                "__isEmpty__": "空",
+                "__isNotEmpty__": "空でない"
             },
             "DATE": {
-                "==": "Same as",
-                "!=": "Other than",
-                ">": "After",
-                "<": "Before",
-                ">=": "After or same as",
-                "<=": "Before or same as",
-                ".startsWith": "Starts with",
-                ".endsWith": "Ends with",
-                ".contains": "Contains",
-                "__isEmpty__": "Is empty",
-                "__isNotEmpty__": "Is Not empty"
+                "==": "と同じ",
+                "!=": "以外",
+                ">": "より後",
+                "<": "より前",
+                ">=": "以降",
+                "<=": "以前",
+                ".startsWith": "開始",
+                ".endsWith": "終了",
+                ".contains": "含む",
+                "__isEmpty__": "空",
+                "__isNotEmpty__": "空でない"
             },
             "NUMBER": {
-                "==": "Equals",
-                "!=": "Not equals",
-                ">": "Greater than",
-                "<": "Less than",
-                ">=": "Greater than or equals",
-                "<=": "Less than or equals",
-                "__isEmpty__": "Is empty",
-                "__isNotEmpty__": "Is Not empty"
+                "==": "等しい",
+                "!=": "等しくない",
+                ">": "より大きい",
+                "<": "未満",
+                ">=": "以上",
+                "<=": "以下",
+                "__isEmpty__": "空",
+                "__isNotEmpty__": "空でない"
             }
         },
         "CALCULATION": {
             "DATE": {
                 "NONE": "",
-                "ADD": "Add",
-                "SUBTRACT": "Subtract"
+                "ADD": "足す",
+                "SUBTRACT": "引く"
             },
             "NUMBER": {
                 "NONE": "",
-                "ADD": "Add",
-                "SUBTRACT": "Subtract",
-                "DIVIDE": "Divide",
-                "MULTIPLY": "Multiply"
+                "ADD": "足す",
+                "SUBTRACT": "引く",
+                "DIVIDE": "割る",
+                "MULTIPLY": "掛ける"
             }
         },
-        "BUTTON-ADD-INPUT-LABEL": "Add input",
-        "BUTTON-ADD-OUTPUT-LABEL": "Add output",
-        "BUTTON-ADD-RULE-LABEL": "Add rule",
-        "BUTTON-MOVE-RULE-UPWARDS-LABEL": "Move up",
-        "BUTTON-MOVE-RULE-DOWNWARDS-LABEL": "Move down",
-        "BUTTON-REMOVE-RULE-LABEL": "Remove rule",
+        "BUTTON-ADD-INPUT-LABEL": "入力を追加",
+        "BUTTON-ADD-OUTPUT-LABEL": "出力を追加",
+        "BUTTON-ADD-RULE-LABEL": "ルールを追加",
+        "BUTTON-MOVE-RULE-UPWARDS-LABEL": "上に移動",
+        "BUTTON-MOVE-RULE-DOWNWARDS-LABEL": "下に移動",
+        "BUTTON-REMOVE-RULE-LABEL": "ルールを削除",
         "ALERT": {
             "EXPRESSION-VARIABLE-REQUIRED-ERROR": "すべての入力式と出力式はフォームフィールドまたは変数を参照する必要があります。",
             "SAVE-CONFIRM": "保存された意思決定表 '{{name}}'",
@@ -1505,25 +1505,25 @@
         }
     },
 
-    "HEADER.BRAND" : "Activiti Editor",
+    "HEADER.BRAND" : "Activiti エディター",
     "HEADER.BRAND_TAGLINE" : "powered by Alfresco",
-    "PAGE.HEADER" : "Orchestration Details",
+    "PAGE.HEADER" : "オーケストレーションの詳細",
 
     "ACTION.OK" : "Ok",
-    "ACTION.SAVE" : "Save",
-    "ACTION.SAVE-AND-CLOSE" : "Save and close editor",
-    "ACTION.SEND" : "Send",
-    "ACTION.CANCEL" : "Cancel",
-    "ACTION.SELECT" : "Select",
-    "ACTION.ADD" : "Add",
-    "ACTION.REMOVE" : "Remove",
-    "ACTION.MOVE.UP" : "Move entry up",
-    "ACTION.MOVE.DOWN" : "Move entry down",
+    "ACTION.SAVE" : "保存",
+    "ACTION.SAVE-AND-CLOSE" : "保存してエディターを閉じる",
+    "ACTION.SEND" : "送信",
+    "ACTION.CANCEL" : "キャンセル",
+    "ACTION.SELECT" : "選択",
+    "ACTION.ADD" : "追加",
+    "ACTION.REMOVE" : "削除",
+    "ACTION.MOVE.UP" : "エントリを上に移動",
+    "ACTION.MOVE.DOWN" : "エントリを下に移動",
 
-    "MAIN_NAVIGATION_ORCHESTRATIONS" : "Orchestrations",
-    "MAIN_NAVIGATION_DISPATCH_RULES" : "Dispatch Rules",
-    "MAIN_NAVIGATION_ASSET_GROUPS" : "Assert Groups",
-    "MAIN_NAVIGATION_SOLUTIONS" : "Solutions",
+    "MAIN_NAVIGATION_ORCHESTRATIONS" : "オーケストレーション",
+    "MAIN_NAVIGATION_DISPATCH_RULES" : "ディスパッチルール",
+    "MAIN_NAVIGATION_ASSET_GROUPS" : "アサートグループ",
+    "MAIN_NAVIGATION_SOLUTIONS" : "解決方法",
 
     "TOOLBAR.ACTION.CLOSE" : "エディタを閉じて概要ページに戻る",
     "TOOLBAR.ACTION.SAVE" : "Save the model",
@@ -1796,22 +1796,22 @@
     "EVENT_TYPE.ACTIVITY.COMPENSATE.TOOLTIP": "あるアクティビティが別のアクティビティの代わりとして実行されようとしています。イベントは、代わりのために実行されようとしているアクティビティをターゲットにします。",
     "EVENT_TYPE.ACTIVITY.COMPLETED.TOOLTIP": "アクティビティは正常に完了しました",
     "EVENT_TYPE.ACTIVITY.ERROR.RECEIVED.TOOLTIP": "アクティビティがエラーイベントを受け取りました。実際のエラーがアクティビティによって受信される前に送出されます。",
-    "EVENT_TYPE.MEMBERSHIP.CREATED.TOOLTIP": "A new membership has been created",
-    "EVENT_TYPE.MEMBERSHIP.DELETED.TOOLTIP": "A single membership has been deleted",
+    "EVENT_TYPE.MEMBERSHIP.CREATED.TOOLTIP": "新しいメンバーシップが作成されました",
+    "EVENT_TYPE.MEMBERSHIP.DELETED.TOOLTIP": "単一のメンバーシップが削除されました",
     "EVENT_TYPE.MEMBERSHIPS.DELETED.TOOLTIP": "関連グループのすべてのメンバーシップが削除されました。パフォーマンス上の理由から、個々のイベントは送出されません。",
     "EVENT_TYPE.TASK.ASSIGNED.TOOLTIP": "タスクが割り当てられました。これは ENTITY_UPDATED イベントと一緒にスローされます。",
     "EVENT_TYPE.TASK.COMPLETED.TOOLTIP": "タスクは完了しました。タスクエンティティが削除される前に送出されます。",
     "EVENT_TYPE.UNCAUGHT.BPMNERROR.TOOLTIP": "BPMN エラーがスローされたが、プロセス内で捕捉されなかった場合",
-    "EVENT_TYPE.VARIABLE.CREATED.TOOLTIP": "A new variable has been created",
-    "EVENT_TYPE.VARIABLE.DELETED.TOOLTIP": "An existing variable has been deleted",
-    "EVENT_TYPE.VARIABLE.UPDATED.TOOLTIP": "An existing variable has been updated",
+    "EVENT_TYPE.VARIABLE.CREATED.TOOLTIP": "新しい変数が作成されました",
+    "EVENT_TYPE.VARIABLE.DELETED.TOOLTIP": "既存の変数が削除されました",
+    "EVENT_TYPE.VARIABLE.UPDATED.TOOLTIP": "既存の変数が更新されました",
 
-    "PROPERTY.DECISIONTABLEREFERENCE.EMPTY" : "No reference selected",
-    "PROPERTY.DECISIONTABLEREFERENCE.TITLE" : "Decision table reference",
+    "PROPERTY.DECISIONTABLEREFERENCE.EMPTY" : "参照が選択されていません",
+    "PROPERTY.DECISIONTABLEREFERENCE.TITLE" : "意思決定表参照",
     "PROPERTY.DECISIONTABLEREFERENCE.ERROR.FORM" : "意思決定表の読み込み中にエラーが発生しました。 あとでもう一度試してみてください",
-    "PROPERTY.DECISIONTABLEREFERENCE.FOLDER.ROOT" : "Folders",
-    "PROPERTY.DECISIONTABLEREFERENCE.FOLDER.LOADING" : "Loading folders...",
-    "PROPERTY.DECISIONTABLEREFERENCE.FOLDER.EMPTY" : "This folder contains no subfolders",
-    "PROPERTY.DECISIONTABLEREFERENCE.DECISIONTABLE.LOADING" : "Loading decision tables...",
-    "PROPERTY.DECISIONTABLEREFERENCE.DECISIONTABLE.EMPTY" : "This folder contains no decision tables"
+    "PROPERTY.DECISIONTABLEREFERENCE.FOLDER.ROOT" : "フォルダ",
+    "PROPERTY.DECISIONTABLEREFERENCE.FOLDER.LOADING" : "フォルダを読み込んでいます...",
+    "PROPERTY.DECISIONTABLEREFERENCE.FOLDER.EMPTY" : "このフォルダにはサブフォルダがありません",
+    "PROPERTY.DECISIONTABLEREFERENCE.DECISIONTABLE.LOADING" : "意思決定表を読み込んでいます...",
+    "PROPERTY.DECISIONTABLEREFERENCE.DECISIONTABLE.EMPTY" : "このフォルダには意思決定表がありません"
 }
