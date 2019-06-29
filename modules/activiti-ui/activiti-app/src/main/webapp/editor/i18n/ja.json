@@ -611,7 +611,7 @@
           "USE-AS-NEW-TITLE": "新しいバージョンとして使用",
           "USE-AS-NEW-DESCRIPTION": "新しいバージョンの \"{{name}}\" を作成するためにバージョン {{version}} を使用してよろしいですか？",
           "SHARE-TITLE":"Share app definition",
-          "SHARE-DESCRIPTION": "You can decide who you wish to share this app definition with and if they can edit it.",
+          "SHARE-DESCRIPTION": "このアプリ定義を誰と共有したいか、また編集できるかどうかを決めることができます。",
           "NOT-SHARED" : "This app definition is not shared with anyone.",
           "HAS-CUSTOM-STENCILITEM" : "Model  \"{{modelName}}\" は、ステンシルとカスタムステンシルアイテムを使用します。 このモデルをアプリ定義で使用することはできません。",
           "HAS-VALIDATIONERROR" : "モデル \"{{modelName}}\" に検証エラーがあり、アプリ定義に追加できません。検証エラーの詳細を確認するには、エディターでモデルを開きます。",
@@ -627,14 +627,14 @@
           "INCLUDE-MODELS-TITLE": "Models included in the app definition"
         },
         "ALERT": {
-          "EDIT-CONFIRM": "App definition updated",
-          "FAVORITE-CONFIRM": "This app definition is now favorited",
+          "EDIT-CONFIRM": "アプリ定義を更新しました",
+          "FAVORITE-CONFIRM": "このアプリの定義は現在お気に入りに登録されています",
           "UN-FAVORITE-CONFIRM": "This app definition is no longer favorited",
           "DELETE-CONFIRM": "App definition deleted",
           "SHARE-CONFIRM": "The app definition sharing options have been updated",
           "NEW-VERSION-CONFIRM": "A new version of the app definition has been created",
           "COMMENT-ADDED-CONFIRM": "A new comment was added to the app definition",
-          "PUBLISH-ERROR": "Could not publish app definition. Please check the validity of the referenced process models"
+          "PUBLISH-ERROR": "アプリ定義を公開できませんでした。参照されているプロセスモデルの妥当性を確認してください"
         },
         "ERROR": {
           "NOT-FOUND": "The requested app definition does not exist"
@@ -1145,15 +1145,15 @@
                 "DESCRIPTION": "An intermediate event with a signal trigger"
             },
             "LANE": {
-                "TITLE": "Lane",
-                "DESCRIPTION": "A lane to stucture the process definition"
+                "TITLE": "レーン",
+                "DESCRIPTION": "プロセス定義を構築するための道"
             },
             "MAILTASK": {
-                "TITLE": "Mail task",
-                "DESCRIPTION": "A mail task"
+                "TITLE": "メールタスク",
+                "DESCRIPTION": "メールタスク"
             },
             "MANUALTASK": {
-                "TITLE": "Manual task",
+                "TITLE": "マニュアルタスク",
                 "DESCRIPTION": "An automatic task with no logic"
             },
             "MESSAGE-FLOW": {
@@ -1244,7 +1244,7 @@
             },
             "COMPENSATION": {
                 "TITLE": "Is for compensation",
-                "DESCRIPTION": "A flag that identifies whether this activity is intended for the purposes of compensation."
+                "DESCRIPTION": "Aこのアクティビティが代わりの目的のためのものであるかどうかを識別するフラグ。"
             },
             "COLLAPSED-SUBPROCESS-REFERENCE": {
                 "TITLE": "Referenced Subprocess",
@@ -1525,11 +1525,11 @@
     "MAIN_NAVIGATION_ASSET_GROUPS" : "Assert Groups",
     "MAIN_NAVIGATION_SOLUTIONS" : "Solutions",
 
-    "TOOLBAR.ACTION.CLOSE" : "Close the editor and go back to the overview page",
+    "TOOLBAR.ACTION.CLOSE" : "エディタを閉じて概要ページに戻る",
     "TOOLBAR.ACTION.SAVE" : "Save the model",
     "TOOLBAR.ACTION.VALIDATE": "Validate the model",
-    "TOOLBAR.ACTION.CUT" : "Cut (select one or more elements in your business process)",
-    "TOOLBAR.ACTION.COPY" : "Copy (select one or more elements in your business process)",
+    "TOOLBAR.ACTION.CUT" : "切り取り (ビジネスプロセスで1つ以上の要素を選択します)",
+    "TOOLBAR.ACTION.COPY" : "コピー (ビジネスプロセスで1つ以上の要素を選択します)",
     "TOOLBAR.ACTION.PASTE" : "Paste",
     "TOOLBAR.ACTION.DELETE" : "Delete the selected element",
     "TOOLBAR.ACTION.UNDO" : "Undo",
@@ -1586,7 +1586,7 @@
     "PROPERTY.ASSIGNMENT.TYPE.STATIC" : "Fixed values",
     "PROPERTY.ASSIGNMENT.ASSIGNEE" : "Assignee",
     "PROPERTY.ASSIGNMENT.NO_ASSIGNEE" : "No assignee selected...",
-    "PROPERTY.ASSIGNMENT.MATCHING" : "&uparrow; および &downarrow; を使用して選択し、Enter を押して確認します or use the mouse",
+    "PROPERTY.ASSIGNMENT.MATCHING" : "&uparrow; および &downarrow; を使用して選択し、Enter を押して確認します。もしくはマウスを使用します。",
     "PROPERTY.ASSIGNMENT.ASSIGNEE_PLACEHOLDER" : "Enter an assignee",
     "PROPERTY.ASSIGNMENT.EMPTY" : "No assignment selected",
     "PROPERTY.ASSIGNMENT.ASSIGNEE_DISPLAY" : "Assignee {{assignee}}",
@@ -1683,7 +1683,7 @@
 
     "PROPERTY.SUBPROCESSREFERENCE.EMPTY" : "No reference selected",
     "PROPERTY.SUBPROCESSREFERENCE.TITLE" : "Collapsed subprocess reference",
-    "PROPERTY.SUBPROCESSREFERENCE.ERROR.SUBPROCESS" : "There was an error loading the subprocesses. Try again later",
+    "PROPERTY.SUBPROCESSREFERENCE.ERROR.SUBPROCESS" : "サブプロセスのロード中にエラーが発生しました。あとでもう一度試してみてください",
     "PROPERTY.SUBPROCESSREFERENCE.FOLDER.ROOT" : "Folders",
     "PROPERTY.SUBPROCESSREFERENCE.FOLDER.LOADING" : "Loading folders...",
     "PROPERTY.SUBPROCESSREFERENCE.FOLDER.EMPTY" : "This folder contains no sub-folders",
@@ -1692,7 +1692,7 @@
 
     "PROPERTY.FORMREFERENCE.EMPTY" : "No reference selected",
     "PROPERTY.FORMREFERENCE.TITLE" : "Form reference",
-    "PROPERTY.FORMREFERENCE.ERROR.FORM" : "There was an error loading the forms. Try again later",
+    "PROPERTY.FORMREFERENCE.ERROR.FORM" : "フォームの読み込み中にエラーが発生しました。あとでもう一度試してみてください",
     "PROPERTY.FORMREFERENCE.FOLDER.ROOT" : "Folders",
     "PROPERTY.FORMREFERENCE.FOLDER.LOADING" : "Loading folders...",
     "PROPERTY.FORMREFERENCE.FOLDER.EMPTY" : "This folder contains no sub-folders",
