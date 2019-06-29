@@ -6,7 +6,7 @@
             "LOGOUT": "サインアウト",
             "DISMISS-ALERT": "このメッセージを閉じるにはクリックしてください。",
             "RETURN-TO-LIST": "リストに戻る",
-            "SHOW-RESULTS": "{{'GENERAL.RESULT-SIZES.' + resultSize.toString() | translate}} 結果の参照",
+            "SHOW-RESULTS": "{{'GENERAL.RESULT-SIZES.' + resultSize.toString() | translate}} 結果の参照",
             "REFRESH-LIST": "リストの再読み込み",
             "SORT-BY": "{{name | translate}}で並び替え",
             "CLEAR-FILTERS": "フィルターのクリア",
