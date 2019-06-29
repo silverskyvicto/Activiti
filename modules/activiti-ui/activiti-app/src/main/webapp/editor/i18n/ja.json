@@ -472,21 +472,21 @@
             "TITLE": "意思決定表の編集"
         },
         "HIT-POLICIES": {
-            "FIRST": "First (Single pass)",
-            "ANY": "Any (Single pass)"
+            "FIRST": "First (シングルパス)",
+            "ANY": "Any (シングルパス)"
         },
         "POPUP": {
             "ADD-COMMENT-TITLE": "コメントを追加",
             "ADD-COMMENT-DESCRIPTION": "下に \"{{name}}\" の新しいコメントを入力してください",
-            "ADD-COMMENT-SIZE-ERROR": "The comment cannot exceed 4000 characters",
-            "CREATE-TITLE": "Create a new decision table",
-            "DUPLICATE-TITLE": "Duplicate decision table",
+            "ADD-COMMENT-SIZE-ERROR": "コメントは 4000 文字を超えることはできません",
+            "CREATE-TITLE": "新しい意思決定表を作成する",
+            "DUPLICATE-TITLE": "意思決定表決定表が重複しています",
             "CREATE-DESCRIPTION": "新しい意思決定表の名前を付ける必要があります。同時に説明を追加することもできます。",
             "SAVE-DESCRIPTION": "新しい意思決定表に名前と一意のキーを付ける必要があります。同時に説明を追加することもできます。",
             "DUPLICATE-DESCRIPTION": "新しい意思決定表の名前を付ける必要があります。同時に説明を追加することもできます。",
             "SAVE-DECISION-TABLE-TITLE": "Save decision table",
-            "IMPORT-DESCRIPTION": "Browse for or drop a DMN XML definition with an .dmn or .dmn.xml extension",
-            "IMPORT-TITLE": "Import a DMN model",
+            "IMPORT-DESCRIPTION": "拡張子が .dmn または .dmn.xml の DMN XML 定義を参照または削除します。",
+            "IMPORT-TITLE": "DMN モデルをインポートする",
  	        "IMPORT": {
  	            "DROPZONE": "Drop a .dmn or .dmn.xml DMN XML file",
  	            "CANCEL-UPLOAD": "Cancel the upload",
@@ -561,20 +561,20 @@
 
         },
         "DETAILS": {
-          "TITLE": "App definition details: {{name}}",
+          "TITLE": "アプリ定義の詳細: {{name}}",
           "COMPARE-WITH-TITLE": "Compare with",
-          "HISTORY-TITLE": "History",
-          "COMMENTS-TITLE": "Comments",
-          "MODELS-TITLE": "Models included in the app definition",
-          "THEME-TITLE": "This is a preview of the selected app definition theme. You can select a different icon and theme color by hovering over the preview.",
+          "HISTORY-TITLE": "ヒストリー",
+          "COMMENTS-TITLE": "コメント",
+          "MODELS-TITLE": "アプリ定義に含まれるモデル",
+          "THEME-TITLE": "これは選択したアプリ定義テーマのプレビューです。プレビューの上にマウスを移動すると、別のアイコンとテーマの色を選択できます。",
           "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
           "CREATED-BY": "作成者 {{createdByFullName}}",
           "VERSION": "(バージョン {{version}})",
-          "NO-DESCRIPTION": "This app definition has no description. Modify the app definition properties to add one",
-          "NO-MODELS-SELECTED": "No models are selected for this app"
+          "NO-DESCRIPTION": "このアプリの定義には説明がありません。アプリ定義プロパティを変更して追加します",
+          "NO-MODELS-SELECTED": "このアプリのモデルは選択されていません"
         },
         "EDIT": {
-          "TITLE": "Edit app definition"
+          "TITLE": "アプリ定義の編集"
         },
 
         "TITLE": {
@@ -597,15 +597,15 @@
           "EDIT-DESCRIPTION": "以下のアプリ定義プロパティを変更してから、[保存] をクリックしてアプリ定義を更新します。",
           "EDIT-TITLE": "Edit app definition details",
           "PUBLISH-TITLE": "Publish app definition",
-          "PUBLISH-DESCRIPTION": "Are you sure you want to publish the app definition \"{{name}}\"? Note that this app definition will be versioned and the workflow app will be updated if existing already.",
-          "PUBLISH-FIELD": "Publish? Note that if publish is enabled, this app definition will be versioned and the workflow app will be updated if existing already.",
+          "PUBLISH-DESCRIPTION": "アプリ定義 \"{{name}}\" を公開してよろしいですか？ このアプリ定義はバージョン管理され、ワークフローアプリは既に存在する場合は更新されます。",
+          "PUBLISH-FIELD": "公開しますか？ 公開が有効になっている場合、このアプリ定義はバージョン管理され、ワークフローアプリは既に存在する場合は更新されます。",
           "PUBLISH-ERROR-PROCDEF-KEY-CONFLICT": "プロセスモデル \"{{modelInAppName}}\" は、アプリケーションの既存のデプロイされたプロセス \"{{conflictingModelName}}\" と同じ識別子 \"{{processDefinitionKey}}\" を持っています \"{{conflictingAppName}}\"。プロセスモデルのこの \"id\" プロパティを別のものに変更してください。",
-          "PUBLISH-ERROR-PROCESS-ALREADY-USED": "Following process models are already used in another app. Is this ok?",
+          "PUBLISH-ERROR-PROCESS-ALREADY-USED": "以下のプロセスモデルはすでに他のアプリで使用されています。これでいいですか？",
           "PUBLISH-ERROR-PROCESS-ALREADY-USED-APP": "App",
-          "PUBLISH-ERROR-PROCDEF-DUPLICATE-KEYS": "Invalid app: duplicate process identifiers found (change the \"id\" property of the offending process models):",
+          "PUBLISH-ERROR-PROCDEF-DUPLICATE-KEYS": "無効なアプリ: 重複するプロセス識別子が見つかりました (問題のあるプロセスモデルの \"id\" プロパティを変更してください):",
           "DELETE-TITLE": "Delete app definition",
           "DELETE-DESCRIPTION": "Are you sure you want to delete the app definition \"{{name}}\"?",
-          "DELETE-DESCRIPTION-WITH-RUNTIME": "Are you sure you want to delete the app definition \"{{name}}\"? Note that this app definition has been deployed to the task landing page and by confirming, the app will be removed from the task app landing page.",
+          "DELETE-DESCRIPTION-WITH-RUNTIME": "アプリ定義 \"{{name}}\" を削除してよろしいですか？ このアプリ定義はタスクランディングページにデプロイされていることを確認することで、アプリがタスクアプリランディングページから削除されます。",
           "DELETE-CASCADE-FALSE": "Only delete the current version of this app definition (v{{version}})",
           "DELETE-CASCADE-TRUE": "Also delete all previous versions of this app definition",
           "USE-AS-NEW-TITLE": "新しいバージョンとして使用",
@@ -613,7 +613,7 @@
           "SHARE-TITLE":"Share app definition",
           "SHARE-DESCRIPTION": "You can decide who you wish to share this app definition with and if they can edit it.",
           "NOT-SHARED" : "This app definition is not shared with anyone.",
-          "HAS-CUSTOM-STENCILITEM" : "Model \"{{modelName}}\" uses a stencil with custom stencil items. It is not possible to use this model in an app definition.",
+          "HAS-CUSTOM-STENCILITEM" : "Model  \"{{modelName}}\" は、ステンシルとカスタムステンシルアイテムを使用します。 このモデルをアプリ定義で使用することはできません。",
           "HAS-VALIDATIONERROR" : "モデル \"{{modelName}}\" に検証エラーがあり、アプリ定義に追加できません。検証エラーの詳細を確認するには、エディターでモデルを開きます。",
           "IMPORT-DESCRIPTION":"Please browse for or drop a app definition with a .zip extension",
           "IMPORT-TITLE":"Import an app definition model",
@@ -783,15 +783,15 @@
             "EXPRESSION-TITLE": "Edit expression"
         },
         "MESSAGE": {
-            "EMPTY-CANVAS": "The form is currently empty. Add components to the form by dragging a desired component from the list on the left. Click on a component on the canvas to alter the label and other properties...",
+            "EMPTY-CANVAS": "フォームは現在空です。左側のリストから目的のコンポーネントをドラッグして、フォームにコンポーネントを追加します。キャンバス上のコンポーネントをクリックしてラベルやその他のプロパティを変更します...",
             "SELECT-FIELD": "(No field selected)",
             "EMPTY-EXPRESSION": "(No expression value)",
             "FIELD-VALUE": "Show value of field \"{{field}}\"",
             "SELECT-READONLY-FIELD": "Field:",
-            "EXPRESSION-HELP": "You can also display values previously submitted in any form, as part of the text, by referencing them using a notation as follows ${myFieldId}.",
-            "HYPERLINK-HELP": "You can also display values previously submitted in any form, as part of the HYPERLINK URL. Select a field below to insert it at the position of the cursor.",
-            "HYPERLINK-HELP-RESPONSE-VARIABLE": "You can also display REST response variables as part of the HYPERLINK URL. Select a field below to insert it at the position of the cursor.",
-            "DISPLAY-TEXT-HELP": "You can also display values previously submitted in any form, as part of the DISPLAY TEXT. Select a field below to insert it at the position of the cursor.",
+            "EXPRESSION-HELP": "また、${myFieldId} のように表記を使用して参照することで、以前に送信した値をテキストの一部として任意の形式で表示できます。",
+            "HYPERLINK-HELP": "HYPERLINK URL の一部として、以前に送信された値を任意の形式で表示することもできます。下のフィールドを選択してカーソルの位置に挿入します。",
+            "HYPERLINK-HELP-RESPONSE-VARIABLE": "HYPERLINK URL の一部として REST レスポンス変数を表示することもできます。下のフィールドを選択してカーソルの位置に挿入します。",
+            "DISPLAY-TEXT-HELP": "DISPLAY TEXT の一部として、以前に任意の形式で送信された値を表示することもできます。下のフィールドを選択してカーソルの位置に挿入します。",
             "VARIABLE-NAME": "Variable name:"
         },
         "LABEL" : {
@@ -809,7 +809,7 @@
             "OPTIONS": "Options",
             "RADIO-BUTTON-DEFAULT": "Option 1",
             "DROPDOWN-DEFAULT-EMPTY-SELECTION": "Please choose one...",
-            "DROPDOWN-EMPTY-VALUE-HELP": "This is the 'empty value' option. Selecting this at runtime is the taken to mean 'no value' or 'empty'.  This is allowed for optional fields, but not allowed for required fields.",
+            "DROPDOWN-EMPTY-VALUE-HELP": "これは「空の値」オプションです。実行時にこれを選択することは、「値なし」または「空」を意味すると解釈されます。これはオプションのフィールドでは許可されていますが、必須のフィールドでは許可されていません。",
             "DISPLAY-TEXT-DEFAULT": "Display text as part of the form",
             "BASE-ENDPOINT": "Base endpoint",
             "REQUIRED": "Required",
@@ -820,7 +820,7 @@
             "DOCUMENTS-EDITABLE": "Allow editing documents in Office",
             "READONLY-TEXT": "Text to display",
             "ONLY-LINKS": "Only link selected content, don't copy",
-            "ONLY-LINKS-HELP": "The user won't be allowed to upload a file from his device. Rather, content can be selected from external sources which will be linked instead of copying the content.",
+            "ONLY-LINKS-HELP": "ユーザーは自分のデバイスからファイルをアップロードすることを許可されません。むしろコンテンツは、コピーする代わりにリンクされる外部のソースから選択することができます。",
             "HEADER-ID" : "Property id",
             "PLACEHOLDER-ID" : "Enter a property id",
             "HEADER-NAME" : "Property name",
@@ -863,9 +863,9 @@
 
     "DECISION-TABLE-EDITOR": {
         "EMPTY-MESSAGES": {
-            "NO-COLUMN": "You need to create at least 1 condition and 1 action column before you can start adding decision rows to your table.",
-            "NO-CONDITION-COLUMN": "Great! You now have an action column for '{{variable}}', now go ahead and create a condition column...",
-            "NO-ACTION-COLUMN": "Great! You now have a condition column for '{{variable}}', now go ahead and create an action column...",
+            "NO-COLUMN": "テーブルに決定行を追加する前に、少なくとも1つの条件と1つのアクション列を作成する必要があります。",
+            "NO-CONDITION-COLUMN": "すばらしい！ これで '{{variable}}' のアクション列ができました。次に進み、条件列を作成します...",
+            "NO-ACTION-COLUMN": "すばらしいです！ これで '{{variable}}' の条件列ができました。次に進み、アクション列を作成します...",
             "NO-VARIABLE-SELECTED": "Undefined"
         },
         "POPUP": {
@@ -917,7 +917,7 @@
                 "DATE_CALCULATION-LABEL": "Calculation:",
                 "DATE_EXECUTION-LABEL": "Execution Date:",
                 "DATE_EXECUTION-TEXT": "The date when the decision table is being executed will be used",
-                "ERROR": "The cell expression could not be understood by the graphical editor. This does NOT mean that the expression is invalid.<br/>To keep the expression click \"Cancel\". To create a new expression just complete  the form and click \"OK\".",
+                "ERROR": "セルの式がグラフィカルエディタで解釈できませんでした。これは、式が無効であることを意味するのではありません。<br/>式を維持するには、\"Cancel\" をクリックしてください。新しい式を作成するには、フォームに入力して \"OK\" をクリックしてください。",
                 "NUMBER_CALCULATION-LABEL": "Calculation:",
                 "NUMBER_CALCULATION-PARAM1-LABEL": "Number:"
             }
@@ -1263,68 +1263,68 @@
                 "DESCRIPTION": "Define the error name."
             },
             "EVENT-LISTENERS": {
-                "TITLE": "Event listeners",
-                "DESCRIPTION": "Listeners for any event happening in the Activiti Engine. It's also possible to rethrow the event as a signal, message or error event."
+                "TITLE": "イベントリスナー",
+                "DESCRIPTION": "Activiti エンジンで起こっているあらゆるイベントのリスナー。イベントをシグナル、メッセージ、またはエラーイベントとして再スローすることもできます。"
             },
             "EXCLUSIVE": {
                 "TITLE": "Exclusive",
                 "DESCRIPTION": "Define the activity as exclusive."
             },
             "EXECUTION-LISTENERS": {
-                "TITLE": "Execution listeners",
-                "DESCRIPTION": "Listeners for an activity, process, sequence flow, start and end event."
+                "TITLE": "実行リスナー",
+                "DESCRIPTION": "アクティビティ、プロセス、シーケンスフロー、開始および終了イベントのリスナー。"
             },
             "FORM-KEY": {
-                "TITLE": "Form key",
-                "DESCRIPTION": "Form key that provides a reference to a form."
+                "TITLE": "フォームキー",
+                "DESCRIPTION": "フォームへの参照を提供するフォームキー。"
             },
             "FORM-PROPERTIES": {
-                "TITLE": "Form properties",
-                "DESCRIPTION": "Definition of the form with a list of form properties."
+                "TITLE": "フォームプロパティ",
+                "DESCRIPTION": "フォームプロパティのリストを含むフォームの定義。"
             },
             "FORM-REFERENCE": {
-                "TITLE": "Referenced form",
-                "DESCRIPTION": "Reference to a form."
+                "TITLE": "参照フォーム",
+                "DESCRIPTION": "フォームへの参照"
             },
             "ID": {
                 "TITLE": "Id",
-                "DESCRIPTION": "Unique identifier of the element."
+                "DESCRIPTION": "要素の一意の識別子。"
             },
             "IN-PARAMETERS": {
-                "TITLE": "In parameters",
-                "DESCRIPTION": "Definition of the input parameters."
+                "TITLE": "インプットパラメータ",
+                "DESCRIPTION": "入力パラメータの定義"
             },
             "MAILTASK-BCC": {
                 "TITLE": "Bcc",
-                "DESCRIPTION": "The bcc's of the e-mail. Multiple recipients are defined in a comma-separated list."
+                "DESCRIPTION": "メールのBCC。複数の受信者がコンマ区切りリストで定義されています。"
             },
             "MAILTASK-CC": {
                 "TITLE": "Cc",
-                "DESCRIPTION": "The cc's of the e-mail. Multiple recipients are defined in a comma-separated list."
+                "DESCRIPTION": "メールの cc。複数の受信者がコンマ区切りリストで定義されています。"
             },
             "MAILTASK-CHARSET": {
                 "TITLE": "Charset",
-                "DESCRIPTION": "Allows to change the charset of the email, which is necessary for many non-English languages."
+                "DESCRIPTION": "メールの文字セットを変更できます。これは、英語以外の多くの言語に必要です。"
             },
             "MAILTASK-FROM": {
                 "TITLE": "From",
-                "DESCRIPTION": "The sender e-mail address. If not provided, the default configured from address is used."
+                "DESCRIPTION": "送信者のメールアドレス。指定しない場合は、アドレスから設定されたデフォルトが使用されます。"
             },
             "MAILTASK-HTML": {
                 "TITLE": "Html",
-                "DESCRIPTION": "A piece of HTML that is the content of the e-mail."
+                "DESCRIPTION": "メールの内容である HTML の一部。"
             },
             "MAILTASK-SUBJECT": {
-                "TITLE": "Subject",
-                "DESCRIPTION": "The subject of the e-mail."
+                "TITLE": "件名",
+                "DESCRIPTION": "メールの件名。"
             },
             "MAILTASK-TEXT": {
                 "TITLE": "Text",
-                "DESCRIPTION": "The content of the e-mail, in case one needs to send plain none-rich e-mails. Can be used in combination with html, for e-mail clients that don't support rich content. The client will then fall back to this text-only alternative."
+                "DESCRIPTION": "メールの内容。一般的なリッチ形式でないメールを送信する必要がある場合に備えてのもの。リッチコンテンツをサポートしていないメールクライアントには、html と組み合わせて使用できます。クライアントはこのテキストのみの代替方法にフォールバックします。"
             },
             "MAILTASK-TO": {
                 "TITLE": "To",
-                "DESCRIPTION": "The recipients if the e-mail. Multiple recipients are defined in a comma-separated list."
+                "DESCRIPTION": "受信者がメールの場合 複数の受信者がコンマ区切りリストで定義されています。"
             },
             "MESSAGE-REF": {
                 "TITLE": "Message reference",
@@ -1356,7 +1356,7 @@
             },
             "MULTI-INSTANCE-TYPE": {
                 "TITLE": "Multi-instance type",
-                "DESCRIPTION": "Repeated activity execution (parallel or sequential) can be displayed through different loop types."
+                "DESCRIPTION": "繰り返しアクティビティの実行 (並列または順次) は、さまざまなループタイプで表示できます。"
             },
             "MULTI-INSTANCE-VARIABLE": {
                 "TITLE": "Element variable (Multi-instance)",
@@ -1451,12 +1451,12 @@
                 "DESCRIPTION": "Order outgoing sequence flows."
             },
             "SIGNAL-DEFINITIONS": {
-                "TITLE": "Signal definitions",
-                "DESCRIPTION": "Definitions of signals that are used in signal catch and throw events in the process."
+                "TITLE": "シグナルの定義",
+                "DESCRIPTION": "シグナルキャッチで使用されるシグナルの定義とその過程でのイベントの発生。"
             },
            "MESSAGE-DEFINITIONS": {
-                "TITLE": "Message definitions",
-                "DESCRIPTION": "Definitions of messages that are used in message catch and throw events in the process."
+                "TITLE": "メッセージ定義",
+                "DESCRIPTION": "メッセージキャッチで使用されるメッセージの定義およびプロセス内のイベントのスロー。"
             },
             "SIGNAL-REF": {
                 "TITLE": "Signal reference",
@@ -1779,36 +1779,36 @@
     "MODEL.NAME" : "Name",
     "MODEL.KEY" : "Key",
     "MODEL.DESCRIPTION" : "Description",
-    "MODEL.SAVE.NEWVERSION" : "Save this as a new version?  This means you can always go back to a previous version",
+    "MODEL.SAVE.NEWVERSION" : "これを新しいバージョンとして保存しますか？ つまり、いつでも以前のバージョンに戻ることができます。",
     "MODEL.SAVE.COMMENT" : "Comment",
     "MODEL.SAVE.SAVING" : "Saving model",
     "MODEL.LASTMODIFIEDDATE" : "Last saved",
     "MODEL.SAVE.ERROR": "Unexpected error: could not save model",
-    "MODEL.VALIDATIONERRORS": "Note that the model contains validation errors. This means that the model can not be deployed on the Activiti Engine in its current state.",
+    "MODEL.VALIDATIONERRORS": "モデルに検証エラーが含まれていることに注意してください。これは、現在の状態ではモデルを Activiti エンジンに配置できないことを意味します。",
     "MODEL.CONFLICT.WRITE": "Could not save model: '{{userFullName}}' has made changes to this model",
     "MODEL.CONFLICT.WRITE.OPTIONS": "Select an option to resolve this conflict:",
     "MODEL.CONFLICT.WRITE.OPTION.OVERWRITE": "Overwrite other model",
     "MODEL.CONFLICT.WRITE.OPTION.DISCARDCHANGES": "Discard my changes",
     "MODEL.CONFLICT.WRITE.OPTION.SAVEAS": "Save as new model",
-    "MODEL.CONFLICT.WRITE.OPTION.NEWVERSION": "Create new version",
+    "MODEL.CONFLICT.WRITE.OPTION.NEWVERSION": "新しいバージョンを作成する",
     "MODEL.CONFLICT.SAVEAS" : "Save as:",
 
-    "EVENT_TYPE.ACTIVITY.COMPENSATE.TOOLTIP": "An activity is about to be executed as a compensation for another activity. The event targets the activity that is about to be executed for compensation",
-    "EVENT_TYPE.ACTIVITY.COMPLETED.TOOLTIP": "An activity has been completed successfully",
-    "EVENT_TYPE.ACTIVITY.ERROR.RECEIVED.TOOLTIP": "An activity has received an error event. Dispatched before the actual error has been received by the activity",
+    "EVENT_TYPE.ACTIVITY.COMPENSATE.TOOLTIP": "あるアクティビティが別のアクティビティの代わりとして実行されようとしています。イベントは、代わりのために実行されようとしているアクティビティをターゲットにします。",
+    "EVENT_TYPE.ACTIVITY.COMPLETED.TOOLTIP": "アクティビティは正常に完了しました",
+    "EVENT_TYPE.ACTIVITY.ERROR.RECEIVED.TOOLTIP": "アクティビティがエラーイベントを受け取りました。実際のエラーがアクティビティによって受信される前に送出されます。",
     "EVENT_TYPE.MEMBERSHIP.CREATED.TOOLTIP": "A new membership has been created",
     "EVENT_TYPE.MEMBERSHIP.DELETED.TOOLTIP": "A single membership has been deleted",
-    "EVENT_TYPE.MEMBERSHIPS.DELETED.TOOLTIP": "All memberships in the related group have been deleted. No individual events will be dispatched due to possible performance reasons",
-    "EVENT_TYPE.TASK.ASSIGNED.TOOLTIP": "A task as been assigned. This is thrown alongside with an ENTITY_UPDATED event",
-    "EVENT_TYPE.TASK.COMPLETED.TOOLTIP": "A task has been completed. Dispatched before the task entity is deleted",
-    "EVENT_TYPE.UNCAUGHT.BPMNERROR.TOOLTIP": "When a BPMN Error was thrown, but was not caught within in the process",
+    "EVENT_TYPE.MEMBERSHIPS.DELETED.TOOLTIP": "関連グループのすべてのメンバーシップが削除されました。パフォーマンス上の理由から、個々のイベントは送出されません。",
+    "EVENT_TYPE.TASK.ASSIGNED.TOOLTIP": "タスクが割り当てられました。これは ENTITY_UPDATED イベントと一緒にスローされます。",
+    "EVENT_TYPE.TASK.COMPLETED.TOOLTIP": "タスクは完了しました。タスクエンティティが削除される前に送出されます。",
+    "EVENT_TYPE.UNCAUGHT.BPMNERROR.TOOLTIP": "BPMN エラーがスローされたが、プロセス内で捕捉されなかった場合",
     "EVENT_TYPE.VARIABLE.CREATED.TOOLTIP": "A new variable has been created",
     "EVENT_TYPE.VARIABLE.DELETED.TOOLTIP": "An existing variable has been deleted",
     "EVENT_TYPE.VARIABLE.UPDATED.TOOLTIP": "An existing variable has been updated",
 
     "PROPERTY.DECISIONTABLEREFERENCE.EMPTY" : "No reference selected",
     "PROPERTY.DECISIONTABLEREFERENCE.TITLE" : "Decision table reference",
-    "PROPERTY.DECISIONTABLEREFERENCE.ERROR.FORM" : "There was an error loading the decision tables. Try again later",
+    "PROPERTY.DECISIONTABLEREFERENCE.ERROR.FORM" : "意思決定表の読み込み中にエラーが発生しました。 あとでもう一度試してみてください",
     "PROPERTY.DECISIONTABLEREFERENCE.FOLDER.ROOT" : "Folders",
     "PROPERTY.DECISIONTABLEREFERENCE.FOLDER.LOADING" : "Loading folders...",
     "PROPERTY.DECISIONTABLEREFERENCE.FOLDER.EMPTY" : "This folder contains no subfolders",
