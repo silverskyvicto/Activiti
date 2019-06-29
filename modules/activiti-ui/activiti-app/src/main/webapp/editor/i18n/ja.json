@@ -63,7 +63,7 @@
             "QUOTA-EXCEEDED-LICENSE-APPS": "ライセンスは同時に {{quota}} アプリ定義を許可します。"
         },
         "ABOUT": {
-          "TYPE": "Type",
+          "TYPE": "タイプ",
           "LICENSED-TO": "Licensed To",
           "EXPIRES": "Expires",
           "COPYRIGHT": "© 2005-2015 Alfresco Software Inc. All rights reserved.",
@@ -272,8 +272,8 @@
           "STENCIL": "ステンシル:",
           "HISTORY-TITLE": "ヒストリー",
           "COMMENTS-TITLE": "コメント",
-          "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
-          "CREATED-BY": "作成者 {{createdByFullName}}",
+          "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFull名前}} - {{lastUpdated | dateformat}}",
+          "CREATED-BY": "作成者 {{createdByFull名前}}",
           "VERSION": "(バージョン {{version}})",
           "NO-DESCRIPTION": "このモデルには説明がありません。モデルプロパティを変更して追加します"
         },
@@ -387,8 +387,8 @@
           "COMPARE-WITH-TITLE": "と比較",
           "HISTORY-TITLE": "ヒストリー",
           "COMMENTS-TITLE": "コメント",
-          "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
-          "CREATED-BY": "作成者 {{createdByFullName}}",
+          "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFull名前}} - {{lastUpdated | dateformat}}",
+          "CREATED-BY": "作成者 {{createdByFull名前}}",
           "VERSION": "(バージョン {{version}})"
         },
         "EDIT": {
@@ -464,8 +464,8 @@
             "COMPARE-WITH-TITLE": "比較",
             "HISTORY-TITLE": "ヒストリー",
             "COMMENTS-TITLE": "コメント",
-            "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
-            "CREATED-BY": "作成者 {{createdByFullName}}",
+            "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFull名前}} - {{lastUpdated | dateformat}}",
+            "CREATED-BY": "作成者 {{createdByFull名前}}",
             "VERSION": "(バージョン {{version}})"
         },
         "EDIT": {
@@ -567,8 +567,8 @@
           "COMMENTS-TITLE": "コメント",
           "MODELS-TITLE": "アプリ定義に含まれるモデル",
           "THEME-TITLE": "これは選択したアプリ定義テーマのプレビューです。プレビューの上にマウスを移動すると、別のアイコンとテーマの色を選択できます。",
-          "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
-          "CREATED-BY": "作成者 {{createdByFullName}}",
+          "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFull名前}} - {{lastUpdated | dateformat}}",
+          "CREATED-BY": "作成者 {{createdByFull名前}}",
           "VERSION": "(バージョン {{version}})",
           "NO-DESCRIPTION": "このアプリの定義には説明がありません。アプリ定義プロパティを変更して追加します",
           "NO-MODELS-SELECTED": "このアプリのモデルは選択されていません"
@@ -599,7 +599,7 @@
           "PUBLISH-TITLE": "アプリ定義を公開する",
           "PUBLISH-DESCRIPTION": "アプリ定義 \"{{name}}\" を公開してよろしいですか？ このアプリ定義はバージョン管理され、ワークフローアプリは既に存在する場合は更新されます。",
           "PUBLISH-FIELD": "公開しますか？ 公開が有効になっている場合、このアプリ定義はバージョン管理され、ワークフローアプリは既に存在する場合は更新されます。",
-          "PUBLISH-ERROR-PROCDEF-KEY-CONFLICT": "プロセスモデル \"{{modelInAppName}}\" は、アプリケーションの既存のデプロイされたプロセス \"{{conflictingModelName}}\" と同じ識別子 \"{{processDefinitionKey}}\" を持っています \"{{conflictingAppName}}\"。プロセスモデルのこの \"id\" プロパティを別のものに変更してください。",
+          "PUBLISH-ERROR-PROCDEF-KEY-CONFLICT": "プロセスモデル \"{{modelInApp名前}}\" は、アプリケーションの既存のデプロイされたプロセス \"{{conflictingModel名前}}\" と同じ識別子 \"{{processDefinitionKey}}\" を持っています \"{{conflictingApp名前}}\"。プロセスモデルのこの \"id\" プロパティを別のものに変更してください。",
           "PUBLISH-ERROR-PROCESS-ALREADY-USED": "以下のプロセスモデルはすでに他のアプリで使用されています。これでいいですか？",
           "PUBLISH-ERROR-PROCESS-ALREADY-USED-APP": "アプリ",
           "PUBLISH-ERROR-PROCDEF-DUPLICATE-KEYS": "無効なアプリ: 重複するプロセス識別子が見つかりました (問題のあるプロセスモデルの \"id\" プロパティを変更してください):",
@@ -613,8 +613,8 @@
           "SHARE-TITLE":"アプリ定義を共有する",
           "SHARE-DESCRIPTION": "このアプリ定義を誰と共有したいか、また編集できるかどうかを決めることができます。",
           "NOT-SHARED" : "このアプリの定義は誰とも共有されていません。",
-          "HAS-CUSTOM-STENCILITEM" : "Model  \"{{modelName}}\" は、ステンシルとカスタムステンシルアイテムを使用します。 このモデルをアプリ定義で使用することはできません。",
-          "HAS-VALIDATIONERROR" : "モデル \"{{modelName}}\" に検証エラーがあり、アプリ定義に追加できません。検証エラーの詳細を確認するには、エディターでモデルを開きます。",
+          "HAS-CUSTOM-STENCILITEM" : "Model  \"{{model名前}}\" は、ステンシルとカスタムステンシルアイテムを使用します。 このモデルをアプリ定義で使用することはできません。",
+          "HAS-VALIDATIONERROR" : "モデル \"{{model名前}}\" に検証エラーがあり、アプリ定義に追加できません。検証エラーの詳細を確認するには、エディターでモデルを開きます。",
           "IMPORT-DESCRIPTION":"拡張子が .zip のアプリ定義を参照するかドロップしてください。",
           "IMPORT-TITLE":"アプリ定義モデルをインポートする",
           "IMPORT": {
@@ -731,7 +731,7 @@
 
     "KICKSTART-MODEL": {
         "VERSION": "バージョン {{version}}",
-        "LAST-UPDATED": "最終更新者 {{lastUpdatedByFullName}}, {{lastUpdated | dateformat}}",
+        "LAST-UPDATED": "最終更新者 {{lastUpdatedByFull名前}}, {{lastUpdated | dateformat}}",
         "ALERT": {
             "SAVED": "モデルは保存されました",
             "ERROR-SAVE": "予期しないエラーのためモデルを保存できませんでした",
@@ -769,7 +769,7 @@
             "VISIBILITY": "表示"
         },
         "VERSION": "バージョン {{version}}",
-        "LAST-UPDATED": "最終更新者 {{lastUpdatedByFullName}}, {{lastUpdated | dateformat}}",
+        "LAST-UPDATED": "最終更新者 {{lastUpdatedByFull名前}}, {{lastUpdated | dateformat}}",
         "TITLE": {
             "PREVIEW": "プレビュー",
             "DESIGN": "デザイン",
@@ -899,7 +899,7 @@
             },
             "RULE-EDITOR": {
                 "TITLE": "列 \"{{name }}\" の編集ルール式",
-                "DESCRIPTION": "\"{{columnType}}\" 式を作成してください",
+                "DESCRIPTION": "\"{{columnタイプ}}\" 式を作成してください",
                 "OPERATOR-LABEL": "演算子:",
                 "DATE-TYPE-LABEL": "日付のタイプ:",
                 "DATE-LABEL": "日付:",
@@ -1002,7 +1002,7 @@
     },
 
     "TOUR": {
-        "WELCOME-TITLE": "ようこそ、{{userName}}",
+        "WELCOME-TITLE": "ようこそ、{{user名前}}",
         "WELCOME-CONTENT": "これは Alfresco Activiti エディタの短いツアーです。次のいくつかの手順では、アプリケーションのさまざまなセクションを案内して開始します。ESC キーを押すといつでも停止できます。" ,
         "PALETTE-TITLE": "パレット",
         "PALETTE-CONTENT": "ビジネスプロセスを作成するために利用可能なすべての構成要素はここにあります。それらは論理的なグループに配置されています。グループを開くには、単にそれをクリックします。",
@@ -1042,107 +1042,107 @@
 
     "BPMN-EDITOR": {
         "GROUP": {
-            "ACTIVITIES": "Activities",
+            "ACTIVITIES": "アクティビティ",
             "ALFRESCO": "Alfresco",
-            "ARTIFACTS": "Artifacts",
-            "BOUNDARY-EVENTS": "Boundary Events",
-            "CONNECTING-OBJECTS": "Connecting Objects",
-            "END-EVENTS": "End Events",
-            "GATEWAYS": "Gateways",
-            "INTERMEDIATE-CATCH-EVENTS": "Intermediate Catching Events",
-            "INTERMEDIATE-THROW-EVENTS": "Intermediate Throwing Events",
-            "START-EVENTS": "Start Events",
-            "STRUCTURAL": "Structural",
-            "SWIMLANES": "Swimlanes"
+            "ARTIFACTS": "アーティファクト",
+            "BOUNDARY-EVENTS": "境界イベント",
+            "CONNECTING-OBJECTS": "オブジェクトを接続する",
+            "END-EVENTS": "終了イベント",
+            "GATEWAYS": "ゲートウェイ",
+            "INTERMEDIATE-CATCH-EVENTS": "中間キャッチイベント",
+            "INTERMEDIATE-THROW-EVENTS": "中間スローイベント",
+            "START-EVENTS": "開始イベント",
+            "STRUCTURAL": "構造",
+            "SWIMLANES": "スイムレーン"
         },
         "ITEM": {
             "ASSOCIATION": {
-                "TITLE": "Association",
-                "DESCRIPTION": "Associates a text annotation with an element"
+                "TITLE": "アソシエーション",
+                "DESCRIPTION": "テキスト注釈を要素に関連付けます"
             },
             "BOUNDARY-ERROR-EVENT": {
-                "TITLE": "Boundary error event",
-                "DESCRIPTION": "A boundary event that catches a BPMN error"
+                "TITLE": "境界エラーイベント",
+                "DESCRIPTION": "BPMN エラーを受け取る境界イベント"
             },
             "BOUNDARY-MESSAGE-EVENT": {
-                "TITLE": "Boundary message event",
-                "DESCRIPTION": "A boundary event with a message trigger"
+                "TITLE": "境界メッセージイベント",
+                "DESCRIPTION": "メッセージトリガを伴う境界イベント"
             },
             "BOUNDARY-SIGNAL-EVENT": {
-                "TITLE": "Boundary signal event",
-                "DESCRIPTION": "A boundary event with a signal trigger"
+                "TITLE": "境界シグナルイベント",
+                "DESCRIPTION": "シグナルトリガーを伴う境界イベント"
             },
             "BOUNDARY-TIMER-EVENT": {
-                "TITLE": "Boundary timer event",
-                "DESCRIPTION": "A boundary event with a timer trigger"
+                "TITLE": "境界タイマーイベント",
+                "DESCRIPTION": "タイマートリガーによる境界イベント"
             },
             "BUSINESSRULETASK": {
-                "TITLE": "Business rule task",
-                "DESCRIPTION": "An automatic task with rule logic"
+                "TITLE": "ビジネスルールタスク",
+                "DESCRIPTION": "ルールロジック付きの自動タスク"
             },
             "CALL-ACTIVITY": {
-                "TITLE": "Call activity",
-                "DESCRIPTION": "A call activity"
+                "TITLE": "コールアクティビティ",
+                "DESCRIPTION": "コールアクティビティ"
             },
             "CAMELTASK": {
-                "TITLE": "Camel task",
-                "DESCRIPTION": "A task that sends a message to Camel"
+                "TITLE": "Camel タスク",
+                "DESCRIPTION": "Camel にメッセージを送るタスク"
             },
             "COLLAPSED-SUBPROCESS": {
-                "TITLE": "Collapsed sub process",
-                "DESCRIPTION": "Provide a reference to a reusable sub process definition"
+                "TITLE": "折りたたみサブプロセス",
+                "DESCRIPTION": "再利用可能なサブプロセス定義への参照を提供します"
             },
             "DATA-ASSOCIATION": {
-                "TITLE": "Data association",
-                "DESCRIPTION": "Associates a data element with an activity"
+                "TITLE": "データの関連付け",
+                "DESCRIPTION": "データ要素をアクティビティに関連付けます"
             },
             "DATASTORE": {
-                "TITLE": "Data store",
-                "DESCRIPTION": "Reference to a data store"
+                "TITLE": "データストア",
+                "DESCRIPTION": "データストアへの参照"
             },
             "END-ERROR-EVENT": {
-                "TITLE": "Error end event",
-                "DESCRIPTION": "An end event that throws an error event"
+                "TITLE": "エラー終了イベント",
+                "DESCRIPTION": "エラーイベントをスローする終了イベント"
             },
             "END-NONE-EVENT": {
-                "TITLE": "End event",
-                "DESCRIPTION": "An end event without a specific trigger"
+                "TITLE": "終了イベント",
+                "DESCRIPTION": "特定のトリガーのない終了イベント"
             },
             "EVENT-GATEWAY": {
-                "TITLE": "Event gateway",
-                "DESCRIPTION": "An event gateway"
+                "TITLE": "イベントゲートウェイ",
+                "DESCRIPTION": "イベントゲートウェイ"
             },
             "EVENT-SUBPROCESS": {
-                "TITLE": "Event sub process",
-                "DESCRIPTION": "A event sub process scope"
+                "TITLE": "イベントサブプロセス",
+                "DESCRIPTION": "イベントサブプロセススコープ"
             },
             "EXCLUSIVE-GATEWAY": {
-                "TITLE": "Exclusive gateway",
-                "DESCRIPTION": "A choice gateway"
+                "TITLE": "排他ゲートウェイ",
+                "DESCRIPTION": "選択ゲートウェイ"
             },
             "INCLUSIVE-GATEWAY": {
-                "TITLE": "Inclusive gateway",
-                "DESCRIPTION": "An inclusive gateway"
+                "TITLE": "包括的ゲートウェイ",
+                "DESCRIPTION": "包括的なゲートウェイ"
             },
             "INTERMEDIATE-MESSAGE-CATCH-EVENT": {
-                "TITLE": "Intermediate message catching event",
-                "DESCRIPTION": "An intermediate catching event with a message trigger"
+                "TITLE": "中間メッセージ受信イベント",
+                "DESCRIPTION": "メッセージトリガーを伴う中間キャッチイベント"
             },
             "INTERMEDIATE-SIGNAL-CATCH-EVENT": {
-                "TITLE": "Intermediate signal catching event",
-                "DESCRIPTION": "An intermediate catching event with a signal trigger"
+                "TITLE": "中間シグナルイベント",
+                "DESCRIPTION": "シグナルトリガーを伴う中間キャッチイベント"
             },
             "INTERMEDIATE-TIMER-CATCH-EVENT": {
-                "TITLE": "Intermediate timer catching event",
-                "DESCRIPTION": "An intermediate catching event with a timer trigger"
+                "TITLE": "中間タイマーキャッチイベント",
+                "DESCRIPTION": "タイマートリガーによる中間キャッチイベント"
             },
             "INTERMEDIATE-NONE-THROW-EVENT": {
-                "TITLE": "Intermediate none throwing event",
-                "DESCRIPTION": "An intermediate event without a specific trigger"
+                "TITLE": "中間なしスローイベント",
+                "DESCRIPTION": "特定のトリガーのない中間イベント"
             },
             "INTERMEDIATE-SIGNAL-THROW-EVENT": {
-                "TITLE": "Intermediate signal throwing event",
-                "DESCRIPTION": "An intermediate event with a signal trigger"
+                "TITLE": "中間シグナルスローイベント",
+                "DESCRIPTION": "シグナルトリガーを伴う中間イベント"
             },
             "LANE": {
                 "TITLE": "レーン",
@@ -1154,75 +1154,75 @@
             },
             "MANUALTASK": {
                 "TITLE": "マニュアルタスク",
-                "DESCRIPTION": "An automatic task with no logic"
+                "DESCRIPTION": "ロジックなしの自動タスク"
             },
             "MESSAGE-FLOW": {
-                "TITLE": "Message flow",
-                "DESCRIPTION": "Message flow to connect elements in different pools"
+                "TITLE": "メッセージフロー",
+                "DESCRIPTION": "異なるプール内の要素を接続するためのメッセージフロー"
             },
             "MULETASK": {
-                "TITLE": "Mule task",
-                "DESCRIPTION": "A task that sends a message to Mule"
+                "TITLE": "Mule タスク",
+                "DESCRIPTION": "ESB Mule にメッセージを送るタスク"
             },
             "PARALLEL-GATEWAY": {
-                "TITLE": "Parallel gateway",
-                "DESCRIPTION": "A parallel gateway"
+                "TITLE": "パラレルゲートウェイ",
+                "DESCRIPTION": "パラレルゲートウェイ"
             },
             "POOL": {
-                "TITLE": "Pool",
-                "DESCRIPTION": "A pool to stucture the process definition"
+                "TITLE": "プール",
+                "DESCRIPTION": "プロセス定義を構造化するためのプール"
             },
             "RECEIVETASK": {
-                "TITLE": "Receive task",
-                "DESCRIPTION": "A task that waits for a signal"
+                "TITLE": "受信タスク",
+                "DESCRIPTION": "シグナルを待つタスク"
             },
             "SCRIPTTASK": {
-                "TITLE": "Script task",
-                "DESCRIPTION": "An automatic task with script logic"
+                "TITLE": "スクリプトタスク",
+                "DESCRIPTION": "スクリプトロジックを使った自動タスク"
             },
             "SERVICETASK": {
-                "TITLE": "Service task",
-                "DESCRIPTION": "An automatic task with service logic"
+                "TITLE": "サービスタスク",
+                "DESCRIPTION": "サービスロジック付きの自動タスク"
             },
             "SENDTASK": {
-                "TITLE": "Send task",
-                "DESCRIPTION": "A task that sends a message"
+                "TITLE": "送信タスク",
+                "DESCRIPTION": "メッセージを送信するタスク"
             },
             "SEQUENCE-FLOW": {
-                "TITLE": "Sequence flow",
-                "DESCRIPTION": "Sequence flow defines the execution order of activities"
+                "TITLE": "シーケンスフロー",
+                "DESCRIPTION": "シーケンスフローはアクティビティの実行順序を定義します"
             },
             "START-ERROR-EVENT": {
-                "TITLE": "Start error event",
-                "DESCRIPTION": "A start event that catches a thrown BPMN error"
+                "TITLE": "エラー開始イベント",
+                "DESCRIPTION": "スローされた BPMN エラーをキャッチする開始イベント"
             },
             "START-MESSAGE-EVENT": {
-                "TITLE": "Start message event",
-                "DESCRIPTION": "A start event with a message trigger"
+                "TITLE": "メッセージ開始イベント",
+                "DESCRIPTION": "メッセージトリガを伴う開始イベント"
             },
             "START-NONE-EVENT": {
-                "TITLE": "Start event",
-                "DESCRIPTION": "A start event without a specific trigger"
+                "TITLE": "開始イベント",
+                "DESCRIPTION": "特定のトリガーのない開始イベント"
             },
             "START-SIGNAL-EVENT": {
-                "TITLE": "Start signal event",
-                "DESCRIPTION": "A start event with a signal trigger"
+                "TITLE": "シグナル開始イベント",
+                "DESCRIPTION": "シグナルトリガー付きの開始イベント"
             },
             "START-TIMER-EVENT": {
-                "TITLE": "Start timer event",
-                "DESCRIPTION": "A start event with a timer trigger"
+                "TITLE": "タイマー開始イベント",
+                "DESCRIPTION": "タイマートリガー付きの開始イベント"
             },
             "SUBPROCESS": {
-                "TITLE": "Sub process",
-                "DESCRIPTION": "A sub process scope"
+                "TITLE": "サブプロセス",
+                "DESCRIPTION": "サブプロセススコープ"
             },
             "TEXTANNOTATION": {
-                "TITLE": "Text annotation",
-                "DESCRIPTION": "Annotates elements with description text"
+                "TITLE": "テキスト注釈",
+                "DESCRIPTION": "説明テキストで要素に注釈を付ける"
             },
             "USERTASK": {
-                "TITLE": "User task",
-                "DESCRIPTION": "A manual task assigned to a specific person"
+                "TITLE": "ユーザータスク",
+                "DESCRIPTION": "特定の人に割り当てられたマニュアルタスク"
             }
         },
         "PROPERTY": {
@@ -1580,174 +1580,174 @@
 
     "PROPERTY.FEEDBACK.TITLE" : "フィードバックを記入してください",
 
-    "PROPERTY.ASSIGNMENT.TITLE" : "Assignment",
-    "PROPERTY.ASSIGNMENT.TYPE" : "Type",
-    "PROPERTY.ASSIGNMENT.TYPE.IDENTITYSTORE" : "Identity store",
-    "PROPERTY.ASSIGNMENT.TYPE.STATIC" : "Fixed values",
-    "PROPERTY.ASSIGNMENT.ASSIGNEE" : "Assignee",
-    "PROPERTY.ASSIGNMENT.NO_ASSIGNEE" : "No assignee selected...",
+    "PROPERTY.ASSIGNMENT.TITLE" : "割り当て",
+    "PROPERTY.ASSIGNMENT.TYPE" : "タイプ",
+    "PROPERTY.ASSIGNMENT.TYPE.IDENTITYSTORE" : "ID ストア",
+    "PROPERTY.ASSIGNMENT.TYPE.STATIC" : "固定値",
+    "PROPERTY.ASSIGNMENT.ASSIGNEE" : "担当者",
+    "PROPERTY.ASSIGNMENT.NO_ASSIGNEE" : "担当者が選択されていません...",
     "PROPERTY.ASSIGNMENT.MATCHING" : "&uparrow; および &downarrow; を使用して選択し、Enter を押して確認します。もしくはマウスを使用します。",
-    "PROPERTY.ASSIGNMENT.ASSIGNEE_PLACEHOLDER" : "Enter an assignee",
-    "PROPERTY.ASSIGNMENT.EMPTY" : "No assignment selected",
-    "PROPERTY.ASSIGNMENT.ASSIGNEE_DISPLAY" : "Assignee {{assignee}}",
-    "PROPERTY.ASSIGNMENT.CANDIDATE_USERS_DISPLAY" : "{{length}} Candidate users",
-    "PROPERTY.ASSIGNMENT.CANDIDATE_USERS" : "Candidate users",
-    "PROPERTY.ASSIGNMENT.CANDIDATE_GROUPS_DISPLAY" :  "{{length}} Candidate groups",
-    "PROPERTY.ASSIGNMENT.CANDIDATE_GROUPS" :  "Candidate groups",
-    "PROPERTY.ASSIGNMENT.IDM.NO_ASSIGNEE" :  "No assignee selected...",
-    "PROPERTY.ASSIGNMENT.USER_IDM_DISPLAY": "User {{firstName}} {{lastName}}",
-    "PROPERTY.ASSIGNMENT.USER_IDM_EMAIL_DISPLAY": "User {{email}}",
-    "PROPERTY.ASSIGNMENT.USER_IDM_FIELD_DISPLAY": "Field {{name}}",
-    "PROPERTY.ASSIGNMENT.IDM_EMPTY" : "Process initiator",
-    "PROPERTY.ASSIGNMENT.IDM.TYPE" : "Assignment",
-    "PROPERTY.ASSIGNMENT.IDM.NO_CANDIDATE_USERS" : "No candidate users selected...",
-    "PROPERTY.ASSIGNMENT.IDM.NO_CANDIDATE_GROUPS" : "No candidate groups selected...",
-    "PROPERTY.ASSIGNMENT.IDM.DROPDOWN.INITIATOR" : "Assigned to process initiator",
-    "PROPERTY.ASSIGNMENT.IDM.DROPDOWN.USER" : "Assigned to single user",
-    "PROPERTY.ASSIGNMENT.IDM.DROPDOWN.USERS" : "Candidate users",
-    "PROPERTY.ASSIGNMENT.IDM.DROPDOWN.GROUPS" : "Candidate groups",
-    "PROPERTY.ASSIGNMENT.EMAIL.HELP" : "Type an email address and press Enter to continue",
-    "PROPERTY.ASSIGNMENT.INITIATOR-CAN-COMPLETE" : "Allow process initiator to complete task",
-    "PROPERTY.ASSIGNMENT.IDM.NO_CANDIDATE":"There is no assignment candidate selected",
+    "PROPERTY.ASSIGNMENT.ASSIGNEE_PLACEHOLDER" : "担当者を入力してください",
+    "PROPERTY.ASSIGNMENT.EMPTY" : "割り当てが選択されていません",
+    "PROPERTY.ASSIGNMENT.ASSIGNEE_DISPLAY" : "担当者 {{assignee}}",
+    "PROPERTY.ASSIGNMENT.CANDIDATE_USERS_DISPLAY" : "{{length}} 候補ユーザー",
+    "PROPERTY.ASSIGNMENT.CANDIDATE_USERS" : "候補ユーザー",
+    "PROPERTY.ASSIGNMENT.CANDIDATE_GROUPS_DISPLAY" :  "{{length}} 候補グループ",
+    "PROPERTY.ASSIGNMENT.CANDIDATE_GROUPS" :  "候補グループ",
+    "PROPERTY.ASSIGNMENT.IDM.NO_ASSIGNEE" :  "担当者が選択されていません...",
+    "PROPERTY.ASSIGNMENT.USER_IDM_DISPLAY": "ユーザー {{first名前}} {{last名前}}",
+    "PROPERTY.ASSIGNMENT.USER_IDM_EMAIL_DISPLAY": "ユーザー {{email}}",
+    "PROPERTY.ASSIGNMENT.USER_IDM_FIELD_DISPLAY": "フィールド {{name}}",
+    "PROPERTY.ASSIGNMENT.IDM_EMPTY" : "プロセス開始者",
+    "PROPERTY.ASSIGNMENT.IDM.TYPE" : "割り当て",
+    "PROPERTY.ASSIGNMENT.IDM.NO_CANDIDATE_USERS" : "候補ユーザーが選択されていません...",
+    "PROPERTY.ASSIGNMENT.IDM.NO_CANDIDATE_GROUPS" : "候補グループが選択されていません...",
+    "PROPERTY.ASSIGNMENT.IDM.DROPDOWN.INITIATOR" : "プロセス開始者に割り当て",
+    "PROPERTY.ASSIGNMENT.IDM.DROPDOWN.USER" : "シングルユーザーに割り当て",
+    "PROPERTY.ASSIGNMENT.IDM.DROPDOWN.USERS" : "候補ユーザー",
+    "PROPERTY.ASSIGNMENT.IDM.DROPDOWN.GROUPS" : "候補グループ",
+    "PROPERTY.ASSIGNMENT.EMAIL.HELP" : "メールアドレスを入力して Enter キーを押して続行します",
+    "PROPERTY.ASSIGNMENT.INITIATOR-CAN-COMPLETE" : "プロセス開始者によるタスクの完了を許可",
+    "PROPERTY.ASSIGNMENT.IDM.NO_CANDIDATE":"割り当て候補が選択されていません",
 
     "PROPERTY.EXECUTIONLISTENERS.DISPLAY" : "{{length}} execution listeners",
-    "PROPERTY.EXECUTIONLISTENERS.EMPTY" : "No execution listeners configured",
-    "PROPERTY.EXECUTIONLISTENERS.EVENT" : "Event",
-    "PROPERTY.EXECUTIONLISTENERS.CLASS" : "Class",
-    "PROPERTY.EXECUTIONLISTENERS.CLASS.PLACEHOLDER" : "Enter a classname",
-    "PROPERTY.EXECUTIONLISTENERS.EXPRESSION" : "Expression",
-    "PROPERTY.EXECUTIONLISTENERS.EXPRESSION.PLACEHOLDER" : "Enter an expression",
-    "PROPERTY.EXECUTIONLISTENERS.DELEGATEEXPRESSION" : "Delegate expression",
-    "PROPERTY.EXECUTIONLISTENERS.DELEGATEEXPRESSION.PLACEHOLDER" : "Enter a delegate expression",
-    "PROPERTY.EXECUTIONLISTENERS.UNSELECTED" : "No execution listener selected",
-    "PROPERTY.EXECUTIONLISTENERS.FIELDS.NAME" : "Name",
-    "PROPERTY.EXECUTIONLISTENERS.FIELDS.NAME.PLACEHOLDER" : "Enter a name",
-    "PROPERTY.EXECUTIONLISTENERS.FIELDS.EXPRESSION" : "Expression",
-    "PROPERTY.EXECUTIONLISTENERS.FIELDS.EXPRESSION.PLACEHOLDER" : "Enter an expression",
-    "PROPERTY.EXECUTIONLISTENERS.FIELDS.STRINGVALUE" : "String value",
-    "PROPERTY.EXECUTIONLISTENERS.FIELDS.STRINGVALUE.PLACEHOLDER" : "Enter a string value",
-    "PROPERTY.EXECUTIONLISTENERS.FIELDS.STRING" : "String",
-    "PROPERTY.EXECUTIONLISTENERS.FIELDS.STRING.PLACEHOLDER" : "Enter a string",
+    "PROPERTY.EXECUTIONLISTENERS.EMPTY" : "実行リスナーが設定されていません",
+    "PROPERTY.EXECUTIONLISTENERS.EVENT" : "イベント",
+    "PROPERTY.EXECUTIONLISTENERS.CLASS" : "クラス",
+    "PROPERTY.EXECUTIONLISTENERS.CLASS.PLACEHOLDER" : "クラス名を入力",
+    "PROPERTY.EXECUTIONLISTENERS.EXPRESSION" : "式",
+    "PROPERTY.EXECUTIONLISTENERS.EXPRESSION.PLACEHOLDER" : "式を入力してください",
+    "PROPERTY.EXECUTIONLISTENERS.DELEGATEEXPRESSION" : "デリゲート式",
+    "PROPERTY.EXECUTIONLISTENERS.DELEGATEEXPRESSION.PLACEHOLDER" : "デリゲート式を入力してください",
+    "PROPERTY.EXECUTIONLISTENERS.UNSELECTED" : "実行リスナーが選択されていません",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.NAME" : "名前",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.NAME.PLACEHOLDER" : "名前を入力してください",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.EXPRESSION" : "式",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.EXPRESSION.PLACEHOLDER" : "式を入力してください",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.STRINGVALUE" : "文字列値",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.STRINGVALUE.PLACEHOLDER" : "文字列値を入力してください",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.STRING" : "文字列",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.STRING.PLACEHOLDER" : "文字列を入力してください",
     "PROPERTY.EXECUTIONLISTENERS.FIELDS.IMPLEMENTATION" : "Implementation",
-    "PROPERTY.EXECUTIONLISTENERS.FIELDS.EMPTY" : "No Field selected",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.EMPTY" : "フィールドが選択されていません",
 
-    "PROPERTY.FIELDS" : "{{length}} fields",
-    "PROPERTY.FIELDS.EMPTY" : "No fields selected",
-    "PROPERTY.FIELDS.NAME" : "Name",
-    "PROPERTY.FIELDS.NAME.PLACEHOLDER" : "Enter a name",
-    "PROPERTY.FIELDS.EXPRESSION" : "Expression",
-    "PROPERTY.FIELDS.EXPRESSION.PLACEHOLDER" : "Enter an expression",
-    "PROPERTY.FIELDS.STRINGVALUE" : "String value",
-    "PROPERTY.FIELDS.STRINGVALUE.PLACEHOLDER" : "Enter a string value",
-    "PROPERTY.FIELDS.STRING" : "String",
-    "PROPERTY.FIELDS.STRING.PLACEHOLDER" : "Enter a string",
+    "PROPERTY.FIELDS" : "{{length}} フィールド",
+    "PROPERTY.FIELDS.EMPTY" : "フィールドが選択されていません",
+    "PROPERTY.FIELDS.NAME" : "名前",
+    "PROPERTY.FIELDS.NAME.PLACEHOLDER" : "名前を入力してください",
+    "PROPERTY.FIELDS.EXPRESSION" : "式",
+    "PROPERTY.FIELDS.EXPRESSION.PLACEHOLDER" : "式を入力してください",
+    "PROPERTY.FIELDS.STRINGVALUE" : "文字列値",
+    "PROPERTY.FIELDS.STRINGVALUE.PLACEHOLDER" : "文字列値を入力してください",
+    "PROPERTY.FIELDS.STRING" : "文字列",
+    "PROPERTY.FIELDS.STRING.PLACEHOLDER" : "文字列を入力してください",
     "PROPERTY.FIELDS.IMPLEMENTATION" : "Implementation",
-    "PROPERTY.FIELDS.UNSELECTED" : "No Field selected",
+    "PROPERTY.FIELDS.UNSELECTED" : "フィールドが選択されていません",
 
-    "PROPERTY.FORMPROPERTIES.VALUE" : "{{length}} form properties",
-    "PROPERTY.FORMPROPERTIES.EMPTY" : "No form properties selected",
+    "PROPERTY.FORMPROPERTIES.VALUE" : "{{length}} フォームプロパティ",
+    "PROPERTY.FORMPROPERTIES.EMPTY" : "フォームプロパティが選択されていません",
     "PROPERTY.FORMPROPERTIES.ID" : "Id",
-    "PROPERTY.FORMPROPERTIES.ID.PLACEHOLDER" : "Enter an id",
-    "PROPERTY.FORMPROPERTIES.NAME" : "Name",
-    "PROPERTY.FORMPROPERTIES.NAME.PLACEHOLDER" : "Enter a name",
-    "PROPERTY.FORMPROPERTIES.TYPE" : "Type",
-    "PROPERTY.FORMPROPERTIES.DATEPATTERN" : "Date pattern",
-    "PROPERTY.FORMPROPERTIES.DATEPATTERN.PLACEHOLDER" : "Enter date pattern",
-    "PROPERTY.FORMPROPERTIES.VALUES" : "Values",
-    "PROPERTY.FORMPROPERTIES.ENUMVALUES.EMPTY" : "No enum value selected",
+    "PROPERTY.FORMPROPERTIES.ID.PLACEHOLDER" : "ID を入力",
+    "PROPERTY.FORMPROPERTIES.NAME" : "名前",
+    "PROPERTY.FORMPROPERTIES.NAME.PLACEHOLDER" : "名前を入力してください",
+    "PROPERTY.FORMPROPERTIES.TYPE" : "タイプ",
+    "PROPERTY.FORMPROPERTIES.DATEPATTERN" : "日付パターン",
+    "PROPERTY.FORMPROPERTIES.DATEPATTERN.PLACEHOLDER" : "日付パターンを入力",
+    "PROPERTY.FORMPROPERTIES.VALUES" : "値",
+    "PROPERTY.FORMPROPERTIES.ENUMVALUES.EMPTY" : "enum 値が選択されていません",
     "PROPERTY.FORMPROPERTIES.VALUES.ID" : "Id",
-    "PROPERTY.FORMPROPERTIES.VALUES.NAME" : "Name",
-    "PROPERTY.FORMPROPERTIES.VALUES.ID.PLACEHOLDER" : "Enter id of a value",
-  	"PROPERTY.FORMPROPERTIES.VALUES.NAME.PLACEHOLDER" : "Enter name of a value",
-    "PROPERTY.FORMPROPERTIES.EXPRESSION" : "Expression",
-    "PROPERTY.FORMPROPERTIES.EXPRESSION.PLACEHOLDER" : "Enter an expression",
-    "PROPERTY.FORMPROPERTIES.VARIABLE" : "Variable",
-    "PROPERTY.FORMPROPERTIES.VARIABLE.PLACEHOLDER" : "Enter a variable",
-    "PROPERTY.FORMPROPERTIES.REQUIRED" : "Required",
-    "PROPERTY.FORMPROPERTIES.READABLE" : "Readable",
-    "PROPERTY.FORMPROPERTIES.WRITABLE" : "Writable",
+    "PROPERTY.FORMPROPERTIES.VALUES.NAME" : "名前",
+    "PROPERTY.FORMPROPERTIES.VALUES.ID.PLACEHOLDER" : "値の ID を入力",
+  	"PROPERTY.FORMPROPERTIES.VALUES.NAME.PLACEHOLDER" : "値の名前を入力",
+    "PROPERTY.FORMPROPERTIES.EXPRESSION" : "式",
+    "PROPERTY.FORMPROPERTIES.EXPRESSION.PLACEHOLDER" : "式を入力してください",
+    "PROPERTY.FORMPROPERTIES.VARIABLE" : "変数",
+    "PROPERTY.FORMPROPERTIES.VARIABLE.PLACEHOLDER" : "変数を入力",
+    "PROPERTY.FORMPROPERTIES.REQUIRED" : "必須",
+    "PROPERTY.FORMPROPERTIES.READABLE" : "参照可能",
+    "PROPERTY.FORMPROPERTIES.WRITABLE" : "編集可能",
 
-    "PROPERTY.INPARAMETERS.VALUE" : "{{length}} in-parameters",
-    "PROPERTY.INPARAMETERS.EMPTY" : "No in-parameters configured",
+    "PROPERTY.INPARAMETERS.VALUE" : "{{length}} 入力パラメータ",
+    "PROPERTY.INPARAMETERS.EMPTY" : "入力パラメータが設定されていません",
 
-    "PROPERTY.OUTPARAMETERS.VALUE" : "{{length}} out-parameters",
-    "PROPERTY.OUTPARAMETERS.EMPTY" : "No out-parameters configured",
+    "PROPERTY.OUTPARAMETERS.VALUE" : "{{length}} 出力パラメータ",
+    "PROPERTY.OUTPARAMETERS.EMPTY" : "出力パラメータが設定されていません",
 
-    "PROPERTY.PARAMETER.SOURCE" : "Source",
-    "PROPERTY.PARAMETER.SOURCE.PLACEHOLDER" : "Enter a source",
-    "PROPERTY.PARAMETER.SOURCEEXPRESSION" : "Source expression",
-    "PROPERTY.PARAMETER.SOURCEEXPRESSION.PLACEHOLDER" : "Enter a source expression",
-    "PROPERTY.PARAMETER.TARGET" : "Target",
-    "PROPERTY.PARAMETER.TARGET.PLACEHOLDER" : "Enter a target",
-    "PROPERTY.PARAMETER.EMPTY" : "No parameter selected",
+    "PROPERTY.PARAMETER.SOURCE" : "ソース",
+    "PROPERTY.PARAMETER.SOURCE.PLACEHOLDER" : "ソースを入力",
+    "PROPERTY.PARAMETER.SOURCEEXPRESSION" : "ソース式",
+    "PROPERTY.PARAMETER.SOURCEEXPRESSION.PLACEHOLDER" : "元の式を入力してください",
+    "PROPERTY.PARAMETER.TARGET" : "ターゲット",
+    "PROPERTY.PARAMETER.TARGET.PLACEHOLDER" : "ターゲットを入力",
+    "PROPERTY.PARAMETER.EMPTY" : "パラメータが選択されていません",
 
-    "PROPERTY.SUBPROCESSREFERENCE.EMPTY" : "No reference selected",
-    "PROPERTY.SUBPROCESSREFERENCE.TITLE" : "Collapsed subprocess reference",
+    "PROPERTY.SUBPROCESSREFERENCE.EMPTY" : "参照が選択されていません",
+    "PROPERTY.SUBPROCESSREFERENCE.TITLE" : "縮小サブプロセス参照",
     "PROPERTY.SUBPROCESSREFERENCE.ERROR.SUBPROCESS" : "サブプロセスのロード中にエラーが発生しました。あとでもう一度試してみてください",
-    "PROPERTY.SUBPROCESSREFERENCE.FOLDER.ROOT" : "Folders",
-    "PROPERTY.SUBPROCESSREFERENCE.FOLDER.LOADING" : "Loading folders...",
-    "PROPERTY.SUBPROCESSREFERENCE.FOLDER.EMPTY" : "This folder contains no sub-folders",
-    "PROPERTY.SUBPROCESSREFERENCE.SUBPROCESS.LOADING" : "Loading subprocesses...",
-    "PROPERTY.SUBPROCESSREFERENCE.SUBPROCESS.EMPTY" : "This folder contains no subprocesses",
+    "PROPERTY.SUBPROCESSREFERENCE.FOLDER.ROOT" : "フォルダ",
+    "PROPERTY.SUBPROCESSREFERENCE.FOLDER.LOADING" : "フォルダを読み込んでいます...",
+    "PROPERTY.SUBPROCESSREFERENCE.FOLDER.EMPTY" : "このフォルダにはサブフォルダがありません",
+    "PROPERTY.SUBPROCESSREFERENCE.SUBPROCESS.LOADING" : "サブプロセスを読み込んでいます...",
+    "PROPERTY.SUBPROCESSREFERENCE.SUBPROCESS.EMPTY" : "このフォルダにはサブプロセスがありません",
 
-    "PROPERTY.FORMREFERENCE.EMPTY" : "No reference selected",
-    "PROPERTY.FORMREFERENCE.TITLE" : "Form reference",
+    "PROPERTY.FORMREFERENCE.EMPTY" : "参照が選択されていません",
+    "PROPERTY.FORMREFERENCE.TITLE" : "フォームリファレンス",
     "PROPERTY.FORMREFERENCE.ERROR.FORM" : "フォームの読み込み中にエラーが発生しました。あとでもう一度試してみてください",
-    "PROPERTY.FORMREFERENCE.FOLDER.ROOT" : "Folders",
-    "PROPERTY.FORMREFERENCE.FOLDER.LOADING" : "Loading folders...",
-    "PROPERTY.FORMREFERENCE.FOLDER.EMPTY" : "This folder contains no sub-folders",
-    "PROPERTY.FORMREFERENCE.FORM.LOADING" : "Loading forms...",
-    "PROPERTY.FORMREFERENCE.FORM.EMPTY" : "This folder contains no forms",
+    "PROPERTY.FORMREFERENCE.FOLDER.ROOT" : "フォルダ",
+    "PROPERTY.FORMREFERENCE.FOLDER.LOADING" : "フォルダを読み込んでいます...",
+    "PROPERTY.FORMREFERENCE.FOLDER.EMPTY" : "このフォルダにはサブフォルダがありません",
+    "PROPERTY.FORMREFERENCE.FORM.LOADING" : "フォームを読み込んでいます...",
+    "PROPERTY.FORMREFERENCE.FORM.EMPTY" : "このフォルダにはフォームがありません",
 
-    "PROPERTY.TASKLISTENERS.VALUE" : "{{length}} task listeners",
-    "PROPERTY.TASKLISTENERS.EMPTY" : "No task listeners configured",
-    "PROPERTY.TASKLISTENERS.EVENT" : "Event",
-    "PROPERTY.TASKLISTENERS.CLASS" : "Class",
-    "PROPERTY.TASKLISTENERS.CLASS.PLACEHOLDER" : "Enter a classname",
-    "PROPERTY.TASKLISTENERS.EXPRESSION" : "Expression",
-    "PROPERTY.TASKLISTENERS.EXPRESSION.PLACEHOLDER" : "Enter an expression",
-    "PROPERTY.TASKLISTENERS.DELEGATEEXPRESSION" : "Delegate expression",
-    "PROPERTY.TASKLISTENERS.DELEGATEEXPRESSION.PLACEHOLDER" : "Enter a delegate expression",
-    "PROPERTY.TASKLISTENERS.UNSELECTED" : "No task listener selected",
-    "PROPERTY.TASKLISTENERS.FIELDS.NAME" : "Name",
-    "PROPERTY.TASKLISTENERS.FIELDS.NAME.PLACEHOLDER" : "Enter a name",
-    "PROPERTY.TASKLISTENERS.FIELDS.EXPRESSION" : "Expression",
-    "PROPERTY.TASKLISTENERS.FIELDS.EXPRESSION.PLACEHOLDER" : "Enter an expression",
-    "PROPERTY.TASKLISTENERS.FIELDS.STRINGVALUE" : "String value",
-    "PROPERTY.TASKLISTENERS.FIELDS.STRINGVALUE.PLACEHOLDER" : "Enter a string value",
-    "PROPERTY.TASKLISTENERS.FIELDS.STRING" : "String",
-    "PROPERTY.TASKLISTENERS.FIELDS.STRING.PLACEHOLDER" : "Enter a string",
+    "PROPERTY.TASKLISTENERS.VALUE" : "{{length}} タスクリスナー",
+    "PROPERTY.TASKLISTENERS.EMPTY" : "タスクリスナーが設定されていません",
+    "PROPERTY.TASKLISTENERS.EVENT" : "イベント",
+    "PROPERTY.TASKLISTENERS.CLASS" : "クラス",
+    "PROPERTY.TASKLISTENERS.CLASS.PLACEHOLDER" : "クラス名を入力",
+    "PROPERTY.TASKLISTENERS.EXPRESSION" : "式",
+    "PROPERTY.TASKLISTENERS.EXPRESSION.PLACEHOLDER" : "式を入力してください",
+    "PROPERTY.TASKLISTENERS.DELEGATEEXPRESSION" : "デリゲート式",
+    "PROPERTY.TASKLISTENERS.DELEGATEEXPRESSION.PLACEHOLDER" : "デリゲート式を入力してください",
+    "PROPERTY.TASKLISTENERS.UNSELECTED" : "タスクリスナーが選択されていません",
+    "PROPERTY.TASKLISTENERS.FIELDS.NAME" : "名前",
+    "PROPERTY.TASKLISTENERS.FIELDS.NAME.PLACEHOLDER" : "名前を入力してください",
+    "PROPERTY.TASKLISTENERS.FIELDS.EXPRESSION" : "式",
+    "PROPERTY.TASKLISTENERS.FIELDS.EXPRESSION.PLACEHOLDER" : "式を入力してください",
+    "PROPERTY.TASKLISTENERS.FIELDS.STRINGVALUE" : "文字列値",
+    "PROPERTY.TASKLISTENERS.FIELDS.STRINGVALUE.PLACEHOLDER" : "文字列値を入力してください",
+    "PROPERTY.TASKLISTENERS.FIELDS.STRING" : "文字列",
+    "PROPERTY.TASKLISTENERS.FIELDS.STRING.PLACEHOLDER" : "文字列を入力してください",
     "PROPERTY.TASKLISTENERS.FIELDS.IMPLEMENTATION" : "Implementation",
-    "PROPERTY.TASKLISTENERS.FIELDS.EMPTY" : "No Field selected",
+    "PROPERTY.TASKLISTENERS.FIELDS.EMPTY" : "フィールドが選択されていません",
 
-    "PROPERTY.EVENTLISTENERS.DISPLAY" : "{{length}} event listeners",
-    "PROPERTY.EVENTLISTENERS.EMPTY" : "No event listeners configured",
-    "PROPERTY.EVENTLISTENERS.EVENTS": "Events",
-    "PROPERTY.EVENTLISTENERS.RETHROW": "Rethrow event?",
-    "PROPERTY.EVENTLISTENERS.CLASS" : "Class",
-    "PROPERTY.EVENTLISTENERS.CLASS.PLACEHOLDER" : "Enter a classname",
-    "PROPERTY.EVENTLISTENERS.DELEGATEEXPRESSION" : "Delegate expression",
-    "PROPERTY.EVENTLISTENERS.DELEGATEEXPRESSION.PLACEHOLDER" : "Enter a delegate expression",
-    "PROPERTY.EVENTLISTENERS.ENTITYTYPE" : "Entity type",
-    "PROPERTY.EVENTLISTENERS.ENTITYTYPE.PLACEHOLDER" : "Enter an entity type",
-    "PROPERTY.EVENTLISTENERS.RETHROWTYPE": "Rethrow event type",
-    "PROPERTY.EVENTLISTENERS.ERRORCODE" : "Error code",
-    "PROPERTY.EVENTLISTENERS.ERRORCODE.PLACEHOLDER" : "Enter an error code",
-    "PROPERTY.EVENTLISTENERS.MESSAGENAME" : "Message name",
-    "PROPERTY.EVENTLISTENERS.MESSAGENAME.PLACEHOLDER" : "Enter a message name",
-    "PROPERTY.EVENTLISTENERS.SIGNALNAME" : "Signal name",
-    "PROPERTY.EVENTLISTENERS.SIGNALNAME.PLACEHOLDER" : "Enter a signal name",
-    "PROPERTY.EVENTLISTENERS.UNSELECTED" : "No event listener selected",
+    "PROPERTY.EVENTLISTENERS.DISPLAY" : "{{length}} イベントリスナー",
+    "PROPERTY.EVENTLISTENERS.EMPTY" : "イベントリスナーは設定されていません",
+    "PROPERTY.EVENTLISTENERS.EVENTS": "イベント",
+    "PROPERTY.EVENTLISTENERS.RETHROW": "イベントを再送しますか?",
+    "PROPERTY.EVENTLISTENERS.CLASS" : "クラス",
+    "PROPERTY.EVENTLISTENERS.CLASS.PLACEHOLDER" : "クラス名を入力",
+    "PROPERTY.EVENTLISTENERS.DELEGATEEXPRESSION" : "デリゲート式",
+    "PROPERTY.EVENTLISTENERS.DELEGATEEXPRESSION.PLACEHOLDER" : "デリゲート式を入力してください",
+    "PROPERTY.EVENTLISTENERS.ENTITYTYPE" : "エンティティタイプ",
+    "PROPERTY.EVENTLISTENERS.ENTITYTYPE.PLACEHOLDER" : "エンティティタイプを入力",
+    "PROPERTY.EVENTLISTENERS.RETHROWTYPE": "再スローイベントタイプ",
+    "PROPERTY.EVENTLISTENERS.ERRORCODE" : "エラーコード",
+    "PROPERTY.EVENTLISTENERS.ERRORCODE.PLACEHOLDER" : "エラーコードを入力してください",
+    "PROPERTY.EVENTLISTENERS.MESSAGENAME" : "メッセージ名",
+    "PROPERTY.EVENTLISTENERS.MESSAGENAME.PLACEHOLDER" : "メッセージ名を入力",
+    "PROPERTY.EVENTLISTENERS.SIGNALNAME" : "シグナル名",
+    "PROPERTY.EVENTLISTENERS.SIGNALNAME.PLACEHOLDER" : "シグナル名を入力してください",
+    "PROPERTY.EVENTLISTENERS.UNSELECTED" : "イベントリスナが選択されていません",
 
-    "PROPERTY.SIGNALDEFINITIONS.DISPLAY" : "{{length}} signal definitions",
-    "PROPERTY.SIGNALDEFINITIONS.EMPTY" : "No signal definitions configured",
-    "PROPERTY.SIGNALDEFINITIONS.SCOPE-GLOBAL": "Global",
-    "PROPERTY.SIGNALDEFINITIONS.SCOPE-PROCESSINSTANCE": "Process Instance",
+    "PROPERTY.SIGNALDEFINITIONS.DISPLAY" : "{{length}} シグナルの定義",
+    "PROPERTY.SIGNALDEFINITIONS.EMPTY" : "シグナル定義が設定されていません",
+    "PROPERTY.SIGNALDEFINITIONS.SCOPE-GLOBAL": "グローバル",
+    "PROPERTY.SIGNALDEFINITIONS.SCOPE-PROCESSINSTANCE": "プロセスインスタンス",
     "PROPERTY.SIGNALDEFINITIONS.ID" : "Id",
-    "PROPERTY.SIGNALDEFINITIONS.NAME" : "Name",
-    "PROPERTY.SIGNALDEFINITIONS.SCOPE" : "Scope",
+    "PROPERTY.SIGNALDEFINITIONS.NAME" : "名前",
+    "PROPERTY.SIGNALDEFINITIONS.SCOPE" : "スコープ",
 
-    "PROPERTY.MESSAGEDEFINITIONS.DISPLAY" : "{{length}} message definitions",
+    "PROPERTY.MESSAGEDEFINITIONS.DISPLAY" : "{{length}} メッセージの定義",
     "PROPERTY.MESSAGEDEFINITIONS.EMPTY" : "メッセージ定義が構成されていません",
     "PROPERTY.MESSAGEDEFINITIONS.ID" : "Id",
     "PROPERTY.MESSAGEDEFINITIONS.NAME" : "名前",
@@ -1756,42 +1756,42 @@
     "PROPERTY.SEQUENCEFLOW.ORDER.NOT.EMPTY" : "シーケンスフロー順序セット",
     "PROPERTY.SEQUENCEFLOW.ORDER.NO.OUTGOING.SEQUENCEFLOW.FOUND" : "発信シーケンスフローが見つかりません。",
     "PROPERTY.SEQUENCEFLOW.ORDER.DESCRIPTION" : "シーケンスフローを評価する必要がある順序を設定します。:",
-    "PROPERTY.SEQUENCEFLOW.ORDER.SEQUENCEFLOW.VALUE" : "Sequence flow to {{targetType}} {{targetTitle}}",
+    "PROPERTY.SEQUENCEFLOW.ORDER.SEQUENCEFLOW.VALUE" : "{{targetタイプ}} {{targetTitle}} へのシーケンスフロー",
 
-    "PROPERTY.SEQUENCEFLOW.CONDITION.TITLE" : "Sequence flow condition",
-    "PROPERTY.SEQUENCEFLOW.CONDITION.TYPE.TITLE" : "Condition type",
-    "PROPERTY.SEQUENCEFLOW.CONDITION.TYPE.VARIABLE" : "Select variables",
-    "PROPERTY.SEQUENCEFLOW.CONDITION.TYPE.STATIC" : "Fixed value",
-    "PROPERTY.SEQUENCEFLOW.CONDITION.STATIC" : "Condition expression",
-    "PROPERTY.SEQUENCEFLOW.CONDITION.STATIC_PLACEHOLDER" : "Fill-in expression value",
-    "PROPERTY.SEQUENCEFLOW.CONDITION.NO-CONDITION-DISPLAY": "No condition set",
+    "PROPERTY.SEQUENCEFLOW.CONDITION.TITLE" : "シーケンスフロー条件",
+    "PROPERTY.SEQUENCEFLOW.CONDITION.TYPE.TITLE" : "コンディションタイプ",
+    "PROPERTY.SEQUENCEFLOW.CONDITION.TYPE.VARIABLE" : "変数を選択",
+    "PROPERTY.SEQUENCEFLOW.CONDITION.TYPE.STATIC" : "固定値",
+    "PROPERTY.SEQUENCEFLOW.CONDITION.STATIC" : "条件式",
+    "PROPERTY.SEQUENCEFLOW.CONDITION.STATIC_PLACEHOLDER" : "記入式の値",
+    "PROPERTY.SEQUENCEFLOW.CONDITION.NO-CONDITION-DISPLAY": "条件セットなし",
 
     "PROPERTY.DUEDATE.EMPTY" : "期限がありません",
     "PROPERTY.DUEDATE.DEFINED" : "期限が決められています",
-    "PROPERTY.DUEDATE.TITLE" : "Due date",
-    "PROPERTY.DUEDATE.EXPRESSION-LABEL" : "Due date expression",
+    "PROPERTY.DUEDATE.TITLE" : "期日",
+    "PROPERTY.DUEDATE.EXPRESSION-LABEL" : "期日表現",
     "PROPERTY.DUEDATE.TASK-DUE-DATE-OPTIONS.NO-DUEDATE" : "期限がありません",
-    "PROPERTY.DUEDATE.TASK-DUE-DATE-OPTIONS.EXPRESSION" : "Expression definition",
-    "PROPERTY.DUEDATE.TASK-DUE-DATE-OPTIONS.STATIC" : "Fixed duration after task creation",
-    "PROPERTY.DUEDATE.TASK-DUE-DATE-OPTIONS.FIELD" : "Based on field",
+    "PROPERTY.DUEDATE.TASK-DUE-DATE-OPTIONS.EXPRESSION" : "式の定義",
+    "PROPERTY.DUEDATE.TASK-DUE-DATE-OPTIONS.STATIC" : "タスク作成後の固定期間",
+    "PROPERTY.DUEDATE.TASK-DUE-DATE-OPTIONS.FIELD" : "フィールドに基づいて",
 
-    "MODEL.SAVE.TITLE" : "Save model",
-    "MODEL.NAME" : "Name",
-    "MODEL.KEY" : "Key",
-    "MODEL.DESCRIPTION" : "Description",
+    "MODEL.SAVE.TITLE" : "モデルの保存",
+    "MODEL.NAME" : "名前",
+    "MODEL.KEY" : "キー",
+    "MODEL.DESCRIPTION" : "説明",
     "MODEL.SAVE.NEWVERSION" : "これを新しいバージョンとして保存しますか？ つまり、いつでも以前のバージョンに戻ることができます。",
-    "MODEL.SAVE.COMMENT" : "Comment",
-    "MODEL.SAVE.SAVING" : "Saving model",
-    "MODEL.LASTMODIFIEDDATE" : "Last saved",
-    "MODEL.SAVE.ERROR": "Unexpected error: could not save model",
+    "MODEL.SAVE.COMMENT" : "コメント",
+    "MODEL.SAVE.SAVING" : "保存モデル",
+    "MODEL.LASTMODIFIEDDATE" : "最後に保存",
+    "MODEL.SAVE.ERROR": "予期せぬエラー: モデルを保存できませんでした",
     "MODEL.VALIDATIONERRORS": "モデルに検証エラーが含まれていることに注意してください。これは、現在の状態ではモデルを Activiti エンジンに配置できないことを意味します。",
-    "MODEL.CONFLICT.WRITE": "Could not save model: '{{userFullName}}' has made changes to this model",
-    "MODEL.CONFLICT.WRITE.OPTIONS": "Select an option to resolve this conflict:",
-    "MODEL.CONFLICT.WRITE.OPTION.OVERWRITE": "Overwrite other model",
-    "MODEL.CONFLICT.WRITE.OPTION.DISCARDCHANGES": "Discard my changes",
-    "MODEL.CONFLICT.WRITE.OPTION.SAVEAS": "Save as new model",
+    "MODEL.CONFLICT.WRITE": "モデルを保存できませんでした: '{{userFull名前}}' がこのモデルに変更を加えました",
+    "MODEL.CONFLICT.WRITE.OPTIONS": "この競合を解決するためのオプションを選択してください:",
+    "MODEL.CONFLICT.WRITE.OPTION.OVERWRITE": "他のモデルを上書きする",
+    "MODEL.CONFLICT.WRITE.OPTION.DISCARDCHANGES": "変更を破棄",
+    "MODEL.CONFLICT.WRITE.OPTION.SAVEAS": "新しいモデルとして保存",
     "MODEL.CONFLICT.WRITE.OPTION.NEWVERSION": "新しいバージョンを作成する",
-    "MODEL.CONFLICT.SAVEAS" : "Save as:",
+    "MODEL.CONFLICT.SAVEAS" : "名前を付けて保存:",
 
     "EVENT_TYPE.ACTIVITY.COMPENSATE.TOOLTIP": "あるアクティビティが別のアクティビティの代わりとして実行されようとしています。イベントは、代わりのために実行されようとしているアクティビティをターゲットにします。",
     "EVENT_TYPE.ACTIVITY.COMPLETED.TOOLTIP": "アクティビティは正常に完了しました",
