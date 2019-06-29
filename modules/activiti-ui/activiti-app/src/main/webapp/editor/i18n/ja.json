@@ -44,7 +44,7 @@
           "ADD-COMMENT-PLACEHOLDER": "新しいコメントを入力",
           "PEOPLE-NO-MATCHING-RESULTS": "一致するユーザーは見つかりませんでした",
           "GROUP-NO-MATCHING-RESULTS": "一致するグループが見つかりませんでした",
-          "GROUP-SOURCE-TYPE": "Group source",
+          "GROUP-SOURCE-TYPE": "グループソース",
           "GROUP-SOURCE-SEARCH-OPTION": "グループを検索",
           "GROUP-SOURCE-FIELD-OPTION": "フォームフィールド"
         },
@@ -167,7 +167,7 @@
             "MY-REUSABLE-DECISION-TABLES-ONE": "再利用可能な意思決定表が1つあります",
             "MY-REUSABLE-DECISION-TABLES-EMPTY": "意思決定表がありません。追加するには、[意思決定表を作成] をクリックします。",
             "FILTER-TEXT": ", \"{{filterText}}\" に一致",
-            "FILTER-TEXT-EMPTY": "\"{{filterText}}\"に一致するデシジョンテーブルがありません"
+            "FILTER-TEXT-EMPTY": "\"{{filterText}}\"に一致する意思決定表がありません"
         },
 
         "SORT": {
@@ -484,46 +484,46 @@
             "CREATE-DESCRIPTION": "新しい意思決定表の名前を付ける必要があります。同時に説明を追加することもできます。",
             "SAVE-DESCRIPTION": "新しい意思決定表に名前と一意のキーを付ける必要があります。同時に説明を追加することもできます。",
             "DUPLICATE-DESCRIPTION": "新しい意思決定表の名前を付ける必要があります。同時に説明を追加することもできます。",
-            "SAVE-DECISION-TABLE-TITLE": "Save decision table",
+            "SAVE-DECISION-TABLE-TITLE": "意思決定表を保存",
             "IMPORT-DESCRIPTION": "拡張子が .dmn または .dmn.xml の DMN XML 定義を参照または削除します。",
             "IMPORT-TITLE": "DMN モデルをインポートする",
  	        "IMPORT": {
- 	            "DROPZONE": "Drop a .dmn or .dmn.xml DMN XML file",
- 	            "CANCEL-UPLOAD": "Cancel the upload",
- 	            "ERROR": "Error while processing the DMN XML file",
- 	            "NO-DROP": "Drag and drop not supported"
+ 	            "DROPZONE": ".dmn または .dmn.xml DMN XML ファイルをドロップする",
+ 	            "CANCEL-UPLOAD": "アップロードをキャンセルする",
+ 	            "ERROR": "DMN XML ファイルの処理中にエラーが発生しました",
+ 	            "NO-DROP": "ドラッグ & ドロップはサポートされていません"
  	        },
             "EDIT-DESCRIPTION": "以下の意思決定表プロパティを変更し、[保存] をクリックして意思決定表を更新します。",
-            "EDIT-TITLE":"Edit decision table details",
+            "EDIT-TITLE":"意思決定表の詳細の編集",
 
-            "DELETE-TITLE": "Delete decision table",
-            "DELETE-DESCRIPTION": "Are you sure you want to delete the decision table \"{{name}}\"?",
-            "DELETE-CASCADE-FALSE": "Only delete the current version of this decision table (v{{version}})",
-            "DELETE-CASCADE-TRUE": "Also delete all previous versions of this decision table",
+            "DELETE-TITLE": "意思決定表を削除",
+            "DELETE-DESCRIPTION": "意思決定表 \"{{name}}\" を削除してよろしいですか？",
+            "DELETE-CASCADE-FALSE": "この意思決定表の現在のバージョン (v{{version}}) のみを削除します",
+            "DELETE-CASCADE-TRUE": "この意思決定表の以前のバージョンもすべて削除します",
             "USE-AS-NEW-TITLE": "新しいバージョンとして使用",
             "USE-AS-NEW-DESCRIPTION": "新しいバージョンの \"{{name}}\" を作成するためにバージョン {{version}} を使用してよろしいですか？",
-            "SHARE-TITLE": "Share decision table",
-            "SHARE-DESCRIPTION": "You can decide who you wish to share this decision table with and if they can edit it.",
-            "NOT-SHARED": "This decision table is not shared with anyone.",
-            "IMPORT-DROPZONE": "Drop a .dmn or .xml decision table file",
-            "IMPORT-NO-DROP": "Drag and drop not supported",
-            "IMPORT-CANCEL-UPLOAD": "Cancel the upload",
-            "IMPORT-ERROR": "Error while processing the decision table file",
+            "SHARE-TITLE": "意思決定表を共有する",
+            "SHARE-DESCRIPTION": "この意思決定表を誰と共有したいか、また編集できるかどうかを決めることができます。",
+            "NOT-SHARED": "この意思決定表は誰とも共有されていません。",
+            "IMPORT-DROPZONE": ".dmn または .xml 意思決定表をドロップします。",
+            "IMPORT-NO-DROP": "ドラッグ & ドロップはサポートされていません",
+            "IMPORT-CANCEL-UPLOAD": "アップロードをキャンセルする",
+            "IMPORT-ERROR": "意思決定表の処理中にエラーが発生しました",
             "REUSABLE": "再利用可能な意思決定表",
-            "SAVE-EMBEDDED": "Embed this decision table within the current process model?",
-            "SAVE-EMBEDDED-COPY": "他のプロセスも使用しているため、決定表のコピーが作成されます。"
+            "SAVE-EMBEDDED": "この決定表を現在のプロセスモデルに埋め込みますか？",
+            "SAVE-EMBEDDED-COPY": "他のプロセスも使用しているため、意思決定表のコピーが作成されます。"
         },
         "ALERT": {
-            "EDIT-CONFIRM": "Decision table updated",
-            "FAVORITE-CONFIRM": "This decision table is now favorited",
-            "UN-FAVORITE-CONFIRM": "This decision table is no longer favorited",
-            "DELETE-CONFIRM": "Decision table deleted",
-            "SHARE-CONFIRM": "The decision table sharing options have been updated",
-            "NEW-VERSION-CONFIRM": "A new version of the decision table has been created",
-            "COMMENT-ADDED-CONFIRM": "A new comment was added to the decision table"
+            "EDIT-CONFIRM": "意思決定表が更新されました",
+            "FAVORITE-CONFIRM": "この意思決定表は現在お気に入り登録されています",
+            "UN-FAVORITE-CONFIRM": "この意思決定表は、お気に入り登録されていません",
+            "DELETE-CONFIRM": "意思決定表が削除されました",
+            "SHARE-CONFIRM": "意思決定表の共有オプションが更新されました",
+            "NEW-VERSION-CONFIRM": "意思決定表の新しいバージョンが作成されました",
+            "COMMENT-ADDED-CONFIRM": "意思決定表に新しいコメントが追加されました"
         },
         "ERROR": {
-            "NOT-FOUND": "The requested decision table does not exist"
+            "NOT-FOUND": "要求された意思決定表は存在しません"
         }
     },
 
@@ -619,7 +619,7 @@
           "IMPORT-TITLE":"Import an app definition model",
           "IMPORT": {
               "DROPZONE": "Drop a .zip app definition file",
-              "CANCEL-UPLOAD": "Cancel the upload",
+              "CANCEL-UPLOAD": "アップロードをキャンセルする",
               "RENEWIDM-IDS": "ステップモデルと BPMN モデルをインポートするときにユーザーとグループの識別子を更新します。これは、アプリ定義を別の Activiti 環境にインポートするときによく必要になります。このターゲット環境では、ヒューマンステップとユーザータスクを適切なユーザーとグループにリンクしようとします。",
               "ERROR": "Error while processing the app definition file",
               "NO-DROP": "Drag and drop not supported"
@@ -1008,7 +1008,7 @@
         "PALETTE-CONTENT": "ビジネスプロセスを作成するために利用可能なすべての構成要素はここにあります。それらは論理的なグループに配置されています。グループを開くには、単にそれをクリックします。",
         "CANVAS-TITLE": "キャンバス",
         "CANVAS-CONTENT": "これが、ビジネスプロセスを作成するワークスペースです。左側のパレットから要素をドラッグしてキャンバスにドロップすると、モデリングが開始されます。",
-        "DRAGDROP-TITLE": "ドラッグアンドドロップの例",
+        "DRAGDROP-TITLE": "ドラッグ & ドロップの例",
         "DRAGDROP-CONTENT": "これがモデリングの開始方法の例です:",
         "PROPERTIES-TITLE": "プロパティ",
         "PROPERTIES-CONTENT": "ここでは、ビジネスプロセス構成のプロパティを設定できます。キャンバス上のアイテムを選択するだけで、そのプロパティが表示されます。プロパティを編集したい場合はクリックします",
@@ -1026,16 +1026,16 @@
     },
 
   "INVOLVE-PEOPLE": {
-      "NO-MATCHING-RESULTS": "Use the search box above to find users or ",
-      "SEARCH-PLACEHOLDER": "Search user",
-      "USE-EMAIL": "select someone using an email address",
-      "EMAIL-PLACEHOLDER": "Enter an email address",
+      "NO-MATCHING-RESULTS": "ユーザーを検索するには上の検索ボックスを使用してください。",
+      "SEARCH-PLACEHOLDER": "ユーザーを検索",
+      "USE-EMAIL": "メールアドレスを使用している人を選択してください",
+      "EMAIL-PLACEHOLDER": "メールアドレスを入力",
       "EMAIL-HELP": "Enter キーを押すかボタンをクリックして続行します。この人は E メールで通知を受け取るか、登録するよう招待されます",
-      "BACK-TO-SEARCH": "Back to search",
-      "ACTION-SELECT": "Select",
+      "BACK-TO-SEARCH": "検索に戻る",
+      "ACTION-SELECT": "選択",
       "SOURCE": {
-          "TYPE": "Source",
-          "SEARCH-OPTION": "User search",
+          "TYPE": "ソース",
+          "SEARCH-OPTION": "ユーザー検索",
           "FIELD-OPTION": "フォームフィールド"
       }
   },
@@ -1227,48 +1227,48 @@
         },
         "PROPERTY": {
             "ASYNC": {
-                "TITLE": "Asynchronous",
-                "DESCRIPTION": "Define the activity as asynchronous."
+                "TITLE": "非同期",
+                "DESCRIPTION": "アクティビティを非同期として定義します。"
             },
             "CALLED-ELEMENT": {
-                "TITLE": "Called element",
-                "DESCRIPTION": "Reference to a sub process."
+                "TITLE": "呼び出された要素",
+                "DESCRIPTION": "サブプロセスへの参照"
             },
             "CAMEL-CONTEXT": {
-                "TITLE": "Camel context",
-                "DESCRIPTION": "An optional camel context definition, if left empty the default is used."
+                "TITLE": "キャメルコンテキスト",
+                "DESCRIPTION": "オプションのキャメルコンテキスト定義。空のままにした場合はデフォルトが使用されます。"
             },
             "CANCEL-ACTIVITY": {
-                "TITLE": "Cancel activity",
-                "DESCRIPTION": "Should the activity be cancelled."
+                "TITLE": "アクティビティのキャンセル",
+                "DESCRIPTION": "アクティビティをキャンセルする必要があります。"
             },
             "COMPENSATION": {
-                "TITLE": "Is for compensation",
-                "DESCRIPTION": "Aこのアクティビティが代わりの目的のためのものであるかどうかを識別するフラグ。"
+                "TITLE": "代わり",
+                "DESCRIPTION": "このアクティビティが代わりの目的のためのものであるかどうかを識別するフラグ。"
             },
             "COLLAPSED-SUBPROCESS-REFERENCE": {
-                "TITLE": "Referenced Subprocess",
-                "DESCRIPTION": "Reference to a subprocess that is included in the collapsed subprocess."
+                "TITLE": "サブプロセスの参照",
+                "DESCRIPTION": "折りたたまれたサブプロセスに含まれているサブプロセスへの参照。"
             },
             "DOCUMENTATION": {
-                "TITLE": "Documentation",
-                "DESCRIPTION": "The descriptive description of the BPMN element."
+                "TITLE": "ドキュメンテーション",
+                "DESCRIPTION": "BPMN 要素の説明的な説明。"
             },
             "ENDPOINT-URL": {
-                "TITLE": "Endpoint url",
-                "DESCRIPTION": "A required endpoint url to sent the message to Mule."
+                "TITLE": "エンドポイント URL",
+                "DESCRIPTION": "ESB Mule にメッセージを送るために必要なエンドポイント URL。"
             },
             "ERROR-REF": {
-                "TITLE": "Error reference",
-                "DESCRIPTION": "Define the error name."
+                "TITLE": "エラーリファレンス",
+                "DESCRIPTION": "エラー名を定義してください。"
             },
             "EVENT-LISTENERS": {
                 "TITLE": "イベントリスナー",
                 "DESCRIPTION": "Activiti エンジンで起こっているあらゆるイベントのリスナー。イベントをシグナル、メッセージ、またはエラーイベントとして再スローすることもできます。"
             },
             "EXCLUSIVE": {
-                "TITLE": "Exclusive",
-                "DESCRIPTION": "Define the activity as exclusive."
+                "TITLE": "排他",
+                "DESCRIPTION": "アクティビティを排他的として定義します。"
             },
             "EXECUTION-LISTENERS": {
                 "TITLE": "実行リスナー",
@@ -1303,7 +1303,7 @@
                 "DESCRIPTION": "メールの cc。複数の受信者がコンマ区切りリストで定義されています。"
             },
             "MAILTASK-CHARSET": {
-                "TITLE": "Charset",
+                "TITLE": "文字セット",
                 "DESCRIPTION": "メールの文字セットを変更できます。これは、英語以外の多くの言語に必要です。"
             },
             "MAILTASK-FROM": {
@@ -1319,7 +1319,7 @@
                 "DESCRIPTION": "メールの件名。"
             },
             "MAILTASK-TEXT": {
-                "TITLE": "Text",
+                "TITLE": "テキスト",
                 "DESCRIPTION": "メールの内容。一般的なリッチ形式でないメールを送信する必要がある場合に備えてのもの。リッチコンテンツをサポートしていないメールクライアントには、html と組み合わせて使用できます。クライアントはこのテキストのみの代替方法にフォールバックします。"
             },
             "MAILTASK-TO": {
@@ -1327,128 +1327,128 @@
                 "DESCRIPTION": "受信者がメールの場合 複数の受信者がコンマ区切りリストで定義されています。"
             },
             "MESSAGE-REF": {
-                "TITLE": "Message reference",
-                "DESCRIPTION": "Define the message name."
+                "TITLE": "メッセージリファレンス",
+                "DESCRIPTION": "メッセージ名を定義してください。"
             },
             "MULETASK-LANGUAGE": {
-                "TITLE": "Language",
-                "DESCRIPTION": "A required definition for the language to resolve the payload expression, like juel."
+                "TITLE": "言語",
+                "DESCRIPTION": "juel のように、ペイロード表現を解決するために言語に必要な定義。"
             },
             "MULETASK-PAYLOAD": {
-                "TITLE": "Payload expression",
-                "DESCRIPTION": "A required definition for the payload of the message sent to Mule."
+                "TITLE": "ペイロード式",
+                "DESCRIPTION": "ESB Mule に送られるメッセージのペイロードに必要な定義。"
             },
             "MULETASK-RESULT-VARIABLE": {
-                "TITLE": "Result variable",
-                "DESCRIPTION": "An optional result variable for the payload returned."
+                "TITLE": "結果変数",
+                "DESCRIPTION": "返されたペイロードのオプションの結果変数。"
             },
             "MULTI-INSTANCE-CARDINALITY": {
-                "TITLE": "Cardinality (Multi-instance)",
-                "DESCRIPTION": "Define the cardinality of multi instance."
+                "TITLE": "基数 (マルチインスタンス)",
+                "DESCRIPTION": "マルチインスタンスの基数を定義します。"
             },
             "MULTI-INSTANCE-COLLECTION": {
-                "TITLE": "Collection (Multi-instance)",
-                "DESCRIPTION": "Define the collection for the multi instance."
+                "TITLE": "コレクション (マルチインスタンス)",
+                "DESCRIPTION": "マルチインスタンスのコレクションを定義します。"
             },
             "MULTI-INSTANCE-CONDITION": {
-                "TITLE": "Completion condition (Multi-instance)",
-                "DESCRIPTION": "Define the completion condition for the multi instance."
+                "TITLE": "完了条件 (マルチインスタンス)",
+                "DESCRIPTION": "マルチインスタンスの完了条件を定義します。"
             },
             "MULTI-INSTANCE-TYPE": {
-                "TITLE": "Multi-instance type",
+                "TITLE": "マルチインスタンスタイプ",
                 "DESCRIPTION": "繰り返しアクティビティの実行 (並列または順次) は、さまざまなループタイプで表示できます。"
             },
             "MULTI-INSTANCE-VARIABLE": {
-                "TITLE": "Element variable (Multi-instance)",
-                "DESCRIPTION": "Define the element variable for the multi instance."
+                "TITLE": "要素変数 (マルチインスタンス)",
+                "DESCRIPTION": "マルチインスタンスの要素変数を定義します。"
             },
             "NAME": {
-                "TITLE": "Name",
-                "DESCRIPTION": "The descriptive name of the BPMN element."
+                "TITLE": "名前",
+                "DESCRIPTION": "BPMN 要素の説明的な名前。"
             },
             "OUT-PARAMETERS": {
-                "TITLE": "Out parameters",
-                "DESCRIPTION": "Definition of the output parameters"
+                "TITLE": "出力パラメータ",
+                "DESCRIPTION": "出力パラメータの定義"
             },
             "PROCESS-AUTHOR": {
-                "TITLE": "Process author",
-                "DESCRIPTION": "Author of the process definition."
+                "TITLE": "プロセス作成者",
+                "DESCRIPTION": "プロセス定義の作者。"
             },
             "PROCESS-ID": {
-                "TITLE": "Process identifier",
-                "DESCRIPTION": "Unique identifier of the process definition."
+                "TITLE": "プロセス識別子",
+                "DESCRIPTION": "プロセス定義の一意の識別子"
             },
             "PROCESS-INITIATOR": {
-                "TITLE": "Process initiator",
-                "DESCRIPTION": "Initiator of the process."
+                "TITLE": "プロセス開始者",
+                "DESCRIPTION": "プロセスの開始者。"
             },
             "PROCESS-NAMESPACE": {
-                "TITLE": "Target namespace",
-                "DESCRIPTION": "Target namespace for the process definition."
+                "TITLE": "ターゲット名前空間",
+                "DESCRIPTION": "プロセス定義のターゲット名前空間"
             },
             "PROCESS-VERSION": {
-                "TITLE": "Process version string (documentation only)",
-                "DESCRIPTION": "Version identifier for documentation purpose."
+                "TITLE": "プロセスバージョン文字列 (ドキュメントのみ)",
+                "DESCRIPTION": "ドキュメンテーションを目的としたバージョン ID。"
             },
             "RULE-EXCLUDE": {
-                "TITLE": "Exclude",
-                "DESCRIPTION": "Use the rules property as exclusion."
+                "TITLE": "排他",
+                "DESCRIPTION": "排他として rules プロパティを使用します。"
             },
             "RULE-INPUT-VARIABLES": {
-                "TITLE": "Input variables",
-                "DESCRIPTION": "Input variables of the rule task."
+                "TITLE": "入力変数",
+                "DESCRIPTION": "ルールタスクの入力変数"
             },
             "RULE-RESULT-VARIABLE": {
-                "TITLE": "Result variable",
-                "DESCRIPTION": "Result variable of the rule task."
+                "TITLE": "結果変数",
+                "DESCRIPTION": "ルールタスクの結果変数。"
             },
             "RULE-RULESDEF": {
-                "TITLE": "Rules",
-                "DESCRIPTION": "Rules of the rule task."
+                "TITLE": "ルール",
+                "DESCRIPTION": "ルールタスクのルール"
             },
             "SCRIPTTASK-FORMAT": {
-                "TITLE": "Script format",
-                "DESCRIPTION": "Script format of the script task."
+                "TITLE": "スクリプトフォーマット",
+                "DESCRIPTION": "スクリプトタスクのスクリプトフォーマット。"
             },
             "SCRIPTTASK-TEXT": {
-                "TITLE": "Script",
-                "DESCRIPTION": "Script text of the script task."
+                "TITLE": "スクリプト",
+                "DESCRIPTION": "スクリプトタスクのスクリプトテキスト。"
             },
             "SERVICETASK-CLASS": {
-                "TITLE": "Class",
-                "DESCRIPTION": "Class that implements the service task logic."
+                "TITLE": "クラス",
+                "DESCRIPTION": "サービスタスクロジックを実装するクラス。"
             },
             "SERVICETASK-DELEGATE-EXPRESSION": {
-                "TITLE": "Delegate expression",
-                "DESCRIPTION": "Service task logic defined with a delegate expression."
+                "TITLE": "デリゲート式",
+                "DESCRIPTION": "デリゲート式で定義されたサービスタスクロジック。"
             },
             "SERVICETASK-EXPRESSION": {
-                "TITLE": "Expression",
-                "DESCRIPTION": "Service task logic defined with an expression."
+                "TITLE": "式",
+                "DESCRIPTION": "式で定義されたサービスタスクロジック。"
             },
             "SERVICETASK-FIELDS": {
-                "TITLE": "Class fields",
-                "DESCRIPTION": "Field extensions for a service task."
+                "TITLE": "クラスフィールド",
+                "DESCRIPTION": "サービスタスクのフィールドエクステンション"
             },
             "SERVICETASK-RESULT-VARIABLE": {
-                "TITLE": "Result variable name",
-                "DESCRIPTION": "Process variable name to store the service task result."
+                "TITLE": "結果変数名",
+                "DESCRIPTION": "サービスタスクの結果を格納するためのプロセス変数名。"
             },
             "SEQUENCE-FLOW-CONDITION": {
-                "TITLE": "Flow condition",
-                "DESCRIPTION": "The condition of the sequence flow."
+                "TITLE": "フロー条件",
+                "DESCRIPTION": "シーケンスフローの条件"
             },
             "SEQUENCE-FLOW-CONDITIONAL": {
-                "TITLE": "Conditional flow",
-                "DESCRIPTION": "Define the sequence flow with a condition."
+                "TITLE": "条件付きフロー",
+                "DESCRIPTION": "条件を使用してシーケンスフローを定義します。"
             },
             "SEQUENCE-FLOW-DEFAULT": {
-                "TITLE": "Default flow",
-                "DESCRIPTION": "Define the sequence flow as default."
+                "TITLE": "デフォルトフロー",
+                "DESCRIPTION": "シーケンスフローをデフォルトとして定義します。"
             },
             "SEQUENCE-FLOW-ORDER": {
-                "TITLE": "Flow order",
-                "DESCRIPTION": "Order outgoing sequence flows."
+                "TITLE": "フロー順序",
+                "DESCRIPTION": "発信シーケンスフローを注文します。"
             },
             "SIGNAL-DEFINITIONS": {
                 "TITLE": "シグナルの定義",
@@ -1459,48 +1459,48 @@
                 "DESCRIPTION": "メッセージキャッチで使用されるメッセージの定義およびプロセス内のイベントのスロー。"
             },
             "SIGNAL-REF": {
-                "TITLE": "Signal reference",
-                "DESCRIPTION": "Define the signal name."
+                "TITLE": "シグナルリファレンス",
+                "DESCRIPTION": "シグナル名を定義します。"
             },
             "TASK-LISTENERS": {
-                "TITLE": "Task listeners",
-                "DESCRIPTION": "Listeners for a user task."
+                "TITLE": "タスクリスナー",
+                "DESCRIPTION": "ユーザータスクのリスナー。"
             },
             "TEXT-ANNOTATION-TEXT": {
-                "TITLE": "Text",
-                "DESCRIPTION": "The text of the text annotation."
+                "TITLE": "テキスト",
+                "DESCRIPTION": "テキスト注釈のテキスト。"
             },
             "TIMER-CYCLE": {
-                "TITLE": "Time cycle (e.g. R3/PT10H)",
-                "DESCRIPTION": "Define the timer with a ISO-8601 cycle."
+                "TITLE": "タイムサイクル (例： R3/PT10H)",
+                "DESCRIPTION": "ISO-8601 サイクルでタイマーを定義してください。"
             },
             "TIMER-DATE": {
-                "TITLE": "Time date in ISO-8601",
-                "DESCRIPTION": "Define the timer with a ISO-8601 date definition."
+                "TITLE": "ISO-8601 の日時",
+                "DESCRIPTION": "ISO-8601 日付定義でタイマーを定義してください。"
             },
             "TIMER-DURATION": {
-                "TITLE": "Time duration (e.g. PT5M)",
-                "DESCRIPTION": "Define the timer with a ISO-8601 duration."
+                "TITLE": "期間 (例: PT5M)",
+                "DESCRIPTION": "ISO-8601 期間でタイマーを定義してください。"
             },
             "USERTASK-ASSIGNMENT": {
-                "TITLE": "Assignment",
-                "DESCRIPTION": "Assignment definition for the user task."
+                "TITLE": "割り当て",
+                "DESCRIPTION": "ユーザータスクの割り当て定義。"
             },
             "USERTASK-CATEGORY": {
-                "TITLE": "Category",
-                "DESCRIPTION": "Category of the user task."
+                "TITLE": "カテゴリー",
+                "DESCRIPTION": "ユーザタスクのカテゴリ"
             },
             "USERTASK-DUEDATE": {
-                "TITLE": "Due date",
-                "DESCRIPTION": "Due date of the user task."
+                "TITLE": "期日",
+                "DESCRIPTION": "ユーザータスクの期日。"
             },
             "USERTASK-PRIORITY": {
-                "TITLE": "Priority",
-                "DESCRIPTION": "Priority of the user task."
+                "TITLE": "優先度",
+                "DESCRIPTION": "ユーザタスクの優先度"
             },
             "USERTASK-SEND-EMAIL": {
-                "TITLE": "Allow email notifications",
-                "DESCRIPTION": "Allow the system to notify the assignee when a task is assigned."
+                "TITLE": "メール通知を許可する",
+                "DESCRIPTION": "タスクが割り当てられたときにシステムが担当者に通知できるようにします。"
             }
         }
     },
