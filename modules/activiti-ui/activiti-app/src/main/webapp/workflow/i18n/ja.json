@@ -61,9 +61,9 @@
             "SECONDS": "秒"
         },
         "ABOUT": {
-            "TYPE": "Type",
+            "TYPE": "タイプ",
             "LICENSED-TO": "Licensed To",
-            "EXPIRES": "Expires",
+            "EXPIRES": "期限",
             "COPYRIGHT": "© 2005-2015 Alfresco Software Inc. All rights reserved.",
             "LEGAL": "Legal and License"
         }
@@ -86,15 +86,15 @@
             "NOTES": "メモ"
         },
         "FILTER": {
-            "CREATED-DESC": "Newest first",
-            "CREATED-ASC": "Oldest first",
-            "DUE-DESC": "Due last",
-            "DUE-ASC": "Due first",
+            "CREATED-DESC": "新しい順",
+            "CREATED-ASC": "古い順",
+            "DUE-DESC": "期限が新しい順",
+            "DUE-ASC": "期限が古い順",
             "TEXT": "フィルター",
             "TEXT-PLACEHOLDER": "タスク名で検索",
             "TEXT-SUMMARY": "フィルター: {{text}}",
             "PROCESS-DEFINITION": "プロセス定義",
-            "PROCESS-DEFINITION-PLACEHOLDER": "Select プロセス定義 ...",
+            "PROCESS-DEFINITION-PLACEHOLDER": "プロセス定義を選択します...",
             "STATE": "状態",
             "STATE-OPEN": "オープン",
             "STATE-COMPLETED": "完了",
@@ -119,7 +119,7 @@
         "ACTION": {
             "COMPLETE-TASK-WITH-FORM": "完了フォーム",
             "COMPLETE": "完了",
-            "CLAIM": "Claim",
+            "CLAIM": "依頼",
             "ASSIGN": "割り当て",
             "REASSIGN": "再割り当て",
             "CREATE": "+ タスクの作成",
@@ -153,35 +153,35 @@
             "SHOW-FORM": "フォームを表示"
         },
         "FIELD": {
-            "NAME": "Name",
+            "NAME": "名前",
             "DESCRIPTION": "説明",
             "ASSIGNEE": "担当者",
-            "DUE": "Due",
-            "PROCESS-INSTANCE": "Part of process",
-            "ENDED": "Ended",
-            "DURATION": "Duration"
+            "DUE": "期限",
+            "PROCESS-INSTANCE": "プロセスの一部",
+            "ENDED": "終了",
+            "DURATION": "期間"
         },
         "MESSAGE": {
-            "NO-NAME": "Nameless task",
+            "NO-NAME": "名前のないタスク",
             "NO-ASSIGNEE": "未割り当て",
             "NO-DUEDATE": "期日なし",
             "DUE-ON": "期限",
             "CREATED-ON": "作成しました。",
             "ENDED-ON": "完了しました。",
-            "COMPLETED-BY": "Completed by {{firstName}} {{lastName}}, ",
+            "COMPLETED-BY": "{{firstName}} {{lastName}} が完了",
             "NO-DESCRIPTION": "このタスクには説明がありません",
             "NO-RELATED-CONTENT": "このタスクには関連コンテンツがありません...",
             "NO-PEOPLE-INVOLVED": "このタスクにはまだユーザがいません...",
             "NO-COMMENTS": "このタスクにはまだコメントがありません...",
             "INVOLVE-PEOPLE-PLACEHOLDER": "+ ユーザ追加",
-            "CONTENT-UPLOADED-BY": "Added by ",
-            "ASSIGNEE": "Assigned to {{firstName}} {{lastName}}",
+            "CONTENT-UPLOADED-BY": "が追加",
+            "ASSIGNEE": "{{firstName}} {{lastName}} が割り当て",
             "NEW-COMMENT-PLACEHOLDER": "このタスクに追加するコメントを入力してください",
-            "COMMENT-HEADER": "Added by {{createdBy | username}}, {{created | dateformat:\"fromNow\"}}",
+            "COMMENT-HEADER": "{{createdBy | username}}, {{created | dateformat:\"fromNow\"}}が追加",
             "NO-FILTER": "タスクを表示し、フィルタは適用しない",
             "FILTERED": "タスクを表示し、フィルタリングする",
             "NO-TASKS": "一致するタスクが見つかりません...",
-            "DURATION": "Took {{duration}}",
+            "DURATION": "{{duration}} をとりました。",
             "CLAIM-TASK-FIRST": "このタスクのフォームを確認して記入するには、まずこのタスクを要求する必要があります。ページの右上にある青いボタンを押すことによってそれをすることができます。",
             "NO-TASKS-HELP": "まあ、あなたのタスクがないようですね！ 何かを始めるには:",
             "NO-SUCH-TASK-HELP": "探しているタスクは見つかりません！ したい場合は、代わりにすることができます:",
@@ -201,18 +201,18 @@
     },
     "PROCESS": {
         "ALERT": {
-            "COMMENT-ADDED": "Comment was added",
-            "STARTED": "A new  \"{{processDefinitionName}}\" process was started",
-            "START-PROCESS-CONTENT-ADD-FAILED": "Failed to add {{noOfFiles}} file(s) to the process"
+            "COMMENT-ADDED": "コメントが追加されました",
+            "STARTED": "新しい \"{{processDefinitionName}}\" プロセスが開始されました",
+            "START-PROCESS-CONTENT-ADD-FAILED": "プロセスに {{noOfFiles}} ファイルを追加できませんでした"
         },
         "TITLE": {
-            "DIAGRAM": "Process diagram"
+            "DIAGRAM": "プロセスダイアグラム"
         },
         "FILTER": {
-            "CREATED-DESC": "Newest first",
-            "CREATED-ASC": "Oldest first",
-            "ENDED-DESC": "Completed most recently",
-            "ENDED-ASC": "Completed least recently",
+            "CREATED-DESC": "新しい順",
+            "CREATED-ASC": "古い順",
+            "ENDED-DESC": "最近完了した",
+            "ENDED-ASC": "完了が古い",
             "STATE-SUMMARY": "{{state.title | translate}} プロセスの表示",
             "STATE": "プロセスの状態",
             "STATE-RUNNING": "進行中",
@@ -230,11 +230,11 @@
             "NO-BUSINESS-KEY": "ビジネスキーセットなし",
             "CATEGORY": "カテゴリー: {{processDefinitionCategory}}",
             "NEW-COMMENT-PLACEHOLDER": "このプロセスに追加するコメントを入力してください",
-            "COMMENT-HEADER": "Added by {{createdBy | username}}, {{created | dateformat:\"fromNow\"}}",
+            "COMMENT-HEADER": "{{createdBy | username}}, {{created | dateformat:\"fromNow\"}} が追加",
             "SELECT-DEFINITION": "以下のリストから開始するプロセスを選択してください",
             "NO-PROCESS-DEFINITIONS": "利用可能なプロセス定義がないため、プロセスを開始できません",
             "START-PROCESS": "プロセスを開始します。",
-            "STARTED-BY": "Started by {{firstName}} {{lastName}}",
+            "STARTED-BY": "{{firstName}} {{lastName}} が開始",
             "NO-PROCESS-DEFINITION-SELECTED-HELP": "プロセス定義を選択してください。"
         },
         "ACTION" : {
@@ -252,7 +252,7 @@
             "CATEGORY": "カテゴリー",
             "PROCESS-DEFINITION": "プロセス定義",
             "STARTED": "開始",
-            "STARTED-BY": "Started by",
+            "STARTED-BY": "開始者",
             "ENDED": "終了",
             "NAME": "プロセスインスタンス名",
             "NAME-PLACEHOLDER" : "開始されているプロセスのオプションの名前を入力してください"
