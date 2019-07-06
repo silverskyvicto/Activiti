@@ -26,7 +26,7 @@
             "DEPLOYMENTS": "デプロイ",
             "PROCESS-DEFINITIONS": "定義",
             "PROCESS-INSTANCES": "インスタンス",
-            "TASKS": "タスク",
+            "タスクS": "タスク",
             "JOBS": "ジョブ",
             "CONFIGURATION": "設定",
             "CONFIGURATION-ENGINE": "エンジンの設定",
@@ -142,8 +142,8 @@
         "END-TIME": "終了時刻:",
         "DURATION": "期間:",
         "SUPER-PROCESS-INSTANCE-ID": "Super プロセスインスタンス ID:",
-        "TASKS-SIZE": "プロセスインスタンスには{{total}}個のタスクがあります。",
-        "TASKS-EMPTY": "プロセスインスタンスにはタスクがありません。",
+        "タスクS-SIZE": "プロセスインスタンスには{{total}}個のタスクがあります。",
+        "タスクS-EMPTY": "プロセスインスタンスにはタスクがありません。",
         "VARIABLES-SIZE": "プロセスインスタンスには{{total}}個の変数があります。",
         "VARIABLES-EMPTY": "プロセスインスタンスには変数がありません。",
         "JOBS-SIZE": "プロセスインスタンスには{{total}}個のジョブがあります。",
@@ -155,7 +155,7 @@
         "FORMS-SIZE": "プロセスインスタンスには{{total}}個の送信済みフォームがあります。",
         "FORMS-EMPTY": "プロセスインスタンスには送信済みフォームはありません。",
         "TITLE": {
-            "TASKS": "タスク",
+            "タスクS": "タスク",
             "VARIABLES": "変数",
             "JOBS": "ジョブ",
             "SUBPROCESSES": "サブプロセス",
@@ -165,7 +165,7 @@
         "ACTION": {
             "DELETE": "プロセスインスタンスの削除",
             "TERMINATE": "プロセスインスタンスの終了",
-            "SHOW-ALL-TASKS": "すべてのタスクを表示",
+            "SHOW-ALL-タスクS": "すべてのタスクを表示",
             "SHOW-ALL-JOBS": "すべてのジョブを表示",
             "SHOW-ALL-SUBPROCESSES": "すべてのサブプロセスを表示",
             "SHOW-DIAGRAM": "プロセスダイアグラムの表示",
@@ -244,14 +244,14 @@
             "STATUS": "ステータス"
         }
     },
-    "TASK": {
+    "タスク": {
         "ID": "ID:",
         "NAME": "名前:",
         "STATUS": "ステータス:",
         "STATUS-COMPLETED": "完了",
         "STATUS-ACTIVE": "アクティブ",
         "DESCRIPTION": "説明:",
-        "TASK-DEFINITION-KEY": "定義のキー:",
+        "タスク-DEFINITION-KEY": "定義のキー:",
         "FORM-KEY": "フォームキー:",
         "PRIORITY": "優先度:",
         "DELEGATION-STATE": "デリゲーション状態:",
@@ -267,8 +267,8 @@
         "PROCESS-INSTANCE": "プロセスインスタンス",
         "PROCESS-DEFINITION": "プロセス定義",
         "EXECUTION-ID": "実行 ID:",
-        "SUBTASKS-MESSAGE": "このタスクには{{total}}サブタスクがあり、{{size}}を示しています。",
-        "SUBTASKS-MESSAGE-EMPTY": "このタスクにはサブタスクはありません。",
+        "SUBタスクS-MESSAGE": "このタスクには{{total}}サブタスクがあり、{{size}}を示しています。",
+        "SUBタスクS-MESSAGE-EMPTY": "このタスクにはサブタスクはありません。",
         "VARIABLES-MESSAGE": "このタスクには{{size}}変数があります。",
         "VARIABLES-MESSAGE-EMPTY": "このタスクには変数がありません。",
         "IDENTITY-LINKS-MESSAGE": "このタスクには{{size}}のアイデンティティリンクがあります。",
@@ -280,11 +280,11 @@
             "RESOLVE": "タスクの解決",
             "COMPLETE": "タスクの完了",
             "DELETE": "タスクの削除",
-            "SHOW-ALL-SUBTASKS": "すべてのサブタスクを参照",
+            "SHOW-ALL-SUBタスクS": "すべてのサブタスクを参照",
             "SHOW-SUBMITTED-FORM": "すべての送信済みフォーム"
         },
         "TITLE": {
-            "SUBTASKS": "サブタスク",
+            "SUBタスクS": "サブタスク",
             "IDENTITY-LINKS": "アイデンティティリンク",
             "VARIABLES": "変数"
         },
@@ -330,7 +330,7 @@
             }
         }
     },
-    "TASKS": {
+    "タスクS": {
         "TITLE": "タスク",
         "LIST-MESSAGE": "合計{{total}}件の一致するタスクのうち、{{size}}件の結果を表示しています。",
         "LIST-MESSAGE-EMPTY": "一致するタスクはありません。",
@@ -344,14 +344,14 @@
             "PROCESS-INSTANCE-ID": "プロセスインスタンス ID",
             "TENANT-ID": "テナント識別子",
             "OWNER": "所有者 (大文字小文字を区別)",
-            "PARENT-TASK-ID": "親タスク ID",
+            "PARENT-タスク-ID": "親タスク ID",
             "CREATED-BEFORE": "作成前",
             "CREATED-AFTER": "作成後",
             "ENDED-BEFORE": "終了前",
             "ENDED-AFTER": "終了後",
             "DUE-BEFORE": "期日前",
             "DUE-AFTER": "期日後",
-            "TASK-VARIABLE": "タスクのローカル変数",
+            "タスク-VARIABLE": "タスクのローカル変数",
             "PROCESS-VARIABLE": "プロセス変数",
             "VARIABLE-NAME": "変数名",
             "VARIABLE-VALUE": "変数の値",
@@ -710,49 +710,49 @@
             "AUTHENTICATION-ERROR": "無効なログイン認証情報を入力しました"
         },
         "ENGINE": {
-            "ENDPOINT-UPDATED": "Endpoint '{{name}}' updated.",
-            "ENDPOINT-INVALID": "Endpoint configuration for '{{name}}' is invalid.",
-            "ENDPOINT-VALID": "Endpoint valid, Engine at endpoint: {{name}} - {{version}}"
+            "ENDPOINT-UPDATED": "エンドポイント '{{name}}' が更新されました。",
+            "ENDPOINT-INVALID": "'{{name}}' のエンドポイント設定が不正です",
+            "ENDPOINT-VALID": "エンドポイントは有効、エンジンはエンドポイント: {{name}} - {{version}}"
         },
         "JOB": {
-            "DELETED": "Job '{{id}}' deleted successfully.",
-            "EXECUTED": "Job '{{id}}' was executed successfully."
+            "DELETED": "ジョブ '{{id}}' は正常に削除されました。",
+            "EXECUTED": "ジョブ '{{id}}' 正常に実行されました。"
         },
         "PROCESS-INSTANCE": {
-            "DELETED": "プロセスインスタンス '{{id}}' deleted successfully.",
-            "TERMINATED": "プロセスインスタンス '{{id}}' terminated successfully."
+            "DELETED": "プロセスインスタンス '{{id}}' は正常に削除されました。",
+            "TERMINATED": "プロセスインスタンス '{{id}}' は正常に終了しました。"
         },
-        "TASK": {
-            "DELETED": "Task '{{id}}' deleted successfully.",
-            "COMPLETED": "Task '{{id}}' completed successfully.",
-            "DELEGATED": "Task '{{id}}' delegated to user {{user}}.",
-            "RESOLVED": "Task '{{id}}' successfully resolved.",
-            "ASSIGNED": "Task '{{id}}' is now assigned to {{user}}.",
-            "UNASSIGNED": "Task '{{id}}' is now unassigned.",
-            "UPDATED": "Task '{{id}}' updated successfully."
+        "タスク": {
+            "DELETED": "タスク '{{id}}' は正常に削除されました。",
+            "COMPLETED": "タスク '{{id}}' 正常に完了しました。",
+            "DELEGATED": "タスク '{{id}}' はユーザ {{user}} にデリゲートされました。",
+            "RESOLVED": "タスク '{{id}}' は正常に解決されました。",
+            "ASSIGNED": "タスク '{{id}}' は {{user}} に割り当てられています。",
+            "UNASSIGNED": "タスク '{{id}}' は未割り当てです。",
+            "UPDATED": "タスク '{{id}}' 正常に更新されました。"
         },
         "USER": {
-            "DELETED": "User '{{login}}' deleted successfully.",
-            "UPDATED": "User '{{login}}' updated successfully.",
-            "CREATED": "User '{{login}}' created.",
-            "PASSWORD-CHANGED": "Password for '{{login}}' is changed successfully."
+            "DELETED": "ユーザ '{{login}}' は正常に削除されました。",
+            "UPDATED": "ユーザ '{{login}}' 正常に更新されました。",
+            "CREATED": "ユーザ '{{login}}' が作成されました。",
+            "PASSWORD-CHANGED": "{{login}}' のパスワードは正常に変更されました。"
         },
         "PROCESS-DEFINITION": {
             "CATEGORY-UPDATED": "プロセス定義のカテゴリが更新されました。"
         },
         "DEPLOYMENT": {
-        	"DELETED-DEPLOYMENT": "Deleted deployment '{{name}}'",
-        	"DELETE-ERROR": "Could not delete deployment. {{exception || ''}}"
+        	"DELETED-DEPLOYMENT": "デプロイメント '{{name}}' を削除しました。",
+        	"DELETE-ERROR": "デプロイメントを削除できません。 {{exception || ''}}"
         },
         "APP-DEPLOYMENT": {
-        	"DELETED-APP": "Deleted app '{{appDefinition.name}}'",
-        	"DELETE-ERROR": "Could not delete app. {{message || ''}}"
+        	"DELETED-APP": "アプリ '{{appDefinition.name}}' を削除しました。",
+        	"DELETE-ERROR": "アプリを削除できません。 {{message || ''}}"
         }
     },
     "DECISION-TABLES": {
         "TITLE": "意思決定表",
-        "LIST-MESSAGE": "Showing {{size}} results, from a total of {{total}} matching 意思決定表.",
-        "LIST-MESSAGE-EMPTY": "No matching 意思決定表.",
+        "LIST-MESSAGE": "一致する意思決定表の合計 {{total}} の結果から {{size}} の結果を表示。",
+        "LIST-MESSAGE-EMPTY": "一致する意思決定表がありません",
         "FILTER": {
             "NAME": "名前",
             "KEY": "キー",
@@ -767,7 +767,7 @@
             "NAME": "名前",
             "VERSION": "バージョン",
             "KEY": "キー",
-            "DEPLOY-TIME": "Deploy time",
+            "DEPLOY-TIME": "デプロイ時刻",
             "TENANT-ID": "テナント ID"
         }
     },
@@ -775,15 +775,15 @@
         "ID": "ID:",
         "NAME": "名前:",
         "VERSION": "バージョン:",
-        "KEY": "Key:",
+        "KEY": "キー:",
         "DEPLOYMENT-ID": "デプロイメント ID:",
         "RESOURCE-NAME": "リソース名:",
         "DESCRIPTION": "説明:",
         "TENANT": "テナント:",
         "TITLE": {
-            "DECISION-AUDITS": "Decision audits"
+            "DECISION-AUDITS": "意思決定監査"
         },
-        "DECISION-AUDITS-MESSAGE": "This decision table has {{total}} audits, showing {{size}}.",
+        "DECISION-AUDITS-MESSAGE": "この決定表には {{total}} 監査があり、{{size}} が示されています。",
         "DECISION-AUDITS-MESSAGE-EMPTY": "この決定表には監査がありません",
         "ACTION": {
             "EDIT-CATEGORY": "カテゴリの編集",
@@ -795,7 +795,7 @@
         "POPUP": {
             "TITLE": "意思決定表: ",
             "KEY": "キー: ",
-            "HIT-POLICY": "Hit Policy: ",
+            "HIT-POLICY": "ヒットポリシー: ",
             "HIT-POLICIES": {
                 "FIRST": "First (Single pass)",
                 "ANY": "Any (Single pass)"
@@ -848,15 +848,15 @@
         "FIELD-PREVIEW" : {
         	"DISPLAY-REF": "値を表示",
         	"SELECT-FIELD": "(フィールドが選択されていません)",
-        	"FIELD-VALUE": "Show value of field \"{{name}}\"",
+        	"FIELD-VALUE": "フィールド \"{{name}}\" の値を表示",
         	"UNKNOWN-TYPE": "不明なフィールド型 {{type}}",
         	"TEXT-VALUE": "テキスト",
         	"MULTI-TEXT-VALUE": "複数行テキスト",
         	"NUMBER-VALUE": "123",
         	"DATE-VALUE": "Date",
-        	"DROPDOWN-VALUE": "Select ...",
-        	"UPLOAD-VALUE": "Upload or import content...",
-        	"RADIOS-OPTION1": "Option 1",
+        	"DROPDOWN-VALUE": "選択してください ...",
+        	"UPLOAD-VALUE": "コンテンツをアップロードまたはインポートします...",
+        	"RADIOS-OPTION1": "オプション 1",
         	"SELECT-PERSON": "ユーザを選択",
         	"SELECT-GROUP": "グループを選択"
         	}
@@ -864,14 +864,14 @@
     "SUBMITTED-FORM": {
     	"HEADER": {
             "ID": "ID",
-            "TASK-ID": "タスク ID",
+            "タスク-ID": "タスク ID",
             "PROCESS-ID": "プロセスインスタンス ID",
             "SUBMITTED": "投稿日",
             "SUBMITTED-BY": "投稿者",
             "FORM-ID": "フォーム ID"
         },
         "ACTION": {
-        	"SHOW-SUBMITTED-FORM": "Show submitted form"
+        	"SHOW-SUBMITTED-FORM": "送信済みフォームを表示"
         }
     },
     "APPS": {
@@ -904,8 +904,8 @@
                 "LIST-MESSAGE": "一致するアプリモデルの合計 {{total}} を表示しています。",
         		"LIST-MESSAGE-EMPTY": "一致するアプリケーションモデルはありません。",
         		"PUBLISH-ERROR": "アプリを公開できませんでした。",
-        		"EVERYONES-APPS": "Show everyone's apps",
-        		"APP-CONFLICT-ERROR": "'{{createdBy.firstName}} {{createdBy.lastName}}によって作成された既存のアプリ'{{name}}'と競合しています。",
+        		"EVERYONES-APPS": "全員のアプリを参照",
+        		"APP-CONFLICT-ERROR": "'{{createdBy.firstName}} {{createdBy.lastName}} によって作成された既存のアプリ'{{name}}'と競合しています。",
         		"PUBLISH-TO-ANOTHER-CLUSTER": "アプリを別のクラスターに公開する",
             	"SELECT-CLUSTER": "クラスターの選択",
             	"PUBLISH-TO-CLUSTER": "アプリを{{name}}に公開します",
