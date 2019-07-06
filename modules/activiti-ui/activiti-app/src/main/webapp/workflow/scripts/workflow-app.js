@@ -157,14 +157,15 @@ activitiApp
 
         // Initialize angular-translate
         $translateProvider.useStaticFilesLoader({
-            prefix: appResourceRoot + 'i18n/',
+            prefix: appResourceRoot + './i18n/',
             suffix: '.json'
         });
 
-       $translateProvider.registerAvailableLanguageKeys(['en'], {
+       $translateProvider.registerAvailableLanguageKeys(['en', 'ja'], {
            'en_*': 'en',
-           'en-*': 'en'
-       });
+           'en-*': 'en',
+           'ja-*': 'ja'
+       }).determinePreferredLanguage();
 
        // turn loading bar spinner off (angular-loading-bar lib)
        cfpLoadingBarProvider.includeSpinner = false;

@@ -96,10 +96,11 @@ activitiApp
             suffix: '.json'
         })
 
-        .registerAvailableLanguageKeys(['en'], {
+        .registerAvailableLanguageKeys(['en', 'ja'], {
             'en_*': 'en',
-            'en-*': 'en'
-        });
+            'en-*': 'en',
+            'ja-*': 'ja'
+        }).determinePreferredLanguage();
 
 
     }])
