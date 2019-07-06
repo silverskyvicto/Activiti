@@ -272,8 +272,8 @@
           "STENCIL": "ステンシル:",
           "HISTORY-TITLE": "ヒストリー",
           "COMMENTS-TITLE": "コメント",
-          "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFull名前}} - {{lastUpdated | dateformat}}",
-          "CREATED-BY": "作成者 {{createdByFull名前}}",
+          "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
+          "CREATED-BY": "作成者 {{createdByFull}}",
           "VERSION": "(バージョン {{version}})",
           "NO-DESCRIPTION": "このモデルには説明がありません。モデルプロパティを変更して追加します"
         },
@@ -387,8 +387,8 @@
           "COMPARE-WITH-TITLE": "と比較",
           "HISTORY-TITLE": "ヒストリー",
           "COMMENTS-TITLE": "コメント",
-          "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFull名前}} - {{lastUpdated | dateformat}}",
-          "CREATED-BY": "作成者 {{createdByFull名前}}",
+          "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
+          "CREATED-BY": "作成者 {{createdByFullName}}",
           "VERSION": "(バージョン {{version}})"
         },
         "EDIT": {
@@ -464,8 +464,8 @@
             "COMPARE-WITH-TITLE": "比較",
             "HISTORY-TITLE": "ヒストリー",
             "COMMENTS-TITLE": "コメント",
-            "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFull名前}} - {{lastUpdated | dateformat}}",
-            "CREATED-BY": "作成者 {{createdByFull名前}}",
+            "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
+            "CREATED-BY": "作成者 {{createdByFullName}}",
             "VERSION": "(バージョン {{version}})"
         },
         "EDIT": {
@@ -568,7 +568,7 @@
           "MODELS-TITLE": "アプリ定義に含まれるモデル",
           "THEME-TITLE": "これは選択したアプリ定義テーマのプレビューです。プレビューの上にマウスを移動すると、別のアイコンとテーマの色を選択できます。",
           "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFull名前}} - {{lastUpdated | dateformat}}",
-          "CREATED-BY": "作成者 {{createdByFull名前}}",
+          "CREATED-BY": "作成者 {{createdByFullName}}",
           "VERSION": "(バージョン {{version}})",
           "NO-DESCRIPTION": "このアプリの定義には説明がありません。アプリ定義プロパティを変更して追加します",
           "NO-MODELS-SELECTED": "このアプリのモデルは選択されていません"
