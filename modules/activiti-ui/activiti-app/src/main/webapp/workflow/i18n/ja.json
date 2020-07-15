@@ -1,0 +1,334 @@
+{
+    "COMMON" : {
+        "SELECT-FOLDER": "フォルダを選択"
+    },
+    "GENERAL": {
+        "MAIN-TITLE": "Activiti - マイタスク",
+        "ERROR": {
+            "GENERIC": "申し訳ありません。エラーが発生しました。",
+            "UNKNOWN": "申し訳ありません。要求された操作を実行中にエラーが発生しました。",
+            "BAD_REQUEST": "要求された操作の実行中にエラーが発生しました",
+            "NOT_FOUND": "アクセスしようとしているリソースが存在しません",
+            "UNAUTHORIZED": "要求された操作を実行するにはサインインする必要があります。",
+            "FORBIDDEN": "要求された操作を実行することは許可されていません",
+            "INTERNAL_SERVER_ERROR": "要求された操作の実行中に、予期せぬエラーが発生しました。",
+            "UPLOAD-LIMIT-EXCEEDED": "アップロードしようとしているファイルが大きすぎます",
+            "UPLOAD-LIMIT-EXCEEDED-TRIAL-USER": "アップロードしようとしているファイルが大きすぎます。{{quota}} より大きなファイルをアップロードするにはエンタープライズにアップグレードしてください。",
+            "QUOTA-EXCEEDED-RUNTIME-PROCESSES": "トライアルユーザーは、同時に {{quota}} 個のアクティブプロセスを実行することができます。",
+            "QUOTA-EXCEEDED-COMPLETED-PROCESSES": "トライアルユーザーは、{{quota}} 個のプロセスを完了させることしかできません。新しいものを始めるために完了したプロセスを削除して下さい。",
+            "QUOTA-EXCEEDED-TOTAL-CONTENT-SIZE": "トライアルユーザーは、保存できるコンテンツの数は {{quota}} だけです。コンテンツを削除するか、プロセスを完了して新しいコンテンツ用のスペースを解放します。"
+        },
+        "NAVIGATION": {
+            "TASKS": "タスク",
+            "PROCESSES": "プロセス",
+            "DESIGN": "デザイン",
+            "CREATE": "+ 作成",
+            "LOGIN": "サインイン"
+        },
+        "TITLE": {
+            "ADD-COMMENT": "コメントの作成",
+            "INVOLVE-PEOPLE": "ユーザを選択",
+            "RECENT-PEOPLE": "最近使用したユーザ",
+            "MATCHING-PEOPLE": "一致するユーザ",
+            "SELECT-GROUP": "グループの選択",
+            "MATCHING-GROUPS": "一致するグループ",
+            "FILTER": "フィルター",
+            "SELECT-DATE": "日付を選択"
+        },
+        "ACTION": {
+            "LOGOUT": "サインアウト",
+            "ADD-COMMENT": "コメントの追加",
+            "SAVE": "保存",
+            "CANCEL": "キャンセル",
+            "CLOSE": "閉じる",
+            "CONFIRM": "確認",
+            "SHOW-MORE": "さらに表示する..."
+        },
+        "MESSAGE": {
+            "SELECT-PEOPLE-HELP": "&uparrow; と &downarrow; を使用して選択し、Enterを押して確認します",
+            "SELECT-GROUP-HELP": "&uparrow; と &downarrow; を使用して選択し、Enterを押して確認します",
+            "SELECT-GROUP-SEARCH-PLACEHOLDER": "グループを検索",
+            "SELECT-GROUP-NO-MATCHING-RESULTS": "グループを見つけるには、上の検索ボックスを使用してください。",
+            "UPLOAD-CONTENT": "ファイルを選択または削除する",
+            "UPLOAD-CONTENT-NO-DROP": "アップロードするファイルを選択してください",
+            "DROPZONE": "アップロードするファイルをドロップします",
+            "YES": "はい",
+            "NO": "いいえ"
+        },
+        "TIME": {
+            "HOURS": "時",
+            "MINUTES": "分",
+            "SECONDS": "秒"
+        },
+        "ABOUT": {
+            "TYPE": "タイプ",
+            "LICENSED-TO": "Licensed To",
+            "EXPIRES": "期限",
+            "COPYRIGHT": "© 2005-2015 Alfresco Software Inc. All rights reserved.",
+            "LEGAL": "Legal and License"
+        }
+    },
+    "LOGIN": {
+        "TITLE": "サインイン",
+        "USERNAME": "ユーザ名",
+        "USERNAME-PLACEHOLDER": "ユーザ名を入力",
+        "PASSWORD": "パスワード",
+        "PASSWORD-PLACEHOLDER": "パスワードを入力",
+        "ACTION": {
+            "CONFIRM": "サインイン"
+        }
+    },
+    "TASK": {
+        "SECTION": {
+            "PEOPLE": "ユーザー",
+            "CONTENT": "コンテンツ",
+            "COMMENTS": "コメント",
+            "NOTES": "メモ"
+        },
+        "FILTER": {
+            "CREATED-DESC": "新しい順",
+            "CREATED-ASC": "古い順",
+            "DUE-DESC": "期限が新しい順",
+            "DUE-ASC": "期限が古い順",
+            "TEXT": "フィルター",
+            "TEXT-PLACEHOLDER": "タスク名で検索",
+            "TEXT-SUMMARY": "フィルター: {{text}}",
+            "PROCESS-DEFINITION": "プロセス定義",
+            "PROCESS-DEFINITION-PLACEHOLDER": "プロセス定義を選択します...",
+            "STATE": "状態",
+            "STATE-OPEN": "オープン",
+            "STATE-COMPLETED": "完了",
+            "ASSIGNMENT": "割り当て",
+            "ASSIGNMENT-INVOLVED": "関連しているタスク",
+            "ASSIGNMENT-ASSIGNEE": "割り当てられているタスク",
+            "ASSIGNMENT-CANDIDATE": "候補者の一人であるタスク",
+            "ASSIGNMENT-GROUP": "グループ \"{{name}}\" に割り当てられているタスク",
+            "RESET": "フィルターのリセット"
+        },
+        "ALERT": {
+            "COMMENT-ADDED": "\"{{name}}\" にコメントが追加されました",
+            "PERSON-INVOLVED": "{{lastName}} {{firstName}} は \"{{taskName}}\" に参加しています",
+            "PERSON-NO-LONGER-INVOLVED": "{{lastName}} {{firstName}} は \"{{taskName}}\" に参加していません",
+            "CREATED": "タスク \"{{name}}\" が作成されました",
+            "COMPLETED": "タスクが完了しました。",
+            "SAVED": "タスクフォームを保存します。",
+            "ASSIGNED": "タスク \"{{taskName}}\" が {{lastName}} {{firstName}} に割り当てられました",
+            "RELATED-CONTENT-ADDED": "\"{{name}}\" がタスクに追加されました",
+            "RELATED-CONTENT-ADDED-LOADING": "\"{{name}}\" がタスクに追加されました。コンテンツは、外部ソースから取得された後に利用可能になります。"
+        },
+        "ACTION": {
+            "COMPLETE-TASK-WITH-FORM": "完了フォーム",
+            "COMPLETE": "完了",
+            "CLAIM": "依頼",
+            "ASSIGN": "割り当て",
+            "REASSIGN": "再割り当て",
+            "CREATE": "+ タスクの作成",
+            "CREATE-CONFIRM": "作成",
+            "INVOLVE": "+ 参加者を追加",
+            "ADD-COMMENT": "+ コメントの追加",
+            "ADD-COMMENT-CONFIRM": "コメント追加",
+            "ADD-CONTENT": "+ コメントの追加",
+            "CLEAR-DUEDATE": "期限のクリア",
+            "DUE-TODAY": "期限",
+            "CLEAR-DATE": "日付のクリア",
+            "DATE-TODAY": "今日",
+            "AUDIT-LOG": "監査ログ"
+        },
+        "TITLE": {
+            "ASSIGN": "担当者を選択",
+            "ASSIGNEE": "担当者",
+            "CONTENT": "関連コンテンツ",
+            "CREATE-NEW": "新しいタスク",
+            "FORM": "フォーム",
+            "DETAILS": "詳細",
+            "ADD-RELATED-CONTENT": "関連コンテンツを追加",
+            "SELECT-DUEDATE": "期限の選択",
+            "SELECT-DATE": "日付の選択",
+            "NO-CONTENT-ITEMS": "コンテンツアイテムなし",
+            "NO-PEOPLE-INVOLVED": "参加者なし",
+            "NO-COMMENTS": "コメントなし",
+            "COMMENT-COUNT": "コメント",
+            "COMMENTS-COUNT": "コメント",
+            "SHOW-DETAILS": "詳細を表示",
+            "SHOW-FORM": "フォームを表示"
+        },
+        "FIELD": {
+            "NAME": "名前",
+            "DESCRIPTION": "説明",
+            "ASSIGNEE": "担当者",
+            "DUE": "期限",
+            "PROCESS-INSTANCE": "プロセスの一部",
+            "ENDED": "終了",
+            "DURATION": "期間"
+        },
+        "MESSAGE": {
+            "NO-NAME": "名前のないタスク",
+            "NO-ASSIGNEE": "未割り当て",
+            "NO-DUEDATE": "期日なし",
+            "DUE-ON": "期限",
+            "CREATED-ON": "作成しました。",
+            "ENDED-ON": "完了しました。",
+            "COMPLETED-BY": "{{firstName}} {{lastName}} が完了",
+            "NO-DESCRIPTION": "このタスクには説明がありません",
+            "NO-RELATED-CONTENT": "このタスクには関連コンテンツがありません...",
+            "NO-PEOPLE-INVOLVED": "このタスクにはまだユーザがいません...",
+            "NO-COMMENTS": "このタスクにはまだコメントがありません...",
+            "INVOLVE-PEOPLE-PLACEHOLDER": "+ ユーザ追加",
+            "CONTENT-UPLOADED-BY": "が追加",
+            "ASSIGNEE": "{{firstName}} {{lastName}} が割り当て",
+            "NEW-COMMENT-PLACEHOLDER": "このタスクに追加するコメントを入力してください",
+            "COMMENT-HEADER": "{{createdBy | username}}, {{created | dateformat:\"fromNow\"}}が追加",
+            "NO-FILTER": "タスクを表示し、フィルタは適用しない",
+            "FILTERED": "タスクを表示し、フィルタリングする",
+            "NO-TASKS": "一致するタスクが見つかりません...",
+            "DURATION": "{{duration}} をとりました。",
+            "CLAIM-TASK-FIRST": "このタスクのフォームを確認して記入するには、まずこのタスクを要求する必要があります。ページの右上にある青いボタンを押すことによってそれをすることができます。",
+            "NO-TASKS-HELP": "まあ、あなたのタスクがないようですね！ 何かを始めるには:",
+            "NO-SUCH-TASK-HELP": "探しているタスクは見つかりません！ したい場合は、代わりにすることができます:",
+            "NO-SUCH-TASK-RETURN-TO-LIST": "タスクリストに戻る",
+            "NO-TASKS-CREATE-TASK": "自分でタスクを作成するか、他の人に割り当てます",
+            "NO-TASKS-CREATE-PROCESS": "新しいプロセスを開始して進行状況を追跡する"
+
+        },
+        "HELP" : {
+            "DESCRIPTION": "このタスクにはまだ詳細がありません。これらのアクションの１つを選ぶことでそれを変えることができます:",
+            "COMPLETED-DESCRIPTION": "この完了したタスクには詳細がありません。",
+            "DESCRIPTION-WITH-CLAIM": "このタスクにはまだ詳細がありません。次の操作のいずれかを選択してそれを変更できます。また、このタスクを完了するには、ページの右上にある青いボタンを押して、最初にそれを要求する必要があります。",
+            "ADD-PEOPLE": "他の人を巻き込んでコラボレーションを開始する",
+            "ADD-COMMENT": "コメントを追加して他人を啓発する",
+            "ADD-CONTENT": "ドキュメントを追加してナレッジを共有する"
+        }
+    },
+    "PROCESS": {
+        "ALERT": {
+            "COMMENT-ADDED": "コメントが追加されました",
+            "STARTED": "新しい \"{{processDefinitionName}}\" プロセスが開始されました",
+            "START-PROCESS-CONTENT-ADD-FAILED": "プロセスに {{noOfFiles}} ファイルを追加できませんでした"
+        },
+        "TITLE": {
+            "DIAGRAM": "プロセスダイアグラム"
+        },
+        "FILTER": {
+            "CREATED-DESC": "新しい順",
+            "CREATED-ASC": "古い順",
+            "ENDED-DESC": "最近完了した",
+            "ENDED-ASC": "完了が古い",
+            "STATE-SUMMARY": "{{state.title | translate}} プロセスの表示",
+            "STATE": "プロセスの状態",
+            "STATE-RUNNING": "進行中",
+            "STATE-COMPLETED": "完了",
+            "STATE-ALL": "すべて"
+        },
+        "MESSAGE": {
+            "NO-DESCRIPTION": "このプロセスインスタンスには説明がありません",
+            "NO-FILTER": "フィルタ処理されていないすべてのプロセスインスタンスを表示",
+            "NO-INSTANCES": "一致するプロセスインスタンスが見つかりません...",
+            "NO-INSTANCES-HELP": "現在実行中のプロセスはありません。プロセスが完了したら、プロセスリストのフィルタを使用してそれらを見つけることができます。新しく始めるには、次のことができます。",
+            "NO-INSTANCES-HELP-START": "新しいプロセスを開始してその進捗を追跡する",
+            "NO-TASKS": "現在アクティブなタスクはありません ...",
+            "NO-COMPLETED-TASKS": "まだタスクは完了していません...",
+            "NO-BUSINESS-KEY": "ビジネスキーセットなし",
+            "CATEGORY": "カテゴリー: {{processDefinitionCategory}}",
+            "NEW-COMMENT-PLACEHOLDER": "このプロセスに追加するコメントを入力してください",
+            "COMMENT-HEADER": "{{createdBy | username}}, {{created | dateformat:\"fromNow\"}} が追加",
+            "SELECT-DEFINITION": "以下のリストから開始するプロセスを選択してください",
+            "NO-PROCESS-DEFINITIONS": "利用可能なプロセス定義がないため、プロセスを開始できません",
+            "START-PROCESS": "プロセスを開始します。",
+            "STARTED-BY": "{{firstName}} {{lastName}} が開始",
+            "NO-PROCESS-DEFINITION-SELECTED-HELP": "プロセス定義を選択してください。"
+        },
+        "ACTION" : {
+            "CREATE": "+ プロセスの開始",
+            "BACK-TO-LIST": "プロセスインスタンスに戻る",
+            "SHOW-DIAGRAM": "ダイアグラムを表示",
+            "CANCEL": "プロセスのキャンセル",
+            "DELETE": "プロセスの削除",
+            "ADD-COMMENT": "+ コメントの追加",
+            "ADD-COMMENT-CONFIRM": "コメントを追加",
+            "AUDIT-LOG": "監査ログ"
+        },
+        "FIELD": {
+            "BUSINESS-KEY": "ビジネスキー",
+            "CATEGORY": "カテゴリー",
+            "PROCESS-DEFINITION": "プロセス定義",
+            "STARTED": "開始",
+            "STARTED-BY": "開始者",
+            "ENDED": "終了",
+            "NAME": "プロセスインスタンス名",
+            "NAME-PLACEHOLDER" : "開始されているプロセスのオプションの名前を入力してください"
+        },
+        "SECTION": {
+            "ACTIVE-TASKS": "アクティブなタスク",
+            "START-FORM": "開始フォーム",
+            "COMPLETED-TASKS": "完了したタスク",
+            "COMMENTS": "コメント",
+            "CONTENT" : "コンテンツ"
+        },
+        "POPUP": {
+            "CANCEL-TITLE": "プロセスをキャンセルしますか？",
+            "CANCEL-DESCRIPTION": "プロセス {{name}} をキャンセルしてよろしいですか？",
+            "DELETE-TITLE": "プロセスを削除しますか？",
+            "DELETE-DESCRIPTION": "プロセス {{name}} を削除してよろしいですか？ このプロセスに関連するすべてのタスク、コンテンツ、およびコメントは永久に削除されます。"
+        }
+    },
+    "INVOLVE-PEOPLE": {
+        "NO-MATCHING-RESULTS": "ユーザーを検索するには上の検索ボックスを使用してください。",
+        "SEARCH-PLACEHOLDER": "ユーザーを選択",
+        "USE-EMAIL": "メールアドレスを使用している人を選択してください",
+        "EMAIL-PLACEHOLDER": "メールアドレスを入力",
+        "EMAIL-HELP": "Enter キーを押すかボタンをクリックして続行します。受信した人はメールで通知を受け取るか、登録するよう招待されます",
+        "BACK-TO-SEARCH": "検索に戻る",
+        "ACTION-SELECT": "選択"
+    },
+    "INTEGRATION": {
+        "ALERT": {
+        }
+    },
+    "CONTENT": {
+        "SIMPLE-TYPE": {
+            "WORD": "ドキュメント",
+            "EXCEL": "スプレッドシート",
+            "PDF": "PDF ドキュメント",
+            "IMAGE": "画像",
+            "FOLDER": "フォルダ",
+            "CONTENT": "コンテンツ"
+        },
+        "MESSAGE": {
+            "NO-PREVIEW-AVAILABLE": "プレビューできません",
+            "PREVIEW-PENDING": "プレビューを生成しています...",
+            "CONTENT-PENDING": "コンテンツを取得しています...",
+            "NOT-FOUND": "コンテンツが見つかりません",
+            "DELETE-CONFIRMATION": "{{name}} を削除してよろしいですか？",
+            "DROP": "ドロップまたは",
+            "SELECT": "ファイルを選択する",
+            "DRAGOVER": "アップロードするファイルを削除する",
+            "EXTERNAL-ONLY": "コンテンツのソースを選択"
+        },
+        "TITLE": {
+            "DELETE": "コンテンツの削除",
+            "NOT-FOUND": "ファイルが見つかりません。"
+        },
+        "ACTION":  {
+        }
+    },
+    "FORM" : {
+        "ACTION": {
+            "SAVE": "保存"
+        },
+        "DEFAULT-OUTCOME": {
+            "COMPLETE": "完了",
+            "START-PROCESS": "プロセスの開始"
+        },
+        "MESSAGE" : {
+            "SELECT-PERSON": "ユーザが選択されていません...",
+            "SELECT-GROUP": "グループが選択されていません...",
+            "EMPTY": "(未選択)"
+        }
+    },
+    "APP-DEFINITION" : {
+        "MESSAGE" : {
+            "NOT-FOUND": "指定された ID のアプリ定義が見つかりません。",
+            "MISSING": "Activitiはインテグレーションモードで実行されていますが、必要なアプリ定義がありません。"
+        }
+    }
+}
