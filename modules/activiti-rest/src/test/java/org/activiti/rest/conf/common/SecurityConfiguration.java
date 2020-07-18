@@ -11,7 +11,7 @@ import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
-import org.springframework.security.web.firewall.DefaultHttpFirewall;
+import org.springframework.security.web.firewall.StrictHttpFirewall;
 import org.springframework.security.web.firewall.HttpFirewall;
 
 @Configuration
@@ -31,7 +31,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Bean
     public HttpFirewall allowUrlEncodedSlashHttpFirewall() {
-        DefaultHttpFirewall firewall = new DefaultHttpFirewall();
+        StrictHttpFirewall firewall = new StrictHttpFirewall();
         firewall.setAllowUrlEncodedSlash(true);
         return firewall;
     }
