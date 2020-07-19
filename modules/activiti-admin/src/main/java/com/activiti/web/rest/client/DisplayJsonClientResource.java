@@ -64,7 +64,7 @@ public class DisplayJsonClientResource extends AbstractClientResource {
 
 	@Autowired
 	protected ProcessDefinitionService clientService;
-	
+
 	@Autowired
 	protected ProcessInstanceService processInstanceService;
 
@@ -88,19 +88,19 @@ public class DisplayJsonClientResource extends AbstractClientResource {
 
 		ServerConfig config = retrieveServerConfig();
 		ObjectNode displayNode = objectMapper.createObjectNode();
-		
+
 		BpmnModel pojoModel = clientService.getProcessDefinitionModel(config, processDefinitionId);
-		
+
 		if (!pojoModel.getLocationMap().isEmpty()) {
 			try {
 				GraphicInfo diagramInfo = new GraphicInfo();
 				processProcessElements(config, pojoModel, displayNode, diagramInfo, null, null);
-	
+
 				displayNode.put("diagramBeginX", diagramInfo.getX());
 				displayNode.put("diagramBeginY", diagramInfo.getY());
 				displayNode.put("diagramWidth", diagramInfo.getWidth());
 				displayNode.put("diagramHeight", diagramInfo.getHeight());
-	
+
 			} catch (Exception e) {
 				log.error("Error creating model JSON", e);
 			}
@@ -108,58 +108,58 @@ public class DisplayJsonClientResource extends AbstractClientResource {
 
 		return displayNode;
 	}
-	
+
 	@RequestMapping(value = "/rest/activiti/process-instances/{processInstanceId}/model-json", method = RequestMethod.GET, produces = "application/json")
 	public JsonNode getProcessInstanceModelJSON(@PathVariable String processInstanceId, @RequestParam(required=true) String processDefinitionId) {
 		ObjectNode displayNode = objectMapper.createObjectNode();
-		
+
 		ServerConfig config = retrieveServerConfig();
 		BpmnModel pojoModel = clientService.getProcessDefinitionModel(config, processDefinitionId);
-		
+
 		if (!pojoModel.getLocationMap().isEmpty()) {
-			
+
 			// Fetch process-instance activities
 			List<String> completedActivityInstances = processInstanceService.getCompletedActivityInstancesAndProcessDefinitionId(config, processInstanceId);
 			List<String> currentActivityinstances = processInstanceService.getCurrentActivityInstances(config, processInstanceId);
-			
+
 			// Gather completed flows
 			List<String> completedFlows = gatherCompletedFlows(completedActivityInstances, currentActivityinstances, pojoModel);
-			
+
 			try {
 				GraphicInfo diagramInfo = new GraphicInfo();
 				Set<String> completedElements = new HashSet<String>(completedActivityInstances);
 				completedElements.addAll(completedFlows);
-				
+
 				Set<String> currentElements = new HashSet<String>(currentActivityinstances);
-				
+
 				processProcessElements(config, pojoModel, displayNode, diagramInfo, completedElements, currentElements);
-				
+
 				displayNode.put("diagramBeginX", diagramInfo.getX());
 				displayNode.put("diagramBeginY", diagramInfo.getY());
 				displayNode.put("diagramWidth", diagramInfo.getWidth());
 				displayNode.put("diagramHeight", diagramInfo.getHeight());
-				
+
 				if(completedActivityInstances != null) {
 					ArrayNode completedActivities = displayNode.putArray("completedActivities");
 					for(String completed : completedActivityInstances) {
 						completedActivities.add(completed);
 					}
 				}
-				
+
 				if(currentActivityinstances != null) {
 					ArrayNode currentActivities = displayNode.putArray("currentActivities");
 					for(String current : currentActivityinstances) {
 						currentActivities.add(current);
 					}
 				}
-				
+
 				if(completedFlows != null) {
 					ArrayNode completedSequenceFlows = displayNode.putArray("completedSequenceFlows");
 					for(String current : completedFlows) {
 						completedSequenceFlows.add(current);
 					}
 				}
-				
+
 			} catch (Exception e) {
 				log.error("Error creating model JSON", e);
 			}
@@ -170,11 +170,11 @@ public class DisplayJsonClientResource extends AbstractClientResource {
 
 	protected List<String> gatherCompletedFlows(List<String> completedActivityInstances,
       List<String> currentActivityinstances, BpmnModel pojoModel) {
-		
+
 		List<String> completedFlows = new ArrayList<String>();
 		List<String> activities = new ArrayList<String>(completedActivityInstances);
 		activities.addAll(currentActivityinstances);
-		
+
 		// TODO: not a robust way of checking when parallel paths are active, should be revisited
 		// Go over all activities and check if it's possible to match any outgoing paths against the activities
     for (FlowElement activity : pojoModel.getMainProcess().getFlowElements()) {
@@ -196,7 +196,7 @@ public class DisplayJsonClientResource extends AbstractClientResource {
 
 	protected void processProcessElements(ServerConfig config, BpmnModel pojoModel, ObjectNode displayNode, GraphicInfo diagramInfo, Set<String> completedElements, Set<String> currentElements) throws Exception {
 
-		
+
 		if (pojoModel.getLocationMap().isEmpty()) return;
 
 		ArrayNode elementArray = objectMapper.createArrayNode();
@@ -221,7 +221,7 @@ public class DisplayJsonClientResource extends AbstractClientResource {
 						fillGraphicInfo(laneNode, pojoModel.getGraphicInfo(lane.getId()), true);
 						laneArray.add(laneNode);
 					}
-					poolNode.put("lanes", laneArray);
+					poolNode.set("lanes", laneArray);
 				}
 				poolArray.add(poolNode);
 
@@ -242,8 +242,8 @@ public class DisplayJsonClientResource extends AbstractClientResource {
 				}
 				firstElement = false;
 			}
-			displayNode.put("pools", poolArray);
-			
+			displayNode.set("pools", poolArray);
+
 		} else {
 			// in initialize with fake x and y to make sure the minimal
 			// values are set
@@ -255,33 +255,33 @@ public class DisplayJsonClientResource extends AbstractClientResource {
 			processElements(process.getFlowElements(), pojoModel, elementArray, flowArray, diagramInfo, completedElements, currentElements);
 		}
 
-		displayNode.put("elements", elementArray);
-		displayNode.put("flows", flowArray);
+		displayNode.set("elements", elementArray);
+		displayNode.set("flows", flowArray);
 	}
 
 	protected void processElements(Collection<FlowElement> elementList,
 			BpmnModel model, ArrayNode elementArray, ArrayNode flowArray,
 			GraphicInfo diagramInfo, Set<String> completedElements, Set<String> currentElements) {
 
-	
+
 		for (FlowElement element : elementList) {
 
 			ObjectNode elementNode = objectMapper.createObjectNode();
 			if(completedElements != null) {
 				elementNode.put("completed", completedElements.contains(element.getId()));
 			}
-			
+
 			if(currentElements != null) {
 				elementNode.put("current", currentElements.contains(element.getId()));
 			}
-			
+
 			if (element instanceof SequenceFlow) {
 				SequenceFlow flow = (SequenceFlow) element;
 				elementNode.put("id", flow.getId());
 				elementNode.put("type", "sequenceFlow");
 				elementNode.put("sourceRef", flow.getSourceRef());
 				elementNode.put("targetRef", flow.getTargetRef());
-				
+
 				List<GraphicInfo> flowInfo = model.getFlowLocationGraphicInfo(flow.getId());
 				ArrayNode waypointArray = objectMapper.createArrayNode();
 				for (GraphicInfo graphicInfo : flowInfo) {
@@ -290,7 +290,7 @@ public class DisplayJsonClientResource extends AbstractClientResource {
 					waypointArray.add(pointNode);
 					fillDiagramInfo(graphicInfo, diagramInfo);
 				}
-				elementNode.put("waypoints", waypointArray);
+				elementNode.set("waypoints", waypointArray);
 				flowArray.add(elementNode);
 
 			} else {
@@ -304,7 +304,7 @@ public class DisplayJsonClientResource extends AbstractClientResource {
 					for (SequenceFlow flow : flowNode.getIncomingFlows()) {
 						incomingFlows.add(flow.getId());
 					}
-					elementNode.put("incomingFlows", incomingFlows);
+					elementNode.set("incomingFlows", incomingFlows);
 				}
 
 				GraphicInfo graphicInfo = model.getGraphicInfo(element.getId());
@@ -325,7 +325,7 @@ public class DisplayJsonClientResource extends AbstractClientResource {
 				}
 
 				if (propertyMappers.containsKey(className)) {
-					elementNode.put("properties", propertyMappers.get(className).map(element));
+					elementNode.set("properties", propertyMappers.get(className).map(element));
 				}
 
 				elementArray.add(elementNode);
@@ -378,7 +378,7 @@ public class DisplayJsonClientResource extends AbstractClientResource {
 						eventNode.put("messageRef", messageDef.getMessageRef());
 					}
 				}
-				elementNode.put("eventDefinition", eventNode);
+				elementNode.set("eventDefinition", eventNode);
 			}
 		}
 	}
@@ -391,7 +391,7 @@ public class DisplayJsonClientResource extends AbstractClientResource {
 
 	protected void commonFillGraphicInfo(ObjectNode elementNode, double x,
 			double y, double width, double height, boolean includeWidthAndHeight) {
-		
+
 		elementNode.put("x", x);
 		elementNode.put("y", y);
 		if (includeWidthAndHeight) {
@@ -399,7 +399,7 @@ public class DisplayJsonClientResource extends AbstractClientResource {
 			elementNode.put("height", height);
 		}
 	}
-	
+
 	protected void fillDiagramInfo(GraphicInfo graphicInfo, GraphicInfo diagramInfo) {
 		double rightX = graphicInfo.getX() + graphicInfo.getWidth();
 		double bottomY = graphicInfo.getY() + graphicInfo.getHeight();

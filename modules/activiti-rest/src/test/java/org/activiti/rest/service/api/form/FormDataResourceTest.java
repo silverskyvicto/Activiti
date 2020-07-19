@@ -196,7 +196,7 @@ public class FormDataResourceTest extends BaseSpringRestTestCase {
     ObjectNode requestNode = objectMapper.createObjectNode();
     requestNode.put("taskId", task.getId());
     ArrayNode propertyArray = objectMapper.createArrayNode();
-    requestNode.put("properties", propertyArray);
+    requestNode.set("properties", propertyArray);
     ObjectNode propNode = objectMapper.createObjectNode();
     propNode.put("id", "room");
     propNode.put("value", 123l);
@@ -260,7 +260,7 @@ public class FormDataResourceTest extends BaseSpringRestTestCase {
     requestNode = objectMapper.createObjectNode();
     requestNode.put("processDefinitionId", processDefinitionId);
     propertyArray = objectMapper.createArrayNode();
-    requestNode.put("properties", propertyArray);
+    requestNode.set("properties", propertyArray);
     propNode = objectMapper.createObjectNode();
     propNode.put("id", "number");
     propNode.put("value", 123);
