@@ -43,6 +43,7 @@ public class WebConfigurer implements ServletContextListener {
         log.debug("Configuring Spring root application context");
         AnnotationConfigWebApplicationContext rootContext = new AnnotationConfigWebApplicationContext();
         rootContext.register(ApplicationConfiguration.class);
+        rootContext.setServletContext(servletContext);
         rootContext.refresh();
 
         servletContext.setAttribute(WebApplicationContext.ROOT_WEB_APPLICATION_CONTEXT_ATTRIBUTE, rootContext);
