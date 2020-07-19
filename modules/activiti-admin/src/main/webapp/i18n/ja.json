@@ -26,7 +26,7 @@
             "DEPLOYMENTS": "デプロイ",
             "PROCESS-DEFINITIONS": "定義",
             "PROCESS-INSTANCES": "インスタンス",
-            "タスクS": "タスク",
+            "TASKS": "タスク",
             "JOBS": "ジョブ",
             "CONFIGURATION": "設定",
             "CONFIGURATION-ENGINE": "エンジンの設定",
@@ -244,14 +244,14 @@
             "STATUS": "ステータス"
         }
     },
-    "タスク": {
+    "TASKS": {
         "ID": "ID:",
         "NAME": "名前:",
         "STATUS": "ステータス:",
         "STATUS-COMPLETED": "完了",
         "STATUS-ACTIVE": "アクティブ",
         "DESCRIPTION": "説明:",
-        "タスク-DEFINITION-KEY": "定義のキー:",
+        "TASKS-DEFINITION-KEY": "定義のキー:",
         "FORM-KEY": "フォームキー:",
         "PRIORITY": "優先度:",
         "DELEGATION-STATE": "デリゲーション状態:",
@@ -330,7 +330,7 @@
             }
         }
     },
-    "タスクS": {
+    "TASKS": {
         "TITLE": "タスク",
         "LIST-MESSAGE": "合計{{total}}件の一致するタスクのうち、{{size}}件の結果を表示しています。",
         "LIST-MESSAGE-EMPTY": "一致するタスクはありません。",
@@ -351,7 +351,7 @@
             "ENDED-AFTER": "終了後",
             "DUE-BEFORE": "期日前",
             "DUE-AFTER": "期日後",
-            "タスク-VARIABLE": "タスクのローカル変数",
+            "TASKS-VARIABLE": "タスクのローカル変数",
             "PROCESS-VARIABLE": "プロセス変数",
             "VARIABLE-NAME": "変数名",
             "VARIABLE-VALUE": "変数の値",
@@ -722,7 +722,7 @@
             "DELETED": "プロセスインスタンス '{{id}}' は正常に削除されました。",
             "TERMINATED": "プロセスインスタンス '{{id}}' は正常に終了しました。"
         },
-        "タスク": {
+        "TASKS": {
             "DELETED": "タスク '{{id}}' は正常に削除されました。",
             "COMPLETED": "タスク '{{id}}' 正常に完了しました。",
             "DELEGATED": "タスク '{{id}}' はユーザ {{user}} にデリゲートされました。",
@@ -864,7 +864,7 @@
     "SUBMITTED-FORM": {
     	"HEADER": {
             "ID": "ID",
-            "タスク-ID": "タスク ID",
+            "TASKS-ID": "タスク ID",
             "PROCESS-ID": "プロセスインスタンス ID",
             "SUBMITTED": "投稿日",
             "SUBMITTED-BY": "投稿者",
