@@ -16,8 +16,8 @@ package org.activiti.rest.service.api.engine.variable;
 import org.activiti.engine.ActivitiIllegalArgumentException;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize.Inclusion;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 /**
  * Pojo representing a variable used in REST-service which definies it's name, variable, scope and type.
@@ -44,7 +44,7 @@ public class RestVariable {
     this.name = name;
   }
 
-  @JsonSerialize(include = Inclusion.NON_NULL)
+  @JsonInclude(Include.NON_NULL)
   public String getType() {
     return type;
   }
@@ -86,7 +86,7 @@ public class RestVariable {
     this.valueUrl = valueUrl;
   }
 
-  @JsonSerialize(include = Inclusion.NON_NULL)
+  @JsonInclude(Include.NON_NULL)
   public String getValueUrl() {
     return valueUrl;
   }

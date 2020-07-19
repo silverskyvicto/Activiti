@@ -13,8 +13,8 @@
 
 package org.activiti.rest.service.api.identity;
 
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize.Inclusion;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 /**
  * @author Frederik Heremans
@@ -32,7 +32,7 @@ public class UserInfoRequest {
     return key;
   }
 
-  @JsonSerialize(include = Inclusion.NON_NULL)
+  @JsonInclude(Include.NON_NULL)
   public void setValue(String value) {
     this.value = value;
   }
