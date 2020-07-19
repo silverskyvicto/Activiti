@@ -164,7 +164,7 @@ public class TaskQueryResourceTest extends BaseSpringRestTestCase {
       arrayNode.add("sales");
       arrayNode.add("someOtherGroup");
 
-      requestNode.put("candidateGroupIn", arrayNode);
+      requestNode.set("candidateGroupIn", arrayNode);
       assertResultsPresentInPostDataResponse(url, requestNode, processTask.getId());
 
       // Involved user filtering
@@ -183,7 +183,7 @@ public class TaskQueryResourceTest extends BaseSpringRestTestCase {
       arrayNode =  requestNode.arrayNode();
       arrayNode.add(processInstance.getId());
 
-      requestNode.put("processInstanceIdIn", arrayNode);
+      requestNode.set("processInstanceIdIn", arrayNode);
       assertResultsPresentInPostDataResponse(url, requestNode, processTask.getId());
 
       // Execution filtering
@@ -333,7 +333,7 @@ public class TaskQueryResourceTest extends BaseSpringRestTestCase {
     ArrayNode variableArray = objectMapper.createArrayNode();
     ObjectNode variableNode = objectMapper.createObjectNode();
     variableArray.add(variableNode);
-    requestNode.put("taskVariables", variableArray);
+    requestNode.set("taskVariables", variableArray);
 
     String url = RestUrls.createRelativeResourceUrl(RestUrls.URL_TASK_QUERY);
 
@@ -462,7 +462,7 @@ public class TaskQueryResourceTest extends BaseSpringRestTestCase {
     variableArray = objectMapper.createArrayNode();
     variableNode = objectMapper.createObjectNode();
     variableArray.add(variableNode);
-    requestNode.put("processInstanceVariables", variableArray);
+    requestNode.set("processInstanceVariables", variableArray);
 
     // String equals
     variableNode.put("name", "stringVar");
