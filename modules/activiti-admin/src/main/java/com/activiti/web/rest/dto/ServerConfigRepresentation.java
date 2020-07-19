@@ -21,7 +21,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
  * @author Tijs Rademakers
  */
 public class ServerConfigRepresentation {
-	
+
 	protected Long id;
 	protected String name;
 	protected String description;
@@ -31,10 +31,10 @@ public class ServerConfigRepresentation {
 	protected String restRoot;
 	protected String userName;
 	protected String password;
-	
+
 	public ServerConfigRepresentation() {
 	}
-	
+
 	public ServerConfigRepresentation(ServerConfig serverConfig) {
 	    this.id = serverConfig.getId();
 	    this.name = serverConfig.getName();
@@ -45,7 +45,7 @@ public class ServerConfigRepresentation {
 	    this.restRoot = serverConfig.getRestRoot();
 	    this.userName = serverConfig.getUserName();
     }
-	
+
 	public Long getId() {
 		return id;
 	}
@@ -94,7 +94,7 @@ public class ServerConfigRepresentation {
 	public void setUserName(String userName) {
 		this.userName = userName;
 	}
-	
+
 	@JsonInclude(Include.NON_NULL)
 	public String getPassword() {
 		return password;

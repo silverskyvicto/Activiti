@@ -54,12 +54,12 @@ public class UserRepresentation {
     public void setLogin(String login) {
         this.login = login;
     }
-    
+
     @JsonInclude(Include.NON_NULL)
     public String getPassword() {
         return password;
     }
-    
+
     public void setPassword(String password) {
         this.password = password;
     }
@@ -96,14 +96,14 @@ public class UserRepresentation {
     public void setIsAdmin(Boolean adminUser) {
         this.adminUser = adminUser;
     }
-    
+
     @JsonInclude(Include.NON_NULL)
     public Boolean getClusterUser() {
         return clusterUser;
     }
-    
+
     public void setClusterUser(Boolean clusterUser) {
         this.clusterUser = clusterUser;
     }
-    
+
 }
