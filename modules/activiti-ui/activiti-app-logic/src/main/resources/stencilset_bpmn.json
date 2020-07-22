@@ -890,17 +890,39 @@
     "hiddenPropertyPackages" : [ ],
     "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ]
   }, {
-    "type" : "node",
-    "id" : "DecisionTask",
-    "title" : "Decision task",
-    "description" : "Task to use the Activiti DMN rule engine",
-    "view" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns:oryx=\"http://www.b3mn.org/oryx\"\n   xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\n   width=\"102\"\n   height=\"82\"\n   version=\"1.0\">\n  <defs></defs>\n  <oryx:magnets>\n  \t<oryx:magnet oryx:cx=\"1\" oryx:cy=\"20\" oryx:anchors=\"left\" />\n  \t<oryx:magnet oryx:cx=\"1\" oryx:cy=\"40\" oryx:anchors=\"left\" />\n  \t<oryx:magnet oryx:cx=\"1\" oryx:cy=\"60\" oryx:anchors=\"left\" />\n  \t\n  \t<oryx:magnet oryx:cx=\"25\" oryx:cy=\"79\" oryx:anchors=\"bottom\" />\n  \t<oryx:magnet oryx:cx=\"50\" oryx:cy=\"79\" oryx:anchors=\"bottom\" />\n  \t<oryx:magnet oryx:cx=\"75\" oryx:cy=\"79\" oryx:anchors=\"bottom\" />\n  \t\n  \t<oryx:magnet oryx:cx=\"99\" oryx:cy=\"20\" oryx:anchors=\"right\" />\n  \t<oryx:magnet oryx:cx=\"99\" oryx:cy=\"40\" oryx:anchors=\"right\" />\n  \t<oryx:magnet oryx:cx=\"99\" oryx:cy=\"60\" oryx:anchors=\"right\" />\n  \t\n  \t<oryx:magnet oryx:cx=\"25\" oryx:cy=\"1\" oryx:anchors=\"top\" />\n  \t<oryx:magnet oryx:cx=\"50\" oryx:cy=\"1\" oryx:anchors=\"top\" />\n  \t<oryx:magnet oryx:cx=\"75\" oryx:cy=\"1\" oryx:anchors=\"top\" />\n  \t\n  \t<oryx:magnet oryx:cx=\"50\" oryx:cy=\"40\" oryx:default=\"yes\" />\n  </oryx:magnets>\n  <g pointer-events=\"fill\" oryx:minimumSize=\"50 40\">\n\t<rect id=\"text_frame\" oryx:anchors=\"bottom top right left\" x=\"1\" y=\"1\" width=\"94\" height=\"79\" rx=\"10\" ry=\"10\" stroke=\"none\" stroke-width=\"0\" fill=\"none\" />\n\t<rect id=\"bg_frame\" oryx:resize=\"vertical horizontal\" x=\"0\" y=\"0\" width=\"100\" height=\"80\" rx=\"10\" ry=\"10\" stroke=\"#bbbbbb\" stroke-width=\"1\" fill=\"#f9f9f9\" />\n\t\t<text \n\t\t\tfont-size=\"12\" \n\t\t\tid=\"text_name\" \n\t\t\tx=\"50\" \n\t\t\ty=\"40\" \n\t\t\toryx:align=\"middle center\"\n\t\t\toryx:fittoelem=\"text_frame\"\n\t\t\tstroke=\"#373e48\">\n\t\t</text>\n\t\n\t<g id=\"decisionTask\" transform=\"translate(4,3)\">\n\t\t<path oryx:anchors=\"top left\"\n\t\t\t d=\"m 1,2 0,14 16,0 0,-14 z m 1.45458,5.6000386 2.90906,0 0,2.7999224 -2.90906,0 z m 4.36364,0 8.72718,0 0,2.7999224 -8.72718,0 z m -4.36364,4.1998844 2.90906,0 0,2.800116 -2.90906,0 z m 4.36364,0 8.72718,0 0,2.800116 -8.72718,0 z\"\n     \t\tstyle=\"fill:#72a7d0;stroke:none\"\n\t\t/>\n\t</g>\n\n\t<g id=\"parallel\">\n\t\t<path oryx:anchors=\"bottom\" fill=\"none\" stroke=\"#bbbbbb\" d=\"M46 70 v8 M50 70 v8 M54 70 v8\" stroke-width=\"2\" />\n\t</g>\n\t\n\t<g id=\"sequential\">\n\t\t<path oryx:anchors=\"bottom\" fill=\"none\" stroke=\"#bbbbbb\" stroke-width=\"2\" d=\"M46,76h10M46,72h10 M46,68h10\"/>\n\t</g>\n\t\n\t<g id=\"compensation\">\n\t\t<path oryx:anchors=\"bottom\" fill=\"none\" stroke=\"#bbbbbb\" d=\"M 62 74 L 66 70 L 66 78 L 62 74 L 62 70 L 58 74 L 62 78 L 62 74\" stroke-width=\"1\" />\n\t</g>\n  </g>\n</svg>",
-    "icon" : "activity/list/type.decision.png",
-    "groups" : [ "BPMN-EDITOR.GROUP.ACTIVITIES" ],
-    "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "asynchronousdefinitionpackage", "exclusivedefinitionpackage", "executionlistenerspackage", "multiinstance_typepackage", "multiinstance_cardinalitypackage", "multiinstance_collectionpackage", "multiinstance_variablepackage", "multiinstance_conditionpackage", "isforcompensationpackage", "decisiontaskdecisiontablereferencepackage" ],
-    "hiddenPropertyPackages" : [ ],
-    "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ]
-  }, {
+      "type": "node",
+      "id": "DecisionTask",
+      "title": "BPMN-EDITOR.ITEM.DECISIONTASK.TITLE",
+      "description": "BPMN-EDITOR.ITEM.DECISIONTASK.DESCRIPTION",
+      "view": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns:oryx=\"http://www.b3mn.org/oryx\"\n   xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\n   width=\"102\"\n   height=\"82\"\n   version=\"1.0\">\n  <defs></defs>\n  <oryx:magnets>\n  \t<oryx:magnet oryx:cx=\"1\" oryx:cy=\"20\" oryx:anchors=\"left\" />\n  \t<oryx:magnet oryx:cx=\"1\" oryx:cy=\"40\" oryx:anchors=\"left\" />\n  \t<oryx:magnet oryx:cx=\"1\" oryx:cy=\"60\" oryx:anchors=\"left\" />\n  \t\n  \t<oryx:magnet oryx:cx=\"25\" oryx:cy=\"79\" oryx:anchors=\"bottom\" />\n  \t<oryx:magnet oryx:cx=\"50\" oryx:cy=\"79\" oryx:anchors=\"bottom\" />\n  \t<oryx:magnet oryx:cx=\"75\" oryx:cy=\"79\" oryx:anchors=\"bottom\" />\n  \t\n  \t<oryx:magnet oryx:cx=\"99\" oryx:cy=\"20\" oryx:anchors=\"right\" />\n  \t<oryx:magnet oryx:cx=\"99\" oryx:cy=\"40\" oryx:anchors=\"right\" />\n  \t<oryx:magnet oryx:cx=\"99\" oryx:cy=\"60\" oryx:anchors=\"right\" />\n  \t\n  \t<oryx:magnet oryx:cx=\"25\" oryx:cy=\"1\" oryx:anchors=\"top\" />\n  \t<oryx:magnet oryx:cx=\"50\" oryx:cy=\"1\" oryx:anchors=\"top\" />\n  \t<oryx:magnet oryx:cx=\"75\" oryx:cy=\"1\" oryx:anchors=\"top\" />\n  \t\n  \t<oryx:magnet oryx:cx=\"50\" oryx:cy=\"40\" oryx:default=\"yes\" />\n  </oryx:magnets>\n  <g pointer-events=\"fill\" oryx:minimumSize=\"50 40\">\n\t<rect id=\"text_frame\" oryx:anchors=\"bottom top right left\" x=\"1\" y=\"1\" width=\"94\" height=\"79\" rx=\"10\" ry=\"10\" stroke=\"none\" stroke-width=\"0\" fill=\"none\" />\n\t<rect id=\"bg_frame\" oryx:resize=\"vertical horizontal\" x=\"0\" y=\"0\" width=\"100\" height=\"80\" rx=\"10\" ry=\"10\" stroke=\"#bbbbbb\" stroke-width=\"1\" fill=\"#f9f9f9\" />\n\t\t<text \n\t\t\tfont-size=\"12\" \n\t\t\tid=\"text_name\" \n\t\t\tx=\"50\" \n\t\t\ty=\"40\" \n\t\t\toryx:align=\"middle center\"\n\t\t\toryx:fittoelem=\"text_frame\"\n\t\t\tstroke=\"#373e48\">\n\t\t</text>\n\t\n\t<g id=\"decisionTask\" transform=\"translate(4,3)\">\n\t\t<path oryx:anchors=\"top left\"\n\t\t\t d=\"m 1,2 0,14 16,0 0,-14 z m 1.45458,5.6000386 2.90906,0 0,2.7999224 -2.90906,0 z m 4.36364,0 8.72718,0 0,2.7999224 -8.72718,0 z m -4.36364,4.1998844 2.90906,0 0,2.800116 -2.90906,0 z m 4.36364,0 8.72718,0 0,2.800116 -8.72718,0 z\"\n     \t\tstyle=\"fill:#72a7d0;stroke:none\"\n\t\t/>\n\t</g>\n\n\t<g id=\"parallel\">\n\t\t<path oryx:anchors=\"bottom\" fill=\"none\" stroke=\"#bbbbbb\" d=\"M46 70 v8 M50 70 v8 M54 70 v8\" stroke-width=\"2\" />\n\t</g>\n\t\n\t<g id=\"sequential\">\n\t\t<path oryx:anchors=\"bottom\" fill=\"none\" stroke=\"#bbbbbb\" stroke-width=\"2\" d=\"M46,76h10M46,72h10 M46,68h10\"/>\n\t</g>\n\t\n\t<g id=\"compensation\">\n\t\t<path oryx:anchors=\"bottom\" fill=\"none\" stroke=\"#bbbbbb\" d=\"M 62 74 L 66 70 L 66 78 L 62 74 L 62 70 L 58 74 L 62 78 L 62 74\" stroke-width=\"1\" />\n\t</g>\n  </g>\n</svg>",
+      "icon": "activity/list/type.decision.png",
+      "groups": [
+        "BPMN-EDITOR.GROUP.ACTIVITIES"
+      ],
+      "propertyPackages": [
+        "overrideidpackage",
+        "namepackage",
+        "documentationpackage",
+        "asynchronousdefinitionpackage",
+        "exclusivedefinitionpackage",
+        "executionlistenerspackage",
+        "multiinstance_typepackage",
+        "multiinstance_cardinalitypackage",
+        "multiinstance_collectionpackage",
+        "multiinstance_variablepackage",
+        "multiinstance_conditionpackage",
+        "isforcompensationpackage",
+        "decisiontaskdecisiontablereferencepackage"
+      ],
+      "hiddenPropertyPackages": [],
+      "roles": [
+        "Activity",
+        "sequence_start",
+        "sequence_end",
+        "ActivitiesMorph",
+        "all"
+      ]
+    }, {
     "type" : "node",
     "id" : "SubProcess",
     "title" : "BPMN-EDITOR.ITEM.SUBPROCESS.TITLE",
@@ -1021,29 +1043,51 @@
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "messagerefpackage", "cancelactivitypackage" ],
     "hiddenPropertyPackages" : [ ],
     "roles" : [ "sequence_start", "BoundaryEventsMorph", "IntermediateEventOnActivityBoundary" ]
-  }, {
-    "type" : "node",
-    "id" : "BoundaryCancelEvent",
-    "title" : "Boundary cancel event",
-    "description" : "A boundary cancel event",
-    "view" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:oryx=\"http://www.b3mn.org/oryx\"\n   width=\"40\"\n   height=\"40\"\n   version=\"1.0\">\n  <defs></defs>\n  <oryx:magnets>\n  \t<oryx:magnet oryx:cx=\"16\" oryx:cy=\"16\" oryx:default=\"yes\" />\n  </oryx:magnets>\n  <oryx:docker oryx:cx=\"16\" oryx:cy=\"16\" />\n  <g pointer-events=\"fill\">\n  \n    <circle id=\"bg_frame\" cx=\"16\" cy=\"16\" r=\"15\" stroke=\"#585858\" fill=\"#ffffff\" stroke-width=\"1\"/>\n    <circle id=\"frame\" cx=\"16\" cy=\"16\" r=\"12\" stroke=\"#585858\" fill=\"none\" stroke-width=\"1\"/>\n    \n    <path\n       d=\"M 7.2839105,10.27369 L 10.151395,7.4062062 L 15.886362,13.141174 L 21.621331,7.4062056 L 24.488814,10.273689 L 18.753846,16.008657 L 24.488815,21.743626 L 21.621331,24.611111 L 15.886362,18.876142 L 10.151394,24.611109 L 7.283911,21.743625 L 13.018878,16.008658 L 7.2839105,10.27369 z\"\n       id=\"cancelCross\" fill=\"none\" stroke=\"#585858\" stroke-width=\"1.7\" />\n\t<text font-size=\"11\" \n\t\tid=\"text_name\" \n\t\tx=\"16\" y=\"33\" \n\t\toryx:align=\"top center\" \n\t\tstroke=\"#373e48\"\n\t></text>\n  </g>\n</svg>",
-    "icon" : "catching/cancel.png",
-    "groups" : [ "BPMN-EDITOR.GROUP.BOUNDARY-EVENTS" ],
-    "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage" ],
-    "hiddenPropertyPackages" : [ ],
-    "roles" : [ "sequence_start", "BoundaryEventsMorph", "IntermediateEventOnActivityBoundary" ]
-  }, {
-    "type" : "node",
-    "id" : "BoundaryCompensationEvent",
-    "title" : "Boundary compensation event",
-    "description" : "A boundary compensation event",
-    "view" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:oryx=\"http://www.b3mn.org/oryx\"\n   width=\"40\"\n   height=\"40\"\n   version=\"1.0\">\n  <defs></defs>\n  <oryx:magnets>\n  \t<oryx:magnet oryx:cx=\"16\" oryx:cy=\"16\" oryx:default=\"yes\" />\n  </oryx:magnets>\n  <oryx:docker oryx:cx=\"16\" oryx:cy=\"16\" />\n  <g pointer-events=\"fill\">\n\t\n    <circle id=\"bg_frame\" cx=\"16\" cy=\"16\" r=\"15\" stroke=\"#585858\" fill=\"#ffffff\" stroke-width=\"1\"/>\n    <circle id=\"frame\" cx=\"16\" cy=\"16\" r=\"12\" stroke=\"#585858\" fill=\"#ffffff\" stroke-width=\"1\"/>\n    \n    <polygon id=\"poly1\" stroke=\"#585858\" fill=\"none\" stroke-width=\"1.4\" points=\"15,9 15,23 8,16\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" />\n    <polygon id=\"poly2\" stroke=\"#585858\" fill=\"none\" stroke-width=\"1.4\" points=\"22,9 22,23 15,16\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" />\n\t<text font-size=\"11\" \n\t\tid=\"text_name\" \n\t\tx=\"16\" y=\"33\" \n\t\toryx:align=\"top center\" \n\t\tstroke=\"#373e48\"\n\t></text>\n </g>\n</svg>",
-    "icon" : "catching/compensation.png",
-    "groups" : [ "BPMN-EDITOR.GROUP.BOUNDARY-EVENTS" ],
-    "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage" ],
-    "hiddenPropertyPackages" : [ ],
-    "roles" : [ "BoundaryEventsMorph", "IntermediateEventOnActivityBoundary", "all" ]
-  }, {
+  },
+    {
+      "type": "node",
+      "id": "BoundaryCancelEvent",
+      "title": "BPMN-EDITOR.ITEM.BOUNDARY-CANCEL-EVENT.TITLE",
+      "description": "BPMN-EDITOR.ITEM.BOUNDARY-CANCEL-EVENT.DESCRIPTION",
+      "view": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:oryx=\"http://www.b3mn.org/oryx\"\n   width=\"40\"\n   height=\"40\"\n   version=\"1.0\">\n  <defs></defs>\n  <oryx:magnets>\n  \t<oryx:magnet oryx:cx=\"16\" oryx:cy=\"16\" oryx:default=\"yes\" />\n  </oryx:magnets>\n  <oryx:docker oryx:cx=\"16\" oryx:cy=\"16\" />\n  <g pointer-events=\"fill\">\n  \n    <circle id=\"bg_frame\" cx=\"16\" cy=\"16\" r=\"15\" stroke=\"#585858\" fill=\"#ffffff\" stroke-width=\"1\"/>\n    <circle id=\"frame\" cx=\"16\" cy=\"16\" r=\"12\" stroke=\"#585858\" fill=\"none\" stroke-width=\"1\"/>\n    \n    <path\n       d=\"M 7.2839105,10.27369 L 10.151395,7.4062062 L 15.886362,13.141174 L 21.621331,7.4062056 L 24.488814,10.273689 L 18.753846,16.008657 L 24.488815,21.743626 L 21.621331,24.611111 L 15.886362,18.876142 L 10.151394,24.611109 L 7.283911,21.743625 L 13.018878,16.008658 L 7.2839105,10.27369 z\"\n       id=\"cancelCross\" fill=\"none\" stroke=\"#585858\" stroke-width=\"1.7\" />\n\t<text font-size=\"11\" \n\t\tid=\"text_name\" \n\t\tx=\"16\" y=\"33\" \n\t\toryx:align=\"top center\" \n\t\tstroke=\"#373e48\"\n\t></text>\n  </g>\n</svg>",
+      "icon": "catching/cancel.png",
+      "groups": [
+        "BPMN-EDITOR.GROUP.BOUNDARY-EVENTS"
+      ],
+      "propertyPackages": [
+        "overrideidpackage",
+        "namepackage",
+        "documentationpackage"
+      ],
+      "hiddenPropertyPackages": [],
+      "roles": [
+        "sequence_start",
+        "BoundaryEventsMorph",
+        "IntermediateEventOnActivityBoundary"
+      ]
+    },
+    {
+      "type": "node",
+      "id": "BoundaryCompensationEvent",
+      "title": "BPMN-EDITOR.ITEM.BOUNDARY-COMPENSATION-EVENT.TITLE",
+      "description": "BPMN-EDITOR.ITEM.BOUNDARY-COMPENSATION-EVENT.DESCRIPTION",
+      "view": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:oryx=\"http://www.b3mn.org/oryx\"\n   width=\"40\"\n   height=\"40\"\n   version=\"1.0\">\n  <defs></defs>\n  <oryx:magnets>\n  \t<oryx:magnet oryx:cx=\"16\" oryx:cy=\"16\" oryx:default=\"yes\" />\n  </oryx:magnets>\n  <oryx:docker oryx:cx=\"16\" oryx:cy=\"16\" />\n  <g pointer-events=\"fill\">\n\t\n    <circle id=\"bg_frame\" cx=\"16\" cy=\"16\" r=\"15\" stroke=\"#585858\" fill=\"#ffffff\" stroke-width=\"1\"/>\n    <circle id=\"frame\" cx=\"16\" cy=\"16\" r=\"12\" stroke=\"#585858\" fill=\"#ffffff\" stroke-width=\"1\"/>\n    \n    <polygon id=\"poly1\" stroke=\"#585858\" fill=\"none\" stroke-width=\"1.4\" points=\"15,9 15,23 8,16\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" />\n    <polygon id=\"poly2\" stroke=\"#585858\" fill=\"none\" stroke-width=\"1.4\" points=\"22,9 22,23 15,16\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" />\n\t<text font-size=\"11\" \n\t\tid=\"text_name\" \n\t\tx=\"16\" y=\"33\" \n\t\toryx:align=\"top center\" \n\t\tstroke=\"#373e48\"\n\t></text>\n </g>\n</svg>",
+      "icon": "catching/compensation.png",
+      "groups": [
+        "BPMN-EDITOR.GROUP.BOUNDARY-EVENTS"
+      ],
+      "propertyPackages": [
+        "overrideidpackage",
+        "namepackage",
+        "documentationpackage"
+      ],
+      "hiddenPropertyPackages": [],
+      "roles": [
+        "BoundaryEventsMorph",
+        "IntermediateEventOnActivityBoundary",
+        "all"
+      ]
+    }, {
     "type" : "node",
     "id" : "CatchTimerEvent",
     "title" : "BPMN-EDITOR.ITEM.INTERMEDIATE-TIMER-CATCH-EVENT.TITLE",
@@ -1120,29 +1164,54 @@
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "executionlistenerspackage", "errorrefpackage" ],
     "hiddenPropertyPackages" : [ ],
     "roles" : [ "EndEventsMorph", "sequence_end", "all" ]
-  }, {
-    "type" : "node",
-    "id" : "EndCancelEvent",
-    "title" : "End cancel event",
-    "description" : "A cancel end event",
-    "view" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:oryx=\"http://www.b3mn.org/oryx\"\n   width=\"40\"\n   height=\"40\"\n   version=\"1.0\">\n  <defs></defs>\n  <oryx:magnets>\n  \t<oryx:magnet oryx:cx=\"16\" oryx:cy=\"16\" oryx:default=\"yes\" />\n  </oryx:magnets>\n  <g pointer-events=\"fill\">\n    <circle id=\"bg_frame\" cx=\"16\" cy=\"16\" r=\"14\" stroke=\"#585858\" fill=\"#ffffff\" stroke-width=\"3\"/>\n    \n    <path id=\"path1\" d=\"M 9 9 L 23 23 M 9 23 L 23 9\" fill=\"none\" stroke=\"#585858\" stroke-width=\"5\" />\n\t<text font-size=\"11\" \n\t\tid=\"text_name\" \n\t\tx=\"16\" y=\"32\" \n\t\toryx:align=\"top center\" \n\t\tstroke=\"#373e48\"\n\t></text>\n  </g>\n</svg>",
-    "icon" : "endevent/cancel.png",
-    "groups" : [ "BPMN-EDITOR.GROUP.END-EVENTS" ],
-    "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "executionlistenerspackage" ],
-    "hiddenPropertyPackages" : [ ],
-    "roles" : [ "EndEventsMorph", "sequence_end", "all" ]
-  }, {
-    "type" : "node",
-    "id" : "EndTerminateEvent",
-    "title" : "End terminate event",
-    "description" : "A terminate end event",
-    "view" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:oryx=\"http://www.b3mn.org/oryx\"\n   width=\"40\"\n   height=\"40\"\n   version=\"1.0\">\n  <defs></defs>\n  <oryx:magnets>\n  \t<oryx:magnet oryx:cx=\"16\" oryx:cy=\"16\" oryx:default=\"yes\" />\n  </oryx:magnets>\n  <g pointer-events=\"fill\">\n    <circle id=\"bg_frame\" cx=\"16\" cy=\"16\" r=\"14\" stroke=\"#585858\" fill=\"#ffffff\" stroke-width=\"3\"/>\n    \n    <circle id=\"circle1\" cx=\"16\" cy=\"16\" r=\"9\" stroke=\"#585858\" fill=\"#585858\" stroke-width=\"1\"/>\n\t<text font-size=\"11\" \n\t\tid=\"text_name\" \n\t\tx=\"16\" y=\"32\" \n\t\toryx:align=\"top center\" \n\t\tstroke=\"#373e48\"\n\t></text>\n  </g>\n</svg>",
-    "icon" : "endevent/terminate.png",
-    "groups" : [ "BPMN-EDITOR.GROUP.END-EVENTS" ],
-    "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "executionlistenerspackage", "terminateAllpackage" ],
-    "hiddenPropertyPackages" : [ ],
-    "roles" : [ "EndEventsMorph", "sequence_end", "all" ]
-  }, {
+  },
+    {
+      "type": "node",
+      "id": "EndCancelEvent",
+      "title": "BPMN-EDITOR.ITEM.END-CANCEL-EVENT.TITLE",
+      "description": "BPMN-EDITOR.ITEM.END-CANCEL-EVENT.DESCRIPTION",
+      "view": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:oryx=\"http://www.b3mn.org/oryx\"\n   width=\"40\"\n   height=\"40\"\n   version=\"1.0\">\n  <defs></defs>\n  <oryx:magnets>\n  \t<oryx:magnet oryx:cx=\"16\" oryx:cy=\"16\" oryx:default=\"yes\" />\n  </oryx:magnets>\n  <g pointer-events=\"fill\">\n    <circle id=\"bg_frame\" cx=\"16\" cy=\"16\" r=\"14\" stroke=\"#585858\" fill=\"#ffffff\" stroke-width=\"3\"/>\n    \n    <path id=\"path1\" d=\"M 9 9 L 23 23 M 9 23 L 23 9\" fill=\"none\" stroke=\"#585858\" stroke-width=\"5\" />\n\t<text font-size=\"11\" \n\t\tid=\"text_name\" \n\t\tx=\"16\" y=\"32\" \n\t\toryx:align=\"top center\" \n\t\tstroke=\"#373e48\"\n\t></text>\n  </g>\n</svg>",
+      "icon": "endevent/cancel.png",
+      "groups": [
+        "BPMN-EDITOR.GROUP.END-EVENTS"
+      ],
+      "propertyPackages": [
+        "overrideidpackage",
+        "namepackage",
+        "documentationpackage",
+        "executionlistenerspackage"
+      ],
+      "hiddenPropertyPackages": [],
+      "roles": [
+        "EndEventsMorph",
+        "sequence_end",
+        "all"
+      ]
+    },
+    {
+      "type": "node",
+      "id": "EndTerminateEvent",
+      "title": "BPMN-EDITOR.ITEM.END-TERMINATE-EVENT.TITLE",
+      "description": "BPMN-EDITOR.ITEM.END-TERMINATE-EVENT.DESCRIPTION",
+      "view": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:oryx=\"http://www.b3mn.org/oryx\"\n   width=\"40\"\n   height=\"40\"\n   version=\"1.0\">\n  <defs></defs>\n  <oryx:magnets>\n  \t<oryx:magnet oryx:cx=\"16\" oryx:cy=\"16\" oryx:default=\"yes\" />\n  </oryx:magnets>\n  <g pointer-events=\"fill\">\n    <circle id=\"bg_frame\" cx=\"16\" cy=\"16\" r=\"14\" stroke=\"#585858\" fill=\"#ffffff\" stroke-width=\"3\"/>\n    \n    <circle id=\"circle1\" cx=\"16\" cy=\"16\" r=\"9\" stroke=\"#585858\" fill=\"#585858\" stroke-width=\"1\"/>\n\t<text font-size=\"11\" \n\t\tid=\"text_name\" \n\t\tx=\"16\" y=\"32\" \n\t\toryx:align=\"top center\" \n\t\tstroke=\"#373e48\"\n\t></text>\n  </g>\n</svg>",
+      "icon": "endevent/terminate.png",
+      "groups": [
+        "BPMN-EDITOR.GROUP.END-EVENTS"
+      ],
+      "propertyPackages": [
+        "overrideidpackage",
+        "namepackage",
+        "documentationpackage",
+        "executionlistenerspackage",
+        "terminateAllpackage"
+      ],
+      "hiddenPropertyPackages": [],
+      "roles": [
+        "EndEventsMorph",
+        "sequence_end",
+        "all"
+      ]
+    }, {
     "type" : "node",
     "id" : "Pool",
     "title" : "BPMN-EDITOR.ITEM.POOL.TITLE",
