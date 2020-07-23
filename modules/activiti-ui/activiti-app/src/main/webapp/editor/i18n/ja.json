@@ -1,449 +1,439 @@
 {
-    "COMMON" : {
+    "COMMON": {
         "SELECT-FOLDER": "フォルダの選択"
     },
-    "GENERAL" : {
-      "MAIN-TITLE": "アプリデザイナー",
-      "NAVIGATION": {
-        "PROCESSES": "プロセス",
-        "FORMS": "フォーム",
-        "DECISION-TABLES": "意思決定表",
-        "APPS": "アプリ"
-      },
-      "TITLE": {
-        "ADD-COMMENT": "新しいコメントの作成",
-        "SELECT-PEOPLE": "ユーザーの選択",
-        "INVOLVE-PEOPLE": "ユーザーの選択",
-        "SELECT-GROUP": "グループの選択",
-        "RECENT-PEOPLE": "最近関わった人",
-        "MATCHING-PEOPLE": "条件に一致するユーザー",
-        "MATCHING-GROUPS": "条件に一致するグループ",
-        "FILTER": "フィルタ",
-        "COMMENTS": "コメント",
-        "HISTORY": "履歴"
-      },
+    "GENERAL": {
+        "MAIN-TITLE": "アプリデザイナー",
+        "NAVIGATION": {
+            "PROCESSES": "プロセス",
+            "FORMS": "フォーム",
+            "DECISION-TABLES": "意思決定表",
+            "APPS": "アプリ"
+        },
+        "TITLE": {
+            "ADD-COMMENT": "新しいコメントの作成",
+            "SELECT-PEOPLE": "ユーザーの選択",
+            "INVOLVE-PEOPLE": "ユーザーの選択",
+            "SELECT-GROUP": "グループの選択",
+            "RECENT-PEOPLE": "最近関わった人",
+            "MATCHING-PEOPLE": "条件に一致するユーザー",
+            "MATCHING-GROUPS": "条件に一致するグループ",
+            "FILTER": "フィルタ",
+            "COMMENTS": "コメント",
+            "HISTORY": "履歴"
+        },
         "ACTION": {
-          "LOGOUT": "サインアウト",
-          "RETURN-TO-LIST": "すべての定義を表示",
-          "CANCEL": "キャンセル",
-          "CLOSE": "閉じる",
-          "EDIT": "編集",
-          "SAVE": "保存",
-          "OPEN": "開く",
-          "OK": "OK",
-          "CONFIRM": "確定",
-          "CONFIRM-AND-CLOSE": "確定して閉じる",
-          "NEW-FORM": "新しいフォーム",
-          "CREATE-FORM": "フォームの作成",
-          "NEW-DECISION-TABLE": "新しい意思決定表",
-          "CREATE-DECISION-TABLE": "意思決定表の作成"
+            "LOGOUT": "サインアウト",
+            "RETURN-TO-LIST": "すべての定義を表示",
+            "CANCEL": "キャンセル",
+            "CLOSE": "閉じる",
+            "EDIT": "編集",
+            "SAVE": "保存",
+            "OPEN": "開く",
+            "OK": "OK",
+            "CONFIRM": "確定",
+            "CONFIRM-AND-CLOSE": "確定して閉じる",
+            "NEW-FORM": "新しいフォーム",
+            "CREATE-FORM": "フォームの作成",
+            "NEW-DECISION-TABLE": "新しい意思決定表",
+            "CREATE-DECISION-TABLE": "意思決定表の作成"
         },
         "MESSAGE": {
-          "SELECT-PEOPLE-HELP": "uparrow; と downarrow; を使って選択し、Enter キーを押して選択を確定します",
-          "SELECT-GROUP-HELP": "&uparrow; と &downarrow; を使って選択し、Enter キーを押して選択を確定します",
-          "ADD-COMMENT-PLACEHOLDER": "新しいコメントを入力してください",
-          "PEOPLE-NO-MATCHING-RESULTS": "条件に一致するユーザーは見つかりませんでした",
-          "GROUP-NO-MATCHING-RESULTS": "条件に一致するグループは見つかりませんでした",
-          "GROUP-SOURCE-TYPE": "グループのソース",
-          "GROUP-SOURCE-SEARCH-OPTION": "グループの検索",
-          "GROUP-SOURCE-FIELD-OPTION": "フォームフィールド"
+            "SELECT-PEOPLE-HELP": "uparrow; と downarrow; を使って選択し、Enter キーを押して選択を確定します",
+            "SELECT-GROUP-HELP": "&uparrow; と &downarrow; を使って選択し、Enter キーを押して選択を確定します",
+            "ADD-COMMENT-PLACEHOLDER": "新しいコメントを入力してください",
+            "PEOPLE-NO-MATCHING-RESULTS": "条件に一致するユーザーは見つかりませんでした",
+            "GROUP-NO-MATCHING-RESULTS": "条件に一致するグループは見つかりませんでした",
+            "GROUP-SOURCE-TYPE": "グループのソース",
+            "GROUP-SOURCE-SEARCH-OPTION": "グループの検索",
+            "GROUP-SOURCE-FIELD-OPTION": "フォームフィールド"
         },
         "ERROR": {
-          "UNKNOWN": "指定した処理の実行中にエラーが発生しました。",
-          "BAD_REQUEST": "指定した処理の実行中にエラーが発生しました。",
-          "NOT_FOUND": "アクセスしようとしているリソースは存在しません",
-          "UNAUTHORIZED": "指定した処理を実行するにはサインインする必要があります。",
-          "FORBIDDEN": "指定した処理の実行は許可されていません",
-          "INTERNAL_SERVER_ERROR": "指定した処理の実行中に不明なエラーが発生しました。",
-          "CAPTCHA": {
-            "EXPIRED": "CAPTCHA の期限が切れています。新しいチャレンジの問題に答えてください。",
-            "WRONG": "指定した CAPTCHA の答えが、チャレンジと一致しません。新しいチャレンジの問題に答えてください。"
-          },
-          "QUOTA-EXCEEDED-APPS": "トライアルユーザーが一度に使用できるアプリ定義は {{quota}} 個のみです。",
-          "QUOTA-EXCEEDED-LICENSE-APPS": "このライセンスで同時に使用できるアプリ定義は {{quota}} 個のみです。"
+            "UNKNOWN": "指定した処理の実行中にエラーが発生しました。",
+            "BAD_REQUEST": "指定した処理の実行中にエラーが発生しました。",
+            "NOT_FOUND": "アクセスしようとしているリソースは存在しません",
+            "UNAUTHORIZED": "指定した処理を実行するにはサインインする必要があります。",
+            "FORBIDDEN": "指定した処理の実行は許可されていません",
+            "INTERNAL_SERVER_ERROR": "指定した処理の実行中に不明なエラーが発生しました。",
+            "CAPTCHA": {
+                "EXPIRED": "CAPTCHA の期限が切れています。新しいチャレンジの問題に答えてください。",
+                "WRONG": "指定した CAPTCHA の答えが、チャレンジと一致しません。新しいチャレンジの問題に答えてください。"
+            },
+            "QUOTA-EXCEEDED-APPS": "トライアルユーザーが一度に使用できるアプリ定義は {{quota}} 個のみです。",
+            "QUOTA-EXCEEDED-LICENSE-APPS": "このライセンスで同時に使用できるアプリ定義は {{quota}} 個のみです。"
         },
         "ABOUT": {
-          "TYPE": "種類",
-          "LICENSED-TO": "ライセンス先",
-          "EXPIRES": "有効期限",
-          "COPYRIGHT": "© 2005-2020 Alfresco Software Inc. All rights reserved.",
-          "LEGAL": "法的情報とライセンス"
+            "TYPE": "種類",
+            "LICENSED-TO": "ライセンス先",
+            "EXPIRES": "有効期限",
+            "COPYRIGHT": "© 2005-2020 Alfresco Software Inc. All rights reserved.",
+            "LEGAL": "法的情報とライセンス"
         }
     },
 
     "EDITOR": {
-      "POPUP": {
-        "UNSAVED-CHANGES": {
-          "TITLE": "保存されていない変更があります",
-          "DESCRIPTION": "保存されなかった変更の処理方法を指定してください。",
-          "ACTION": {
-            "SAVE": "変更を保存する",
-            "DISCARD": "変更を破棄する",
-            "CONTINUE": "編集を続ける"
-          }
+        "POPUP": {
+            "UNSAVED-CHANGES": {
+                "TITLE": "保存されていない変更があります",
+                "DESCRIPTION": "保存されなかった変更の処理方法を指定してください。",
+                "ACTION": {
+                    "SAVE": "変更を保存する",
+                    "DISCARD": "変更を破棄する",
+                    "CONTINUE": "編集を続ける"
+                }
+            }
         }
-      }
     },
-
-    "PROCESS-LIST" : {
-      "TITLE": "ビジネスプロセスモデル",
-      "SEARCH-PLACEHOLDER": "検索",
-      "LOADING": "モデルを取得しています",
-      "ACTION": {
-        "CREATE": "プロセスの作成",
-        "IMPORT": "プロセスのインポート",
-        "CREATE-INLINE": "新しいビジネスプロセスモデルを作成してみましょう。",
-        "SHOW-MORE": "続きを表示"
-      },
-      "FILTER": {
-        "MY-PROCESSES": "あなたのプロセス",
-        "MY-PROCESSES-COUNT": "あなたのビジネスプロセスモデルは {{total}} 件です",
-        "MY-PROCESSES-ONE": "あなたのビジネスプロセスモデルは 1 件です",
-        "MY-PROCESSES-EMPTY": "まだビジネスプロセスモデルを作成していないようです。プロセスモデルとユーザーフォームを作成してプロセスアプリにバンドルすると、同僚と共有することができます。最初にプロセスモデルを作成します。",
-        "MY-PROCESSES-BPMN-HINT": "BPMN 標準仕様に慣れている場合は、BPMN エディタを使用できます。",
-        "MY-PROCESSES-BPMN-IMPORT-HINT": "既存の BPMN モデルをインポートすることもできます。",
-        "MY-PROCESSES-STEP-HINT": "プロセスの作成が初めての場合は、ステップエディタを使用できます。",
-        "FILTER-TEXT": ": 検索テキスト \"{{filterText}}\"",
-        "FILTER-TEXT-EMPTY": "次と一致するビジネスプロセスモデルはありません: 検索テキスト \"{{filterText}}\"",
-        "RECENT": "最近使用",
-        "RECENT-COUNT": "最近使ったモデルは {{total}} 件です",
-        "RECENT-ONE": "最近使ったモデルは 1 件です",
-        "RECENT-EMPTY": "最近使ったモデルはありません"
-      },
-
+    "PROCESS-LIST": {
+        "TITLE": "ビジネスプロセスモデル",
+        "SEARCH-PLACEHOLDER": "検索",
+        "LOADING": "モデルを取得しています",
+        "ACTION": {
+            "CREATE": "プロセスの作成",
+            "IMPORT": "プロセスのインポート",
+            "CREATE-INLINE": "新しいビジネスプロセスモデルを作成してみましょう。",
+            "SHOW-MORE": "続きを表示"
+        },
+        "FILTER": {
+            "MY-PROCESSES": "あなたのプロセス",
+            "MY-PROCESSES-COUNT": "あなたのビジネスプロセスモデルは {{total}} 件です",
+            "MY-PROCESSES-ONE": "あなたのビジネスプロセスモデルは 1 件です",
+            "MY-PROCESSES-EMPTY": "まだビジネスプロセスモデルを作成していないようです。プロセスモデルとユーザーフォームを作成してプロセスアプリにバンドルすると、同僚と共有することができます。最初にプロセスモデルを作成します。",
+            "MY-PROCESSES-BPMN-HINT": "BPMN 標準仕様に慣れている場合は、BPMN エディタを使用できます。",
+            "MY-PROCESSES-BPMN-IMPORT-HINT": "既存の BPMN モデルをインポートすることもできます。",
+            "MY-PROCESSES-STEP-HINT": "プロセスの作成が初めての場合は、ステップエディタを使用できます。",
+            "FILTER-TEXT": ": 検索テキスト \"{{filterText}}\"",
+            "FILTER-TEXT-EMPTY": "次と一致するビジネスプロセスモデルはありません: 検索テキスト \"{{filterText}}\"",
+            "RECENT": "最近使用",
+            "RECENT-COUNT": "最近使ったモデルは {{total}} 件です",
+            "RECENT-ONE": "最近使ったモデルは 1 件です",
+            "RECENT-EMPTY": "最近使ったモデルはありません"
+        },
         "SORT": {
-          "MODIFIED-ASC": "古い順",
-          "MODIFIED-DESC": "最終更新日時",
-          "NAME-ASC": "名前 (昇順)",
-          "NAME-DESC": "名前 (降順)"
+            "MODIFIED-ASC": "古い順",
+            "MODIFIED-DESC": "最終更新日時",
+            "NAME-ASC": "名前 (昇順)",
+            "NAME-DESC": "名前 (降順)"
         }
     },
-
-    "FORMS-LIST" : {
-      "TITLE": "フォーム",
-      "SEARCH-PLACEHOLDER": "検索",
-      "LOADING": "フォームを取得しています",
-      "ACTION": {
-        "CREATE": "フォームの作成",
-        "IMPORT": "フォームのインポート",
-        "CREATE-INLINE": "新しいフォームを作成してみましょう。",
-        "SHOW-MORE": "続きを表示"
-      },
-      "FILTER": {
-        "MY-REUSABLE-FORMS": "あなたの再利用可能フォーム",
-        "MY-REUSABLE-FORMS-COUNT": "あなたの再利用可能フォームは {{total}} 件です",
-        "MY-REUSABLE-FORMS-ONE": "あなたの再利用可能フォームは 1 件です",
-        "MY-REUSABLE-FORMS-EMPTY": "あなたの再利用可能フォームはありません。フォームを追加するには、[フォームの作成] をクリックしてください。",
-        "FILTER-TEXT": ": 検索テキスト \"{{filterText}}\"",
-        "FILTER-TEXT-EMPTY": "次と一致するフォームはありません: 検索テキスト \"{{filterText}}\""
-      },
-
+    "FORMS-LIST": {
+        "TITLE": "フォーム",
+        "SEARCH-PLACEHOLDER": "検索",
+        "LOADING": "フォームを取得しています",
+        "ACTION": {
+            "CREATE": "フォームの作成",
+            "IMPORT": "フォームのインポート",
+            "CREATE-INLINE": "新しいフォームを作成してみましょう。",
+            "SHOW-MORE": "続きを表示"
+        },
+        "FILTER": {
+            "MY-REUSABLE-FORMS": "あなたの再利用可能フォーム",
+            "MY-REUSABLE-FORMS-COUNT": "あなたの再利用可能フォームは {{total}} 件です",
+            "MY-REUSABLE-FORMS-ONE": "あなたの再利用可能フォームは 1 件です",
+            "MY-REUSABLE-FORMS-EMPTY": "あなたの再利用可能フォームはありません。フォームを追加するには、[フォームの作成] をクリックしてください。",
+            "FILTER-TEXT": ": 検索テキスト \"{{filterText}}\"",
+            "FILTER-TEXT-EMPTY": "次と一致するフォームはありません: 検索テキスト \"{{filterText}}\""
+        },
         "SORT": {
-          "MODIFIED-ASC": "古い順",
-          "MODIFIED-DESC": "最終更新日時",
-          "NAME-ASC": "名前 (昇順)",
-          "NAME-DESC": "名前 (降順)"
+            "MODIFIED-ASC": "古い順",
+            "MODIFIED-DESC": "最終更新日時",
+            "NAME-ASC": "名前 (昇順)",
+            "NAME-DESC": "名前 (降順)"
         }
     },
-
     "DECISION-TABLES-LIST": {
-      "TITLE": "意思決定表",
-      "SEARCH-PLACEHOLDER": "検索",
-      "LOADING": "意思決定表を取得しています",
-      "ACTION": {
-        "CREATE": "意思決定表の作成",
-        "IMPORT": "意思決定表のインポート",
-        "CREATE-INLINE": "新しい意思決定表を作成してみましょう。",
-        "SHOW-MORE": "続きを表示"
-      },
-      "FILTER": {
-        "MY-REUSABLE-DECISION-TABLES": "あなたの再利用可能な意思決定表",
-        "MY-REUSABLE-DECISION-TABLES-COUNT": "あなたの再利用可能な意思決定表は {{total}} 件です",
-        "MY-REUSABLE-DECISION-TABLES-ONE": "あなたの再利用可能な意思決定表は 1 件です",
-        "MY-REUSABLE-DECISION-TABLES-EMPTY": "あなたの意思決定表はありません。意思決定表を追加するには、[意思決定表の作成] をクリックしてください。",
-        "FILTER-TEXT": ": 検索テキスト \"{{filterText}}\"",
-        "FILTER-TEXT-EMPTY": "次と一致する意思決定表はありません: 検索テキスト \"{{filterText}}\""
-      },
-
+        "TITLE": "意思決定表",
+        "SEARCH-PLACEHOLDER": "検索",
+        "LOADING": "意思決定表を取得しています",
+        "ACTION": {
+            "CREATE": "意思決定表の作成",
+            "IMPORT": "意思決定表のインポート",
+            "CREATE-INLINE": "新しい意思決定表を作成してみましょう。",
+            "SHOW-MORE": "続きを表示"
+        },
+        "FILTER": {
+            "MY-REUSABLE-DECISION-TABLES": "あなたの再利用可能な意思決定表",
+            "MY-REUSABLE-DECISION-TABLES-COUNT": "あなたの再利用可能な意思決定表は {{total}} 件です",
+            "MY-REUSABLE-DECISION-TABLES-ONE": "あなたの再利用可能な意思決定表は 1 件です",
+            "MY-REUSABLE-DECISION-TABLES-EMPTY": "あなたの意思決定表はありません。意思決定表を追加するには、[意思決定表の作成] をクリックしてください。",
+            "FILTER-TEXT": ": 検索テキスト \"{{filterText}}\"",
+            "FILTER-TEXT-EMPTY": "次と一致する意思決定表はありません: 検索テキスト \"{{filterText}}\""
+        },
         "SORT": {
-          "MODIFIED-ASC": "古い順",
-          "MODIFIED-DESC": "最終更新日時",
-          "NAME-ASC": "名前 (昇順)",
-          "NAME-DESC": "名前 (降順)"
+            "MODIFIED-ASC": "古い順",
+            "MODIFIED-DESC": "最終更新日時",
+            "NAME-ASC": "名前 (昇順)",
+            "NAME-DESC": "名前 (降順)"
         }
     },
-
-    "APPS-LIST" : {
-      "TITLE": "アプリ定義",
-      "SEARCH-PLACEHOLDER": "検索",
-      "LOADING": "アプリ定義を取得しています",
-      "ACTION": {
-        "CREATE": "アプリの作成",
-        "CREATE-INLINE": "新しいアプリ定義を作成してみましょう。",
-        "IMPORT": "アプリのインポート",
-        "SHOW-MORE": "続きを表示"
-      },
-      "FILTER": {
-        "MY-APPS": "あなたのアプリ定義",
-        "MY-APPS-COUNT": "あなたのアプリ定義は {{total}} 件です",
-        "MY-APPS-ONE": "あなたのアプリ定義は 1 件です",
-        "MY-APPS-EMPTY": "あなたのアプリ定義はありません。アプリ定義を追加するには、[アプリ定義の作成] をクリックしてください。",
-        "FILTER-TEXT": ": 検索テキスト \"{{filterText}}\"",
-        "FILTER-TEXT-EMPTY": "次と一致するアプリ定義はありません: 検索テキスト \"{{filterText}}\"",
-        "SHARED-WITH-ME": "あなたと共有",
-        "SHARED-WITH-ME-COUNT": "あなたと共有されているアプリ定義は {{total}} 件です",
-        "SHARED-WITH-ME-ONE": "あなたと共有されているアプリ定義は 1 件です",
-        "SHARED-WITH-ME-EMPTY": "あなたと共有されているアプリ定義はありません",
-        "SHARED-WITH-OTHERS": "他の人と共有",
-        "SHARED-WITH-OTHERS-COUNT": "他の人と共有しているアプリ定義は {{total}} 件です",
-        "SHARED-WITH-OTHERS-ONE": "他の人と共有しているアプリ定義は 1 件です",
-        "SHARED-WITH-OTHERS-EMPTY": "他の人と共有しているアプリ定義はありません",
-        "NO-APPS": "プロセスモデルのバンドルを公開して同僚と共有することで、Process Services アプリを作成できます。または、あなたのホームページであなたと共有されているアプリを追加できます。単純な共同作業をグループ化するために、プロセスなしのアプリを作成することもできます。",
-        "NO-APPS-CALL-TO-ACTION": "プロセスアプリを作成してみましょう。",
-        "NO-APPS-NOTE": "使用する準備ができたら、忘れずにそのアプリを公開してください。"
-      },
-
+    "APPS-LIST": {
+        "TITLE": "アプリ定義",
+        "SEARCH-PLACEHOLDER": "検索",
+        "LOADING": "アプリ定義を取得しています",
+        "ACTION": {
+            "CREATE": "アプリの作成",
+            "CREATE-INLINE": "新しいアプリ定義を作成してみましょう。",
+            "IMPORT": "アプリのインポート",
+            "SHOW-MORE": "続きを表示"
+        },
+        "FILTER": {
+            "MY-APPS": "あなたのアプリ定義",
+            "MY-APPS-COUNT": "あなたのアプリ定義は {{total}} 件です",
+            "MY-APPS-ONE": "あなたのアプリ定義は 1 件です",
+            "MY-APPS-EMPTY": "あなたのアプリ定義はありません。アプリ定義を追加するには、[アプリ定義の作成] をクリックしてください。",
+            "FILTER-TEXT": ": 検索テキスト \"{{filterText}}\"",
+            "FILTER-TEXT-EMPTY": "次と一致するアプリ定義はありません: 検索テキスト \"{{filterText}}\"",
+            "SHARED-WITH-ME": "あなたと共有",
+            "SHARED-WITH-ME-COUNT": "あなたと共有されているアプリ定義は {{total}} 件です",
+            "SHARED-WITH-ME-ONE": "あなたと共有されているアプリ定義は 1 件です",
+            "SHARED-WITH-ME-EMPTY": "あなたと共有されているアプリ定義はありません",
+            "SHARED-WITH-OTHERS": "他の人と共有",
+            "SHARED-WITH-OTHERS-COUNT": "他の人と共有しているアプリ定義は {{total}} 件です",
+            "SHARED-WITH-OTHERS-ONE": "他の人と共有しているアプリ定義は 1 件です",
+            "SHARED-WITH-OTHERS-EMPTY": "他の人と共有しているアプリ定義はありません",
+            "NO-APPS": "プロセスモデルのバンドルを公開して同僚と共有することで、Process Services アプリを作成できます。または、あなたのホームページであなたと共有されているアプリを追加できます。単純な共同作業をグループ化するために、プロセスなしのアプリを作成することもできます。",
+            "NO-APPS-CALL-TO-ACTION": "プロセスアプリを作成してみましょう。",
+            "NO-APPS-NOTE": "使用する準備ができたら、忘れずにそのアプリを公開してください。"
+        },
         "SORT": {
-          "MODIFIED-ASC": "古い順",
-          "MODIFIED-DESC": "最終更新日時",
-          "NAME-ASC": "名前 (昇順)",
-          "NAME-DESC": "名前 (降順)"
+            "MODIFIED-ASC": "古い順",
+            "MODIFIED-DESC": "最終更新日時",
+            "NAME-ASC": "名前 (昇順)",
+            "NAME-DESC": "名前 (降順)"
         }
     },
-
     "LOGIN": {
-      "TITLE": "ユーザーのサインイン",
-      "FORM": {
-        "USERNAME": "E メールアドレス",
-        "USERNAME.PLACEHOLDER": "E メールアドレスを入力してください",
-        "PASSWORD": "パスワード",
-        "PASSWORD.PLACEHOLDER": "パスワードを入力してください",
-        "REMEMBERME": "自動ログイン",
-        "BUTTON": "サインイン"
-      },
-      "MESSAGES": {
-        "ERROR": {
-          "AUTHENTICATION": "サインインできませんでした。サインインのアカウント情報が間違っていないか確認してから、もう 1 度入力してください。"
+        "TITLE": "ユーザーのサインイン",
+        "FORM": {
+            "USERNAME": "E メールアドレス",
+            "USERNAME.PLACEHOLDER": "E メールアドレスを入力してください",
+            "PASSWORD": "パスワード",
+            "PASSWORD.PLACEHOLDER": "パスワードを入力してください",
+            "REMEMBERME": "自動ログイン",
+            "BUTTON": "サインイン"
+        },
+        "MESSAGES": {
+            "ERROR": {
+                "AUTHENTICATION": "サインインできませんでした。サインインのアカウント情報が間違っていないか確認してから、もう 1 度入力してください。"
             }
         }
     },
 
     "PROCESS": {
-      "NAME": "モデル名",
-      "KEY": "モデルキー",
-      "DESCRIPTION": "説明",
-      "VERSION-COMMENT": "バージョンのコメント",
-      "EDITOR-TYPE": "エディタの種類",
-      "STENCIL": "ステンシル",
-      "ACTION": {
-        "DETAILS": "詳細を表示",
-        "EDIT": "モデルのプロパティの変更",
-        "DUPLICATE": "このモデルを複製",
-        "COMPARE": "別のバージョンと比較",
-        "SHARE": "このモデルを共有",
-        "SHARE-CONFIRM": "変更の確定",
-        "EXPORT_BPMN20": "BPMN 2.0 へエクスポート",
-        "DELETE": "このモデルを削除",
-        "ADD-COMMENT": "コメントの追加",
-        "ADD-COMMENT-CONFIRM": "コメントの追加",
-        "CREATE-CONFIRM": "新しいモデルの作成",
-        "DUPLICATE-CONFIRM": "このモデルを複製",
-        "OPEN-IN-EDITOR": "ビジュアルエディタ",
-        "EDIT-CONFIRM": "保存",
-        "DELETE-CONFIRM": "プロセスモデルの削除",
-        "USE-AS-NEW-VERSION": "新しいバージョンとして使用",
-        "USE-AS-NEW-VERSION-CONFIRM": "新しいバージョンとして使用",
-        "FAVORITE": "このモデルをお気に入りに追加"
-      },
-      "DETAILS": {
-        "TITLE": "ビジネスプロセスモデルの詳細: {{name}}",
-        "COMPARE-WITH-TITLE": "比較先",
-        "STENCIL": "ステンシル:",
-        "HISTORY-TITLE": "履歴",
-        "COMMENTS-TITLE": "コメント",
-        "LAST-UPDATED-BY": "最終更新者: {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
-        "CREATED-BY": "作成者: {{createdByFullName}}",
-        "VERSION": "(バージョン {{version}})",
-        "NO-DESCRIPTION": "このモデルには説明がありません。モデルのプロパティを変更して、説明を加えてください。"
-      },
-      "EDIT": {
-        "TITLE": "プロセスの編集"
-      },
-      "POPUP": {
-        "ADD-COMMENT-TITLE": "コメントの追加",
-        "ADD-COMMENT-DESCRIPTION": "下に \"{{name}}\" 宛ての新しいコメントを入力してください",
-        "ADD-COMMENT-SIZE-ERROR": "コメントは 4,000 字以内で入力してください",
-        "CREATE-TITLE": "新しいビジネスプロセスモデルの作成",
-        "DUPLICATE-TITLE": "ビジネスプロセスモデルの複製",
-        "CREATE-DESCRIPTION": "新しいモデルの名前を入力し、必要に応じて説明を追加してください。",
-        "DUPLICATE-DESCRIPTION": "新しいモデルの名前を変更し、必要に応じて説明を変更できます。",
-        "EDIT-DESCRIPTION": "モデルを更新するには、下でモデルのプロパティを変更してから、[保存] をクリックします。",
-        "EDIT-TITLE": "モデルの詳細の編集",
-        "DELETE-TITLE": "モデルの削除",
-        "DELETE-DESCRIPTION": "ビジネスプロセスモデル \"{{name}}\" を削除しますか?",
-        "DELETE-CASCADE-FALSE": "このモデルの現行バージョン (v{{version}}) だけを削除",
-        "DELETE-CASCADE-TRUE": "このモデルの前のバージョンもすべて削除",
-        "DELETE-LOADING-RELATIONS": "モデルの使用状況をチェックしています",
-        "DELETE-RELATIONS-DESCRIPTION-SINGLE": "このモデルは、別のモデルが使用しているため、削除できません",
-        "DELETE-RELATIONS-DESCRIPTION": "このモデルは、別のモデルが使用しているため、削除できません",
-        "DELETE-PROCESS-RELATION": "プロセスモデル",
-        "DELETE-FORM-RELATION": "フォームモデル",
-        "DELETE-APP-RELATION": "アプリモデル",
-        "IMPORT-DESCRIPTION": "拡張子が .bpmn または .bpmn20.xml の BPMN XML 定義を参照して選択するか、ドロップしてください",
-        "IMPORT-TITLE": "プロセスモデルのインポート",
-        "USE-AS-NEW-TITLE": "新しいバージョンとして使用",
-        "USE-AS-NEW-DESCRIPTION": "バージョン {{version}} を使って \"{{name}}\" の新しいバージョンを作成しますか?",
-        "USE-AS-NEW-UNRESOLVED-MODELS-ERROR": "このアプリモデルを、選択したバージョンに完全に復元できませんでした: 参照しているモデルの一部が削除されたため、見つかりません。このアプリモデルを更新してください。見つからないモデル",
-        "USE-AS-NEW-UNRESOLVED-MODEL": "モデル: '{{name}}'、内部 ID: {{id}}、作成者: {{createdBy}}",
-        "SHARE-TITLE": "プロセスモデルの共有",
-        "SHARE-DESCRIPTION": "このビジネスプロセスモデルをどのユーザーと共有するかと、それらのユーザーにプロセスモデルの編集を許可するかどうかを指定できます。",
-        "NOT-SHARED": "このビジネスプロセスモデルは誰とも共有されていません。",
-        "SHARED-WITH": "共有先",
-        "PERMISSION": "権限",
-        "ACTIONS": "アクション",
-        "IMPORT": {
-          "DROPZONE": ".bpmn または .bpmn20.xml の BPMN XML ファイルをドロップしてください",
-          "CANCEL-UPLOAD": "アップロードをキャンセルします",
-          "ERROR": "BPMN XML ファイルの処理中にエラーが発生しました",
-          "NO-DROP": "ドラッグ  ドロップは使用できません"
+        "NAME": "モデル名",
+        "KEY": "モデルキー",
+        "DESCRIPTION": "説明",
+        "VERSION-COMMENT": "バージョンのコメント",
+        "EDITOR-TYPE": "エディタの種類",
+        "STENCIL": "ステンシル",
+        "ACTION": {
+            "DETAILS": "詳細を表示",
+            "EDIT": "モデルのプロパティの変更",
+            "DUPLICATE": "このモデルを複製",
+            "COMPARE": "別のバージョンと比較",
+            "SHARE": "このモデルを共有",
+            "SHARE-CONFIRM": "変更の確定",
+            "EXPORT_BPMN20": "BPMN 2.0 へエクスポート",
+            "DELETE": "このモデルを削除",
+            "ADD-COMMENT": "コメントの追加",
+            "ADD-COMMENT-CONFIRM": "コメントの追加",
+            "CREATE-CONFIRM": "新しいモデルの作成",
+            "DUPLICATE-CONFIRM": "このモデルを複製",
+            "OPEN-IN-EDITOR": "ビジュアルエディタ",
+            "EDIT-CONFIRM": "保存",
+            "DELETE-CONFIRM": "プロセスモデルの削除",
+            "USE-AS-NEW-VERSION": "新しいバージョンとして使用",
+            "USE-AS-NEW-VERSION-CONFIRM": "新しいバージョンとして使用",
+            "FAVORITE": "このモデルをお気に入りに追加"
+        },
+        "DETAILS": {
+            "TITLE": "ビジネスプロセスモデルの詳細: {{name}}",
+            "COMPARE-WITH-TITLE": "比較先",
+            "STENCIL": "ステンシル:",
+            "HISTORY-TITLE": "履歴",
+            "COMMENTS-TITLE": "コメント",
+            "LAST-UPDATED-BY": "最終更新者: {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
+            "CREATED-BY": "作成者: {{createdByFullName}}",
+            "VERSION": "(バージョン {{version}})",
+            "NO-DESCRIPTION": "このモデルには説明がありません。モデルのプロパティを変更して、説明を加えてください。"
+        },
+        "EDIT": {
+            "TITLE": "プロセスの編集"
+        },
+        "POPUP": {
+            "ADD-COMMENT-TITLE": "コメントの追加",
+            "ADD-COMMENT-DESCRIPTION": "下に \"{{name}}\" 宛ての新しいコメントを入力してください",
+            "ADD-COMMENT-SIZE-ERROR": "コメントは 4,000 字以内で入力してください",
+            "CREATE-TITLE": "新しいビジネスプロセスモデルの作成",
+            "DUPLICATE-TITLE": "ビジネスプロセスモデルの複製",
+            "CREATE-DESCRIPTION": "新しいモデルの名前を入力し、必要に応じて説明を追加してください。",
+            "DUPLICATE-DESCRIPTION": "新しいモデルの名前を変更し、必要に応じて説明を変更できます。",
+            "EDIT-DESCRIPTION": "モデルを更新するには、下でモデルのプロパティを変更してから、[保存] をクリックします。",
+            "EDIT-TITLE": "モデルの詳細の編集",
+            "DELETE-TITLE": "モデルの削除",
+            "DELETE-DESCRIPTION": "ビジネスプロセスモデル \"{{name}}\" を削除しますか?",
+            "DELETE-CASCADE-FALSE": "このモデルの現行バージョン (v{{version}}) だけを削除",
+            "DELETE-CASCADE-TRUE": "このモデルの前のバージョンもすべて削除",
+            "DELETE-LOADING-RELATIONS": "モデルの使用状況をチェックしています",
+            "DELETE-RELATIONS-DESCRIPTION-SINGLE": "このモデルは、別のモデルが使用しているため、削除できません",
+            "DELETE-RELATIONS-DESCRIPTION": "このモデルは、別のモデルが使用しているため、削除できません",
+            "DELETE-PROCESS-RELATION": "プロセスモデル",
+            "DELETE-FORM-RELATION": "フォームモデル",
+            "DELETE-APP-RELATION": "アプリモデル",
+            "IMPORT-DESCRIPTION": "拡張子が .bpmn または .bpmn20.xml の BPMN XML 定義を参照して選択するか、ドロップしてください",
+            "IMPORT-TITLE": "プロセスモデルのインポート",
+            "USE-AS-NEW-TITLE": "新しいバージョンとして使用",
+            "USE-AS-NEW-DESCRIPTION": "バージョン {{version}} を使って \"{{name}}\" の新しいバージョンを作成しますか?",
+            "USE-AS-NEW-UNRESOLVED-MODELS-ERROR": "このアプリモデルを、選択したバージョンに完全に復元できませんでした: 参照しているモデルの一部が削除されたため、見つかりません。このアプリモデルを更新してください。見つからないモデル",
+            "USE-AS-NEW-UNRESOLVED-MODEL": "モデル: '{{name}}'、内部 ID: {{id}}、作成者: {{createdBy}}",
+            "SHARE-TITLE": "プロセスモデルの共有",
+            "SHARE-DESCRIPTION": "このビジネスプロセスモデルをどのユーザーと共有するかと、それらのユーザーにプロセスモデルの編集を許可するかどうかを指定できます。",
+            "NOT-SHARED": "このビジネスプロセスモデルは誰とも共有されていません。",
+            "SHARED-WITH": "共有先",
+            "PERMISSION": "権限",
+            "ACTIONS": "アクション",
+            "IMPORT": {
+                "DROPZONE": ".bpmn または .bpmn20.xml の BPMN XML ファイルをドロップしてください",
+                "CANCEL-UPLOAD": "アップロードをキャンセルします",
+                "ERROR": "BPMN XML ファイルの処理中にエラーが発生しました",
+                "NO-DROP": "ドラッグ    ドロップは使用できません"
+            }
+        },
+        "ALERT": {
+            "EDIT-CONFIRM": "モデルが更新されました",
+            "FAVORITE-CONFIRM": "このモデルはお気に入りに登録されています",
+            "UN-FAVORITE-CONFIRM": "このモデルは既にお気に入りから削除されています",
+            "DELETE-CONFIRM": "モデルが削除されました",
+            "SHARE-CONFIRM": "モデルの共有オプションが更新されました",
+            "NEW-VERSION-CONFIRM": "ビジネスプロセスモデルの新しいバージョンが作成されました",
+            "COMMENT-ADDED-CONFIRM": "モデルに新しいコメントが追加されました"
+        },
+        "ERROR": {
+            "NOT-FOUND": "指定したモデルは存在しません"
         }
-      },
-      "ALERT": {
-        "EDIT-CONFIRM": "モデルが更新されました",
-        "FAVORITE-CONFIRM": "このモデルはお気に入りに登録されています",
-        "UN-FAVORITE-CONFIRM": "このモデルは既にお気に入りから削除されています",
-        "DELETE-CONFIRM": "モデルが削除されました",
-        "SHARE-CONFIRM": "モデルの共有オプションが更新されました",
-        "NEW-VERSION-CONFIRM": "ビジネスプロセスモデルの新しいバージョンが作成されました",
-        "COMMENT-ADDED-CONFIRM": "モデルに新しいコメントが追加されました"
-      },
-      "ERROR": {
-        "NOT-FOUND": "指定したモデルは存在しません"
-      }
     },
 
     "SUBPROCESS": {
-      "NAME": "サブプロセスの名前",
-      "DESCRIPTION": "説明",
-      "TITLE": "サブプロセス",
-      "ACTION": {
-        "CREATE-CONFIRM": "新しいサブプロセスを作成"
-      },
-      "POPUP": {
-        "CREATE-TITLE": "新しいサブプロセスの作成",
-        "CREATE-DESCRIPTION": "新しいサブプロセスの名前を入力し、必要に応じて説明を追加してください。"
-      },
-      "POPOVER": {
-        "SELECT-TITLE": "サブプロセスの選択",
-        "NONE-SELECTED": "サブプロセスが選択されていません",
-        "CREATE": "+ サブプロセスの作成",
-        "OPEN": "開く",
-        "CLEAR": "消去",
-        "SEARCH-PLACEHOLDER": "サブプロセスの検索",
-        "MATCHING": "条件に一致するサブプロセス",
-        "NONE-MATCHING": "条件に一致するサブプロセスはありません"
-      }
+        "NAME": "サブプロセスの名前",
+        "DESCRIPTION": "説明",
+        "TITLE": "サブプロセス",
+        "ACTION": {
+            "CREATE-CONFIRM": "新しいサブプロセスを作成"
+        },
+        "POPUP": {
+            "CREATE-TITLE": "新しいサブプロセスの作成",
+            "CREATE-DESCRIPTION": "新しいサブプロセスの名前を入力し、必要に応じて説明を追加してください。"
+        },
+        "POPOVER": {
+            "SELECT-TITLE": "サブプロセスの選択",
+            "NONE-SELECTED": "サブプロセスが選択されていません",
+            "CREATE": "+ サブプロセスの作成",
+            "OPEN": "開く",
+            "CLEAR": "消去",
+            "SEARCH-PLACEHOLDER": "サブプロセスの検索",
+            "MATCHING": "条件に一致するサブプロセス",
+            "NONE-MATCHING": "条件に一致するサブプロセスはありません"
+        }
     },
 
     "FORM": {
-      "NAME": "フォームの名前",
-      "KEY": "フォームキー",
-      "DESCRIPTION": "説明",
-      "REUSABLE": "再利用可能なフォーム",
-      "VERSION-COMMENT": "バージョンのコメント",
-      "ACTION": {
-        "DETAILS": "詳細を表示",
-        "EDIT": "モデルのプロパティの変更",
-        "COMPARE": "別のバージョンと比較",
-        "SHARE": "このフォームを共有",
-        "SHARE-CONFIRM": "変更の確定",
-        "DELETE": "このフォームを削除",
-        "ADD-COMMENT": "+ コメントの追加",
-        "ADD-COMMENT-CONFIRM": "コメントの追加",
-        "CREATE-CONFIRM": "新しいフォームの作成",
-        "DUPLICATE-CONFIRM": "このフォームを複製",
-        "OPEN-IN-EDITOR": "フォームエディタ",
-        "EDIT-CONFIRM": "保存",
-        "DELETE-CONFIRM": "フォームの削除",
-        "USE-AS-NEW-VERSION": "新しいバージョンとして使用",
-        "USE-AS-NEW-VERSION-CONFIRM": "新しいバージョンとして使用",
-        "FAVORITE": "このフォームをお気に入りに登録"
-      },
-      "DETAILS": {
-        "TITLE": "フォームの詳細: {{name}}",
-        "COMPARE-WITH-TITLE": "比較先",
-        "HISTORY-TITLE": "履歴",
-        "COMMENTS-TITLE": "コメント",
-        "LAST-UPDATED-BY": "最終更新者: {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
-        "CREATED-BY": "作成者: {{createdByFullName}}",
-        "VERSION": "(バージョン {{version}})"
-      },
-      "EDIT": {
-        "TITLE": "フォームの編集"
-      },
-      "POPUP": {
-        "ADD-COMMENT-TITLE": "コメントの追加",
-        "ADD-COMMENT-DESCRIPTION": "下に \"{{name}}\" 宛ての新しいコメントを入力してください",
-        "ADD-COMMENT-SIZE-ERROR": "コメントは 4,000 字以内で入力してください",
-        "CREATE-TITLE": "新しいフォームの作成",
-        "DUPLICATE-TITLE": "フォームの複製",
-        "CREATE-DESCRIPTION": "新しいフォームの名前を入力し、必要に応じて説明を追加してください。",
-        "DUPLICATE-DESCRIPTION": "新しいフォームの名前を入力し、必要に応じて説明を追加してください。",
-        "SAVE-FORM-TITLE": "フォームの保存",
-        "EDIT-DESCRIPTION": "フォームを更新するには、下でフォームのプロパティを変更してから、[保存] をクリックします。",
-        "EDIT-TITLE": "フォームの詳細の編集",
-        "DELETE-TITLE": "フォームの削除",
-        "DELETE-DESCRIPTION": "フォーム \"{{name}}\" を削除しますか?",
-        "DELETE-CASCADE-FALSE": "このフォームの現行バージョン (v{{version}}) だけを削除",
-        "DELETE-CASCADE-TRUE": "このフォームの前のバージョンもすべて削除",
-        "USE-AS-NEW-TITLE": "新しいバージョンとして使用",
-        "USE-AS-NEW-DESCRIPTION": "バージョン {{version}} を使って \"{{name}}\" の新しいバージョンを作成しますか?",
-        "SHARE-TITLE": "フォームの共有",
-        "SHARE-DESCRIPTION": "このフォームをどのユーザーと共有するかと、それらのユーザーにフォームの編集を許可するかどうかを指定できます。",
-        "NOT-SHARED": "このフォームは誰とも共有されていません。"
-      },
-      "ALERT": {
-        "EDIT-CONFIRM": "フォームが更新されました",
-        "FAVORITE-CONFIRM": "このフォームはお気に入りに登録されています",
-        "UN-FAVORITE-CONFIRM": "このフォームは既にお気に入りから削除されています",
-        "DELETE-CONFIRM": "フォームが削除されました",
-        "SHARE-CONFIRM": "フォームの共有オプションが更新されました",
-        "NEW-VERSION-CONFIRM": "フォームの新しいバージョンが作成されました",
-        "COMMENT-ADDED-CONFIRM": "フォームに新しいコメントが追加されました"
-      },
-      "ERROR": {
-        "NOT-FOUND": "指定したフォームは存在しません"
-      }
+        "NAME": "フォームの名前",
+        "KEY": "フォームキー",
+        "DESCRIPTION": "説明",
+        "REUSABLE": "再利用可能なフォーム",
+        "VERSION-COMMENT": "バージョンのコメント",
+        "ACTION": {
+            "DETAILS": "詳細を表示",
+            "EDIT": "モデルのプロパティの変更",
+            "COMPARE": "別のバージョンと比較",
+            "SHARE": "このフォームを共有",
+            "SHARE-CONFIRM": "変更の確定",
+            "DELETE": "このフォームを削除",
+            "ADD-COMMENT": "+ コメントの追加",
+            "ADD-COMMENT-CONFIRM": "コメントの追加",
+            "CREATE-CONFIRM": "新しいフォームの作成",
+            "DUPLICATE-CONFIRM": "このフォームを複製",
+            "OPEN-IN-EDITOR": "フォームエディタ",
+            "EDIT-CONFIRM": "保存",
+            "DELETE-CONFIRM": "フォームの削除",
+            "USE-AS-NEW-VERSION": "新しいバージョンとして使用",
+            "USE-AS-NEW-VERSION-CONFIRM": "新しいバージョンとして使用",
+            "FAVORITE": "このフォームをお気に入りに登録"
+        },
+        "DETAILS": {
+            "TITLE": "フォームの詳細: {{name}}",
+            "COMPARE-WITH-TITLE": "比較先",
+            "HISTORY-TITLE": "履歴",
+            "COMMENTS-TITLE": "コメント",
+            "LAST-UPDATED-BY": "最終更新者: {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
+            "CREATED-BY": "作成者: {{createdByFullName}}",
+            "VERSION": "(バージョン {{version}})"
+        },
+        "EDIT": {
+            "TITLE": "フォームの編集"
+        },
+        "POPUP": {
+            "ADD-COMMENT-TITLE": "コメントの追加",
+            "ADD-COMMENT-DESCRIPTION": "下に \"{{name}}\" 宛ての新しいコメントを入力してください",
+            "ADD-COMMENT-SIZE-ERROR": "コメントは 4,000 字以内で入力してください",
+            "CREATE-TITLE": "新しいフォームの作成",
+            "DUPLICATE-TITLE": "フォームの複製",
+            "CREATE-DESCRIPTION": "新しいフォームの名前を入力し、必要に応じて説明を追加してください。",
+            "DUPLICATE-DESCRIPTION": "新しいフォームの名前を入力し、必要に応じて説明を追加してください。",
+            "SAVE-FORM-TITLE": "フォームの保存",
+            "EDIT-DESCRIPTION": "フォームを更新するには、下でフォームのプロパティを変更してから、[保存] をクリックします。",
+            "EDIT-TITLE": "フォームの詳細の編集",
+            "DELETE-TITLE": "フォームの削除",
+            "DELETE-DESCRIPTION": "フォーム \"{{name}}\" を削除しますか?",
+            "DELETE-CASCADE-FALSE": "このフォームの現行バージョン (v{{version}}) だけを削除",
+            "DELETE-CASCADE-TRUE": "このフォームの前のバージョンもすべて削除",
+            "USE-AS-NEW-TITLE": "新しいバージョンとして使用",
+            "USE-AS-NEW-DESCRIPTION": "バージョン {{version}} を使って \"{{name}}\" の新しいバージョンを作成しますか?",
+            "SHARE-TITLE": "フォームの共有",
+            "SHARE-DESCRIPTION": "このフォームをどのユーザーと共有するかと、それらのユーザーにフォームの編集を許可するかどうかを指定できます。",
+            "NOT-SHARED": "このフォームは誰とも共有されていません。"
+        },
+        "ALERT": {
+            "EDIT-CONFIRM": "フォームが更新されました",
+            "FAVORITE-CONFIRM": "このフォームはお気に入りに登録されています",
+            "UN-FAVORITE-CONFIRM": "このフォームは既にお気に入りから削除されています",
+            "DELETE-CONFIRM": "フォームが削除されました",
+            "SHARE-CONFIRM": "フォームの共有オプションが更新されました",
+            "NEW-VERSION-CONFIRM": "フォームの新しいバージョンが作成されました",
+            "COMMENT-ADDED-CONFIRM": "フォームに新しいコメントが追加されました"
+        },
+        "ERROR": {
+            "NOT-FOUND": "指定したフォームは存在しません"
+        }
     },
 
     "DECISION-TABLE": {
-        "NAME": "意思決定表名",
-        "KEY": "意思決定表キー",
+        "NAME": "意思決定表の名前",
+        "KEY": "意思決定表のキー",
         "DESCRIPTION": "説明",
         "REUSABLE": "再利用可能な意思決定表",
-        "VERSION-COMMENT": "バージョンコメント",
-        "HIT-POLICY": "ヒットポリシー:",
+        "VERSION-COMMENT": "バージョンのコメント",
+        "HIT-POLICY": "決定ルール",
         "ACTION": {
             "DETAILS": "詳細を表示",
-            "EDIT": "モデルプロパティを変更する",
-            "COMPARE": "他のバージョンと比較する",
-            "SHARE": "意思決定表を共有",
-            "SHARE-CONFIRM": "変更を確認する",
-            "DELETE": "意思決定表を削除",
-            "ADD-COMMENT": "+ コメントを追加",
-            "ADD-COMMENT-CONFIRM": "コメントを追加",
-            "CREATE-CONFIRM": "新しい意思決定表を作成する",
-            "DUPLICATE-CONFIRM": "意思決定表を複製する",
+            "EDIT": "モデルのプロパティの変更",
+            "COMPARE": "別のバージョンと比較",
+            "SHARE": "この意思決定表を共有",
+            "SHARE-CONFIRM": "変更の確定",
+            "DELETE": "この意思決定表を削除",
+            "ADD-COMMENT": "+ コメントの追加",
+            "ADD-COMMENT-CONFIRM": "コメントの追加",
+            "CREATE-CONFIRM": "新しい意思決定表の作成",
+            "DUPLICATE-CONFIRM": "この意思決定表を複製",
             "CANCEL": "キャンセル",
-            "OPEN-IN-EDITOR": "意思決定表エディター",
-            "EXPORT": "エクスポート",
+            "OPEN-IN-EDITOR": "意思決定表エディタ",
+            "EXPORT": "意思決定表のエクスポート",
             "EDIT-CONFIRM": "保存",
-            "DELETE-CONFIRM": "意思決定表を削除",
+            "DELETE-CONFIRM": "意思決定表の削除",
             "USE-AS-NEW-VERSION": "新しいバージョンとして使用",
             "USE-AS-NEW-VERSION-CONFIRM": "新しいバージョンとして使用",
-            "FAVORITE": "意思決定表をお気に入り登録する",
-            "DUPLICATE": "意思決定表を複製"
-
+            "FAVORITE": "この意思決定表をお気に入りに登録",
+            "DUPLICATE": "この意思決定表を複製"
         },
         "DETAILS": {
             "TITLE": "意思決定表 {{name}} の詳細",
@@ -473,15 +463,14 @@
             "SAVE-DECISION-TABLE-TITLE": "意思決定表を保存",
             "IMPORT-DESCRIPTION": "拡張子が .dmn または .dmn.xml の DMN XML 定義を参照または削除します。",
             "IMPORT-TITLE": "DMN モデルをインポートする",
- 	        "IMPORT": {
- 	            "DROPZONE": ".dmn または .dmn.xml DMN XML ファイルをドロップする",
- 	            "CANCEL-UPLOAD": "アップロードをキャンセルする",
- 	            "ERROR": "DMN XML ファイルの処理中にエラーが発生しました",
- 	            "NO-DROP": "ドラッグ & ドロップはサポートされていません"
- 	        },
+            "IMPORT": {
+                "DROPZONE": ".dmn または .dmn.xml DMN XML ファイルをドロップする",
+                "CANCEL-UPLOAD": "アップロードをキャンセルする",
+                "ERROR": "DMN XML ファイルの処理中にエラーが発生しました",
+                "NO-DROP": "ドラッグ & ドロップはサポートされていません"
+            },
             "EDIT-DESCRIPTION": "以下の意思決定表プロパティを変更し、[保存] をクリックして意思決定表を更新します。",
-            "EDIT-TITLE":"意思決定表の詳細の編集",
-
+            "EDIT-TITLE": "意思決定表の詳細の編集",
             "DELETE-TITLE": "意思決定表を削除",
             "DELETE-DESCRIPTION": "意思決定表 \"{{name}}\" を削除してよろしいですか？",
             "DELETE-CASCADE-FALSE": "この意思決定表の現在のバージョン (v{{version}}) のみを削除します",
@@ -544,118 +533,115 @@
             "SELECT-THEME": "テーマを変更",
             "EDIT-MODELS": "含まれているモデルを編集する",
             "EXPORT-ZIP": "アプリ定義を zip ファイルとしてエクスポートする"
-
         },
         "DETAILS": {
-          "TITLE": "アプリ定義の詳細: {{name}}",
-          "COMPARE-WITH-TITLE": "比較",
-          "HISTORY-TITLE": "ヒストリー",
-          "COMMENTS-TITLE": "コメント",
-          "MODELS-TITLE": "アプリ定義に含まれるモデル",
-          "THEME-TITLE": "これは選択したアプリ定義テーマのプレビューです。プレビューの上にマウスを移動すると、別のアイコンとテーマの色を選択できます。",
-          "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFull名前}} - {{lastUpdated | dateformat}}",
-          "CREATED-BY": "作成者 {{createdByFullName}}",
-          "VERSION": "(バージョン {{version}})",
-          "NO-DESCRIPTION": "このアプリの定義には説明がありません。アプリ定義プロパティを変更して追加します",
-          "NO-MODELS-SELECTED": "このアプリのモデルは選択されていません"
+            "TITLE": "アプリ定義の詳細: {{name}}",
+            "COMPARE-WITH-TITLE": "比較",
+            "HISTORY-TITLE": "ヒストリー",
+            "COMMENTS-TITLE": "コメント",
+            "MODELS-TITLE": "アプリ定義に含まれるモデル",
+            "THEME-TITLE": "これは選択したアプリ定義テーマのプレビューです。プレビューの上にマウスを移動すると、別のアイコンとテーマの色を選択できます。",
+            "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFull名前}} - {{lastUpdated | dateformat}}",
+            "CREATED-BY": "作成者 {{createdByFullName}}",
+            "VERSION": "(バージョン {{version}})",
+            "NO-DESCRIPTION": "このアプリの定義には説明がありません。アプリ定義プロパティを変更して追加します",
+            "NO-MODELS-SELECTED": "このアプリのモデルは選択されていません"
         },
         "EDIT": {
-          "TITLE": "アプリ定義の編集"
+            "TITLE": "アプリ定義の編集"
         },
-
         "TITLE": {
-          "SELECT-ICON": "アプリのアイコンを選択",
-          "SELECT-THEME": "アプリの色を選択",
-          "PREVIEW": "プレビュー"
-
+            "SELECT-ICON": "アプリのアイコンを選択",
+            "SELECT-THEME": "アプリの色を選択",
+            "PREVIEW": "プレビュー"
         },
         "POPUP": {
-          "ADD-COMMENT-TITLE": "コメントを追加",
-          "ADD-COMMENT-DESCRIPTION" : "下に \"{{name}}\" の新しいコメントを入力してください",
-          "ADD-COMMENT-SIZE-ERROR": "コメントは 4000 文字を超えることはできません",
-          "CREATE-TITLE": "新しいアプリ定義を作成する",
-          "DUPLICATE-TITLE": "アプリ定義を複製する",
-          "SAVE-APP-TITLE": "アプリ定義を保存",
-          "SAVE-APP-SAVE-SUCCESS": "保存したアプリの定義",
-          "SAVE-APP-SAVE-FAIL": "アプリ定義を保存できませんでした",
-          "CREATE-DESCRIPTION": "新しいアプリ定義の名前を付ける必要があります。同時に説明を追加することもできます。",
-          "DUPLICATE-DESCRIPTION": "新しいアプリ定義に名前を付けることができ、同時に説明を変更することもできます。",
-          "EDIT-DESCRIPTION": "以下のアプリ定義プロパティを変更してから、[保存] をクリックしてアプリ定義を更新します。",
-          "EDIT-TITLE": "アプリ定義の詳細を編集する",
-          "PUBLISH-TITLE": "アプリ定義を公開する",
-          "PUBLISH-DESCRIPTION": "アプリ定義 \"{{name}}\" を公開してよろしいですか？ このアプリ定義はバージョン管理され、ワークフローアプリは既に存在する場合は更新されます。",
-          "PUBLISH-FIELD": "公開しますか？ 公開が有効になっている場合、このアプリ定義はバージョン管理され、ワークフローアプリは既に存在する場合は更新されます。",
-          "PUBLISH-ERROR-PROCDEF-KEY-CONFLICT": "プロセスモデル \"{{modelInApp名前}}\" は、アプリケーションの既存のデプロイされたプロセス \"{{conflictingModel名前}}\" と同じ識別子 \"{{processDefinitionKey}}\" を持っています \"{{conflictingApp名前}}\"。プロセスモデルのこの \"id\" プロパティを別のものに変更してください。",
-          "PUBLISH-ERROR-PROCESS-ALREADY-USED": "以下のプロセスモデルはすでに他のアプリで使用されています。これでいいですか？",
-          "PUBLISH-ERROR-PROCESS-ALREADY-USED-APP": "アプリ",
-          "PUBLISH-ERROR-PROCDEF-DUPLICATE-KEYS": "無効なアプリ: 重複するプロセス識別子が見つかりました (問題のあるプロセスモデルの \"id\" プロパティを変更してください):",
-          "DELETE-TITLE": "アプリ定義を削除",
-          "DELETE-DESCRIPTION": "アプリ定義 \"{{name}}\" を削除してよろしいですか？",
-          "DELETE-DESCRIPTION-WITH-RUNTIME": "アプリ定義 \"{{name}}\" を削除してよろしいですか？ このアプリ定義はタスクランディングページにデプロイされていることを確認することで、アプリがタスクアプリランディングページから削除されます。",
-          "DELETE-CASCADE-FALSE": "アプリ定義の現在のバージョン (v{{version}}) のみを削除します",
-          "DELETE-CASCADE-TRUE": "アプリ定義の以前のバージョンもすべて削除します",
-          "USE-AS-NEW-TITLE": "新しいバージョンとして使用",
-          "USE-AS-NEW-DESCRIPTION": "新しいバージョンの \"{{name}}\" を作成するためにバージョン {{version}} を使用してよろしいですか？",
-          "SHARE-TITLE":"アプリ定義を共有する",
-          "SHARE-DESCRIPTION": "このアプリ定義を誰と共有したいか、また編集できるかどうかを決めることができます。",
-          "NOT-SHARED" : "このアプリの定義は誰とも共有されていません。",
-          "HAS-CUSTOM-STENCILITEM" : "Model  \"{{model名前}}\" は、ステンシルとカスタムステンシルアイテムを使用します。 このモデルをアプリ定義で使用することはできません。",
-          "HAS-VALIDATIONERROR" : "モデル \"{{model名前}}\" に検証エラーがあり、アプリ定義に追加できません。検証エラーの詳細を確認するには、エディターでモデルを開きます。",
-          "IMPORT-DESCRIPTION":"拡張子が .zip のアプリ定義を参照するかドロップしてください。",
-          "IMPORT-TITLE":"アプリ定義モデルをインポートする",
-          "IMPORT": {
-              "DROPZONE": ".zip アプリ定義ファイルをドロップします",
-              "CANCEL-UPLOAD": "アップロードをキャンセルする",
-              "RENEWIDM-IDS": "ステップモデルと BPMN モデルをインポートするときにユーザーとグループの識別子を更新します。これは、アプリ定義を別の Activiti 環境にインポートするときによく必要になります。このターゲット環境では、ヒューマンステップとユーザータスクを適切なユーザーとグループにリンクしようとします。",
-              "ERROR": "アプリ定義ファイルの処理中にエラーが発生しました",
-              "NO-DROP": "ドラッグ & ドロップはサポートされていません"
-          },
-          "INCLUDE-MODELS-TITLE": "アプリ定義に含まれるモデル"
+            "ADD-COMMENT-TITLE": "コメントを追加",
+            "ADD-COMMENT-DESCRIPTION": "下に \"{{name}}\" の新しいコメントを入力してください",
+            "ADD-COMMENT-SIZE-ERROR": "コメントは 4000 文字を超えることはできません",
+            "CREATE-TITLE": "新しいアプリ定義を作成する",
+            "DUPLICATE-TITLE": "アプリ定義を複製する",
+            "SAVE-APP-TITLE": "アプリ定義を保存",
+            "SAVE-APP-SAVE-SUCCESS": "保存したアプリの定義",
+            "SAVE-APP-SAVE-FAIL": "アプリ定義を保存できませんでした",
+            "CREATE-DESCRIPTION": "新しいアプリ定義の名前を付ける必要があります。同時に説明を追加することもできます。",
+            "DUPLICATE-DESCRIPTION": "新しいアプリ定義に名前を付けることができ、同時に説明を変更することもできます。",
+            "EDIT-DESCRIPTION": "以下のアプリ定義プロパティを変更してから、[保存] をクリックしてアプリ定義を更新します。",
+            "EDIT-TITLE": "アプリ定義の詳細を編集する",
+            "PUBLISH-TITLE": "アプリ定義を公開する",
+            "PUBLISH-DESCRIPTION": "アプリ定義 \"{{name}}\" を公開してよろしいですか？ このアプリ定義はバージョン管理され、ワークフローアプリは既に存在する場合は更新されます。",
+            "PUBLISH-FIELD": "公開しますか？ 公開が有効になっている場合、このアプリ定義はバージョン管理され、ワークフローアプリは既に存在する場合は更新されます。",
+            "PUBLISH-ERROR-PROCDEF-KEY-CONFLICT": "プロセスモデル \"{{modelInApp名前}}\" は、アプリケーションの既存のデプロイされたプロセス \"{{conflictingModel名前}}\" と同じ識別子 \"{{processDefinitionKey}}\" を持っています \"{{conflictingApp名前}}\"。プロセスモデルのこの \"id\" プロパティを別のものに変更してください。",
+            "PUBLISH-ERROR-PROCESS-ALREADY-USED": "以下のプロセスモデルはすでに他のアプリで使用されています。これでいいですか？",
+            "PUBLISH-ERROR-PROCESS-ALREADY-USED-APP": "アプリ",
+            "PUBLISH-ERROR-PROCDEF-DUPLICATE-KEYS": "無効なアプリ: 重複するプロセス識別子が見つかりました (問題のあるプロセスモデルの \"id\" プロパティを変更してください):",
+            "DELETE-TITLE": "アプリ定義を削除",
+            "DELETE-DESCRIPTION": "アプリ定義 \"{{name}}\" を削除してよろしいですか？",
+            "DELETE-DESCRIPTION-WITH-RUNTIME": "アプリ定義 \"{{name}}\" を削除してよろしいですか？ このアプリ定義はタスクランディングページにデプロイされていることを確認することで、アプリがタスクアプリランディングページから削除されます。",
+            "DELETE-CASCADE-FALSE": "アプリ定義の現在のバージョン (v{{version}}) のみを削除します",
+            "DELETE-CASCADE-TRUE": "アプリ定義の以前のバージョンもすべて削除します",
+            "USE-AS-NEW-TITLE": "新しいバージョンとして使用",
+            "USE-AS-NEW-DESCRIPTION": "新しいバージョンの \"{{name}}\" を作成するためにバージョン {{version}} を使用してよろしいですか？",
+            "SHARE-TITLE": "アプリ定義を共有する",
+            "SHARE-DESCRIPTION": "このアプリ定義を誰と共有したいか、また編集できるかどうかを決めることができます。",
+            "NOT-SHARED": "このアプリの定義は誰とも共有されていません。",
+            "HAS-CUSTOM-STENCILITEM": "Model    \"{{model名前}}\" は、ステンシルとカスタムステンシルアイテムを使用します。 このモデルをアプリ定義で使用することはできません。",
+            "HAS-VALIDATIONERROR": "モデル \"{{model名前}}\" に検証エラーがあり、アプリ定義に追加できません。検証エラーの詳細を確認するには、エディターでモデルを開きます。",
+            "IMPORT-DESCRIPTION": "拡張子が .zip のアプリ定義を参照するかドロップしてください。",
+            "IMPORT-TITLE": "アプリ定義モデルをインポートする",
+            "IMPORT": {
+                "DROPZONE": ".zip アプリ定義ファイルをドロップします",
+                "CANCEL-UPLOAD": "アップロードをキャンセルする",
+                "RENEWIDM-IDS": "ステップモデルと BPMN モデルをインポートするときにユーザーとグループの識別子を更新します。これは、アプリ定義を別の Activiti 環境にインポートするときによく必要になります。このターゲット環境では、ヒューマンステップとユーザータスクを適切なユーザーとグループにリンクしようとします。",
+                "ERROR": "アプリ定義ファイルの処理中にエラーが発生しました",
+                "NO-DROP": "ドラッグ & ドロップはサポートされていません"
+            },
+            "INCLUDE-MODELS-TITLE": "アプリ定義に含まれるモデル"
         },
         "ALERT": {
-          "EDIT-CONFIRM": "アプリ定義を更新しました",
-          "FAVORITE-CONFIRM": "アプリの定義は現在お気に入りに登録されています",
-          "UN-FAVORITE-CONFIRM": "アプリの定義はお気に入りに登録されていません",
-          "DELETE-CONFIRM": "アプリ定義を削除しました",
-          "SHARE-CONFIRM": "アプリ定義共有オプションが更新されました",
-          "NEW-VERSION-CONFIRM": "アプリ定義の新しいバージョンが作成されました",
-          "COMMENT-ADDED-CONFIRM": "アプリの定義に新しいコメントが追加されました",
-          "PUBLISH-ERROR": "アプリ定義を公開できませんでした。参照されているプロセスモデルの妥当性を確認してください"
+            "EDIT-CONFIRM": "アプリ定義を更新しました",
+            "FAVORITE-CONFIRM": "アプリの定義は現在お気に入りに登録されています",
+            "UN-FAVORITE-CONFIRM": "アプリの定義はお気に入りに登録されていません",
+            "DELETE-CONFIRM": "アプリ定義を削除しました",
+            "SHARE-CONFIRM": "アプリ定義共有オプションが更新されました",
+            "NEW-VERSION-CONFIRM": "アプリ定義の新しいバージョンが作成されました",
+            "COMMENT-ADDED-CONFIRM": "アプリの定義に新しいコメントが追加されました",
+            "PUBLISH-ERROR": "アプリ定義を公開できませんでした。参照されているプロセスモデルの妥当性を確認してください"
         },
         "ERROR": {
-          "NOT-FOUND": "要求されたアプリ定義は存在しません"
+            "NOT-FOUND": "要求されたアプリ定義は存在しません"
         },
         "KICKSTART": {
-          "TITLE": "キックスタートアプリ",
-          "TITLE-PROCESSES": "プロセスモデル",
-          "TITLE-FORMS": "フォームモデル",
-          "TITLE-APPS": "アプリモデル",
-          "TITLE-STENCILS": "ステンシル"
+            "TITLE": "キックスタートアプリ",
+            "TITLE-PROCESSES": "プロセスモデル",
+            "TITLE-FORMS": "フォームモデル",
+            "TITLE-APPS": "アプリモデル",
+            "TITLE-STENCILS": "ステンシル"
         },
         "ADMINISTRATOR": {
-          "TITLE": "管理アプリ"
+            "TITLE": "管理アプリ"
         },
         "TASKS": {
-          "TITLE": "タスクアプリ",
-          "TITLE-TASKS": "タスク",
-          "TITLE-PROCESSES": "プロセス"
+            "TITLE": "タスクアプリ",
+            "TITLE-TASKS": "タスク",
+            "TITLE-PROCESSES": "プロセス"
         },
         "IDENTITY-MANAGEMENT": {
-          "TITLE": "プロファイル",
-          "TITLE-TENANT-ADMIN": "アイデンティティ管理",
-          "TITLE-TENANT-ADMIN-TENANT-MGMT": "テナント",
-          "TITLE-TENANT-ADMIN-USER-MGMT": "ユーザー",
-          "TITLE-TENANT-ADMIN-SYSTEM-GROUP-MGMT": "Capabilities",
-          "TITLE-TENANT-ADMIN-FUNCTIONAL-GROUP-MGMT": "組織",
-          "TITLE-TENANT-ADMIN-PROFILE": "プロファイル",
-          "TITLE-PROFILE": "プロファイル"
+            "TITLE": "プロファイル",
+            "TITLE-TENANT-ADMIN": "アイデンティティ管理",
+            "TITLE-TENANT-ADMIN-TENANT-MGMT": "テナント",
+            "TITLE-TENANT-ADMIN-USER-MGMT": "ユーザー",
+            "TITLE-TENANT-ADMIN-SYSTEM-GROUP-MGMT": "Capabilities",
+            "TITLE-TENANT-ADMIN-FUNCTIONAL-GROUP-MGMT": "組織",
+            "TITLE-TENANT-ADMIN-PROFILE": "プロファイル",
+            "TITLE-PROFILE": "プロファイル"
         },
         "ANALYTICS": {
-          "TITLE": "分析アプリ"
+            "TITLE": "分析アプリ"
         },
-        "CUSTOM-APP" : {
-           "TITLE-TASKS": "タスク",
-           "TITLE-PROCESSES": "プロセス"
+        "CUSTOM-APP": {
+            "TITLE-TASKS": "タスク",
+            "TITLE-PROCESSES": "プロセス"
         }
     },
 
@@ -671,47 +657,47 @@
         "ADD-PERSON-PLACEHOLDER": "共有したいユーザーのメールアドレス",
         "ADD-PERSON-PLACEHOLDER-ON-PREM": "共有するユーザーの検索",
         "ACTION": {
-          "ADD": "他のユーザーを追加",
-          "ADD-GROUP": "他のグループを追加"
+            "ADD": "他のユーザーを追加",
+            "ADD-GROUP": "他のグループを追加"
         }
     },
 
     "ACCOUNT": {
-      "POPUP": {
-          "EDIT": {
-            "TITLE": "アカウントの編集",
-            "FIRSTNAME": "名",
-            "LASTNAME": "姓",
-            "FIRSTNAME-PLACEHOLDER": "名を入力",
-            "LASTNAME-PLACEHOLDER": "姓を入力",
-            "COMPANY": "会社 (オプション)",
-            "COMPANY-PLACEHOLDER": "会社を入力",
-            "CONFIRM": "プロファイルの保存"
-          },
-          "CHANGE-PASSWORD": {
-            "TITLE": "パスワードを編集",
-            "OLD-PASSWORD": "現在のパスワード",
-            "OLD-PASSWORD-PLACEHOLDER": "現在のパスワードを入力",
-            "NEW-PASSWORD": "新しいパスワード",
-            "NEW-PASSWORD-PLACEHOLDER": "新しいパスワードを入力",
-            "NEW-PASSWORD-REPEAT": "パスワードを再度入力",
-            "NEW-PASSWORD-STRENGTH": "パスワードの長さ:",
-            "CONFIRM": "パスワードを変更",
-            "UNKNOWN-ERROR": "パスワードは変更されません。更新中にエラーが発生しました。",
-            "OLD_PASSWORD-ERROR": "指定した現在のパスワードが正しくありません。",
-            "PASSWORDS-NOT-EQUAL": "パスワードが一致しません"
-          }
-      },
-      "ALERT": {
-          "UPDATED": "プロフィールが更新されました。",
-          "PASSWORD-CHANGED": "パスワードは変更されました。"
-      }
+        "POPUP": {
+            "EDIT": {
+                "TITLE": "アカウントの編集",
+                "FIRSTNAME": "名",
+                "LASTNAME": "姓",
+                "FIRSTNAME-PLACEHOLDER": "名を入力",
+                "LASTNAME-PLACEHOLDER": "姓を入力",
+                "COMPANY": "会社 (オプション)",
+                "COMPANY-PLACEHOLDER": "会社を入力",
+                "CONFIRM": "プロファイルの保存"
+            },
+            "CHANGE-PASSWORD": {
+                "TITLE": "パスワードを編集",
+                "OLD-PASSWORD": "現在のパスワード",
+                "OLD-PASSWORD-PLACEHOLDER": "現在のパスワードを入力",
+                "NEW-PASSWORD": "新しいパスワード",
+                "NEW-PASSWORD-PLACEHOLDER": "新しいパスワードを入力",
+                "NEW-PASSWORD-REPEAT": "パスワードを再度入力",
+                "NEW-PASSWORD-STRENGTH": "パスワードの長さ:",
+                "CONFIRM": "パスワードを変更",
+                "UNKNOWN-ERROR": "パスワードは変更されません。更新中にエラーが発生しました。",
+                "OLD_PASSWORD-ERROR": "指定した現在のパスワードが正しくありません。",
+                "PASSWORDS-NOT-EQUAL": "パスワードが一致しません"
+            }
+        },
+        "ALERT": {
+            "UPDATED": "プロフィールが更新されました。",
+            "PASSWORD-CHANGED": "パスワードは変更されました。"
+        }
     },
 
     "MODELER": {
         "ALERT": {
-              "VALIDATION-OK": "プロセスモデルに検証エラーはありません。",
-              "VALIDATION-ERROR": "プロセスモデルに検証エラーがあります。"
+            "VALIDATION-OK": "プロセスモデルに検証エラーはありません。",
+            "VALIDATION-ERROR": "プロセスモデルに検証エラーがあります。"
         }
     },
 
@@ -745,27 +731,27 @@
             "DISPLAY-VALUE": "読み取り専用の値",
             "DISPLAY-TEXT": "読み取り専用テキスト"
         },
-      "TABS": {
-        "GENERAL": "一般",
-        "OPTIONS": "オプション",
-        "UPLOAD-OPTIONS": "アップロードオプション",
-        "TABLE-COLUMNS": "テーブルの列",
-        "URL-OPTIONS": "URL オプション",
-        "GROUP-RESTRICTIONS": "グループ制限",
-        "VISIBILITY": "表示"
-      },
-      "VERSION": "バージョン {{version}}",
-      "LAST-UPDATED": "最終更新者: {{lastUpdatedByFullName}}、{{lastUpdated | dateformat}}",
-      "TITLE": {
-        "PREVIEW": "プレビュー",
-        "DESIGN": "デザイン",
-        "DETAILS": "詳細",
-        "OUTCOME": "結果",
-        "COMPONENTS": "フォームコンポーネント",
-        "EDIT-COMPONENT": "フォームコンポーネントを編集する"
-      },
-      "POPUP": {
-        "EDIT-TITLE": "フィールド '{{name}}' を編集",
+        "TABS": {
+            "GENERAL": "一般",
+            "OPTIONS": "オプション",
+            "UPLOAD-OPTIONS": "アップロードオプション",
+            "TABLE-COLUMNS": "テーブルの列",
+            "URL-OPTIONS": "URL オプション",
+            "GROUP-RESTRICTIONS": "グループ制限",
+            "VISIBILITY": "表示"
+        },
+        "VERSION": "バージョン {{version}}",
+        "LAST-UPDATED": "最終更新者: {{lastUpdatedByFullName}}、{{lastUpdated | dateformat}}",
+        "TITLE": {
+            "PREVIEW": "プレビュー",
+            "DESIGN": "デザイン",
+            "DETAILS": "詳細",
+            "OUTCOME": "結果",
+            "COMPONENTS": "フォームコンポーネント",
+            "EDIT-COMPONENT": "フォームコンポーネントを編集する"
+        },
+        "POPUP": {
+            "EDIT-TITLE": "フィールド '{{name}}' を編集",
             "EXPRESSION-TITLE": "式を編集"
         },
         "MESSAGE": {
@@ -780,7 +766,7 @@
             "DISPLAY-TEXT-HELP": "DISPLAY TEXT の一部として、以前に任意の形式で送信された値を表示することもできます。下のフィールドを選択してカーソルの位置に挿入します。",
             "VARIABLE-NAME": "変数名:"
         },
-        "LABEL" : {
+        "LABEL": {
             "FUNCTIONAL-GROUP": "グループを選択",
             "PERSON": "ユーザーを選択",
             "SEARCH": "検索"
@@ -807,15 +793,15 @@
             "READONLY-TEXT": "表示するテキスト",
             "ONLY-LINKS": "選択したコンテンツのみをリンクし、コピーしないでください",
             "ONLY-LINKS-HELP": "ユーザーは自分のデバイスからファイルをアップロードすることを許可されません。むしろコンテンツは、コピーする代わりにリンクされる外部のソースから選択することができます。",
-            "HEADER-ID" : "プロパティ ID",
-            "PLACEHOLDER-ID" : "プロパティ ID を入力",
-            "HEADER-NAME" : "プロパティ名",
-            "PLACEHOLDER-NAME" : "プロパティ名を入力",
+            "HEADER-ID": "プロパティ ID",
+            "PLACEHOLDER-ID": "プロパティ ID を入力",
+            "HEADER-NAME": "プロパティ名",
+            "PLACEHOLDER-NAME": "プロパティ名を入力",
             "HEADER-TYPE": "プロパティタイプ",
-            "EDITABLE" : "編集可能",
-            "SORTABLE" : "ソート可能",
-            "VISIBLE" : "表に表示する",
-            "PROPERTY-UNSELECTED" : "プロパティが選択されていません",
+            "EDITABLE": "編集可能",
+            "SORTABLE": "ソート可能",
+            "VISIBLE": "表に表示する",
+            "PROPERTY-UNSELECTED": "プロパティが選択されていません",
             "DISPLAY-TEXT": "表示テキスト",
             "AMOUNT-CURRENCY-PROPERTY": "通貨",
             "AMOUNT-ENABLE-FRACTIONS": "分数を有効にする"
@@ -842,8 +828,8 @@
             "LABEL": "グループによる制限"
         },
         "ALERT": {
-          "VALIDATION-OK": "フォームに検証エラーはありません。",
-          "VALIDATION-ERROR": "フォームに検証エラーがあります。"
+            "VALIDATION-OK": "フォームに検証エラーはありません。",
+            "VALIDATION-ERROR": "フォームに検証エラーがあります。"
         }
     },
 
@@ -988,82 +974,79 @@
     },
 
     "TOUR": {
-      "WELCOME-TITLE": "ようこそ、{{username}}",
-      "WELCOME-CONTENT": "これは Alfresco Activiti エディタの短いツアーです。次のいくつかの手順では、アプリケーションのさまざまなセクションを案内して開始します。ESC キーを押すといつでも停止できます。",
-      "PALETTE-TITLE": "パレット",
-      "PALETTE-CONTENT": "ビジネスプロセスを作成するために利用可能なすべての構成要素はここにあります。それらは論理的なグループに配置されています。グループを開くには、単にそれをクリックします。",
-      "CANVAS-TITLE": "キャンバス",
-      "CANVAS-CONTENT": "これが、ビジネスプロセスを作成するワークスペースです。左側のパレットから要素をドラッグしてキャンバスにドロップすると、モデリングが開始されます。",
-      "DRAGDROP-TITLE": "ドラッグ & ドロップの例",
-      "DRAGDROP-CONTENT": "これがモデリングの開始方法の例です:",
-      "PROPERTIES-TITLE": "プロパティ",
-      "PROPERTIES-CONTENT": "ここでは、ビジネスプロセス構成のプロパティを設定できます。キャンバス上のアイテムを選択するだけで、そのプロパティが表示されます。プロパティを編集したい場合はクリックします",
-      "TOOLBAR-TITLE": "ツールバー",
+        "WELCOME-TITLE": "ようこそ、{{username}}",
+        "WELCOME-CONTENT": "これは Alfresco Activiti エディタの短いツアーです。次のいくつかの手順では、アプリケーションのさまざまなセクションを案内して開始します。ESC キーを押すといつでも停止できます。",
+        "PALETTE-TITLE": "パレット",
+        "PALETTE-CONTENT": "ビジネスプロセスを作成するために利用可能なすべての構成要素はここにあります。それらは論理的なグループに配置されています。グループを開くには、単にそれをクリックします。",
+        "CANVAS-TITLE": "キャンバス",
+        "CANVAS-CONTENT": "これが、ビジネスプロセスを作成するワークスペースです。左側のパレットから要素をドラッグしてキャンバスにドロップすると、モデリングが開始されます。",
+        "DRAGDROP-TITLE": "ドラッグ & ドロップの例",
+        "DRAGDROP-CONTENT": "これがモデリングの開始方法の例です:",
+        "PROPERTIES-TITLE": "プロパティ",
+        "PROPERTIES-CONTENT": "ここでは、ビジネスプロセス構成のプロパティを設定できます。キャンバス上のアイテムを選択するだけで、そのプロパティが表示されます。プロパティを編集したい場合はクリックします",
+        "TOOLBAR-TITLE": "ツールバー",
         "TOOLBAR-CONTENT": "モデルの保存や検証、プロセスの一部のコピーと貼り付けなど、すべてのアクションがここにあります。アクションの説明を取得するには、ボタンの上にカーソルを置きます。",
         "END-TITLE": "おわり",
         "END-CONTENT": "おわりです！ これでプロセスのモデリングを始めることができます。ご不明な点がございましたら、<a href=\"http://forums.activiti.org/\" target=\"_blank\">Alfresco Activiti フォーラム</a>でお気軽にお問い合わせください。"
     },
-
-    "FEATURE-TOUR" : {
-        "BENDPOINT" : {
+    "FEATURE-TOUR": {
+        "BENDPOINT": {
             "TITLE": "ベンドポイントチュートリアル",
-            "DESCRIPTION" : "シーケンスフロー (プロセスステップ間の矢印) を使用してプロセスステップを相互に接続している場合、これらのシーケンスフローが互いに交差していることや、それらを異なるように配置したいことがあります。これを行うには、シーケンスフローにベンドポイントを追加したり、シーケンスフローからベンドポイントを削除したりできます。<br/><br/>下図のように、まず「ベンドポイントの追加」をクリックしてからシーケンスフローをクリックします。それを追加してください。シーケンスフローでは、ベンドポイントを追加できることを示す微妙な表示が緑色で表示されます。<br/><br/>ベンドポイントを再度削除すると、同様のパターンが表示されます。「ベンドポイントの削除」ボタンをクリックして、再びそれを削除するには、ポイントを曲げます。"
+            "DESCRIPTION": "シーケンスフロー (プロセスステップ間の矢印) を使用してプロセスステップを相互に接続している場合、これらのシーケンスフローが互いに交差していることや、それらを異なるように配置したいことがあります。これを行うには、シーケンスフローにベンドポイントを追加したり、シーケンスフローからベンドポイントを削除したりできます。<br/><br/>下図のように、まず「ベンドポイントの追加」をクリックしてからシーケンスフローをクリックします。それを追加してください。シーケンスフローでは、ベンドポイントを追加できることを示す微妙な表示が緑色で表示されます。<br/><br/>ベンドポイントを再度削除すると、同様のパターンが表示されます。「ベンドポイントの削除」ボタンをクリックして、再びそれを削除するには、ポイントを曲げます。"
         }
     },
-
-  "INVOLVE-PEOPLE": {
-      "NO-MATCHING-RESULTS": "ユーザーを検索するには上の検索ボックスを使用してください。",
-      "SEARCH-PLACEHOLDER": "ユーザーを検索",
-      "USE-EMAIL": "メールアドレスを使用している人を選択してください",
-      "EMAIL-PLACEHOLDER": "メールアドレスを入力",
-      "EMAIL-HELP": "Enter キーを押すかボタンをクリックして続行します。この人は E メールで通知を受け取るか、登録するよう招待されます",
-      "BACK-TO-SEARCH": "検索に戻る",
-      "ACTION-SELECT": "選択",
-      "SOURCE": {
-          "TYPE": "ソース",
-          "SEARCH-OPTION": "ユーザー検索",
-          "FIELD-OPTION": "フォームフィールド"
-      }
-  },
-
+    "INVOLVE-PEOPLE": {
+        "NO-MATCHING-RESULTS": "ユーザーを検索するには上の検索ボックスを使用してください。",
+        "SEARCH-PLACEHOLDER": "ユーザーを検索",
+        "USE-EMAIL": "メールアドレスを使用している人を選択してください",
+        "EMAIL-PLACEHOLDER": "メールアドレスを入力",
+        "EMAIL-HELP": "Enter キーを押すかボタンをクリックして続行します。この人は E メールで通知を受け取るか、登録するよう招待されます",
+        "BACK-TO-SEARCH": "検索に戻る",
+        "ACTION-SELECT": "選択",
+        "SOURCE": {
+            "TYPE": "ソース",
+            "SEARCH-OPTION": "ユーザー検索",
+            "FIELD-OPTION": "フォームフィールド"
+        }
+    },
     "BPMN-EDITOR": {
         "GROUP": {
-          "ACTIVITIES": "アクティビティ",
-          "ALFRESCO": "Alfresco",
-          "ARTIFACTS": "成果物",
-          "BOUNDARY-EVENTS": "境界イベント",
-          "CONNECTING-OBJECTS": "接続オブジェクト",
-          "END-EVENTS": "終了イベント",
-          "GATEWAYS": "ゲートウェイ",
-          "INTERMEDIATE-CATCH-EVENTS": "中間キャッチイベント",
-          "INTERMEDIATE-THROW-EVENTS": "中間スローイベント",
-          "START-EVENTS": "開始イベント",
-          "STRUCTURAL": "構造",
-          "SWIMLANES": "スイムレーン"
+            "ACTIVITIES": "アクティビティ",
+            "ALFRESCO": "Alfresco",
+            "ARTIFACTS": "成果物",
+            "BOUNDARY-EVENTS": "境界イベント",
+            "CONNECTING-OBJECTS": "接続オブジェクト",
+            "END-EVENTS": "終了イベント",
+            "GATEWAYS": "ゲートウェイ",
+            "INTERMEDIATE-CATCH-EVENTS": "中間キャッチイベント",
+            "INTERMEDIATE-THROW-EVENTS": "中間スローイベント",
+            "START-EVENTS": "開始イベント",
+            "STRUCTURAL": "構造",
+            "SWIMLANES": "スイムレーン"
         },
         "ITEM": {
-          "ASSOCIATION": {
-            "TITLE": "アソシエーション",
-            "DESCRIPTION": "テキスト注釈を要素に関連付けます"
-          },
-          "BOUNDARY-CANCEL-EVENT": {
-            "TITLE": "境界のキャンセルイベント",
-            "DESCRIPTION": "境界のキャンセルイベント"
-          },
-          "BOUNDARY-COMPENSATION-EVENT": {
-            "TITLE": "境界の補佐イベント",
-            "DESCRIPTION": "境界の補佐イベント"
-          },
-          "BOUNDARY-ERROR-EVENT": {
-            "TITLE": "境界エラーイベント",
-            "DESCRIPTION": "BPMN エラーを受け取る境界イベント"
-          },
-          "BOUNDARY-MESSAGE-EVENT": {
-            "TITLE": "境界メッセージイベント",
-            "DESCRIPTION": "メッセージトリガを伴う境界イベント"
-          },
-          "BOUNDARY-SIGNAL-EVENT": {
-            "TITLE": "境界シグナルイベント",
+            "ASSOCIATION": {
+                "TITLE": "アソシエーション",
+                "DESCRIPTION": "テキスト注釈を要素に関連付けます"
+            },
+            "BOUNDARY-CANCEL-EVENT": {
+                "TITLE": "境界のキャンセルイベント",
+                "DESCRIPTION": "境界のキャンセルイベント"
+            },
+            "BOUNDARY-COMPENSATION-EVENT": {
+                "TITLE": "境界の補佐イベント",
+                "DESCRIPTION": "境界の補佐イベント"
+            },
+            "BOUNDARY-ERROR-EVENT": {
+                "TITLE": "境界エラーイベント",
+                "DESCRIPTION": "BPMN エラーを受け取る境界イベント"
+            },
+            "BOUNDARY-MESSAGE-EVENT": {
+                "TITLE": "境界メッセージイベント",
+                "DESCRIPTION": "メッセージトリガを伴う境界イベント"
+            },
+            "BOUNDARY-SIGNAL-EVENT": {
+                "TITLE": "境界シグナルイベント",
                 "DESCRIPTION": "シグナルトリガーを伴う境界イベント"
             },
             "BOUNDARY-TIMER-EVENT": {
@@ -1084,42 +1067,42 @@
             },
             "COLLAPSED-SUBPROCESS": {
                 "TITLE": "折りたたみサブプロセス",
-              "DESCRIPTION": "再利用可能なサブプロセス定義への参照を提供します"
+                "DESCRIPTION": "再利用可能なサブプロセス定義への参照を提供します"
             },
-          "DATA-ASSOCIATION": {
-            "TITLE": "データの関連付け",
-            "DESCRIPTION": "データ要素をアクティビティに関連付けます"
-          },
-          "DATASTORE": {
-            "TITLE": "データストア",
-            "DESCRIPTION": "データストアへの参照"
-          },
-          "END-CANCEL-EVENT": {
-            "TITLE": "キャンセルによる終了イベント",
-            "DESCRIPTION": "キャンセルによる終了イベント"
-          },
-          "END-ERROR-EVENT": {
-            "TITLE": "エラー終了イベント",
-            "DESCRIPTION": "エラーイベントをスローする終了イベント"
-          },
-          "END-NONE-EVENT": {
-            "TITLE": "終了イベント",
-            "DESCRIPTION": "特定のトリガーのない終了イベント"
-          },
-          "END-TERMINATE-EVENT": {
-            "TITLE": "終了操作による終了イベント",
-            "DESCRIPTION": "終了操作による終了イベント"
-          },
-          "EVENT-GATEWAY": {
-            "TITLE": "イベントゲートウェイ",
-            "DESCRIPTION": "イベントゲートウェイ"
-          },
-          "EVENT-SUBPROCESS": {
-            "TITLE": "イベントサブプロセス",
-            "DESCRIPTION": "イベントサブプロセススコープ"
-          },
-          "EXCLUSIVE-GATEWAY": {
-            "TITLE": "排他ゲートウェイ",
+            "DATA-ASSOCIATION": {
+                "TITLE": "データの関連付け",
+                "DESCRIPTION": "データ要素をアクティビティに関連付けます"
+            },
+            "DATASTORE": {
+                "TITLE": "データストア",
+                "DESCRIPTION": "データストアへの参照"
+            },
+            "END-CANCEL-EVENT": {
+                "TITLE": "キャンセルによる終了イベント",
+                "DESCRIPTION": "キャンセルによる終了イベント"
+            },
+            "END-ERROR-EVENT": {
+                "TITLE": "エラー終了イベント",
+                "DESCRIPTION": "エラーイベントをスローする終了イベント"
+            },
+            "END-NONE-EVENT": {
+                "TITLE": "終了イベント",
+                "DESCRIPTION": "特定のトリガーのない終了イベント"
+            },
+            "END-TERMINATE-EVENT": {
+                "TITLE": "終了操作による終了イベント",
+                "DESCRIPTION": "終了操作による終了イベント"
+            },
+            "EVENT-GATEWAY": {
+                "TITLE": "イベントゲートウェイ",
+                "DESCRIPTION": "イベントゲートウェイ"
+            },
+            "EVENT-SUBPROCESS": {
+                "TITLE": "イベントサブプロセス",
+                "DESCRIPTION": "イベントサブプロセススコープ"
+            },
+            "EXCLUSIVE-GATEWAY": {
+                "TITLE": "排他ゲートウェイ",
                 "DESCRIPTION": "選択ゲートウェイ"
             },
             "INCLUSIVE-GATEWAY": {
@@ -1164,7 +1147,7 @@
             },
             "MULETASK": {
                 "TITLE": "Mule タスク",
-              "DESCRIPTION": "Mule にメッセージを送信するタスク"
+                "DESCRIPTION": "Mule にメッセージを送信するタスク"
             },
             "PARALLEL-GATEWAY": {
                 "TITLE": "パラレルゲートウェイ",
@@ -1204,32 +1187,32 @@
             },
             "START-NONE-EVENT": {
                 "TITLE": "開始イベント",
-              "DESCRIPTION": "特定のトリガーが付いていない開始イベント"
+                "DESCRIPTION": "特定のトリガーが付いていない開始イベント"
             },
             "START-SIGNAL-EVENT": {
-              "TITLE": "信号開始イベント",
-              "DESCRIPTION": "信号トリガー付きの開始イベント"
+                "TITLE": "信号開始イベント",
+                "DESCRIPTION": "信号トリガー付きの開始イベント"
             },
             "START-TIMER-EVENT": {
                 "TITLE": "タイマー開始イベント",
                 "DESCRIPTION": "タイマートリガー付きの開始イベント"
             },
             "SUBPROCESS": {
-              "TITLE": "サブプロセス",
-              "DESCRIPTION": "サブプロセススコープ"
+                "TITLE": "サブプロセス",
+                "DESCRIPTION": "サブプロセススコープ"
             },
-          "TEXTANNOTATION": {
-            "TITLE": "テキスト注釈",
-            "DESCRIPTION": "説明テキストで要素に注釈を付ける"
-          },
-          "USERTASK": {
-            "TITLE": "ユーザータスク",
-            "DESCRIPTION": "特定の人に割り当てられたマニュアルタスク"
-          },
-          "DECISIONTASK": {
-            "TITLE": "意思決定タスク",
-            "DESCRIPTION": "意思決定表を実行するタスク"
-          }
+            "TEXTANNOTATION": {
+                "TITLE": "テキスト注釈",
+                "DESCRIPTION": "説明テキストで要素に注釈を付ける"
+            },
+            "USERTASK": {
+                "TITLE": "ユーザータスク",
+                "DESCRIPTION": "特定の人に割り当てられたマニュアルタスク"
+            },
+            "DECISIONTASK": {
+                "TITLE": "意思決定タスク",
+                "DESCRIPTION": "意思決定表を実行するタスク"
+            }
         },
         "PROPERTY": {
             "ASYNC": {
@@ -1460,7 +1443,7 @@
                 "TITLE": "シグナルの定義",
                 "DESCRIPTION": "シグナルキャッチで使用されるシグナルの定義とその過程でのイベントの発生。"
             },
-           "MESSAGE-DEFINITIONS": {
+            "MESSAGE-DEFINITIONS": {
                 "TITLE": "メッセージ定義",
                 "DESCRIPTION": "メッセージキャッチで使用されるメッセージの定義およびプロセス内のイベントのスロー。"
             },
@@ -1501,292 +1484,292 @@
                 "DESCRIPTION": "ユーザータスクの期日。"
             },
             "USERTASK-PRIORITY": {
-              "TITLE": "優先度",
-              "DESCRIPTION": "ユーザタスクの優先度"
+                "TITLE": "優先度",
+                "DESCRIPTION": "ユーザタスクの優先度"
             },
-          "USERTASK-SEND-EMAIL": {
-            "TITLE": "メール通知を許可する",
-            "DESCRIPTION": "タスクが割り当てられたときにシステムが担当者に通知できるようにします。"
-          }
+            "USERTASK-SEND-EMAIL": {
+                "TITLE": "メール通知を許可する",
+                "DESCRIPTION": "タスクが割り当てられたときにシステムが担当者に通知できるようにします。"
+            }
         }
     },
-  "HEADER.BRAND": "Activiti エディター",
-  "HEADER.BRAND_TAGLINE": "powered by Alfresco",
-  "PAGE.HEADER": "オーケストレーションの詳細",
-  "ACTION.OK": "OK",
-  "ACTION.SAVE": "保存",
-  "ACTION.SAVE-AND-CLOSE": "保存してエディタを閉じる",
-  "ACTION.SEND": "送信",
-  "ACTION.CANCEL": "キャンセル",
-  "ACTION.SELECT": "選択",
-  "ACTION.ADD": "追加",
-  "ACTION.REMOVE": "削除",
-  "ACTION.MOVE.UP": "上に移動",
-  "ACTION.MOVE.DOWN": "下に移動",
-  "MAIN_NAVIGATION_ORCHESTRATIONS": "オーケストレーション",
-  "MAIN_NAVIGATION_DISPATCH_RULES": "ディスパッチルール",
-  "MAIN_NAVIGATION_ASSET_GROUPS": "アサートグループ",
-  "MAIN_NAVIGATION_SOLUTIONS": "解決方法",
-  "TOOLBAR.ACTION.CLOSE": "エディタを閉じて概要ぺージに戻る",
-  "TOOLBAR.ACTION.SAVE": "モデルの保存",
-  "TOOLBAR.ACTION.VALIDATE": "モデルの検証",
-  "TOOLBAR.ACTION.CUT": "切り取り (ビジネスプロセスの要素を選択してください)",
-  "TOOLBAR.ACTION.COPY": "コピー (ビジネスプロセスの要素を選択してください)",
-  "TOOLBAR.ACTION.PASTE": "貼り付け",
-  "TOOLBAR.ACTION.DELETE": "選択したエレメントを削除",
-  "TOOLBAR.ACTION.UNDO": "元に戻す",
-  "TOOLBAR.ACTION.REDO": "やり直し",
-  "TOOLBAR.ACTION.ZOOMIN": "ズームイン",
-  "TOOLBAR.ACTION.ZOOMOUT": "ズームアウト",
-  "TOOLBAR.ACTION.ZOOMACTUAL": "実寸で表示",
-  "TOOLBAR.ACTION.ZOOMFIT": "ウィンドウのサイズに合わせて表示",
-  "TOOLBAR.ACTION.MOVE": "移動",
-  "TOOLBAR.ACTION.IMPORT": "インポート",
-  "TOOLBAR.ACTION.EXPORT": "エクスポート",
-  "TOOLBAR.ACTION.BENDPOINT.ADD": "選択したシーケンスフローにベンドポイントを追加",
-  "TOOLBAR.ACTION.BENDPOINT.REMOVE": "選択したシーケンスフローからベンドポイントを削除",
-  "TOOLBAR.ACTION.ALIGNHORIZONTAL": "モデルを水平方向に揃える",
-  "TOOLBAR.ACTION.ALIGNVERTICAL": "モデルを垂直方向に揃える",
-  "TOOLBAR.ACTION.SAMESIZE": "同じサイズ",
-  "TOOLBAR.ACTION.HELP": "ガイドツアーの開始",
-  "TOOLBAR.ACTION.FEEDBACK": "フィードバックの提供",
-  "KICKSTART.PROCESS_TOOLBAR.ACTION.SAVE": "モデルの保存",
-  "KICKSTART.PROCESS_TOOLBAR.ACTION.VALIDATE": "モデルの検証",
-  "KICKSTART.PROCESS_TOOLBAR.ACTION.HELP": "ガイドツアーの開始",
-  "KICKSTART.PROCESS_TOOLBAR.ACTION.FEEDBACK": "フィードバックの提供",
-  "FORM_TOOLBAR.ACTION.SAVE": "モデルの保存",
-  "FORM_TOOLBAR.ACTION.VALIDATE": "モデルの検証",
-  "FORM_TOOLBAR.ACTION.HELP": "ガイドツアーの開始",
-  "FORM_TOOLBAR.ACTION.FEEDBACK": "フィードバックの提供",
-  "DECISION_TABLE_TOOLBAR.ACTION.SAVE": "意思決定表の保存",
-  "DECISION_TABLE_TOOLBAR.ACTION.CLOSE": "閉じる",
-  "APP_DEFINITION_TOOLBAR.ACTION.SAVE": "アプリ定義の保存",
-  "APP_DEFINITION_TOOLBAR.ACTION.VALIDATE": "アプリ定義の検証",
-  "APP_DEFINITION_TOOLBAR.ACTION.HELP": "ガイドツアーの開始",
-  "APP_DEFINITION_TOOLBAR.ACTION.FEEDBACK": "フィードバックの提供",
-  "BUTTON.ACTION.DELETE.TOOLTIP": "モデルから要素を削除します",
-  "BUTTON.ACTION.MORPH.TOOLTIP": "要素の種類を変更します",
-  "ELEMENT.AUTHOR": "著者",
-  "ELEMENT.DATE_CREATED": "作成日",
-  "ELEMENT.SELECTED_EMPTY_TITLE": "(名前なし)",
-  "PROPERTY.REMOVED": "削除済み",
-  "PROPERTY.EMPTY": "値なし",
-  "PROPERTY.PROPERTY.EDIT.TITLE": "値の変更 ",
-  "PROPERTY.FEEDBACK.TITLE": "フィードバックの入力",
-  "PROPERTY.ASSIGNMENT.TITLE": "割り当て",
-  "PROPERTY.ASSIGNMENT.TYPE": "種類",
-  "PROPERTY.ASSIGNMENT.TYPE.IDENTITYSTORE": "ID ストア",
-  "PROPERTY.ASSIGNMENT.TYPE.STATIC": "固定値",
-  "PROPERTY.ASSIGNMENT.ASSIGNEE": "担当者",
-  "PROPERTY.ASSIGNMENT.NO_ASSIGNEE": "担当者が選択されていません",
-  "PROPERTY.ASSIGNMENT.MATCHING": "&uparrow; と &downarrow; を使って選択し、Enter キーを押して選択を確定するか、マウスを使ってください",
-  "PROPERTY.ASSIGNMENT.ASSIGNEE_PLACEHOLDER": "担当者を入力してください",
-  "PROPERTY.ASSIGNMENT.EMPTY": "割り当てが選択されていません",
-  "PROPERTY.ASSIGNMENT.ASSIGNEE_DISPLAY": "担当者: {{assignee}}",
-  "PROPERTY.ASSIGNMENT.CANDIDATE_USERS_DISPLAY": "{{length}} 人の候補ユーザー",
-  "PROPERTY.ASSIGNMENT.CANDIDATE_USERS": "候補ユーザー",
-  "PROPERTY.ASSIGNMENT.CANDIDATE_GROUPS_DISPLAY": "{{length}} 個の候補グループ",
-  "PROPERTY.ASSIGNMENT.CANDIDATE_GROUPS": "候補グループ",
-  "PROPERTY.ASSIGNMENT.IDM.NO_ASSIGNEE": "担当者が選択されていません",
-  "PROPERTY.ASSIGNMENT.USER_IDM_DISPLAY": "ユーザー: {{lastName}} {{firstName}}",
-  "PROPERTY.ASSIGNMENT.USER_IDM_EMAIL_DISPLAY": "ユーザー: {{email}}",
-  "PROPERTY.ASSIGNMENT.USER_IDM_FIELD_DISPLAY": "フィールド: {{name}}",
-  "PROPERTY.ASSIGNMENT.IDM_EMPTY": "プロセス開始者",
-  "PROPERTY.ASSIGNMENT.IDM.TYPE": "割り当て",
-  "PROPERTY.ASSIGNMENT.IDM.NO_CANDIDATE_USERS": "候補ユーザーが選択されていません",
-  "PROPERTY.ASSIGNMENT.IDM.NO_CANDIDATE_GROUPS": "候補グループが選択されていません",
-  "PROPERTY.ASSIGNMENT.IDM.DROPDOWN.INITIATOR": "プロセス開始者に割り当て済み",
-  "PROPERTY.ASSIGNMENT.IDM.DROPDOWN.USER": "1 人のユーザーに割り当て済み",
-  "PROPERTY.ASSIGNMENT.IDM.DROPDOWN.USERS": "候補ユーザー",
-  "PROPERTY.ASSIGNMENT.IDM.DROPDOWN.GROUPS": "候補グループ",
-  "PROPERTY.ASSIGNMENT.EMAIL.HELP": "E メールアドレスを入力して、Enter キーを押してください",
-  "PROPERTY.ASSIGNMENT.INITIATOR-CAN-COMPLETE": "プロセス開始者にタスクの完了を許可",
-  "PROPERTY.ASSIGNMENT.IDM.NO_CANDIDATE": "割り当て候補が選択されていません",
-  "PROPERTY.EXECUTIONLISTENERS.DISPLAY": "{{length}} 個の実行リスナー",
-  "PROPERTY.EXECUTIONLISTENERS.EMPTY": "実行リスナーが設定されていません",
-  "PROPERTY.EXECUTIONLISTENERS.EVENT": "イベント",
-  "PROPERTY.EXECUTIONLISTENERS.CLASS": "クラス",
-  "PROPERTY.EXECUTIONLISTENERS.CLASS.PLACEHOLDER": "クラス名を入力してください",
-  "PROPERTY.EXECUTIONLISTENERS.EXPRESSION": "式",
-  "PROPERTY.EXECUTIONLISTENERS.EXPRESSION.PLACEHOLDER": "式を入力してください",
-  "PROPERTY.EXECUTIONLISTENERS.DELEGATEEXPRESSION": "デリゲート式",
-  "PROPERTY.EXECUTIONLISTENERS.DELEGATEEXPRESSION.PLACEHOLDER": "デリゲート式を入力してください",
-  "PROPERTY.EXECUTIONLISTENERS.UNSELECTED": "実行リスナーが選択されていません",
-  "PROPERTY.EXECUTIONLISTENERS.FIELDS.NAME": "名前",
-  "PROPERTY.EXECUTIONLISTENERS.FIELDS.NAME.PLACEHOLDER": "名前を入力してください",
-  "PROPERTY.EXECUTIONLISTENERS.FIELDS.EXPRESSION": "式",
-  "PROPERTY.EXECUTIONLISTENERS.FIELDS.EXPRESSION.PLACEHOLDER": "式を入力してください",
-  "PROPERTY.EXECUTIONLISTENERS.FIELDS.STRINGVALUE": "文字列値",
-  "PROPERTY.EXECUTIONLISTENERS.FIELDS.STRINGVALUE.PLACEHOLDER": "文字列値を入力してください",
-  "PROPERTY.EXECUTIONLISTENERS.FIELDS.STRING": "文字列",
-  "PROPERTY.EXECUTIONLISTENERS.FIELDS.STRING.PLACEHOLDER": "文字列を入力してください",
-  "PROPERTY.EXECUTIONLISTENERS.FIELDS.IMPLEMENTATION": "実行",
-  "PROPERTY.EXECUTIONLISTENERS.FIELDS.EMPTY": "フィールドが選択されていません",
-  "PROPERTY.FIELDS": "{{length}} 個のフィールド",
-  "PROPERTY.FIELDS.EMPTY": "フィールドが選択されていません",
-  "PROPERTY.FIELDS.NAME": "名前",
-  "PROPERTY.FIELDS.NAME.PLACEHOLDER": "名前を入力してください",
-  "PROPERTY.FIELDS.EXPRESSION": "式",
-  "PROPERTY.FIELDS.EXPRESSION.PLACEHOLDER": "式を入力してください",
-  "PROPERTY.FIELDS.STRINGVALUE": "文字列値",
-  "PROPERTY.FIELDS.STRINGVALUE.PLACEHOLDER": "文字列値を入力してください",
-  "PROPERTY.FIELDS.STRING": "文字列",
-  "PROPERTY.FIELDS.STRING.PLACEHOLDER": "文字列を入力してください",
-  "PROPERTY.FIELDS.IMPLEMENTATION": "実行",
-  "PROPERTY.FIELDS.UNSELECTED": "フィールドが選択されていません",
-  "PROPERTY.FORMPROPERTIES.VALUE": "{{length}} 個のフォームプロパティ",
-  "PROPERTY.FORMPROPERTIES.EMPTY": "フォームのプロパティが設定されていません",
-  "PROPERTY.FORMPROPERTIES.ID": "ID",
-  "PROPERTY.FORMPROPERTIES.ID.PLACEHOLDER": "ID を入力してください",
-  "PROPERTY.FORMPROPERTIES.NAME": "名前",
-  "PROPERTY.FORMPROPERTIES.NAME.PLACEHOLDER": "名前を入力してください",
-  "PROPERTY.FORMPROPERTIES.TYPE": "種類",
-  "PROPERTY.FORMPROPERTIES.DATEPATTERN": "日付けパターン",
-  "PROPERTY.FORMPROPERTIES.DATEPATTERN.PLACEHOLDER": "日付けパターンを入力してください",
-  "PROPERTY.FORMPROPERTIES.VALUES": "値",
-  "PROPERTY.FORMPROPERTIES.ENUMVALUES.EMPTY": "enum 値が選択されていません",
-  "PROPERTY.FORMPROPERTIES.VALUES.ID": "Id",
-  "PROPERTY.FORMPROPERTIES.VALUES.NAME": "名前",
-  "PROPERTY.FORMPROPERTIES.VALUES.ID.PLACEHOLDER": "値の ID を入力",
-  "PROPERTY.FORMPROPERTIES.VALUES.NAME.PLACEHOLDER": "値の名前を入力",
-  "PROPERTY.FORMPROPERTIES.EXPRESSION": "式",
-  "PROPERTY.FORMPROPERTIES.EXPRESSION.PLACEHOLDER": "式を入力してください",
-  "PROPERTY.FORMPROPERTIES.VARIABLE": "変数",
-  "PROPERTY.FORMPROPERTIES.VARIABLE.PLACEHOLDER": "変数を入力してください",
-  "PROPERTY.FORMPROPERTIES.REQUIRED": "必須",
-  "PROPERTY.FORMPROPERTIES.READABLE": "読み取り可能",
-  "PROPERTY.FORMPROPERTIES.WRITABLE": "書き込み可能",
-  "PROPERTY.INPARAMETERS.VALUE": "{{length}} 個の入力パラメータ",
-  "PROPERTY.INPARAMETERS.EMPTY": "入力パラメータが設定されていません",
-  "PROPERTY.OUTPARAMETERS.VALUE": "{{length}} 個の出力パラメータ",
-  "PROPERTY.OUTPARAMETERS.EMPTY": "出力パラメータが設定されていません",
-  "PROPERTY.PARAMETER.SOURCE": "ソース",
-  "PROPERTY.PARAMETER.SOURCE.PLACEHOLDER": "ソースを入力してください",
-  "PROPERTY.PARAMETER.SOURCEEXPRESSION": "ソースの式",
-  "PROPERTY.PARAMETER.SOURCEEXPRESSION.PLACEHOLDER": "ソースの式を入力してください",
-  "PROPERTY.PARAMETER.TARGET": "ターゲット",
-  "PROPERTY.PARAMETER.TARGET.PLACEHOLDER": "ターゲットを入力してください",
-  "PROPERTY.PARAMETER.EMPTY": "パラメータが選択されていません",
-  "PROPERTY.SUBPROCESSREFERENCE.EMPTY": "参照が選択されていません",
-  "PROPERTY.SUBPROCESSREFERENCE.TITLE": "折りたたまれたサブプロセスへの参照",
-  "PROPERTY.SUBPROCESSREFERENCE.ERROR.SUBPROCESS": "サブプロセスの読み込み中にエラーが発生しました。後で操作をやり直してください。",
-  "PROPERTY.SUBPROCESSREFERENCE.FOLDER.ROOT": "フォルダ",
-  "PROPERTY.SUBPROCESSREFERENCE.FOLDER.LOADING": "フォルダを読み込んでいます",
-  "PROPERTY.SUBPROCESSREFERENCE.FOLDER.EMPTY": "このフォルダにはサブフォルダはありません",
-  "PROPERTY.SUBPROCESSREFERENCE.SUBPROCESS.LOADING": "サブプロセスを読み込んでいます",
-  "PROPERTY.SUBPROCESSREFERENCE.SUBPROCESS.EMPTY": "このフォルダにはサブプロセスはありません",
-  "PROPERTY.FORMREFERENCE.EMPTY": "参照が選択されていません",
-  "PROPERTY.FORMREFERENCE.TITLE": "フォームの参照",
-  "PROPERTY.FORMREFERENCE.ERROR.FORM": "フォームの読み込み中にエラーが発生しました。後で操作をやり直してください。",
-  "PROPERTY.FORMREFERENCE.FOLDER.ROOT": "フォルダ",
-  "PROPERTY.FORMREFERENCE.FOLDER.LOADING": "フォルダを読み込んでいます",
-  "PROPERTY.FORMREFERENCE.FOLDER.EMPTY": "このフォルダにはサブフォルダはありません",
-  "PROPERTY.FORMREFERENCE.FORM.LOADING": "フォームを読み込んでいます",
-  "PROPERTY.FORMREFERENCE.FORM.EMPTY": "このフォルダにはフォームはありません",
-  "PROPERTY.TASKLISTENERS.VALUE": "{{length}} 個のタスクリスナー",
-  "PROPERTY.TASKLISTENERS.EMPTY": "タスクリスナーが設定されていません",
-  "PROPERTY.TASKLISTENERS.EVENT": "イベント",
-  "PROPERTY.TASKLISTENERS.CLASS": "クラス",
-  "PROPERTY.TASKLISTENERS.CLASS.PLACEHOLDER": "クラス名を入力してください",
-  "PROPERTY.TASKLISTENERS.EXPRESSION": "式",
-  "PROPERTY.TASKLISTENERS.EXPRESSION.PLACEHOLDER": "式を入力してください",
-  "PROPERTY.TASKLISTENERS.DELEGATEEXPRESSION": "デリゲート式",
-  "PROPERTY.TASKLISTENERS.DELEGATEEXPRESSION.PLACEHOLDER": "デリゲート式を入力してください",
-  "PROPERTY.TASKLISTENERS.UNSELECTED": "タスクリスナーが選択されていません",
-  "PROPERTY.TASKLISTENERS.FIELDS.NAME": "名前",
-  "PROPERTY.TASKLISTENERS.FIELDS.NAME.PLACEHOLDER": "名前を入力してください",
-  "PROPERTY.TASKLISTENERS.FIELDS.EXPRESSION": "式",
-  "PROPERTY.TASKLISTENERS.FIELDS.EXPRESSION.PLACEHOLDER": "式を入力してください",
-  "PROPERTY.TASKLISTENERS.FIELDS.STRINGVALUE": "文字列値",
-  "PROPERTY.TASKLISTENERS.FIELDS.STRINGVALUE.PLACEHOLDER": "文字列値を入力してください",
-  "PROPERTY.TASKLISTENERS.FIELDS.STRING": "文字列",
-  "PROPERTY.TASKLISTENERS.FIELDS.STRING.PLACEHOLDER": "文字列を入力してください",
-  "PROPERTY.TASKLISTENERS.FIELDS.IMPLEMENTATION": "実行",
-  "PROPERTY.TASKLISTENERS.FIELDS.EMPTY": "フィールドが選択されていません",
-  "PROPERTY.EVENTLISTENERS.DISPLAY": "{{length}} 個のイベントリスナー",
-  "PROPERTY.EVENTLISTENERS.EMPTY": "イベントリスナーが設定されていません",
-  "PROPERTY.EVENTLISTENERS.EVENTS": "イベント",
-  "PROPERTY.EVENTLISTENERS.RETHROW": "イベントを再スローしますか?",
-  "PROPERTY.EVENTLISTENERS.CLASS": "クラス",
-  "PROPERTY.EVENTLISTENERS.CLASS.PLACEHOLDER": "クラス名を入力してください",
-  "PROPERTY.EVENTLISTENERS.DELEGATEEXPRESSION": "デリゲート式",
-  "PROPERTY.EVENTLISTENERS.DELEGATEEXPRESSION.PLACEHOLDER": "デリゲート式を入力してください",
-  "PROPERTY.EVENTLISTENERS.ENTITYTYPE": "エンティティの種類",
-  "PROPERTY.EVENTLISTENERS.ENTITYTYPE.PLACEHOLDER": "エンティティの種類を入力してください",
-  "PROPERTY.EVENTLISTENERS.RETHROWTYPE": "イベントの種類の再スロー",
-  "PROPERTY.EVENTLISTENERS.ERRORCODE": "エラーコード",
-  "PROPERTY.EVENTLISTENERS.ERRORCODE.PLACEHOLDER": "エラーコードを入力してください",
-  "PROPERTY.EVENTLISTENERS.MESSAGENAME": "メッセージ名",
-  "PROPERTY.EVENTLISTENERS.MESSAGENAME.PLACEHOLDER": "メッセージ名を入力してください",
-  "PROPERTY.EVENTLISTENERS.SIGNALNAME": "信号名",
-  "PROPERTY.EVENTLISTENERS.SIGNALNAME.PLACEHOLDER": "信号名を入力してください",
-  "PROPERTY.EVENTLISTENERS.UNSELECTED": "イベントリスナーが選択されていません",
-  "PROPERTY.SIGNALDEFINITIONS.DISPLAY": "{{length}} 個の信号定義",
-  "PROPERTY.SIGNALDEFINITIONS.EMPTY": "信号定義が設定されていません",
-  "PROPERTY.SIGNALDEFINITIONS.SCOPE-GLOBAL": "グローバル",
-  "PROPERTY.SIGNALDEFINITIONS.SCOPE-PROCESSINSTANCE": "プロセスインスタンス",
-  "PROPERTY.SIGNALDEFINITIONS.ID": "ID",
-  "PROPERTY.SIGNALDEFINITIONS.NAME": "名前",
-  "PROPERTY.SIGNALDEFINITIONS.SCOPE": "範囲",
-  "PROPERTY.MESSAGEDEFINITIONS.DISPLAY": "{{length}} 個のメッセージ定義",
-  "PROPERTY.MESSAGEDEFINITIONS.EMPTY": "メッセージ定義が設定されていません",
-  "PROPERTY.MESSAGEDEFINITIONS.ID": "ID",
-  "PROPERTY.MESSAGEDEFINITIONS.NAME": "名前",
-  "PROPERTY.SEQUENCEFLOW.ORDER.EMPTY": "シーケンスフローの順番が設定されていません",
-  "PROPERTY.SEQUENCEFLOW.ORDER.NOT.EMPTY": "シーケンスフローの順番は設定済みです",
-  "PROPERTY.SEQUENCEFLOW.ORDER.NO.OUTGOING.SEQUENCEFLOW.FOUND": "出力シーケンスフローが見つかりません。",
-  "PROPERTY.SEQUENCEFLOW.ORDER.DESCRIPTION": "シーケンスフローの評価順を設定します",
-  "PROPERTY.SEQUENCEFLOW.ORDER.SEQUENCEFLOW.VALUE": "{{targetType}} {{targetTitle}} へのシーケンスフロー",
-  "PROPERTY.SEQUENCEFLOW.CONDITION.TITLE": "シーケンスフローの条件",
-  "PROPERTY.SEQUENCEFLOW.CONDITION.TYPE.TITLE": "条件の種類",
-  "PROPERTY.SEQUENCEFLOW.CONDITION.TYPE.VARIABLE": "変数を選択",
-  "PROPERTY.SEQUENCEFLOW.CONDITION.TYPE.STATIC": "固定値",
-  "PROPERTY.SEQUENCEFLOW.CONDITION.STATIC": "条件式",
-  "PROPERTY.SEQUENCEFLOW.CONDITION.STATIC_PLACEHOLDER": "入力式の値",
-  "PROPERTY.SEQUENCEFLOW.CONDITION.NO-CONDITION-DISPLAY": "条件なし",
-  "PROPERTY.DUEDATE.EMPTY": "期限がありません",
-  "PROPERTY.DUEDATE.DEFINED": "期限は定義されています",
-  "PROPERTY.DUEDATE.TITLE": "期限",
-  "PROPERTY.DUEDATE.EXPRESSION-LABEL": "期限の式",
-  "PROPERTY.DUEDATE.TASK-DUE-DATE-OPTIONS.NO-DUEDATE": "期限がありません",
-  "PROPERTY.DUEDATE.TASK-DUE-DATE-OPTIONS.EXPRESSION": "式の定義",
-  "PROPERTY.DUEDATE.TASK-DUE-DATE-OPTIONS.STATIC": "タスク作成後から一定期間",
-  "PROPERTY.DUEDATE.TASK-DUE-DATE-OPTIONS.FIELD": "フィールドに基づく",
-  "MODEL.SAVE.TITLE": "モデルの保存",
-  "MODEL.NAME": "名前",
-  "MODEL.KEY": "キー",
-  "MODEL.DESCRIPTION": "説明",
-  "MODEL.SAVE.NEWVERSION": "これを新しいバージョンとして保存しますか?新しいバージョンとして保存すると、いつでも前のバージョンに戻ることができます。",
-  "MODEL.SAVE.COMMENT": "コメント",
-  "MODEL.SAVE.SAVING": "モデルを保存しています",
-  "MODEL.LASTMODIFIEDDATE": "最終保存日",
-  "MODEL.SAVE.ERROR": "予期しないエラー: モデルを保存できませんでした",
-  "MODEL.VALIDATIONERRORS": "このモデルには検証エラーが含まれています。この状態では Process Services エンジンでモデルをデプロイできません。",
-  "MODEL.CONFLICT.WRITE": "モデルを保存できませんでした:'{{userFullName}}' によってこのモデルが変更されています",
-  "MODEL.CONFLICT.WRITE.OPTIONS": "この競合を解決するためのオプションを選択してください",
-  "MODEL.CONFLICT.WRITE.OPTION.OVERWRITE": "もう 1 つのモデルを上書きする",
-  "MODEL.CONFLICT.WRITE.OPTION.DISCARDCHANGES": "自分の変更を破棄する",
-  "MODEL.CONFLICT.WRITE.OPTION.SAVEAS": "新しいモデルとして保存する",
-  "MODEL.CONFLICT.WRITE.OPTION.NEWVERSION": "新しいバージョンを作成する",
-  "MODEL.CONFLICT.SAVEAS": "別の名前で保存する",
-  "EVENT_TYPE.ACTIVITY.COMPENSATE.TOOLTIP": "あるアクティビティの補佐として、もう 1 つのアクティビティが実行されるところです。イベントは、この補佐として実行されるアクティビティをターゲットとします。",
-  "EVENT_TYPE.ACTIVITY.COMPLETED.TOOLTIP": "アクティビティが問題なく完了しました",
-  "EVENT_TYPE.ACTIVITY.ERROR.RECEIVED.TOOLTIP": "アクティビティがエラーイベントを受け取りました。このイベントは、アクティビティが実際のエラーを受け取る前にディスパッチされたものです。",
-  "EVENT_TYPE.MEMBERSHIP.CREATED.TOOLTIP": "新しいメンバーシップが作成されました",
-  "EVENT_TYPE.MEMBERSHIP.DELETED.TOOLTIP": "1 つのメンバーシップが削除されました",
-  "EVENT_TYPE.MEMBERSHIPS.DELETED.TOOLTIP": "関連グループのすべてのメンバーシップが削除されました。パフォーマンスの問題が発生する可能性があるため、どのイベントもディスパッチされません。",
-  "EVENT_TYPE.TASK.ASSIGNED.TOOLTIP": "1 つのタスクが割り当てられました。これは ENTITY_UPDATED イベントと一緒にスローされています。",
-  "EVENT_TYPE.TASK.COMPLETED.TOOLTIP": "1 つのタスクが完了しました。このタスクは、タスクエンティティが削除される前にディスパッチされたたものです。",
-  "EVENT_TYPE.UNCAUGHT.BPMNERROR.TOOLTIP": "BPMN エラーがスローされましたが、プロセス内でキャッチされませんでした",
-  "EVENT_TYPE.VARIABLE.CREATED.TOOLTIP": "新しい変数が作成されました",
-  "EVENT_TYPE.VARIABLE.DELETED.TOOLTIP": "既存の変数が削除されました",
-  "EVENT_TYPE.VARIABLE.UPDATED.TOOLTIP": "既存の変数が更新されました",
-  "PROPERTY.DECISIONTABLEREFERENCE.EMPTY": "参照が選択されていません",
-  "PROPERTY.DECISIONTABLEREFERENCE.TITLE": "意思決定表の参照",
-  "PROPERTY.DECISIONTABLEREFERENCE.ERROR.FORM": "意思決定表の読み込み中にエラーが発生しました。後で操作をやり直してください。",
-  "PROPERTY.DECISIONTABLEREFERENCE.FOLDER.ROOT": "フォルダ",
-  "PROPERTY.DECISIONTABLEREFERENCE.FOLDER.LOADING": "フォルダを読み込んでいます",
-  "PROPERTY.DECISIONTABLEREFERENCE.FOLDER.EMPTY": "このフォルダにはサブフォルダはありません",
-  "PROPERTY.DECISIONTABLEREFERENCE.DECISIONTABLE.LOADING": "意思決定表を読み込んでいます",
-  "PROPERTY.DECISIONTABLEREFERENCE.DECISIONTABLE.EMPTY": "このフォルダには意思決定表はありません"
+    "HEADER.BRAND": "Activiti エディター",
+    "HEADER.BRAND_TAGLINE": "powered by Alfresco",
+    "PAGE.HEADER": "オーケストレーションの詳細",
+    "ACTION.OK": "OK",
+    "ACTION.SAVE": "保存",
+    "ACTION.SAVE-AND-CLOSE": "保存してエディタを閉じる",
+    "ACTION.SEND": "送信",
+    "ACTION.CANCEL": "キャンセル",
+    "ACTION.SELECT": "選択",
+    "ACTION.ADD": "追加",
+    "ACTION.REMOVE": "削除",
+    "ACTION.MOVE.UP": "上に移動",
+    "ACTION.MOVE.DOWN": "下に移動",
+    "MAIN_NAVIGATION_ORCHESTRATIONS": "オーケストレーション",
+    "MAIN_NAVIGATION_DISPATCH_RULES": "ディスパッチルール",
+    "MAIN_NAVIGATION_ASSET_GROUPS": "アサートグループ",
+    "MAIN_NAVIGATION_SOLUTIONS": "解決方法",
+    "TOOLBAR.ACTION.CLOSE": "エディタを閉じて概要ぺージに戻る",
+    "TOOLBAR.ACTION.SAVE": "モデルの保存",
+    "TOOLBAR.ACTION.VALIDATE": "モデルの検証",
+    "TOOLBAR.ACTION.CUT": "切り取り (ビジネスプロセスの要素を選択してください)",
+    "TOOLBAR.ACTION.COPY": "コピー (ビジネスプロセスの要素を選択してください)",
+    "TOOLBAR.ACTION.PASTE": "貼り付け",
+    "TOOLBAR.ACTION.DELETE": "選択したエレメントを削除",
+    "TOOLBAR.ACTION.UNDO": "元に戻す",
+    "TOOLBAR.ACTION.REDO": "やり直し",
+    "TOOLBAR.ACTION.ZOOMIN": "ズームイン",
+    "TOOLBAR.ACTION.ZOOMOUT": "ズームアウト",
+    "TOOLBAR.ACTION.ZOOMACTUAL": "実寸で表示",
+    "TOOLBAR.ACTION.ZOOMFIT": "ウィンドウのサイズに合わせて表示",
+    "TOOLBAR.ACTION.MOVE": "移動",
+    "TOOLBAR.ACTION.IMPORT": "インポート",
+    "TOOLBAR.ACTION.EXPORT": "エクスポート",
+    "TOOLBAR.ACTION.BENDPOINT.ADD": "選択したシーケンスフローにベンドポイントを追加",
+    "TOOLBAR.ACTION.BENDPOINT.REMOVE": "選択したシーケンスフローからベンドポイントを削除",
+    "TOOLBAR.ACTION.ALIGNHORIZONTAL": "モデルを水平方向に揃える",
+    "TOOLBAR.ACTION.ALIGNVERTICAL": "モデルを垂直方向に揃える",
+    "TOOLBAR.ACTION.SAMESIZE": "同じサイズ",
+    "TOOLBAR.ACTION.HELP": "ガイドツアーの開始",
+    "TOOLBAR.ACTION.FEEDBACK": "フィードバックの提供",
+    "KICKSTART.PROCESS_TOOLBAR.ACTION.SAVE": "モデルの保存",
+    "KICKSTART.PROCESS_TOOLBAR.ACTION.VALIDATE": "モデルの検証",
+    "KICKSTART.PROCESS_TOOLBAR.ACTION.HELP": "ガイドツアーの開始",
+    "KICKSTART.PROCESS_TOOLBAR.ACTION.FEEDBACK": "フィードバックの提供",
+    "FORM_TOOLBAR.ACTION.SAVE": "モデルの保存",
+    "FORM_TOOLBAR.ACTION.VALIDATE": "モデルの検証",
+    "FORM_TOOLBAR.ACTION.HELP": "ガイドツアーの開始",
+    "FORM_TOOLBAR.ACTION.FEEDBACK": "フィードバックの提供",
+    "DECISION_TABLE_TOOLBAR.ACTION.SAVE": "意思決定表の保存",
+    "DECISION_TABLE_TOOLBAR.ACTION.CLOSE": "閉じる",
+    "APP_DEFINITION_TOOLBAR.ACTION.SAVE": "アプリ定義の保存",
+    "APP_DEFINITION_TOOLBAR.ACTION.VALIDATE": "アプリ定義の検証",
+    "APP_DEFINITION_TOOLBAR.ACTION.HELP": "ガイドツアーの開始",
+    "APP_DEFINITION_TOOLBAR.ACTION.FEEDBACK": "フィードバックの提供",
+    "BUTTON.ACTION.DELETE.TOOLTIP": "モデルから要素を削除します",
+    "BUTTON.ACTION.MORPH.TOOLTIP": "要素の種類を変更します",
+    "ELEMENT.AUTHOR": "著者",
+    "ELEMENT.DATE_CREATED": "作成日",
+    "ELEMENT.SELECTED_EMPTY_TITLE": "(名前なし)",
+    "PROPERTY.REMOVED": "削除済み",
+    "PROPERTY.EMPTY": "値なし",
+    "PROPERTY.PROPERTY.EDIT.TITLE": "値の変更 ",
+    "PROPERTY.FEEDBACK.TITLE": "フィードバックの入力",
+    "PROPERTY.ASSIGNMENT.TITLE": "割り当て",
+    "PROPERTY.ASSIGNMENT.TYPE": "種類",
+    "PROPERTY.ASSIGNMENT.TYPE.IDENTITYSTORE": "ID ストア",
+    "PROPERTY.ASSIGNMENT.TYPE.STATIC": "固定値",
+    "PROPERTY.ASSIGNMENT.ASSIGNEE": "担当者",
+    "PROPERTY.ASSIGNMENT.NO_ASSIGNEE": "担当者が選択されていません",
+    "PROPERTY.ASSIGNMENT.MATCHING": "&uparrow; と &downarrow; を使って選択し、Enter キーを押して選択を確定するか、マウスを使ってください",
+    "PROPERTY.ASSIGNMENT.ASSIGNEE_PLACEHOLDER": "担当者を入力してください",
+    "PROPERTY.ASSIGNMENT.EMPTY": "割り当てが選択されていません",
+    "PROPERTY.ASSIGNMENT.ASSIGNEE_DISPLAY": "担当者: {{assignee}}",
+    "PROPERTY.ASSIGNMENT.CANDIDATE_USERS_DISPLAY": "{{length}} 人の候補ユーザー",
+    "PROPERTY.ASSIGNMENT.CANDIDATE_USERS": "候補ユーザー",
+    "PROPERTY.ASSIGNMENT.CANDIDATE_GROUPS_DISPLAY": "{{length}} 個の候補グループ",
+    "PROPERTY.ASSIGNMENT.CANDIDATE_GROUPS": "候補グループ",
+    "PROPERTY.ASSIGNMENT.IDM.NO_ASSIGNEE": "担当者が選択されていません",
+    "PROPERTY.ASSIGNMENT.USER_IDM_DISPLAY": "ユーザー: {{lastName}} {{firstName}}",
+    "PROPERTY.ASSIGNMENT.USER_IDM_EMAIL_DISPLAY": "ユーザー: {{email}}",
+    "PROPERTY.ASSIGNMENT.USER_IDM_FIELD_DISPLAY": "フィールド: {{name}}",
+    "PROPERTY.ASSIGNMENT.IDM_EMPTY": "プロセス開始者",
+    "PROPERTY.ASSIGNMENT.IDM.TYPE": "割り当て",
+    "PROPERTY.ASSIGNMENT.IDM.NO_CANDIDATE_USERS": "候補ユーザーが選択されていません",
+    "PROPERTY.ASSIGNMENT.IDM.NO_CANDIDATE_GROUPS": "候補グループが選択されていません",
+    "PROPERTY.ASSIGNMENT.IDM.DROPDOWN.INITIATOR": "プロセス開始者に割り当て済み",
+    "PROPERTY.ASSIGNMENT.IDM.DROPDOWN.USER": "1 人のユーザーに割り当て済み",
+    "PROPERTY.ASSIGNMENT.IDM.DROPDOWN.USERS": "候補ユーザー",
+    "PROPERTY.ASSIGNMENT.IDM.DROPDOWN.GROUPS": "候補グループ",
+    "PROPERTY.ASSIGNMENT.EMAIL.HELP": "E メールアドレスを入力して、Enter キーを押してください",
+    "PROPERTY.ASSIGNMENT.INITIATOR-CAN-COMPLETE": "プロセス開始者にタスクの完了を許可",
+    "PROPERTY.ASSIGNMENT.IDM.NO_CANDIDATE": "割り当て候補が選択されていません",
+    "PROPERTY.EXECUTIONLISTENERS.DISPLAY": "{{length}} 個の実行リスナー",
+    "PROPERTY.EXECUTIONLISTENERS.EMPTY": "実行リスナーが設定されていません",
+    "PROPERTY.EXECUTIONLISTENERS.EVENT": "イベント",
+    "PROPERTY.EXECUTIONLISTENERS.CLASS": "クラス",
+    "PROPERTY.EXECUTIONLISTENERS.CLASS.PLACEHOLDER": "クラス名を入力してください",
+    "PROPERTY.EXECUTIONLISTENERS.EXPRESSION": "式",
+    "PROPERTY.EXECUTIONLISTENERS.EXPRESSION.PLACEHOLDER": "式を入力してください",
+    "PROPERTY.EXECUTIONLISTENERS.DELEGATEEXPRESSION": "デリゲート式",
+    "PROPERTY.EXECUTIONLISTENERS.DELEGATEEXPRESSION.PLACEHOLDER": "デリゲート式を入力してください",
+    "PROPERTY.EXECUTIONLISTENERS.UNSELECTED": "実行リスナーが選択されていません",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.NAME": "名前",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.NAME.PLACEHOLDER": "名前を入力してください",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.EXPRESSION": "式",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.EXPRESSION.PLACEHOLDER": "式を入力してください",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.STRINGVALUE": "文字列値",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.STRINGVALUE.PLACEHOLDER": "文字列値を入力してください",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.STRING": "文字列",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.STRING.PLACEHOLDER": "文字列を入力してください",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.IMPLEMENTATION": "実行",
+    "PROPERTY.EXECUTIONLISTENERS.FIELDS.EMPTY": "フィールドが選択されていません",
+    "PROPERTY.FIELDS": "{{length}} 個のフィールド",
+    "PROPERTY.FIELDS.EMPTY": "フィールドが選択されていません",
+    "PROPERTY.FIELDS.NAME": "名前",
+    "PROPERTY.FIELDS.NAME.PLACEHOLDER": "名前を入力してください",
+    "PROPERTY.FIELDS.EXPRESSION": "式",
+    "PROPERTY.FIELDS.EXPRESSION.PLACEHOLDER": "式を入力してください",
+    "PROPERTY.FIELDS.STRINGVALUE": "文字列値",
+    "PROPERTY.FIELDS.STRINGVALUE.PLACEHOLDER": "文字列値を入力してください",
+    "PROPERTY.FIELDS.STRING": "文字列",
+    "PROPERTY.FIELDS.STRING.PLACEHOLDER": "文字列を入力してください",
+    "PROPERTY.FIELDS.IMPLEMENTATION": "実行",
+    "PROPERTY.FIELDS.UNSELECTED": "フィールドが選択されていません",
+    "PROPERTY.FORMPROPERTIES.VALUE": "{{length}} 個のフォームプロパティ",
+    "PROPERTY.FORMPROPERTIES.EMPTY": "フォームのプロパティが設定されていません",
+    "PROPERTY.FORMPROPERTIES.ID": "ID",
+    "PROPERTY.FORMPROPERTIES.ID.PLACEHOLDER": "ID を入力してください",
+    "PROPERTY.FORMPROPERTIES.NAME": "名前",
+    "PROPERTY.FORMPROPERTIES.NAME.PLACEHOLDER": "名前を入力してください",
+    "PROPERTY.FORMPROPERTIES.TYPE": "種類",
+    "PROPERTY.FORMPROPERTIES.DATEPATTERN": "日付けパターン",
+    "PROPERTY.FORMPROPERTIES.DATEPATTERN.PLACEHOLDER": "日付けパターンを入力してください",
+    "PROPERTY.FORMPROPERTIES.VALUES": "値",
+    "PROPERTY.FORMPROPERTIES.ENUMVALUES.EMPTY": "enum 値が選択されていません",
+    "PROPERTY.FORMPROPERTIES.VALUES.ID": "Id",
+    "PROPERTY.FORMPROPERTIES.VALUES.NAME": "名前",
+    "PROPERTY.FORMPROPERTIES.VALUES.ID.PLACEHOLDER": "値の ID を入力",
+    "PROPERTY.FORMPROPERTIES.VALUES.NAME.PLACEHOLDER": "値の名前を入力",
+    "PROPERTY.FORMPROPERTIES.EXPRESSION": "式",
+    "PROPERTY.FORMPROPERTIES.EXPRESSION.PLACEHOLDER": "式を入力してください",
+    "PROPERTY.FORMPROPERTIES.VARIABLE": "変数",
+    "PROPERTY.FORMPROPERTIES.VARIABLE.PLACEHOLDER": "変数を入力してください",
+    "PROPERTY.FORMPROPERTIES.REQUIRED": "必須",
+    "PROPERTY.FORMPROPERTIES.READABLE": "読み取り可能",
+    "PROPERTY.FORMPROPERTIES.WRITABLE": "書き込み可能",
+    "PROPERTY.INPARAMETERS.VALUE": "{{length}} 個の入力パラメータ",
+    "PROPERTY.INPARAMETERS.EMPTY": "入力パラメータが設定されていません",
+    "PROPERTY.OUTPARAMETERS.VALUE": "{{length}} 個の出力パラメータ",
+    "PROPERTY.OUTPARAMETERS.EMPTY": "出力パラメータが設定されていません",
+    "PROPERTY.PARAMETER.SOURCE": "ソース",
+    "PROPERTY.PARAMETER.SOURCE.PLACEHOLDER": "ソースを入力してください",
+    "PROPERTY.PARAMETER.SOURCEEXPRESSION": "ソースの式",
+    "PROPERTY.PARAMETER.SOURCEEXPRESSION.PLACEHOLDER": "ソースの式を入力してください",
+    "PROPERTY.PARAMETER.TARGET": "ターゲット",
+    "PROPERTY.PARAMETER.TARGET.PLACEHOLDER": "ターゲットを入力してください",
+    "PROPERTY.PARAMETER.EMPTY": "パラメータが選択されていません",
+    "PROPERTY.SUBPROCESSREFERENCE.EMPTY": "参照が選択されていません",
+    "PROPERTY.SUBPROCESSREFERENCE.TITLE": "折りたたまれたサブプロセスへの参照",
+    "PROPERTY.SUBPROCESSREFERENCE.ERROR.SUBPROCESS": "サブプロセスの読み込み中にエラーが発生しました。後で操作をやり直してください。",
+    "PROPERTY.SUBPROCESSREFERENCE.FOLDER.ROOT": "フォルダ",
+    "PROPERTY.SUBPROCESSREFERENCE.FOLDER.LOADING": "フォルダを読み込んでいます",
+    "PROPERTY.SUBPROCESSREFERENCE.FOLDER.EMPTY": "このフォルダにはサブフォルダはありません",
+    "PROPERTY.SUBPROCESSREFERENCE.SUBPROCESS.LOADING": "サブプロセスを読み込んでいます",
+    "PROPERTY.SUBPROCESSREFERENCE.SUBPROCESS.EMPTY": "このフォルダにはサブプロセスはありません",
+    "PROPERTY.FORMREFERENCE.EMPTY": "参照が選択されていません",
+    "PROPERTY.FORMREFERENCE.TITLE": "フォームの参照",
+    "PROPERTY.FORMREFERENCE.ERROR.FORM": "フォームの読み込み中にエラーが発生しました。後で操作をやり直してください。",
+    "PROPERTY.FORMREFERENCE.FOLDER.ROOT": "フォルダ",
+    "PROPERTY.FORMREFERENCE.FOLDER.LOADING": "フォルダを読み込んでいます",
+    "PROPERTY.FORMREFERENCE.FOLDER.EMPTY": "このフォルダにはサブフォルダはありません",
+    "PROPERTY.FORMREFERENCE.FORM.LOADING": "フォームを読み込んでいます",
+    "PROPERTY.FORMREFERENCE.FORM.EMPTY": "このフォルダにはフォームはありません",
+    "PROPERTY.TASKLISTENERS.VALUE": "{{length}} 個のタスクリスナー",
+    "PROPERTY.TASKLISTENERS.EMPTY": "タスクリスナーが設定されていません",
+    "PROPERTY.TASKLISTENERS.EVENT": "イベント",
+    "PROPERTY.TASKLISTENERS.CLASS": "クラス",
+    "PROPERTY.TASKLISTENERS.CLASS.PLACEHOLDER": "クラス名を入力してください",
+    "PROPERTY.TASKLISTENERS.EXPRESSION": "式",
+    "PROPERTY.TASKLISTENERS.EXPRESSION.PLACEHOLDER": "式を入力してください",
+    "PROPERTY.TASKLISTENERS.DELEGATEEXPRESSION": "デリゲート式",
+    "PROPERTY.TASKLISTENERS.DELEGATEEXPRESSION.PLACEHOLDER": "デリゲート式を入力してください",
+    "PROPERTY.TASKLISTENERS.UNSELECTED": "タスクリスナーが選択されていません",
+    "PROPERTY.TASKLISTENERS.FIELDS.NAME": "名前",
+    "PROPERTY.TASKLISTENERS.FIELDS.NAME.PLACEHOLDER": "名前を入力してください",
+    "PROPERTY.TASKLISTENERS.FIELDS.EXPRESSION": "式",
+    "PROPERTY.TASKLISTENERS.FIELDS.EXPRESSION.PLACEHOLDER": "式を入力してください",
+    "PROPERTY.TASKLISTENERS.FIELDS.STRINGVALUE": "文字列値",
+    "PROPERTY.TASKLISTENERS.FIELDS.STRINGVALUE.PLACEHOLDER": "文字列値を入力してください",
+    "PROPERTY.TASKLISTENERS.FIELDS.STRING": "文字列",
+    "PROPERTY.TASKLISTENERS.FIELDS.STRING.PLACEHOLDER": "文字列を入力してください",
+    "PROPERTY.TASKLISTENERS.FIELDS.IMPLEMENTATION": "実行",
+    "PROPERTY.TASKLISTENERS.FIELDS.EMPTY": "フィールドが選択されていません",
+    "PROPERTY.EVENTLISTENERS.DISPLAY": "{{length}} 個のイベントリスナー",
+    "PROPERTY.EVENTLISTENERS.EMPTY": "イベントリスナーが設定されていません",
+    "PROPERTY.EVENTLISTENERS.EVENTS": "イベント",
+    "PROPERTY.EVENTLISTENERS.RETHROW": "イベントを再スローしますか?",
+    "PROPERTY.EVENTLISTENERS.CLASS": "クラス",
+    "PROPERTY.EVENTLISTENERS.CLASS.PLACEHOLDER": "クラス名を入力してください",
+    "PROPERTY.EVENTLISTENERS.DELEGATEEXPRESSION": "デリゲート式",
+    "PROPERTY.EVENTLISTENERS.DELEGATEEXPRESSION.PLACEHOLDER": "デリゲート式を入力してください",
+    "PROPERTY.EVENTLISTENERS.ENTITYTYPE": "エンティティの種類",
+    "PROPERTY.EVENTLISTENERS.ENTITYTYPE.PLACEHOLDER": "エンティティの種類を入力してください",
+    "PROPERTY.EVENTLISTENERS.RETHROWTYPE": "イベントの種類の再スロー",
+    "PROPERTY.EVENTLISTENERS.ERRORCODE": "エラーコード",
+    "PROPERTY.EVENTLISTENERS.ERRORCODE.PLACEHOLDER": "エラーコードを入力してください",
+    "PROPERTY.EVENTLISTENERS.MESSAGENAME": "メッセージ名",
+    "PROPERTY.EVENTLISTENERS.MESSAGENAME.PLACEHOLDER": "メッセージ名を入力してください",
+    "PROPERTY.EVENTLISTENERS.SIGNALNAME": "信号名",
+    "PROPERTY.EVENTLISTENERS.SIGNALNAME.PLACEHOLDER": "信号名を入力してください",
+    "PROPERTY.EVENTLISTENERS.UNSELECTED": "イベントリスナーが選択されていません",
+    "PROPERTY.SIGNALDEFINITIONS.DISPLAY": "{{length}} 個の信号定義",
+    "PROPERTY.SIGNALDEFINITIONS.EMPTY": "信号定義が設定されていません",
+    "PROPERTY.SIGNALDEFINITIONS.SCOPE-GLOBAL": "グローバル",
+    "PROPERTY.SIGNALDEFINITIONS.SCOPE-PROCESSINSTANCE": "プロセスインスタンス",
+    "PROPERTY.SIGNALDEFINITIONS.ID": "ID",
+    "PROPERTY.SIGNALDEFINITIONS.NAME": "名前",
+    "PROPERTY.SIGNALDEFINITIONS.SCOPE": "範囲",
+    "PROPERTY.MESSAGEDEFINITIONS.DISPLAY": "{{length}} 個のメッセージ定義",
+    "PROPERTY.MESSAGEDEFINITIONS.EMPTY": "メッセージ定義が設定されていません",
+    "PROPERTY.MESSAGEDEFINITIONS.ID": "ID",
+    "PROPERTY.MESSAGEDEFINITIONS.NAME": "名前",
+    "PROPERTY.SEQUENCEFLOW.ORDER.EMPTY": "シーケンスフローの順番が設定されていません",
+    "PROPERTY.SEQUENCEFLOW.ORDER.NOT.EMPTY": "シーケンスフローの順番は設定済みです",
+    "PROPERTY.SEQUENCEFLOW.ORDER.NO.OUTGOING.SEQUENCEFLOW.FOUND": "出力シーケンスフローが見つかりません。",
+    "PROPERTY.SEQUENCEFLOW.ORDER.DESCRIPTION": "シーケンスフローの評価順を設定します",
+    "PROPERTY.SEQUENCEFLOW.ORDER.SEQUENCEFLOW.VALUE": "{{targetType}} {{targetTitle}} へのシーケンスフロー",
+    "PROPERTY.SEQUENCEFLOW.CONDITION.TITLE": "シーケンスフローの条件",
+    "PROPERTY.SEQUENCEFLOW.CONDITION.TYPE.TITLE": "条件の種類",
+    "PROPERTY.SEQUENCEFLOW.CONDITION.TYPE.VARIABLE": "変数を選択",
+    "PROPERTY.SEQUENCEFLOW.CONDITION.TYPE.STATIC": "固定値",
+    "PROPERTY.SEQUENCEFLOW.CONDITION.STATIC": "条件式",
+    "PROPERTY.SEQUENCEFLOW.CONDITION.STATIC_PLACEHOLDER": "入力式の値",
+    "PROPERTY.SEQUENCEFLOW.CONDITION.NO-CONDITION-DISPLAY": "条件なし",
+    "PROPERTY.DUEDATE.EMPTY": "期限がありません",
+    "PROPERTY.DUEDATE.DEFINED": "期限は定義されています",
+    "PROPERTY.DUEDATE.TITLE": "期限",
+    "PROPERTY.DUEDATE.EXPRESSION-LABEL": "期限の式",
+    "PROPERTY.DUEDATE.TASK-DUE-DATE-OPTIONS.NO-DUEDATE": "期限がありません",
+    "PROPERTY.DUEDATE.TASK-DUE-DATE-OPTIONS.EXPRESSION": "式の定義",
+    "PROPERTY.DUEDATE.TASK-DUE-DATE-OPTIONS.STATIC": "タスク作成後から一定期間",
+    "PROPERTY.DUEDATE.TASK-DUE-DATE-OPTIONS.FIELD": "フィールドに基づく",
+    "MODEL.SAVE.TITLE": "モデルの保存",
+    "MODEL.NAME": "名前",
+    "MODEL.KEY": "キー",
+    "MODEL.DESCRIPTION": "説明",
+    "MODEL.SAVE.NEWVERSION": "これを新しいバージョンとして保存しますか?新しいバージョンとして保存すると、いつでも前のバージョンに戻ることができます。",
+    "MODEL.SAVE.COMMENT": "コメント",
+    "MODEL.SAVE.SAVING": "モデルを保存しています",
+    "MODEL.LASTMODIFIEDDATE": "最終保存日",
+    "MODEL.SAVE.ERROR": "予期しないエラー: モデルを保存できませんでした",
+    "MODEL.VALIDATIONERRORS": "このモデルには検証エラーが含まれています。この状態では Process Services エンジンでモデルをデプロイできません。",
+    "MODEL.CONFLICT.WRITE": "モデルを保存できませんでした:'{{userFullName}}' によってこのモデルが変更されています",
+    "MODEL.CONFLICT.WRITE.OPTIONS": "この競合を解決するためのオプションを選択してください",
+    "MODEL.CONFLICT.WRITE.OPTION.OVERWRITE": "もう 1 つのモデルを上書きする",
+    "MODEL.CONFLICT.WRITE.OPTION.DISCARDCHANGES": "自分の変更を破棄する",
+    "MODEL.CONFLICT.WRITE.OPTION.SAVEAS": "新しいモデルとして保存する",
+    "MODEL.CONFLICT.WRITE.OPTION.NEWVERSION": "新しいバージョンを作成する",
+    "MODEL.CONFLICT.SAVEAS": "別の名前で保存する",
+    "EVENT_TYPE.ACTIVITY.COMPENSATE.TOOLTIP": "あるアクティビティの補佐として、もう 1 つのアクティビティが実行されるところです。イベントは、この補佐として実行されるアクティビティをターゲットとします。",
+    "EVENT_TYPE.ACTIVITY.COMPLETED.TOOLTIP": "アクティビティが問題なく完了しました",
+    "EVENT_TYPE.ACTIVITY.ERROR.RECEIVED.TOOLTIP": "アクティビティがエラーイベントを受け取りました。このイベントは、アクティビティが実際のエラーを受け取る前にディスパッチされたものです。",
+    "EVENT_TYPE.MEMBERSHIP.CREATED.TOOLTIP": "新しいメンバーシップが作成されました",
+    "EVENT_TYPE.MEMBERSHIP.DELETED.TOOLTIP": "1 つのメンバーシップが削除されました",
+    "EVENT_TYPE.MEMBERSHIPS.DELETED.TOOLTIP": "関連グループのすべてのメンバーシップが削除されました。パフォーマンスの問題が発生する可能性があるため、どのイベントもディスパッチされません。",
+    "EVENT_TYPE.TASK.ASSIGNED.TOOLTIP": "1 つのタスクが割り当てられました。これは ENTITY_UPDATED イベントと一緒にスローされています。",
+    "EVENT_TYPE.TASK.COMPLETED.TOOLTIP": "1 つのタスクが完了しました。このタスクは、タスクエンティティが削除される前にディスパッチされたたものです。",
+    "EVENT_TYPE.UNCAUGHT.BPMNERROR.TOOLTIP": "BPMN エラーがスローされましたが、プロセス内でキャッチされませんでした",
+    "EVENT_TYPE.VARIABLE.CREATED.TOOLTIP": "新しい変数が作成されました",
+    "EVENT_TYPE.VARIABLE.DELETED.TOOLTIP": "既存の変数が削除されました",
+    "EVENT_TYPE.VARIABLE.UPDATED.TOOLTIP": "既存の変数が更新されました",
+    "PROPERTY.DECISIONTABLEREFERENCE.EMPTY": "参照が選択されていません",
+    "PROPERTY.DECISIONTABLEREFERENCE.TITLE": "意思決定表の参照",
+    "PROPERTY.DECISIONTABLEREFERENCE.ERROR.FORM": "意思決定表の読み込み中にエラーが発生しました。後で操作をやり直してください。",
+    "PROPERTY.DECISIONTABLEREFERENCE.FOLDER.ROOT": "フォルダ",
+    "PROPERTY.DECISIONTABLEREFERENCE.FOLDER.LOADING": "フォルダを読み込んでいます",
+    "PROPERTY.DECISIONTABLEREFERENCE.FOLDER.EMPTY": "このフォルダにはサブフォルダはありません",
+    "PROPERTY.DECISIONTABLEREFERENCE.DECISIONTABLE.LOADING": "意思決定表を読み込んでいます",
+    "PROPERTY.DECISIONTABLEREFERENCE.DECISIONTABLE.EMPTY": "このフォルダには意思決定表はありません"
 }
