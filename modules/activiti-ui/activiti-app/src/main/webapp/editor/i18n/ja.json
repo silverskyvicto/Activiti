@@ -436,69 +436,63 @@
             "DUPLICATE": "この意思決定表を複製"
         },
         "DETAILS": {
-            "TITLE": "意思決定表 {{name}} の詳細",
-            "COMPARE-WITH-TITLE": "比較",
-            "HISTORY-TITLE": "ヒストリー",
+            "TITLE": "意思決定表の詳細: {{name}}",
+            "COMPARE-WITH-TITLE": "比較先",
+            "HISTORY-TITLE": "履歴",
             "COMMENTS-TITLE": "コメント",
-            "LAST-UPDATED-BY": "最終更新者 {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
-            "CREATED-BY": "作成者 {{createdByFullName}}",
+            "LAST-UPDATED-BY": "最終更新者: {{lastUpdatedByFullName}} - {{lastUpdated | dateformat}}",
+            "CREATED-BY": "作成者: {{createdByFullName}}",
             "VERSION": "(バージョン {{version}})"
         },
         "EDIT": {
             "TITLE": "意思決定表の編集"
         },
         "HIT-POLICIES": {
-            "FIRST": "First (シングルパス)",
-            "ANY": "Any (シングルパス)"
+            "FIRST": "最初 (シングルパス)",
+            "ANY": "すべて (シングルパス)"
         },
         "POPUP": {
-            "ADD-COMMENT-TITLE": "コメントを追加",
-            "ADD-COMMENT-DESCRIPTION": "下に \"{{name}}\" の新しいコメントを入力してください",
-            "ADD-COMMENT-SIZE-ERROR": "コメントは 4000 文字を超えることはできません",
-            "CREATE-TITLE": "新しい意思決定表を作成する",
-            "DUPLICATE-TITLE": "意思決定表決定表が重複しています",
-            "CREATE-DESCRIPTION": "新しい意思決定表の名前を付ける必要があります。同時に説明を追加することもできます。",
-            "SAVE-DESCRIPTION": "新しい意思決定表に名前と一意のキーを付ける必要があります。同時に説明を追加することもできます。",
-            "DUPLICATE-DESCRIPTION": "新しい意思決定表の名前を付ける必要があります。同時に説明を追加することもできます。",
-            "SAVE-DECISION-TABLE-TITLE": "意思決定表を保存",
-            "IMPORT-DESCRIPTION": "拡張子が .dmn または .dmn.xml の DMN XML 定義を参照または削除します。",
-            "IMPORT-TITLE": "DMN モデルをインポートする",
-            "IMPORT": {
-                "DROPZONE": ".dmn または .dmn.xml DMN XML ファイルをドロップする",
-                "CANCEL-UPLOAD": "アップロードをキャンセルする",
-                "ERROR": "DMN XML ファイルの処理中にエラーが発生しました",
-                "NO-DROP": "ドラッグ & ドロップはサポートされていません"
-            },
-            "EDIT-DESCRIPTION": "以下の意思決定表プロパティを変更し、[保存] をクリックして意思決定表を更新します。",
+            "ADD-COMMENT-TITLE": "コメントの追加",
+            "ADD-COMMENT-DESCRIPTION": "下に \"{{name}}\" 宛ての新しいコメントを入力してください",
+            "ADD-COMMENT-SIZE-ERROR": "コメントは 4,000 字以内で入力してください",
+            "CREATE-TITLE": "新しい意思決定表の作成",
+            "DUPLICATE-TITLE": "意思決定表の複製",
+            "CREATE-DESCRIPTION": "新しい意思決定表の名前を入力し、必要に応じて説明を追加してください。",
+            "SAVE-DESCRIPTION": "新しい意思決定表の名前と一意のキーを入力し、必要に応じて説明を追加してください。",
+            "DUPLICATE-DESCRIPTION": "新しい意思決定表の名前を入力し、必要に応じて説明を追加してください。",
+            "SAVE-DECISION-TABLE-TITLE": "意思決定表の保存",
+            "IMPORT-DESCRIPTION": ".dmn または .xml の拡張子を持つ意思決定表ファイルを参照して選択するか、ドロップしてください。",
+            "IMPORT-TITLE": "意思決定表のインポート",
+            "EDIT-DESCRIPTION": "意思決定表を更新するには、下で意思決定表のプロパティを変更してから、[保存] をクリックします。",
             "EDIT-TITLE": "意思決定表の詳細の編集",
-            "DELETE-TITLE": "意思決定表を削除",
-            "DELETE-DESCRIPTION": "意思決定表 \"{{name}}\" を削除してよろしいですか？",
-            "DELETE-CASCADE-FALSE": "この意思決定表の現在のバージョン (v{{version}}) のみを削除します",
-            "DELETE-CASCADE-TRUE": "この意思決定表の以前のバージョンもすべて削除します",
+            "DELETE-TITLE": "意思決定表の削除",
+            "DELETE-DESCRIPTION": "意思決定表 \"{{name}}\" を削除しますか?",
+            "DELETE-CASCADE-FALSE": "この意思決定表の現行バージョン (v{{version}}) だけを削除",
+            "DELETE-CASCADE-TRUE": "この意思決定表の前のバージョンもすべて削除",
             "USE-AS-NEW-TITLE": "新しいバージョンとして使用",
-            "USE-AS-NEW-DESCRIPTION": "新しいバージョンの \"{{name}}\" を作成するためにバージョン {{version}} を使用してよろしいですか？",
-            "SHARE-TITLE": "意思決定表を共有する",
-            "SHARE-DESCRIPTION": "この意思決定表を誰と共有したいか、また編集できるかどうかを決めることができます。",
+            "USE-AS-NEW-DESCRIPTION": "バージョン {{version}} を使って \"{{name}}\" の新しいバージョンを作成しますか?",
+            "SHARE-TITLE": "意思決定表の共有",
+            "SHARE-DESCRIPTION": "この意思決定表をどのユーザーと共有するかと、それらのユーザーに意思決定表の編集を許可するかどうかを指定できます。",
             "NOT-SHARED": "この意思決定表は誰とも共有されていません。",
-            "IMPORT-DROPZONE": ".dmn または .xml 意思決定表をドロップします。",
-            "IMPORT-NO-DROP": "ドラッグ & ドロップはサポートされていません",
-            "IMPORT-CANCEL-UPLOAD": "アップロードをキャンセルする",
-            "IMPORT-ERROR": "意思決定表の処理中にエラーが発生しました",
+            "IMPORT-DROPZONE": ".dmn または .xml 形式の意思決定表ファイルをドロップしてください",
+            "IMPORT-NO-DROP": "ドラッグ & ドロップは使用できません",
+            "IMPORT-CANCEL-UPLOAD": "アップロードをキャンセルします",
+            "IMPORT-ERROR": "意思決定表ファイルの処理中にエラーが発生しました",
             "REUSABLE": "再利用可能な意思決定表",
-            "SAVE-EMBEDDED": "この決定表を現在のプロセスモデルに埋め込みますか？",
-            "SAVE-EMBEDDED-COPY": "他のプロセスも使用しているため、意思決定表のコピーが作成されます。"
+            "SAVE-EMBEDDED": "この意思決定表を現在のプロセスモデル内に埋め込みますか?",
+            "SAVE-EMBEDDED-COPY": "他のプロセスもこの意思決定表を使用しているため、この意思決定表のコピーが作成されます"
         },
         "ALERT": {
             "EDIT-CONFIRM": "意思決定表が更新されました",
-            "FAVORITE-CONFIRM": "この意思決定表は現在お気に入り登録されています",
-            "UN-FAVORITE-CONFIRM": "この意思決定表は、お気に入り登録されていません",
+            "FAVORITE-CONFIRM": "この意思決定表はお気に入りに登録されています",
+            "UN-FAVORITE-CONFIRM": "この意思決定表は既にお気に入りから削除されています",
             "DELETE-CONFIRM": "意思決定表が削除されました",
             "SHARE-CONFIRM": "意思決定表の共有オプションが更新されました",
             "NEW-VERSION-CONFIRM": "意思決定表の新しいバージョンが作成されました",
             "COMMENT-ADDED-CONFIRM": "意思決定表に新しいコメントが追加されました"
         },
         "ERROR": {
-            "NOT-FOUND": "要求された意思決定表は存在しません"
+            "NOT-FOUND": "指定した意思決定表は存在しません"
         }
     },
 
@@ -627,21 +621,21 @@
             "TITLE-PROCESSES": "プロセス"
         },
         "IDENTITY-MANAGEMENT": {
-            "TITLE": "プロファイル",
-            "TITLE-TENANT-ADMIN": "アイデンティティ管理",
+            "TITLE": "プロフィール",
+            "TITLE-TENANT-ADMIN": "ID の管理",
             "TITLE-TENANT-ADMIN-TENANT-MGMT": "テナント",
             "TITLE-TENANT-ADMIN-USER-MGMT": "ユーザー",
-            "TITLE-TENANT-ADMIN-SYSTEM-GROUP-MGMT": "Capabilities",
+            "TITLE-TENANT-ADMIN-SYSTEM-GROUP-MGMT": "権限",
             "TITLE-TENANT-ADMIN-FUNCTIONAL-GROUP-MGMT": "組織",
-            "TITLE-TENANT-ADMIN-PROFILE": "プロファイル",
-            "TITLE-PROFILE": "プロファイル"
+            "TITLE-TENANT-ADMIN-PROFILE": "プロフィール",
+            "TITLE-PROFILE": "プロフィール"
         },
         "ANALYTICS": {
             "TITLE": "分析アプリ"
         },
         "CUSTOM-APP": {
-            "TITLE-TASKS": "タスク",
-            "TITLE-PROCESSES": "プロセス"
+            "TITLE-TASKS": "{{name}} のタスク",
+            "TITLE-PROCESSES": "{{name}} のプロセス"
         }
     },
 
