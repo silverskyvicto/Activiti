@@ -702,12 +702,12 @@
   }, {
     "name" : "decisiontaskdecisiontablereferencepackage",
     "properties" : [ {
-      "id" : "decisiontaskdecisiontablereference",
-      "type" : "Complex",
-      "title" : "Decision table reference",
-      "value" : "",
-      "description" : "Set the decision table reference",
-      "popular" : true
+      "id": "decisiontaskdecisiontablereference",
+      "type": "Complex",
+      "title": "PROPERTY.DECISIONTABLEREFERENCE.TITLE",
+      "value": "",
+      "description": "Set the decision table reference",
+      "popular": true
     } ]
   } ],
   "stencils" : [ 
