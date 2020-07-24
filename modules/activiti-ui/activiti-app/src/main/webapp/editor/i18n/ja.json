@@ -593,20 +593,20 @@
             "INCLUDE-MODELS-TITLE": "アプリ定義に含まれているモデル"
         },
         "ALERT": {
-            "EDIT-CONFIRM": "アプリ定義を更新しました",
-            "FAVORITE-CONFIRM": "アプリの定義は現在お気に入りに登録されています",
-            "UN-FAVORITE-CONFIRM": "アプリの定義はお気に入りに登録されていません",
-            "DELETE-CONFIRM": "アプリ定義を削除しました",
-            "SHARE-CONFIRM": "アプリ定義共有オプションが更新されました",
+            "EDIT-CONFIRM": "アプリ定義が更新されました",
+            "FAVORITE-CONFIRM": "このアプリ定義はお気に入りに登録されています",
+            "UN-FAVORITE-CONFIRM": "このアプリ定義は既にお気に入りから削除されています",
+            "DELETE-CONFIRM": "アプリ定義が削除されました",
+            "SHARE-CONFIRM": "アプリ定義の共有オプションが更新されました",
             "NEW-VERSION-CONFIRM": "アプリ定義の新しいバージョンが作成されました",
-            "COMMENT-ADDED-CONFIRM": "アプリの定義に新しいコメントが追加されました",
-            "PUBLISH-ERROR": "アプリ定義を公開できませんでした。参照されているプロセスモデルの妥当性を確認してください"
+            "COMMENT-ADDED-CONFIRM": "アプリ定義に新しいコメントが追加されました",
+            "PUBLISH-ERROR": "アプリ定義を公開できませんでした。参照されているプロセスモデルの有効性を確認してください。"
         },
         "ERROR": {
-            "NOT-FOUND": "要求されたアプリ定義は存在しません"
+            "NOT-FOUND": "指定したアプリ定義は存在しません"
         },
         "KICKSTART": {
-            "TITLE": "キックスタートアプリ",
+            "TITLE": "アプリデザイナー",
             "TITLE-PROCESSES": "プロセスモデル",
             "TITLE-FORMS": "フォームモデル",
             "TITLE-APPS": "アプリモデル",
@@ -662,47 +662,47 @@
                 "TITLE": "アカウントの編集",
                 "FIRSTNAME": "名",
                 "LASTNAME": "姓",
-                "FIRSTNAME-PLACEHOLDER": "名を入力",
-                "LASTNAME-PLACEHOLDER": "姓を入力",
-                "COMPANY": "会社 (オプション)",
-                "COMPANY-PLACEHOLDER": "会社を入力",
-                "CONFIRM": "プロファイルの保存"
+                "FIRSTNAME-PLACEHOLDER": "名前を入力してください",
+                "LASTNAME-PLACEHOLDER": "姓を入力してください",
+                "COMPANY": "会社名 (任意)",
+                "COMPANY-PLACEHOLDER": "会社名を入力してください",
+                "CONFIRM": "プロフィールを保存します"
             },
             "CHANGE-PASSWORD": {
-                "TITLE": "パスワードを編集",
+                "TITLE": "パスワードの編集",
                 "OLD-PASSWORD": "現在のパスワード",
-                "OLD-PASSWORD-PLACEHOLDER": "現在のパスワードを入力",
+                "OLD-PASSWORD-PLACEHOLDER": "現在のパスワードを入力してください",
                 "NEW-PASSWORD": "新しいパスワード",
-                "NEW-PASSWORD-PLACEHOLDER": "新しいパスワードを入力",
-                "NEW-PASSWORD-REPEAT": "パスワードを再度入力",
-                "NEW-PASSWORD-STRENGTH": "パスワードの長さ:",
-                "CONFIRM": "パスワードを変更",
-                "UNKNOWN-ERROR": "パスワードは変更されません。更新中にエラーが発生しました。",
-                "OLD_PASSWORD-ERROR": "指定した現在のパスワードが正しくありません。",
-                "PASSWORDS-NOT-EQUAL": "パスワードが一致しません"
+                "NEW-PASSWORD-PLACEHOLDER": "新しいパスワードを入力してください",
+                "NEW-PASSWORD-REPEAT": "パスワードの再入力",
+                "NEW-PASSWORD-STRENGTH": "パスワードの安全性",
+                "CONFIRM": "パスワードの変更",
+                "UNKNOWN-ERROR": "パスワードは変更されていません。更新中にエラーが発生しました。",
+                "OLD_PASSWORD-ERROR": "入力した現在のパスワードは間違っています。",
+                "PASSWORDS-NOT-EQUAL": "パスワードが一致していません"
             }
         },
         "ALERT": {
-            "UPDATED": "プロフィールが更新されました。",
-            "PASSWORD-CHANGED": "パスワードは変更されました。"
+            "UPDATED": "あなたのプロフィールは更新されています。",
+            "PASSWORD-CHANGED": "パスワードが変更されました。"
         }
     },
 
     "MODELER": {
         "ALERT": {
-            "VALIDATION-OK": "プロセスモデルに検証エラーはありません。",
-            "VALIDATION-ERROR": "プロセスモデルに検証エラーがあります。"
+            "VALIDATION-OK": "プロセスモデルに検証エラーは含まれていません。",
+            "VALIDATION-ERROR": "プロセスモデルに検証エラーが含まれています。"
         }
     },
 
     "KICKSTART-MODEL": {
         "VERSION": "バージョン {{version}}",
-        "LAST-UPDATED": "最終更新者 {{lastUpdatedByFull名前}}, {{lastUpdated | dateformat}}",
+        "LAST-UPDATED": "最終更新者: {{lastUpdatedByFullName}}、{{lastUpdated | dateformat}}",
         "ALERT": {
-            "SAVED": "モデルは保存されました",
-            "ERROR-SAVE": "予期しないエラーのためモデルを保存できませんでした",
-            "DEPLOYED": "モデルは正常にデプロイされました",
-            "DELETED": "モデルは正常に削除されました"
+            "SAVED": "モデルが保存されました",
+            "ERROR-SAVE": "予期しないエラーが発生したため、モデルを保存できませんでした",
+            "DEPLOYED": "モデルが問題なくデプロイされました",
+            "DELETED": "モデルが問題なく削除されました"
         }
     },
 
